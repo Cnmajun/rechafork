@@ -7,47 +7,6 @@
 
 
 
-    {
-      "key": "DAY",
-      "name": "🥇｜上上｜順播",
-      "type": 3,
-      "quickSearch": 1,
-      "searchable": 1,
-      "api": "./py/tt.py"
-    },    
-    {
-      "key":"公共",
-      "name":"🥇｜公共｜測試",
-      "type":3,
-      "api":"csp_Muou",
-      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":"7lj763gg402i7942463ji4qiaojijjh456889il6k6i35kj995h4j18li7kl2870klhg8hi647j5707k4ki7ig6953kj"
-    },
-
-   
-    {
-      "key": "五大采集平台",
-      "name": "味精｜測試(採集)",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "spider": "./jar/svip.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": "http://39.105.18.5:5565/api.php/app/"
-    },
-
-
-
-
-
-
-
-
 
 
 
@@ -291,6 +250,17 @@
       "jar": "./jar/wex.txt;md5;d51df16fd164ac4c50295520b455be7d",
       "changeable": 1
     },
+    {
+      "key":"公共",
+      "name":"🏆｜公共｜藍光◎秒播(無廣告)",
+      "type":3,
+      "api":"csp_Muou",
+      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"7lj763gg402i7942463ji4qiaojijjh456889il6k6i35kj995h4j18li7kl2870klhg8hi647j5707k4ki7ig6953kj"
+    },    
     {
       "key": "py_aidianying",
       "name": "🏆｜愛電影｜藍光◎秒播(無廣告)",
@@ -1039,18 +1009,6 @@
       "ext": "caHR0cDovLzE1NC44Ni4xOC4xMTo4MzAxfEQyS1JFV1JJQlZOQVVKSllUS0xZRFpCUUJHRTBQUT09fE9DMUEwNkUxOTdFRjEwQ0YzRjYwNThDQTdBODAzQjVFfDIxfGR5dHQ="
     },
     {
-      "key": "csp_appys_天堂",
-      "name": "🥇｜天堂｜高清◎順播(無廣告)",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "spider": "./jar/svip.jar",
-      "jar": "./jar/svip.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cmstt.lfytv.cn/api.php/app/"
-    },    
-    {
       "key": "csp_黑夜影视",
       "name": "🥇｜黑夜｜高清◎秒播(特殊，需手動開網頁)",
       "type": 3,
@@ -1304,6 +1262,26 @@
         "搜索url": "https://www.rebovod.com/index.php/vod/search.html?wd={wd}"
       }
     },
+    {
+      "key": "DAY",
+      "name": "🥇｜上上｜高清◎順播(無廣告)",
+      "type": 3,
+      "quickSearch": 1,
+      "searchable": 1,
+      "api": "./py/tt.py"
+    },        
+    {
+      "key": "csp_appys_天堂",
+      "name": "🥇｜天堂｜高清◎順播(無廣告)",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "spider": "./jar/svip.jar",
+      "jar": "./jar/svip.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmstt.lfytv.cn/api.php/app/"
+    },        
     {
       "key": "饺子影视",
       "name": "🥇｜餃子｜高清◎順播(無廣告)",
@@ -4370,7 +4348,7 @@
       ]
     }
   ],
-  "notice": "版本：114.07.20 Ver.M(阿邱呼嚨我)",
+  "notice": "版本：114.07.20 Ver.N(阿邱呼嚨我)",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
