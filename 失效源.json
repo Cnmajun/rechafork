@@ -35,21 +35,7 @@
         "version" : "120"
       }
     },
-    {
-      "key": "仓鼠",
-      "name": "🏆｜桃鼠｜藍光◎秒播(無廣告+APP)",
-      "jar": "./jar/moyuer.php;md5;2d5e6b5456c7cae497af11938df2662d",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "ext": {
-        "url"     : "https://qjappcms.cs4k.top",
-        "dataKey" : "Z98KXaLtO2wC1Pte",
-        "dataIv"  : "Z98KXaLtO2wC1Pte",
-        "deviceId": "",
-        "version" : "120"
-      }
-    },      
+    
     {
       "key": "py_劇爸爸",
       "name": "🏆｜劇爸｜藍光◎秒播(無廣告)",
@@ -74,35 +60,7 @@
         "deviceId": "",
         "version" : "120"
       }
-    },          
-    {
-      "key": "咖啡",
-      "name": "🏆｜咖啡｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0717.jar",
-      "ext": {
-        "url"     : "",
-        "site"    : "https://cdn-tupic-duofun-neimenggu.56uxi.com/2.txt",
-        "dataKey" : "qwertyuiopqwertt",
-        "dataIv"  : "qwertyuiopqwertt",
-        "deviceId": "",
-        "version" : "109",
-        "ua": "okhttp/3.10.0"
-
-      }
-    },    
-    {
-      "key": "py_仓鼠",
-      "name": "🏆｜遙鼠｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "api": "csp_AppGet2",
-      "jar": "./jar/mi-0619.jar;md5;9b8e295927dccaf6f96cd9008174fe11",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "sHR2rlsfjI4L3t4RXQMkn85YdqME5ZFXdHXyEUNrexXmXuKOZHlPhQJvT6ZKEMODJQuGTLg+gpKS+XoOxUH8DdjcutGqV/lfrY9l/Ww/J/LYA0AH34KTXsOeg1p5p+KSYaG5at+IT/dqPugeQjLLpkECHqWJpIs4B2evdM7dDIOBuPmMrT5lbU1yNZHMNkr8tConVxhS1qlq57WIByuNTQ=="
-    },      
+    },            
     {
       "key": "海豚",
       "name": "📱｜海豚｜藍光◎秒播(無廣告+APP)",
