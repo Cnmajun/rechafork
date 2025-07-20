@@ -61,7 +61,7 @@
       "name": "味精｜測試(採集)",
       "type": 3,
       "api": "csp_AppYsV2",
-      "spider": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
+      "spider": "./jar/svip.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -93,8 +93,8 @@
       "key": "Drama",
       "name": "抓馬｜測試",
       "type": 3,
-      "spider": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
-      "jar": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/custom_spider.jar",
+      "spider": "./jar/svip.jar",
+      "jar": "./jar/custom_spider.jar",
       "api": "csp_Drama",
       "playerType": 1,
       "ext": "caHR0cDovLzE1NC44Ni4xOC4xMTo4MzAxfEQyS1JFV1JJQlZOQVVKSllUS0xZRFpCUUJHRTBQUT09fE9DMUEwNkUxOTdFRjEwQ0YzRjYwNThDQTdBODAzQjVFfDIxfGR5dHQ="
@@ -104,7 +104,7 @@
       "name": "段友｜測試(採集)",
       "type": 3,
       "api": "csp_AppYs",
-      "spider": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",      
+      "spider": "./jar//svip.jar",      
       "jar": "./jar/mi-0619.jar;md5;9b8e295927dccaf6f96cd9008174fe11",
       "searchable": 1,
       "quickSearch": 1,
@@ -116,8 +116,8 @@
       "name": "天堂｜測試(採集)",
       "type": 3,
       "api": "csp_AppYsV2",
-      "spider": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
-      "jar": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
+      "spider": "./jar/svip.jar",
+      "jar": "./jar/svip.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4365,7 +4365,7 @@
       ]
     }
   ],
-  "notice": "版本：114.07.20 Ver.H(阿邱呼嚨我)",
+  "notice": "版本：114.07.20 Ver.I(阿邱呼嚨我)",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
