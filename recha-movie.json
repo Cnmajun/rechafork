@@ -6,7 +6,17 @@
 
 
 
-
+    {
+      "key": "金牌app",
+      "name": "爆炸｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "csp_Muou",
+      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
+      "playerType": 2,
+      "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
+    },
     {
       "key":"huomaoys",
       "name":"火猫｜測試",
