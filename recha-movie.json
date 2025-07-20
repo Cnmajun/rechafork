@@ -94,7 +94,7 @@
       "name": "抓馬｜測試",
       "type": 3,
       "spider": "./jar/svip.jar",
-      "jar": "./jar/drama.jar",
+      "jar": "./jar/Drama.jar",
       "api": "csp_Drama",
       "playerType": 1,
       "ext": "caHR0cDovLzE1NC44Ni4xOC4xMTo4MzAxfEQyS1JFV1JJQlZOQVVKSllUS0xZRFpCUUJHRTBQUT09fE9DMUEwNkUxOTdFRjEwQ0YzRjYwNThDQTdBODAzQjVFfDIxfGR5dHQ="
@@ -4364,7 +4364,7 @@
       ]
     }
   ],
-  "notice": "版本：114.07.20 Ver.K(阿邱呼嚨我)",
+  "notice": "版本：114.07.20 Ver.L(阿邱呼嚨我)",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
