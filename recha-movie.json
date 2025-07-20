@@ -104,7 +104,8 @@
       "name": "段友｜測試(採集)",
       "type": 3,
       "api": "csp_AppYs",
-      "spider": "./jar/svip.jar",      
+      "spider": "./jar/svip.jar",
+      "jar": "./jar/svip.jar",      
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4364,7 +4365,7 @@
       ]
     }
   ],
-  "notice": "版本：114.07.20 Ver.L(阿邱呼嚨我)",
+  "notice": "版本：114.07.20 Ver.M(阿邱呼嚨我)",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
