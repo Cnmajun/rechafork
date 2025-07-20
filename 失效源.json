@@ -19,23 +19,7 @@
         "deviceId": "4b4c36766c5a6b7736574c3578393055",
         "version" : "119"
       }
-    },      
-    {
-      "key": "仓鼠-1",
-      "name": "🏆｜墨鼠｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0717.jar",
-      "ext": {
-        "url"     : "https://qjappcms.cs4k.top",
-        "dataKey" : "Z98KXaLtO2wC1Pte",
-        "dataIv"  : "Z98KXaLtO2wC1Pte",
-        "deviceId": "",
-        "version" : "120"
-      }
-    },
-    
+    },        
     {
       "key": "py_劇爸爸",
       "name": "🏆｜劇爸｜藍光◎秒播(無廣告)",
