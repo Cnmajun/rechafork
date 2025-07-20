@@ -8,7 +8,7 @@
 
     {
       "key": "金牌app",
-      "name": "🏆｜爆炸｜藍光◎秒播(無廣告+APP)",
+      "name": "🏆｜爆炸｜藍光◎順播(無廣告+APP)",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -19,7 +19,7 @@
     },
     {
       "key": "DAY",
-      "name": "上上｜測試",
+      "name": "🥇｜上上｜順播",
       "type": 3,
       "quickSearch": 1,
       "searchable": 1,
@@ -27,7 +27,7 @@
     },    
     {
       "key":"公共",
-      "name":"公共｜測試",
+      "name":"🥇｜公共｜測試",
       "type":3,
       "api":"csp_Muou",
       "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
@@ -38,7 +38,7 @@
     },
     {
       "key":"huomaoys",
-      "name":"火猫｜測試",
+      "name":"火猫｜高清◎順播(無廣告+APP)",
       "type":3,
       "api":"csp_Muou",
       "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
@@ -47,15 +47,7 @@
       "filterable":1,
       "ext":"7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
     },
-    {
-      "key": "步步",
-      "name": "🏆｜步步｜藍光◎秒播(蜂蜜版本不能看)",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "./drpy_libs/drpy2.min.js",
-      "ext": "./drpy_js/步步.js"
-    },
+   
     {
       "key": "五大采集平台",
       "name": "味精｜測試(採集)",
@@ -68,30 +60,10 @@
       "playerType": 2,
       "ext": "http://39.105.18.5:5565/api.php/app/"
     },
-    {
-      "key": "csp_我闲影院",
-      "name": "我闲｜測試",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",      
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": 
-           {
-           "请求头": "User-Agent$MOBILE_UA",
-            "编码": "UTF-8",
-            "主页url": "https://tv3.woxian.de/",
-            "分类数组": "<a&&/a>",
-            "分类标题": ">&&<",
-            "分类ID": "/vodtype/&&/",
-            "分类url": "https://tv3.woxian.de/vodshow/{cateId}--------{catePg}---/",
-            "简介": "水印广告勿信，谨防诈骗"
-           }
-    },
+
     {
       "key": "Drama",
-      "name": "抓馬｜測試",
+      "name": "🥇｜抓馬｜高清◎秒播(無廣告)",
       "type": 3,
       "spider": "./jar/svip.jar",
       "jar": "./jar/Drama.jar",
@@ -100,20 +72,8 @@
       "ext": "caHR0cDovLzE1NC44Ni4xOC4xMTo4MzAxfEQyS1JFV1JJQlZOQVVKSllUS0xZRFpCUUJHRTBQUT09fE9DMUEwNkUxOTdFRjEwQ0YzRjYwNThDQTdBODAzQjVFfDIxfGR5dHQ="
     },
     {
-      "key": "段友影视",
-      "name": "段友｜測試(採集)",
-      "type": 3,
-      "api": "csp_AppYs",
-      "spider": "./jar/svip.jar",
-      "jar": "./jar/svip.jar",      
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://shangjihuoke.com/ruifenglb_api.php/v1.vod"
-    },
-    {
       "key": "csp_appys_天堂",
-      "name": "天堂｜測試(採集)",
+      "name": "🥇｜天堂｜高清◎順播(無廣告)",
       "type": 3,
       "api": "csp_AppYsV2",
       "spider": "./jar/svip.jar",
@@ -473,6 +433,27 @@
       }
     },
     {
+      "key": "csp_我闲影院",
+      "name": "🏆｜我闲｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",      
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": 
+           {
+           "请求头": "User-Agent$MOBILE_UA",
+            "编码": "UTF-8",
+            "主页url": "https://tv3.woxian.de/",
+            "分类数组": "<a&&/a>",
+            "分类标题": ">&&<",
+            "分类ID": "/vodtype/&&/",
+            "分类url": "https://tv3.woxian.de/vodshow/{cateId}--------{catePg}---/",
+            "简介": "水印广告勿信，谨防诈骗"
+           }
+    },        
+    {
       "key": "py_貓眼",
       "name": "🏆｜貓眼｜藍光◎秒播(無廣告)",
       "type": 3,
@@ -520,6 +501,15 @@
         "deviceId": "2fbaf48ee97783260bc907e3ab0bd40c3",
         "version" : "200"
       }
+    },
+    {
+      "key": "步步",
+      "name": "🏆｜步步｜藍光◎秒播(道長源)",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "./drpy_libs/drpy2.min.js",
+      "ext": "./drpy_js/步步.js"
     },
     {
       "key": "dr_AppGet_小红",
@@ -3049,6 +3039,18 @@
       "playerType": 2,
       "ext": "http://172.83.156.150:1010/api.php/app/"
     },
+    {
+      "key": "段友影视",
+      "name": "🧲｜段友｜高清◎秒播(滿版廣告)",
+      "type": 3,
+      "api": "csp_AppYs",
+      "spider": "./jar/svip.jar",
+      "jar": "./jar/svip.jar",      
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://shangjihuoke.com/ruifenglb_api.php/v1.vod"
+    },    
     {
       "key": "vod_四个圈影视",
       "name": "🧲｜四圈｜高清◎秒播(滿版廣告)",
