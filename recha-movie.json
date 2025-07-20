@@ -94,7 +94,7 @@
       "name": "抓馬｜測試",
       "type": 3,
       "spider": "./jar/svip.jar",
-      "jar": "./jar/custom_spider.jar",
+      "jar": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/custom_spider.jar",
       "api": "csp_Drama",
       "playerType": 1,
       "ext": "caHR0cDovLzE1NC44Ni4xOC4xMTo4MzAxfEQyS1JFV1JJQlZOQVVKSllUS0xZRFpCUUJHRTBQUT09fE9DMUEwNkUxOTdFRjEwQ0YzRjYwNThDQTdBODAzQjVFfDIxfGR5dHQ="
@@ -104,8 +104,7 @@
       "name": "段友｜測試(採集)",
       "type": 3,
       "api": "csp_AppYs",
-      "spider": "./jar//svip.jar",      
-      "jar": "./jar/mi-0619.jar;md5;9b8e295927dccaf6f96cd9008174fe11",
+      "spider": "./jar/svip.jar",      
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
