@@ -18,6 +18,24 @@
       "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
     },
     {
+      "key": "DAY",
+      "name": "上上｜測試",
+      "type": 3,
+      "quickSearch": 1,
+      "searchable": 1,
+      "api": "./py/tt.py"
+    },    
+    {
+      "key":"公共",
+      "name":"公共｜測試",
+      "type":3,
+      "api":"csp_Muou",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"7lj763gg402i7942463ji4qiaojijjh456889il6k6i35kj995h4j18li7kl2870klhg8hi647j5707k4ki7ig6953kj"
+    },
+    {
       "key":"huomaoys",
       "name":"火猫｜測試",
       "type":3,
@@ -28,7 +46,15 @@
       "filterable":1,
       "ext":"7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
     },
-
+    {
+      "key": "步步",
+      "name": "步步｜測試(蜂蜜版本不能看)",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "./drpy_libs/drpy2.min.js",
+      "ext": "./drpy_js/测试.js"
+    },
 
 
 
