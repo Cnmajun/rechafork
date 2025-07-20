@@ -55,6 +55,86 @@
       "api": "./drpy_libs/drpy2.min.js",
       "ext": "./drpy_js/步步.js"
     },
+    {
+      "key": "五大采集平台",
+      "name": "味精｜測試(採集)",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": "http://39.105.18.5:5565/api.php/app/"
+    },
+    {
+      "key": "csp_我闲影院",
+      "name": "我闲｜測試",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": 
+           {
+           "请求头": "User-Agent$MOBILE_UA",
+            "编码": "UTF-8",
+            "主页url": "https://tv3.woxian.de/",
+            "分类数组": "<a&&/a>",
+            "分类标题": ">&&<",
+            "分类ID": "/vodtype/&&/",
+            "分类url": "https://tv3.woxian.de/vodshow/{cateId}--------{catePg}---/",
+            "简介": "水印广告勿信，谨防诈骗"
+           }
+    },
+    {
+      "key": "Drama",
+      "name": "抓馬｜測試",
+      "type": 3,
+      "jar": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/custom_spider.jar",
+      "api": "csp_Drama",
+      "playerType": 1,
+      "ext": "caHR0cDovLzE1NC44Ni4xOC4xMTo4MzAxfEQyS1JFV1JJQlZOQVVKSllUS0xZRFpCUUJHRTBQUT09fE9DMUEwNkUxOTdFRjEwQ0YzRjYwNThDQTdBODAzQjVFfDIxfGR5dHQ="
+    },
+    {
+      "key": "段友影视",
+      "name": "段友｜測試(採集)",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://shangjihuoke.com/ruifenglb_api.php/v1.vod"
+    },
+    {
+      "key": "狂风",
+      "name": "狂风｜測試(Qiji)",
+      "type": 3,
+      "api": "csp_Qiji",
+      "ext": "7lj763gg402i7942522k849kg4499i9hl1k5ik48i38l292l1l4l1klgl41255091i8313k2ik478h8j751kh28kh9gk56l3k874684ll3h7j9k83l9034li7lhi5g45k8k3j6hkk760276g8h5h295i9jk7597177g3kk7g3hh79ili",
+      "jar": "https://gitee.com/yuan301/tv/raw/master/A/qj0615.jar;md5;410ad21caad9e6f6d40c1ae5ca2be662"
+    },
+    {
+      "key": "csp_appys_天堂",
+      "name": "天堂｜測試(採集)",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmstt.lfytv.cn/api.php/app/"
+    },
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4027,6 +4107,20 @@
       }
     },
     {
+      "name": "臻彩",
+      "type": 1,
+      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=",
+      "ext": {
+        "flag": [
+          "qq",       "腾讯",       "qiyi",     "爱奇艺",      "奇艺",
+          "youku",    "优酷",       "tucheng",  "sohu",     "搜狐",
+          "letv",     "乐视",       "mgtv",     "芒果",       "tnmb",
+          "seven",    "yzm",      "aliyun",   "RJuMao",   "bilibili",
+          "1905",     "xinvip",   "XAL",      "qiqi",     "XALS",     "YuMi-vip"
+        ]
+      }
+    },    
+    {
       "name": "无双",
       "type": 1,
       "url": "http://1.94.221.189:88/algorithm.php?url=",
@@ -4062,6 +4156,34 @@
         "const play=document.getElementsByClassName(\"play_icon\")[0];const event=new MouseEvent(\"click\",{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
       ]
     },
+    {
+      "name": "味精：智能AI已过滤广告🥨欢迎继续收看节目",
+      "hosts": ["http"],
+      "disable": [
+        "aliyuncs.com",
+        "olemovienews.com",
+        "ninjia.online",
+        "vdtuzv.com",
+        "json.icu",
+        "/asp/hls/",
+        "huya.com",
+        "zsyzcy.cn",
+        "/nby/",
+        "yjys.me",
+        "122.228.8.29:4433/Cache",
+        "huohua",
+        "cdn.json.icu"
+      ],
+      "rules": [ {"regexp": "AI"} ],
+      "toLog": 0
+    },
+    {
+      "name": "味精：智能AI已过滤广告🥨欢迎继续收看节目",
+      "hosts": ["http"],
+      "disable": ["aliyuncs.com", "TVOD"],
+      "rules": [ {"regexp": "AI2"} ],
+      "toLog": 0
+    },    
     {
       "name": "暴风",
       "hosts": ["bfzy", "bfbfvip", "bfengbf"],
@@ -4245,7 +4367,7 @@
       ]
     }
   ],
-  "notice": "版本：114.07.20 Ver.D(阿秋呼嚨我)",
+  "notice": "版本：114.07.20 Ver.F(阿邱呼嚨我)",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
