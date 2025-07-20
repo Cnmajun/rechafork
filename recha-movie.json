@@ -61,7 +61,7 @@
       "name": "味精｜測試(採集)",
       "type": 3,
       "api": "csp_AppYsV2",
-      "jar": "./jar/mi-0619.jar;md5;9b8e295927dccaf6f96cd9008174fe11",
+      "spider": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -93,6 +93,7 @@
       "key": "Drama",
       "name": "抓馬｜測試",
       "type": 3,
+      "spider": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
       "jar": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/custom_spider.jar",
       "api": "csp_Drama",
       "playerType": 1,
@@ -103,6 +104,7 @@
       "name": "段友｜測試(採集)",
       "type": 3,
       "api": "csp_AppYs",
+      "spider": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",      
       "jar": "./jar/mi-0619.jar;md5;9b8e295927dccaf6f96cd9008174fe11",
       "searchable": 1,
       "quickSearch": 1,
@@ -114,6 +116,7 @@
       "name": "狂风｜測試(Qiji)",
       "type": 3,
       "api": "csp_Qiji",
+      "spider": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",      
       "jar": "https://gitee.com/yuan301/tv/raw/master/A/qj0615.jar;md5;410ad21caad9e6f6d40c1ae5ca2be662",
       "ext": "7lj763gg402i7942522k849kg4499i9hl1k5ik48i38l292l1l4l1klgl41255091i8313k2ik478h8j751kh28kh9gk56l3k874684ll3h7j9k83l9034li7lhi5g45k8k3j6hkk760276g8h5h295i9jk7597177g3kk7g3hh79ili"
     },
@@ -122,8 +125,8 @@
       "name": "天堂｜測試(採集)",
       "type": 3,
       "api": "csp_AppYsV2",
-      //"jar": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
-      "jar": "./jar/mi-0619.jar;md5;9b8e295927dccaf6f96cd9008174fe11",
+      "spider": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
+      "jar": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/svip.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4371,7 +4374,7 @@
       ]
     }
   ],
-  "notice": "版本：114.07.20 Ver.G(阿邱呼嚨我)",
+  "notice": "版本：114.07.20 Ver.H(阿邱呼嚨我)",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
