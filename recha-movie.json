@@ -52,6 +52,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0723.jar;md5;e4a32ffd30b531911335bfbc7c4bc8e7",           
             "ext": {
                 "url": "http://124.223.27.166:130",
                 "site": "",
