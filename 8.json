@@ -26,9 +26,50 @@
         "type": "list"
       }
     },
-
-
-
+        {
+            "key": "咖啡2",
+            "name": "瑪啡｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://111.170.175.120:5699",
+                "dataKey": "skdhalkshqklwkj1",
+                "dataIv": "skdhalkshqklwkj1",
+                "deviceId": "",
+                "version": "109",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "稀饭",
+            "name": "📱｜稀饭｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.xifanys.com",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "dataIv": "HM6Ly9yeS4ya3dvL",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "麻花",
+            "name": "📱｜麻花｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://124.223.27.166:130",
+                "site": "",
+                "dataKey": "q7gj4f9br3fls6nh",
+                "dataIv": "q7gj4f9br3fls6nh",
+                "deviceId": "",
+                "version": ""
+            }
+        },
 
 
 
@@ -1377,8 +1418,7 @@
       "api": "csp_AppGet2",
       "jar": "./jar/xiaosa-0720.jar;md5;135c50187c1e8d4f3a7520b3d95eb6db",
       "ext": {
-        "url": "",
-        "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+        "url": "http://111.180.190.158:1111",
         "dataKey": "AAdgrdghjfgswerA",
         "dataIv": "AAdgrdghjfgswerA",
         "deviceId": "",
@@ -1606,7 +1646,7 @@
     },
     {
       "key": "樱桃",
-      "name": "📱｜樱桃｜高清◎秒播(無廣告+APP)",
+      "name": "📱｜櫻桃｜高清◎秒播(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppMuou",
@@ -1619,22 +1659,6 @@
       }
     },
     {
-      "key": "麻花",
-      "name": "📱｜麻花｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0720.jar;md5;135c50187c1e8d4f3a7520b3d95eb6db",
-      "ext": {
-        "url": "",
-        "site": "https://apicoss-alimama-com-1307821617.file.myqcloud.com/Uploadsget",
-        "dataKey": "q7gj4f9br3fls6nh",
-        "dataIv": "q7gj4f9br3fls6nh",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
       "key": "灵虎",
       "name": "📱｜靈虎｜高清◎秒播(無廣告+APP)",
       "type": 3,
@@ -1642,8 +1666,7 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0720.jar;md5;135c50187c1e8d4f3a7520b3d95eb6db",
       "ext": {
-        "url"     : "",
-        "site"    : "https://bind.315999.xyz/89.txt",
+        "url"     : "http://app.555618.xyz:1766",
         "dataKey" : "#getapp@TMD@2025",
         "dataIv"  : "#getapp@TMD@2025",
         "deviceId": "",
