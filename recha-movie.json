@@ -5,53 +5,8 @@
   "sites": [
 
 
-        {
-            "key": "咖啡",
-            "name": "🏆｜咖啡｜藍光◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0723.jar;md5;e4a32ffd30b531911335bfbc7c4bc8e7",
-            "ext": {
-                "url": "http://111.170.175.120:5699",
-                "dataKey": "skdhalkshqklwkj1",
-                "dataIv": "skdhalkshqklwkj1",
-                "deviceId": "",
-                "version": "109",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "稀饭",
-            "name": "📱｜稀飯｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0723.jar;md5;e4a32ffd30b531911335bfbc7c4bc8e7",           
-            "ext": {
-                "url": "https://app.xifanys.com",
-                "dataKey": "HM6Ly9yeS4ya3dvL",
-                "dataIv": "HM6Ly9yeS4ya3dvL",
-                "deviceId": "",
-                "version": "119"
-            }
-        },
-        {
-            "key": "麻花",
-            "name": "📱｜麻花｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0723.jar;md5;e4a32ffd30b531911335bfbc7c4bc8e7",           
-            "ext": {
-                "url": "http://124.223.27.166:130",
-                "site": "",
-                "dataKey": "q7gj4f9br3fls6nh",
-                "dataIv": "q7gj4f9br3fls6nh",
-                "deviceId": "",
-                "version": ""
-            }
-        },
+
+
 
 
 
@@ -236,6 +191,22 @@
       "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
       "playerType": 2,
       "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
+    },
+    {
+      "key": "咖啡",
+      "name": "🏆｜咖啡｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0723.jar;md5;e4a32ffd30b531911335bfbc7c4bc8e7",
+      "ext": {
+             "url": "http://111.170.175.120:5699",
+             "dataKey": "skdhalkshqklwkj1",
+             "dataIv": "skdhalkshqklwkj1",
+             "deviceId": "",
+             "version": "109",
+             "ua": "okhttp/3.10.0"
+             }
     },    
     {
       "key": "萌新XBPQ_独播库",
@@ -1356,6 +1327,37 @@
       "playerType": 2,
       "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
     },
+        {
+            "key": "稀饭",
+            "name": "📱｜稀飯｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0723.jar;md5;e4a32ffd30b531911335bfbc7c4bc8e7",           
+            "ext": {
+                "url": "https://app.xifanys.com",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "dataIv": "HM6Ly9yeS4ya3dvL",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "麻花",
+            "name": "📱｜麻花｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0723.jar;md5;e4a32ffd30b531911335bfbc7c4bc8e7",           
+            "ext": {
+                "url": "http://124.223.27.166:130",
+                "site": "",
+                "dataKey": "q7gj4f9br3fls6nh",
+                "dataIv": "q7gj4f9br3fls6nh",
+                "deviceId": "",
+                "version": ""
+            }
+        },    
     {
       "key": "追忆",
       "name": "📱｜追忆｜藍光◎秒播(無廣告+APP)",
