@@ -15,7 +15,17 @@
       "filterable": 1,
       "ext": "https://www.xb6v.com"
     },
-
+    {
+      "key": "人人分享站",
+      "name": "人人｜搜索",
+      "type": 3,
+      "jar": "./jar/xiaosa-0720.jar;md5;135c50187c1e8d4f3a7520b3d95eb6db",
+      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/cloud.min.js",
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/js/RR.js",
+      "style": {
+        "type": "list"
+      }
+    },
 
 
 
