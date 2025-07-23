@@ -4,16 +4,25 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "sites": [
 
-
     {
-      "key": "py_66yingshi",
-      "name": "66yingshi",
+      "key": "csp_我闲影院",
+      "name": "🏆｜我闲｜高清◎秒播(無廣告)",
       "type": 3,
-      "api": "./py/66yingshi.py",
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",      
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
-    },
+      "filterable": 1,
+      "ext": 
+           {
+            "编码": "UTF-8",
+            "主页url": "https://www.66yingshi.com/",
+            "分类url": "https://www.66yingshi.com/{cateId}/index_{catePg}.htm",
+            "分类": "喜剧片$xijupian#动作片$dongzuopian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#纪录片$jilupian#剧情片$bd#3D电影$3ddy#国产剧$dsj#港台剧$dsj2#日韩剧$dsj3#欧美剧$dsj4#国配电影$gy#综艺$zy"
+           }
+    },  
+
+
 
 
 
