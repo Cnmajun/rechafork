@@ -22,7 +22,7 @@
             "searchable": 1,
             "changeable": 1,
             "timeout": 60,
-            "jar": "./jar/pg.jar",
+            "jar": "http://tv.devopser.org/p/pg.jar",
             "ext": "http://tv.devopser.org/p/lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
         }
     },  
