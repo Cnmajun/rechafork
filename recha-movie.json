@@ -4,17 +4,7 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "sites": [
 
-    {
-      "key": "New6v",
-      "name": "🧲｜新6V",
-      "type": 3,
-      "api": "csp_New6v",
-      "jar": "./jar/xiaosa-0723.jar;md5;e4a32ffd30b531911335bfbc7c4bc8e7",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.xb6v.com"
-    },
+
         {
             "key": "咖啡",
             "name": "🏆｜咖啡｜藍光◎秒播(無廣告+APP)",
@@ -33,7 +23,7 @@
         },
         {
             "key": "稀饭",
-            "name": "📱｜稀饭｜APP",
+            "name": "📱｜稀饭｜高清◎秒播(無廣告+APP)",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -3018,6 +3008,17 @@
       "quickSearch": 0,
       "changeable": 1
     },
+    {
+      "key": "New6v",
+      "name": "🧲｜新6V",
+      "type": 3,
+      "api": "csp_New6v",
+      "jar": "./jar/xiaosa-0723.jar;md5;e4a32ffd30b531911335bfbc7c4bc8e7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.xb6v.com"
+    },    
     {
       "key": "采集集合go",
       "name": "🧲｜采集集合｜高清◎順播(浮水印廣告)",
