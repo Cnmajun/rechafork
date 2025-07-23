@@ -5,27 +5,16 @@
   "sites": [
 
     {
-      "key": "csp_66影院",
-      "name": "🏆｜66影院｜高清◎秒播(浮水印廣告)",
+      "key": "New6v",
+      "name": "新6V",
       "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",      
+      "api": "csp_New6v",
+      "jar": "./jar/xiaosa-0720.jar;md5;135c50187c1e8d4f3a7520b3d95eb6db",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": 
-        {
-            "key": "新6V",
-            "name": "新6V┃网盘",
-            "type": 3,
-            "api": "csp_Xb6v",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 60,
-            "jar": "http://tv.devopser.org/p/pg.jar",
-            "ext": "http://tv.devopser.org/p/lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
-        }
-    },  
+      "ext": "https://www.xb6v.com"
+    },
 
 
 
