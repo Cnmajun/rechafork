@@ -33,6 +33,51 @@
         "分类": "女频恋爱&脑洞悬疑&年代穿越&古装仙侠&现代都市&反转&爽文&短剧"
       }
     },      
+        {
+            "key": "甜圈短剧",
+            "name": "📺｜甜圈短剧",
+            "type": 3,
+            "api": "./py/甜圈短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "偷乐短剧",
+            "name": "📺｜偷乐短剧",
+            "type": 3,
+            "api": "./py/偷乐短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "爱看短剧",
+            "name": "📺｜爱看短剧",
+            "type": 3,
+            "api": "./py/爱看短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "锦鲤短剧",
+            "name": "📺｜锦鲤短剧",
+            "type": 3,
+            "api": "./py/锦鲤短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+
       {
       "key": "py_红果网页",
       "name": "📺｜红果短劇",
@@ -75,18 +120,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
-    },      
-    {
-      "key": "偷乐短剧",
-      "name": "📺｜偷乐短剧",
-      "type": 3,
-      "api": "./py/偷乐短剧.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },    
+    },       
       {
         "key":"csp_XBPQ_短剧4",
         "name":"📺｜短剧CC",
