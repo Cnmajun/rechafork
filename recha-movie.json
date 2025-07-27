@@ -6,7 +6,7 @@
 
             {
             "key": "小野",
-            "name": "小野｜待測",
+            "name": "🏆｜小野｜藍光◎秒播(無廣告+APP)",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -20,9 +20,6 @@
                 "version": ""
             }
         },
-
-
-    
     {
       "key": "魔方app",
       "name": "🏆｜魔方｜藍光◎秒播(無廣告+APP)",
@@ -62,37 +59,6 @@
         "dataIv"  : "f2A7D4B9E8C16531",
         "deviceId": "",
         "version" : ""
-      }
-    },
-    {
-      "key": "蓝光",
-      "name": "📱｜藍光｜APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
-      "ext": {
-        "url"     : "http://122.228.193.2:9654",
-        "dataKey" : "ca94b06ca3c7d80e",
-        "dataIv"  : "ca94b06ca3c7d80e",
-        "deviceId": "",
-        "version" : "119"
-      }
-    },
-    {
-      "key": "白蛇",
-      "name": "📱｜白蛇｜APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
-      "ext": {
-        "url"     : "http://121.62.22.204:9876",
-        "site"    : "",
-        "dataKey" : "f5e2tx53ykp6s2c9",
-        "dataIv"  : "f5e2tx53ykp6s2c9",
-        "deviceId": "",
-        "version" : "361"
       }
     },
     {
@@ -2231,6 +2197,37 @@
         "version" : "315"
       }
     },
+    {
+      "key": "蓝光",
+      "name": "📱｜藍光｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
+      "ext": {
+        "url"     : "http://122.228.193.2:9654",
+        "dataKey" : "ca94b06ca3c7d80e",
+        "dataIv"  : "ca94b06ca3c7d80e",
+        "deviceId": "",
+        "version" : "119"
+      }
+    },
+    {
+      "key": "白蛇",
+      "name": "📱｜白蛇｜高清◎卡頓(浮水印廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
+      "ext": {
+        "url"     : "http://121.62.22.204:9876",
+        "site"    : "",
+        "dataKey" : "f5e2tx53ykp6s2c9",
+        "dataIv"  : "f5e2tx53ykp6s2c9",
+        "deviceId": "",
+        "version" : "361"
+      }
+    },    
     {
       "key": "nk",
       "name": "📱｜耐摸｜藍光◎秒播(無廣告+APP)",
