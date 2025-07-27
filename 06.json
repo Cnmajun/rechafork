@@ -19,6 +19,8 @@
       "ext": {
         "数组": "class=\"gm-list\"&&</a>",
         "图片": "data-src=\"&&\"",
+        "线路数组" :"id=\"dom-source\"&&</div>",
+        "线路标题" :"class=\"name\"&&</span>",
         "主页url": "https://tw.xiaoyakankan.com/",
         "分类url": "https://tw.xiaoyakankan.com/cat/{cateId}-{catePg}.html",
         "分类": "电影$10#剧集$11#综艺$12#动漫$13#福利$15",
