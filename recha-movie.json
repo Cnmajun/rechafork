@@ -7,7 +7,7 @@
 
         {
             "key": "爱看",
-            "name": "爱看丨APP",
+            "name": "🏆｜爱看丨藍光◎卡頓(無廣告+APP)",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -1432,7 +1432,7 @@
       "api": "csp_AppGet2",
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": {
-        "url"     : "http://111.180.190.158:1111",
+        "url"     : "http://111.180.190.158:1122",
         "dataKey" : "AAdgrdghjfgswerA",
         "dataIv"  : "AAdgrdghjfgswerA",
         "deviceId": "",
