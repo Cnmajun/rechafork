@@ -4,23 +4,7 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "sites": [
 
-      {
-        "key": "小野",
-        "name": "🏆｜小野｜藍光◎秒播(無廣告+APP)",
-        "type": 3,
-        "quickSearch": 1,
-        "api": "csp_AppGet",
-        "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
-        "ext":
-             {
-             "url": "https://appcms.xy4k.com",
-             "site": "",
-             "dataKey": "7SDWjknU34zqFbVr",
-             "dataIv": "7SDWjknU34zqFbVr",
-             "deviceId": "",
-             "version": ""
-             }
-    },
+
 
 
 
@@ -331,6 +315,23 @@
       "filterable": 1,
       "changeable": 1
     },
+    {
+      "key": "小野",
+      "name": "🏆｜小野｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
+      "ext":
+           {
+           "url": "https://appcms.xy4k.com",
+           "site": "",
+           "dataKey": "7SDWjknU34zqFbVr",
+           "dataIv": "7SDWjknU34zqFbVr",
+           "deviceId": "",
+           "version": ""
+           }
+    },    
     {
       "key": "魔方app",
       "name": "🏆｜魔方｜藍光◎秒播(無廣告+APP)",
@@ -1351,7 +1352,7 @@
     },
     {
       "key": "huomaoys",
-      "name": "📱｜猫猫｜藍光◎秒播(無廣告+APP)",
+      "name": "📱｜貓貓｜高清◎秒播(無廣告+APP)",
       "type": 3,
       "api": "csp_Muou",
       "jar": "./jar/巧技.jar;md5;410ad21caad9e6f6d40c1ae5ca2be662",
@@ -1391,7 +1392,7 @@
     },
     {
       "key": "追忆",
-      "name": "📱｜追忆｜藍光◎秒播(無廣告+APP)",
+      "name": "📱｜追忆｜高清◎秒播(無廣告+APP)",
       "type": 3,
       "api": "csp_Shark",
       "playerType": 2,
