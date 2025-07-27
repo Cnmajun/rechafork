@@ -226,6 +226,7 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": {
+        "site": "https://omofun.lol/1.txt",
         "url"     : "http://111.170.175.120:5699",
         "dataKey" : "skdhalkshqklwkj1",
         "dataIv"  : "skdhalkshqklwkj1",
@@ -368,12 +369,12 @@
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": 
            {
-           "url"     : "http://45.192.110.211:1314",
-           "site"    : "",
+           "site": "https://www.snysw.xyz/mfys.txt",
+           "url": "http://45.192.110.211:1314",
            "dataKey" : "1234567887654321",
-           "dataIv"  : "1234567887654321",
+           "dataIv": "1234567887654321",
            "deviceId": "",
-           "version" : ""
+           "version": ""
            }
     },
     {
