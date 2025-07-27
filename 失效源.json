@@ -537,24 +537,7 @@
         "分类": "電影&連續劇&綜藝&動畫&紀錄",
         "分类值": "dianying&dianshiju&zongyi&dongmna&jilupian"
       }
-    },
-    {
-      "key": "CSP_雪糕影视",
-      "name": "🥈｜雪糕｜高清◎秒播(全頻廣告)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "线路数组": "href=\"javascript:void(0);\"&&</a>[排序:索尼>卧龙>量子>无尽]",
-        "线路标题": "</i>&&</a>[不包含:非凡]",
-        "分类url": "https://www.xgitv.com/vshow/{cateId}--{by}------{catePg}---.html",
-        "分类": "电影$1#剧集$2#综艺$3#动漫$4",
-        "类型": "动作片$zilei1#喜剧片$zilei2#爱情片$zilei3#科幻片$zilei4#恐怖片$zilei5#剧情片$zilei6#战争片$zilei7#纪录片$jilupian#其他$qita||国产剧$8#港台剧$9#日韩剧$10#欧美剧$11#海外剧$haiwaiju||空||空"
-      }
-    },    
+    },  
     {
       "key": "蝴蝶",
       "name": "📱｜蝴蝶｜高清◎順播(無廣告+APP)",
@@ -766,20 +749,6 @@
         "dataKey": "25f9e794323b4538",
         "dataIv": "25f9e794323b4538",
         "jxurl": "https://vod.feiwang.cc"
-      }
-    },
-    {
-      "key": "彼岸",
-      "name": "📱｜彼岸",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://mfsp33.top",
-        "dataKey": "1234567887654321",
-        "dataIv": "1234567887654321",
-        "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
-        "version": "315"
       }
     },
     {
@@ -1121,17 +1090,6 @@
       "ext": "./drpy_js/漫次元.js"
     },
     {
-      "key": "hipy_js_NT动漫[漫]",
-      "name": "🎡｜牛顿动漫",
-      "type": 3,
-      "api": "./drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./drpy_js/NT动漫[漫].js"
-    },
-    {
       "key": "喵物",
       "name": "🎡｜喵物动漫",
       "type": 3,
@@ -1149,20 +1107,6 @@
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
       "ext": "./drpy_js/58动漫.js"
-    },                   
-    {
-      "key": "CSP_青檸影视",
-      "name": "🎥｜青檸",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.hspf520.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-        "简介": "<p>&&<p>"
-      }
     }
       
     ],
