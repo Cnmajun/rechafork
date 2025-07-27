@@ -20,8 +20,21 @@
                 "version": "120"
             }
         },
-
-
+        {
+            "key": "若惜",
+            "name": "若惜｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
+            "ext": {
+                "url": "http://110.40.59.188:9527",
+                "dataKey": "ebad3f1a58b13933",
+                "dataIv": "ebad3f1a58b13933",
+                "deviceId": "",
+                "version": ""
+            }
+        },
 
 
 
@@ -475,6 +488,7 @@
       "api": "csp_AppGet2",
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": {
+        "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
         "url"     : "http://122.228.193.2:9988",
         "dataKey" : "ca94b06ca359d80e",
         "dataIv"  : "ca94b06ca359d80e",
@@ -1432,11 +1446,12 @@
       "api": "csp_AppGet2",
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": {
-        "url"     : "http://111.180.190.158:1122",
-        "dataKey" : "AAdgrdghjfgswerA",
-        "dataIv"  : "AAdgrdghjfgswerA",
+        "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+        "url": "http://111.180.190.158:1122",
+        "dataKey": "AAdgrdghjfgswerA",
+        "dataIv": "AAdgrdghjfgswerA",
         "deviceId": "",
-        "version" : ""
+        "version": ""
       }
     },
     {
@@ -1576,11 +1591,12 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": {
-        "url"     : "https://guahd.com/",
-        "dataKey" : "f2A7D4B9E8C16531",
-        "dataIv"  : "f2A7D4B9E8C16531",
+        "site": "https://www.guahd.com/1.txt",
+        "url": "https://guahd.com/",
+        "dataKey": "f2A7D4B9E8C16531",
+        "dataIv": "f2A7D4B9E8C16531",
         "deviceId": "",
-        "version" : ""
+        "version": ""
       }
     },    
     {
@@ -1665,7 +1681,7 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": {
-        "url"     : "",
+        "url"     : "http://59.153.167.137:7788",
         "site"    : "http://59.153.167.137:7788/1.json",
         "dataKey" : "4d83b87c4c5ea111",
         "dataIv"  : "4d83b87c4c5ea111",
@@ -1695,6 +1711,7 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": {
+        "site": "https://bind.315999.xyz/89.txt",
         "url"     : "http://app.555618.xyz:1766",
         "dataKey" : "#getapp@TMD@2025",
         "dataIv"  : "#getapp@TMD@2025",
@@ -1765,6 +1782,7 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": {
+        "site": "http://t.bffree.cn/1.txt",
         "url"     : "https://api1.bffree.cn",
         "dataKey" : "2015692015692015",
         "dataIv"  : "2015692015692015",
@@ -2125,7 +2143,7 @@
       "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
       "ext": {
         "url"     : "http://121.62.22.204:9876",
-        "site"    : "",
+        "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
         "dataKey" : "f5e2tx53ykp6s2c9",
         "dataIv"  : "f5e2tx53ykp6s2c9",
         "deviceId": "",
