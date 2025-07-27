@@ -3,6 +3,26 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
   "sites": [
+
+            {
+            "key": "小野",
+            "name": "小野｜待測",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0726.jar;md5;cef7457df6a2b139e5dd909122208b4a",
+            "ext": {
+                "url": "https://appcms.xy4k.com",
+                "site": "",
+                "dataKey": "7SDWjknU34zqFbVr",
+                "dataIv": "7SDWjknU34zqFbVr",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+
+
+    
     {
       "key": "魔方app",
       "name": "🏆｜魔方｜藍光◎秒播(無廣告+APP)",
