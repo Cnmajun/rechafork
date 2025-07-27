@@ -4,178 +4,25 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "sites": [
 
-            {
-            "key": "小野",
-            "name": "🏆｜小野｜藍光◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
-            "ext": {
-                "url": "https://appcms.xy4k.com",
-                "site": "",
-                "dataKey": "7SDWjknU34zqFbVr",
-                "dataIv": "7SDWjknU34zqFbVr",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-    {
-      "key": "魔方app",
-      "name": "🏆｜魔方｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
-      "ext": {
-        "url"     : "http://45.192.110.211:1314",
-        "site"    : "",
-        "dataKey" : "1234567887654321",
-        "dataIv"  : "1234567887654321",
-        "deviceId": "",
-        "version" : ""
-      }
+      {
+        "key": "小野",
+        "name": "🏆｜小野｜藍光◎秒播(無廣告+APP)",
+        "type": 3,
+        "quickSearch": 1,
+        "api": "csp_AppGet",
+        "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
+        "ext":
+             {
+             "url": "https://appcms.xy4k.com",
+             "site": "",
+             "dataKey": "7SDWjknU34zqFbVr",
+             "dataIv": "7SDWjknU34zqFbVr",
+             "deviceId": "",
+             "version": ""
+             }
     },
-    {
-      "key": "py_魔方影视APP",
-      "name": "🏆｜魔方｜藍光◎秒播(無廣告+PY)",
-      "type": 3,
-      "api": "./py/魔方影视APP.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "瓜萌",
-      "name": "📱｜瓜萌｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
-      "ext": {
-        "url"     : "https://guahd.com/",
-        "dataKey" : "f2A7D4B9E8C16531",
-        "dataIv"  : "f2A7D4B9E8C16531",
-        "deviceId": "",
-        "version" : ""
-      }
-    },
-    {
-      "key": "csp_sbb",
-      "name": "📱｜布布｜直連",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "7lj763gg402i7942463j9j9jg3498k93lhggih54828g332i1j"
-    },
-    {
-      "key": "bilitingshu",
-      "name": "🎖︎｜bili聽書趣",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "./jar/xmky.jar",
-      "searchable": 1,
-      "ext": {
-        "json": "./json/bili听书.json",
-        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
-      },
-      "style": {"type": "rect", "ratio": 1.333}
-    },
-    {
-      "key": "bilimanhua",
-      "name": "🎖︎｜bili漫畫屋",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "./jar/xmky.jar",
-      "searchable": 1,
-      "ext": {
-        "json": "./json/bili漫画.json",
-        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
-      },
-      "style": {"type": "rect", "ratio": 1.333}
-    },
-    {
-      "key": "biligequ",
-      "name": "🎖︎｜bili靜聽歌",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "./jar/xmky.jar",
-      "searchable": 1,
-      "ext": {
-        "json": "./json/bili歌曲.json",
-        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },    
-    {
-      "key": "csp_Kugou_FM",
-      "name": "🎧｜酷狗聽歌",
-      "type": 3,
-      "api": "csp_Kugou",
-      "jar": "./jar/lem0318.jar;md5;626cd9f34ad3d3899bb2de54b1bc0a25",
-      "playerType": 2,
-      "ext": {
-        "classes": [ {"type_name": "酷狗", "type_id": "kugou"} ]
-      }
-    },
-    {
-      "key": "MV_vod",
-      "name": "🎵｜MTV",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "https://10526.kstore.vip/xmky.jar",
-      "searchable": 1,
-      "ext": {
-        "json": "https://10526.kstore.vip/星河影视/mtv.json",
-        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
-      },
-      "style": {"type": "rect", "ratio": 1.333}
-    },
-    {
-      "key": "biliMV",
-      "name": "🎵｜歌单｜",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "https://10526.kstore.vip/xmky.jar",
-      "searchable": 1,
-      "ext": {
-        "json": "./json/酷奇mv.json",
-        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
-      },
-      "style": {"type": "rect", "ratio": 1.333}
-    },
-    {
-      "key": "MV演唱会",
-      "name": "🎵｜演唱会｜",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "https://10526.kstore.vip/xmky.jar",
-      "searchable": 1,
-      "ext": {
-        "json": "./json/song.json",
-        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
-      },
-      "style": {"type": "rect", "ratio": 1.333}
-    },
-    {
-      "key": "drpy_js_KTV",
-      "name": "🎤｜KTV",
-      "type": 3,
-      "api": "./drpy_libs/drpy2.min.js",
-      "spider": "./jar/星河音樂.jar",
-      "jar": "./jar/星河音樂.jar",
-      "changeable": 0,
-      "style": {"type": "rect", "ratio": 1},
-      "ext": "https://10526.kstore.vip/星河影视/KTV.js"
-    },
+
+
 
 
 
@@ -484,6 +331,33 @@
       "filterable": 1,
       "changeable": 1
     },
+    {
+      "key": "魔方app",
+      "name": "🏆｜魔方｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
+      "ext": 
+           {
+           "url"     : "http://45.192.110.211:1314",
+           "site"    : "",
+           "dataKey" : "1234567887654321",
+           "dataIv"  : "1234567887654321",
+           "deviceId": "",
+           "version" : ""
+           }
+    },
+    {
+      "key": "py_魔方影视APP",
+      "name": "🏆｜魔方｜藍光◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/魔方影视APP.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },    
     {
       "key": "榴莲",
       "name": "🏆｜榴蓮｜藍光◎秒播(無廣告+APP)",
@@ -1680,6 +1554,21 @@
       }
     },
     {
+      "key": "瓜萌",
+      "name": "📱｜瓜萌｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0727.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
+      "ext": {
+        "url"     : "https://guahd.com/",
+        "dataKey" : "f2A7D4B9E8C16531",
+        "dataIv"  : "f2A7D4B9E8C16531",
+        "deviceId": "",
+        "version" : ""
+      }
+    },    
+    {
       "key": "沐沐",
       "name": "📱｜沐沐｜高清◎秒播(無廣告+APP)",
       "type": 3,
@@ -2227,6 +2116,18 @@
         "deviceId": "",
         "version" : "361"
       }
+    },
+    {
+      "key": "csp_sbb",
+      "name": "📱｜布布｜直連",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "7lj763gg402i7942463j9j9jg3498k93lhggih54828g332i1j"
     },    
     {
       "key": "nk",
@@ -3157,6 +3058,109 @@
         "悬疑片",  "犯罪片",  "纪录片",  "台湾剧",  "大陆综艺", "国产动漫", "日韩动漫", "西部片"
       ]
     },
+    {
+      "key": "bilitingshu",
+      "name": "🎖︎｜bili聽書趣",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./jar/xmky.jar",
+      "searchable": 1,
+      "ext": {
+        "json": "./json/bili听书.json",
+        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
+      },
+      "style": {"type": "rect", "ratio": 1.333}
+    },
+    {
+      "key": "bilimanhua",
+      "name": "🎖︎｜bili漫畫屋",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./jar/xmky.jar",
+      "searchable": 1,
+      "ext": {
+        "json": "./json/bili漫画.json",
+        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
+      },
+      "style": {"type": "rect", "ratio": 1.333}
+    },
+    {
+      "key": "biligequ",
+      "name": "🎖︎｜bili靜聽歌",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./jar/xmky.jar",
+      "searchable": 1,
+      "ext": {
+        "json": "./json/bili歌曲.json",
+        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },    
+    {
+      "key": "csp_Kugou_FM",
+      "name": "🎧｜酷狗聽歌",
+      "type": 3,
+      "api": "csp_Kugou",
+      "jar": "./jar/lem0318.jar;md5;626cd9f34ad3d3899bb2de54b1bc0a25",
+      "playerType": 2,
+      "ext": {
+        "classes": [ {"type_name": "酷狗", "type_id": "kugou"} ]
+      }
+    },
+    {
+      "key": "MV_vod",
+      "name": "🎵｜MTV",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://10526.kstore.vip/xmky.jar",
+      "searchable": 1,
+      "ext": {
+        "json": "https://10526.kstore.vip/星河影视/mtv.json",
+        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
+      },
+      "style": {"type": "rect", "ratio": 1.333}
+    },
+    {
+      "key": "biliMV",
+      "name": "🎵｜歌单｜",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://10526.kstore.vip/xmky.jar",
+      "searchable": 1,
+      "ext": {
+        "json": "./json/酷奇mv.json",
+        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
+      },
+      "style": {"type": "rect", "ratio": 1.333}
+    },
+    {
+      "key": "MV演唱会",
+      "name": "🎵｜演唱会｜",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "https://10526.kstore.vip/xmky.jar",
+      "searchable": 1,
+      "ext": {
+        "json": "./json/song.json",
+        "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
+      },
+      "style": {"type": "rect", "ratio": 1.333}
+    },
+    {
+      "key": "drpy_js_KTV",
+      "name": "🎤｜KTV",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "spider": "./jar/星河音樂.jar",
+      "jar": "./jar/星河音樂.jar",
+      "changeable": 0,
+      "style": {"type": "rect", "ratio": 1},
+      "ext": "https://10526.kstore.vip/星河影视/KTV.js"
+    },    
     {
       "key": "vod_优质",
       "name": "🧲｜優質｜高清◎秒播(無廣告)",
