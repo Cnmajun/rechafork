@@ -4,6 +4,14 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "lives": [
     {
+      "name": "星河直播",
+      "type": 0,
+      "url": "./live/666-live.txt",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
+      "pass": true
+    },      
+    {
       "name": "雜貨源",
       "type": 0,
       "url": "./live/122.txt",
