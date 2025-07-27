@@ -19,7 +19,7 @@
       "ext": {
         "数组": "class=\"gm-list\"&&</a>",
         "图片": "data-src=\"&&\"",
-        "线路数组" :"id=\"dom-source\"&&<script>",
+        "线路数组" :"class=\"title\"&&</div>",
         "线路标题" :"class=\"name\"&&</span>",
         "主页url": "https://tw.xiaoyakankan.com/",
         "分类url": "https://tw.xiaoyakankan.com/cat/{cateId}-{catePg}.html",
