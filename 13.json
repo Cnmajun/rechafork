@@ -17,7 +17,7 @@
       "timeout": 60,
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
-        "数组" : "class=\"gm-list\"&&<footer",
+        "数组" : "class=\"item\"&&</a>",
         "图片" : "data-src=\"&&\"",
         "主演" : "演員：&&</div>",
         "导演": "導演：&&</div>",
