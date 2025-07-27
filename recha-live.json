@@ -12,32 +12,6 @@
       "pass": true
     },      
     {
-      "name": "雜貨源",
-      "type": 0,
-      "url": "./live/122.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "playerType": 2,
-      "pass": true
-    },
-        {
-      "name": "yuanwangokk",
-      "type": 0,
-      "url": "./live/yuanwangokk.txt",
-      "core": {
-        "auth": "local://tvbus",
-        "so": "https://aries.yuanwangokk.nyc.mn/BhRw"
-      }
-    },  
-    {
-      "name": "Boba直播",
-      "type": 0,
-      "url": "http://150.109.94.44:1113/live.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "pass": true
-    },
-    {
       "jar" : "./jar/mqitv.jar",
       "name": "59酒店源",
       "api" : "csp_MQiTV",
@@ -52,14 +26,6 @@
       "ext" : "https://60.248.127.232:4433",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "66元寶直播",
-      "type": 0,
-      "url": "./live/66.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "pass": true
     },
     {
       "name": "93酒店源",
@@ -128,14 +94,6 @@
       "pass": true
     },
     {
-      "name": "刺蝟直播",
-      "playerType": 2,
-      "url": "http://herissmon.zabc.net/jiekou/live1.txt",
-      "ua": "Herissmon/2016",
-      "timeout": 5,
-      "pass": true
-    },
-    {
       "name": "Free TV",
       "type": 0,
       "url": "https://freeman.neocities.org/520freerecha@tv.txt",
@@ -196,6 +154,15 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
       "pass": true
     },
+    {
+      "name": "ROB JTV",
+      "url": "./live/66.txt",
+      "ua": "okhttp/3.15",
+      "timeout": 5,
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/taipei",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "pass": true
+    },    
     {
       "name": "RobYang| http://RobYang.ggff.net",
       "type": 0,
