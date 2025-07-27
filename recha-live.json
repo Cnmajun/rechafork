@@ -233,16 +233,6 @@
       }
     },
     {
-      "name": "私密線路2(18+)",
-      "playerType": 1,
-      "url": "http://pan.losfer.cn/down.php/af35e02118138e36e746975e6b5d6711.jpg",
-      "epg": "https://epg.pw/xmltv/epg.xml",
-      "ua": "Lavf/58.12.100",
-      "header": {
-        "X-Api-key": "eef635a7806e57ab688fa46eaddb6926a728de071bc267cb5f336d7be068d880..0..1735089945..75b109b1-81c5-4caf-aea1-776e6a81"
-      }
-    },
-    {
       "name": "私密花園(18+)",
       "playerType": 1,
       "url": "./live/178.txt",
