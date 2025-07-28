@@ -7,6 +7,7 @@
       "name": "星河直播",
       "type": 0,
       "url": "./live/666-live.txt",
+      "ua": "xinghe/5.2.0",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
       "pass": true
