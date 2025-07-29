@@ -2133,8 +2133,8 @@
       "ext": {
         "url"     : "http://121.62.22.204:9876",
         "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
-        "dataKey" : "f5e2tx53ykp6s2c9",
-        "dataIv"  : "f5e2tx53ykp6s2c9",
+        "dataKey" : "n3l2tx5jdkp9s2c8",
+        "dataIv"  : "n3l2tx5jdkp9s2c8",
         "deviceId": "",
         "version" : "361"
       }
@@ -4533,7 +4533,7 @@
       ]
     }
   ],
-  "notice": "版本：114.07.27 Ver.D(小黑常常嘿嘿嘿)",
+  "notice": "版本：114.07.29 Ver.A(小明有三寶)",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
