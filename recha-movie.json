@@ -73,19 +73,6 @@
             }
         },
         {
-            "key": "斗量",
-            "name": "📱｜斗量｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "api": "csp_AppSy",
-            "jar": "./jar/xiaosa-0731.jar;md5;42c5736f087e650764ebd91b0d29fc70",
-            "ext": {
-                "url": "https://app.ystva.com",
-                "key1": "hsZwQK5yrnefW7OJ",
-                "key2": "hsZwQK5yrnefW7OJ",
-                "key3": "hsZwQK5yrnefW7OJ"
-            }
-        },
-        {
             "key": "追星影视",
             "name": "追星｜影视",
             "type": 3,
