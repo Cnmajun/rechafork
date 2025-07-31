@@ -26,6 +26,38 @@
             }
         },
         {
+            "key": "火猫",
+            "name": "📱｜火猫丨高清◎順播(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0731.jar;md5;42c5736f087e650764ebd91b0d29fc70",
+            "ext": {
+                "url": "",
+                "site": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/03.txt",
+                "dataKey": "J6AIORKJ3PQOJKM9",
+                "dataIv": "J6AIORKJ3PQOJKM9",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "哔滴",
+            "name": "📱｜哔滴丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "jar": "./jar/xiaosa-0731.jar;md5;42c5736f087e650764ebd91b0d29fc70",
+            "ext": {
+                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
+                "url": "https://test.cms.bidiys.com/",
+                "dataKey": "5ae8ee4bb95ea0ce",
+                "dataIv": "5ae8ee4bb95ea0ce",
+                "deviceId": "",
+                "version": "120"
+            }
+        },        
+        {
             "key": "若惜",
             "name": "📱｜若惜｜高清◎秒播(無廣告+APP)",
             "type": 3,
@@ -53,7 +85,18 @@
                 "key3": "hsZwQK5yrnefW7OJ"
             }
         },
-
+        {
+            "key": "追星影视",
+            "name": "追星｜影视",
+            "type": 3,
+            "api": "./py/追星影视.py",
+            "jar": "./jar/xiaosa-0731.jar;md5;42c5736f087e650764ebd91b0d29fc70",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
 
 
     
@@ -397,7 +440,7 @@
     },    
     {
       "key": "榴莲",
-      "name": "🏆｜榴蓮｜藍光◎秒播(無廣告+APP)",
+      "name": "🏆｜榴蓮｜藍光◎秒播(4K暫時不能用)",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
@@ -1621,21 +1664,6 @@
         "dataIv"  : "1846397456616237",
         "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
         "version" : "119"
-      }
-    },
-    {
-      "key": "人人",
-      "name": "📱｜人人｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/moyuer.php;md5;2d5e6b5456c7cae497af11938df2662d",
-      "ext": {
-        "url"     : "https://www.xiaohys.com",
-        "dataKey" : "ENonBHeVBoYZhVUV",
-        "dataIv"  : "ENonBHeVBoYZhVUV",
-        "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
-        "version" : "166"
       }
     },
     {
