@@ -14,7 +14,7 @@
             "name": "📱｜斗量｜高清◎秒播(無廣告+APP)",
             "type": 3,
             "api": "csp_AppSy",
-            "jar": "./jar/xiaosa-0731.jar;md5;42c5736f087e650764ebd91b0d29fc70",
+            "jar": "./jar/xiaosa-0731.jar",
             "ext": {
                 "url": "https://app.ystva.com",
                 "key1": "hsZwQK5yrnefW7OJ",
