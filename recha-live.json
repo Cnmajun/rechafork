@@ -5,15 +5,6 @@
   "lives": [
 
 
-    {
-      "name": "4gtv(judy)",
-      "type": 0,
-      "url": "./live/4gtv-judy.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "pass": true
-    },  
-
 
 
     {
