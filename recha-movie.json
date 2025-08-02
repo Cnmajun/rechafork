@@ -2,7 +2,61 @@
   "spider": "./jar/pg.jar;md5;7840d0b61f9641a47728e3a92020f35a",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
+  "notice": "版本：114.08.03 Ver.A(修水管的男人最帥)",
   "sites": [
+
+
+    {
+      "key": "诺雪",
+      "name": "🏆｜诺雪｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0731.jar",
+      "ext": 
+           {
+           "url": "https://appcms.rx4k.top",
+           "site": "",
+           "dataKey": "ZX10ysTYZWtIJCTU",
+           "dataIv": "ZX10ysTYZWtIJCTU",
+           "deviceId": "",
+           "version": "120"
+           }
+    },  
+    {
+      "key": "海豚",
+      "name": "🏆｜海豚｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0731.jar;md5;42c5736f087e650764ebd91b0d29fc70",
+      "ext": 
+           {
+           "url": "https://qjappcms.htsp4k.top",
+           "site": "",
+           "dataKey": "R69yVluzg6yLpjp0",
+           "dataIv": "R69yVluzg6yLpjp0",
+           "deviceId": "",
+           "version": ""
+           }
+    },    
+    {
+      "key": "蓝鹰",
+      "name": "📱｜蓝鹰｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0731.jar;md5;42c5736f087e650764ebd91b0d29fc70",
+      "ext": 
+           {
+           "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",  
+           "url"     : "http://122.228.193.2:9988",
+           "dataKey" : "ca94b06ca359d80e",
+           "dataIv"  : "ca94b06ca359d80e",
+           "deviceId": "",
+           "version" : "120"
+           }
+    },
 
 {
   "key":"csp_XBPQ_工厂",
@@ -539,22 +593,6 @@
       "jar": "./jar/mi-0619.jar;md5;9b8e295927dccaf6f96cd9008174fe11",
       "playerType": 2,
       "ext": "./json/cs.txt"
-    },
-    {
-      "key": "雄鹰",
-      "name": "🏆｜雄鹰｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0731.jar;md5;42c5736f087e650764ebd91b0d29fc70",
-      "ext": {
-        "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
-        "url"     : "http://122.228.193.2:9988",
-        "dataKey" : "ca94b06ca359d80e",
-        "dataIv"  : "ca94b06ca359d80e",
-        "deviceId": "",
-        "version" : "120"
-      }
     },
     {
       "key": "溜溜",
@@ -4559,7 +4597,6 @@
       ]
     }
   ],
-  "notice": "版本：114.07.31 Ver.B(萌萌懂懂在美國，悲傷老王在台灣)",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
