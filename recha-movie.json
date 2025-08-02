@@ -6,73 +6,10 @@
   "sites": [
 
 
-    {
-      "key": "诺雪",
-      "name": "🏆｜诺雪｜4K◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
-      "ext": 
-           {
-           "url": "https://appcms.rx4k.top",
-           "site": "",
-           "dataKey": "ZX10ysTYZWtIJCTU",
-           "dataIv": "ZX10ysTYZWtIJCTU",
-           "deviceId": "",
-           "version": "120"
-           }
-    },  
-    {
-      "key": "海豚",
-      "name": "🏆｜海豚｜4K◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
-      "ext": 
-           {
-           "url": "https://qjappcms.htsp4k.top",
-           "site": "",
-           "dataKey": "R69yVluzg6yLpjp0",
-           "dataIv": "R69yVluzg6yLpjp0",
-           "deviceId": "",
-           "version": ""
-           }
-    },    
-    {
-      "key": "蓝鹰",
-      "name": "📱｜蓝鹰｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
-      "ext": 
-           {
-           "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",  
-           "url"     : "http://122.228.193.2:9988",
-           "dataKey" : "ca94b06ca359d80e",
-           "dataIv"  : "ca94b06ca359d80e",
-           "deviceId": "",
-           "version" : "120"
-           }
-    },
 
-{
-  "key":"csp_XBPQ_工厂",
-  "name":"奈飛工廠",
-  "type":3,
-  "api":"csp_XBPQ",
-  "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-  "searchable":1,
-  "quickSearch":1,
-  "filterable":1,
-  "ext":
-       {
-       "分类url":"https://www.netflixgc.com/vodtype/{cateId}.html",
-       "分类":"电影$1#电视剧$2#动漫$3"
-       }
-    },
+
+
+
 
 
 
@@ -138,29 +75,7 @@
                 "version": ""
             }
         },
-        {
-            "key": "追星影视",
-            "name": "追星｜高清◎卡頓(無廣告+PY)",
-            "type": 3,
-            "api": "./py/追星影视.py",
-            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "py_云速影视",
-            "name": "｜云速｜高清◎秒播(無廣告+PY)",
-            "type": 3,
-            "api": "./py/云速影视APP.py",
-            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 1
-    }, 
+
 
     
     {
@@ -332,6 +247,40 @@
       "playerType": 2,
       "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
     },
+    {
+      "key": "诺雪",
+      "name": "🏆｜諾雪｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
+      "ext": 
+           {
+           "url": "https://appcms.rx4k.top",
+           "site": "",
+           "dataKey": "ZX10ysTYZWtIJCTU",
+           "dataIv": "ZX10ysTYZWtIJCTU",
+           "deviceId": "",
+           "version": "120"
+           }
+    },  
+    {
+      "key": "海豚",
+      "name": "🏆｜海豚｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
+      "ext": 
+           {
+           "url": "https://qjappcms.htsp4k.top",
+           "site": "",
+           "dataKey": "R69yVluzg6yLpjp0",
+           "dataIv": "R69yVluzg6yLpjp0",
+           "deviceId": "",
+           "version": ""
+           }
+    },        
     {
       "key": "咖啡",
       "name": "🏆｜咖啡｜藍光◎秒播(無廣告+APP)",
@@ -1477,6 +1426,29 @@
         "地区": "中国&大陆&内地&香港&台湾&日本&韩国&泰国&新加坡&马来西亚&越南&印度&美国&英国&德国&法国&意大利"
       }
     },
+        {
+            "key": "追星影视",
+            "name": "🥇｜追星｜高清◎卡頓(無廣告+PY)",
+            "type": 3,
+            "api": "./py/追星影视.py",
+            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "py_云速影视",
+            "name": "🥇｜云速｜高清◎秒播(無廣告+PY)",
+            "type": 3,
+            "api": "./py/云速影视APP.py",
+            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 1
+        },     
     {
       "key": "huomaoys",
       "name": "📱｜貓貓｜高清◎秒播(無廣告+APP)",
@@ -1501,6 +1473,23 @@
         "version" : "119"
       }
     },
+    {
+      "key": "蓝鹰",
+      "name": "📱｜蓝鹰｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
+      "ext": 
+           {
+           "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",  
+           "url"     : "http://122.228.193.2:9988",
+           "dataKey" : "ca94b06ca359d80e",
+           "dataIv"  : "ca94b06ca359d80e",
+           "deviceId": "",
+           "version" : "120"
+           }
+    },    
     {
       "key": "麻花",
       "name": "📱｜麻花｜高清◎秒播(無廣告+APP)",
@@ -3125,6 +3114,21 @@
         "地区": "中国&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其它||中国&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其它||中国&香港&台湾&日本&韩国&欧美&其它||中国&韩国&日本&美国&法国&德国&其它||空"
       }
     },
+    {
+      "key":"csp_XBPQ_工厂",
+      "name":"🥉｜奈飛｜高清◎秒播(滿版廣告)",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":
+           {
+           "分类url":"https://www.netflixgc.com/vodtype/{cateId}.html",
+           "分类":"电影$1#电视剧$2#动漫$3"
+           }
+    },    
     {
       "key": "海纳影视",
       "name": "🥉｜海纳｜高清◎秒播(滿版廣告)",
