@@ -21,7 +21,8 @@
                 "标题": "title=\"&&\"",
                 "副标题": "class=\"tips\">&&</span>",
                 "链接": "href=\"&&\"",
-                "分类url": "https://www.ymvid.com/list/{catePg}/c0-s0-v0-l0-t0-y{year}/time_desc",
+                "分类url": "https://www.ymvid.com/list/{catePg}/c{cateId}-s0-v0-l0-t0-y{year}/time_desc",
+                "分类": "連載$0#国语$2#粤语$1",
                 "年份": "25&24&23&22&21&20&19&18&17&16&15&14&13&12&11&10&9&8&7&6&5&4&3&2&1"
             }
         },
