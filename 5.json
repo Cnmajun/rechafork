@@ -17,6 +17,8 @@
             "ext": {
                 "主页url": "https://www.ymvid.com/",
                 "数组": "\"grid-content bg-purple\"&&</a>",
+                "播放数组": "class=\"play-list\"&&</ul>",
+                "播放标题": "em>&&</em>",
                 "图片": "src=\"&&\"",
                 "标题": "title=\"&&\"",
                 "副标题": "class=\"tips\">&&</span>",
