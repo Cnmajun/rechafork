@@ -4402,6 +4402,15 @@
     {"name": "nnxv", "type": 0, "url": "https://jx.nnxv.cn/tv.php?url="}
   ],
   "rules": [
+        {
+      "name": "嗅探",
+      "hosts": [
+        "www.ymvid.com"
+      ],
+      "regex": [
+        "/playlist/"
+      ]
+    },
     {
       "name": "ofiii[台湾节点]",
       "hosts": ["www.ofiii.com"],
