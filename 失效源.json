@@ -22,7 +22,22 @@
                 "key3": "hsZwQK5yrnefW7OJ"
             }
         },
-    {
+        {
+      "key": "蓝鹰",
+      "name": "📱｜蓝鹰｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0731.jar;md5;42c5736f087e650764ebd91b0d29fc70",
+      "ext": {
+        "url"     : "http://172.247.192.138:18520",
+        "dataKey" : "SuNlEkOLAoWJj1Oe",
+        "dataIv"  : "SuNlEkOLAoWJj1Oe",
+        "deviceId": "",
+        "version" : ""
+      }
+    },
+        {
       "key": "海豚",
       "name": "📱｜海豚｜藍光◎秒播(無廣告+APP)",
       "type": 3,
