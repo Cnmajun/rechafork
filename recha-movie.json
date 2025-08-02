@@ -2,79 +2,13 @@
   "spider": "./jar/pg.jar;md5;7840d0b61f9641a47728e3a92020f35a",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.03 Ver.B(修水管的男人最帥)",
+  "notice": "版本：114.08.03 Ver.C(修水管的男人最帥)",
   "sites": [
 
 
 
 
 
-
-
-
-
-        {
-            "key": "爱看",
-            "name": "🏆｜爱看丨藍光◎卡頓(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
-            "ext": {
-                "url": "http://154.37.220.65",
-                "dataKey": "uI1TkPJC8B46AyN3",
-                "dataIv": "uI1TkPJC8B46AyN3",
-                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-                "version": "120"
-            }
-        },
-        {
-            "key": "火猫",
-            "name": "📱｜火猫丨2K◎順播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
-            "ext": {
-                "url": "",
-                "site": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/03.txt",
-                "dataKey": "J6AIORKJ3PQOJKM9",
-                "dataIv": "J6AIORKJ3PQOJKM9",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "哔滴",
-            "name": "📱｜哔滴丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
-            "ext": {
-                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
-                "url": "https://test.cms.bidiys.com/",
-                "dataKey": "5ae8ee4bb95ea0ce",
-                "dataIv": "5ae8ee4bb95ea0ce",
-                "deviceId": "",
-                "version": "120"
-            }
-        },        
-        {
-            "key": "若惜",
-            "name": "📱｜若惜｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
-            "ext": {
-                "url": "http://110.40.59.188:9527",
-                "dataKey": "ebad3f1a58b13933",
-                "dataIv": "ebad3f1a58b13933",
-                "deviceId": "",
-                "version": ""
-            }
-        },
 
 
     
@@ -229,13 +163,28 @@
       "api": "csp_AppGet2",
       "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
       "ext": {
-        "url"     : "https://newappcms.cs4k.top",
-        "dataKey" : "Z98KXaLtO2wC1Pte",
-        "dataIv"  : "Z98KXaLtO2wC1Pte",
-        "deviceId": "",
-        "version" : "120"
-      }
+              "url": "https://newappcms.cs4k.top",
+              "dataKey": "Z98KXaLtO2wC1Pte",
+              "dataIv": "Z98KXaLtO2wC1Pte",
+             "deviceId": "",
+             "version": "120"
+             }
     },
+        {
+            "key": "爱看",
+            "name": "🏆｜爱看丨藍光◎卡頓(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
+            "ext": {
+                "url": "http://154.37.220.65",
+                "dataKey": "uI1TkPJC8B46AyN3",
+                "dataIv": "uI1TkPJC8B46AyN3",
+                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
+                "version": "120"
+            }
+        },    
     {
       "key": "金牌app",
       "name": "🏆｜爆炸｜藍光◎順播(無廣告+APP)",
@@ -1449,6 +1398,53 @@
             "filterable": 0,
             "changeable": 1
         },     
+        {
+            "key": "火猫",
+            "name": "📱｜火猫丨2K◎順播(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
+            "ext": {
+                "url": "",
+                "site": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/03.txt",
+                "dataKey": "J6AIORKJ3PQOJKM9",
+                "dataIv": "J6AIORKJ3PQOJKM9",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "哔滴",
+            "name": "📱｜哔滴丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
+            "ext": {
+                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
+                "url": "https://test.cms.bidiys.com/",
+                "dataKey": "5ae8ee4bb95ea0ce",
+                "dataIv": "5ae8ee4bb95ea0ce",
+                "deviceId": "",
+                "version": "120"
+            }
+        },        
+        {
+            "key": "若惜",
+            "name": "📱｜若惜｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0801.jar;md5;6a1f05f5555c2a797f9ab61b7fb292ec",
+            "ext": {
+                "url": "http://110.40.59.188:9527",
+                "dataKey": "ebad3f1a58b13933",
+                "dataIv": "ebad3f1a58b13933",
+                "deviceId": "",
+                "version": ""
+            }
+        },        
     {
       "key": "huomaoys",
       "name": "📱｜貓貓｜高清◎秒播(無廣告+APP)",
