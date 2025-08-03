@@ -1,7 +1,8 @@
 {
-  "spider": "./jar/pg.jar",
+  "spider":"https://tang.hz.cz/api/custom_spider.jar;md5;3204d02551dea10e8786110b232a59c2",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
+  "notice": "版本：114.08.03 Ver.A",
   "lives": [
 
 
@@ -636,7 +637,6 @@
       ]
     }
   ],
-  "notice": "版本：114.07.28 Ver.A",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
