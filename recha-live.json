@@ -241,6 +241,7 @@
       "url": "./live/change-av.txt",
       "epg": "https://epg.pw/xmltv/epg.xml"
     },
+    {"name":"故障","type":0,"url":"proxy://do=hema&token=0ede0398"},
     {
       "name": "台灣景點直播",
       "playerType": 2,
