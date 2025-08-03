@@ -23,7 +23,7 @@
       "filterable": 1,
       "timeout": 2400,
       "ext": {
-        "热门推荐": "1",
+        //"热门推荐": "1",
         "直接播放": "0",
         "数组": "<div class=\"card my-1\">&&</a>[替换:alt=\"watermark\">>空]",
         "图片": "data-src=\"&&\"",
@@ -35,7 +35,7 @@
         "搜索图片": "data-src=\"&&\"",
         "搜索标题": "alt=\"&&\"",
         "搜索链接": "href=\"&&\"",
-        "播放二次截取": "id=\"pills-tabContent\">&&<div class=\"mb-3 col-12\">",
+        //"播放二次截取": "id=\"pills-tabContent\">&&<div class=\"mb-3 col-12\">",
         "播放数组": "<div class=\"single-video\">&&var server_count",
         "线路数组": "class=\"nav nav-pills mb-3\"&&</ul>",
         "线路标题": "> && </a>",
