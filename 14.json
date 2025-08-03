@@ -23,7 +23,6 @@
       "filterable": 1,
       "timeout": 2400,
       "ext": {
-        //"热门推荐": "1",
         "直接播放": "0",
         "数组": "<div class=\"card my-1\">&&</a>[替换:alt=\"watermark\">>空]",
         "图片": "data-src=\"&&\"",
@@ -35,7 +34,6 @@
         "搜索图片": "data-src=\"&&\"",
         "搜索标题": "alt=\"&&\"",
         "搜索链接": "href=\"&&\"",
-        //"播放二次截取": "id=\"pills-tabContent\">&&<div class=\"mb-3 col-12\">",
         "播放数组": "<div class=\"single-video\">&&var server_count",
         "线路数组": "class=\"nav nav-pills mb-3\"&&</ul>",
         "线路标题": "> && </a>",
@@ -43,9 +41,6 @@
         "导演": "导演：&&</p>",
         "主演": "主演：&&</p>",
         "简介": "简介：&&</span>",
-        //"播放列表": "<video id=\"&&</script>",
-        //"播放标题": "全集",
-        //"播放链接": "m3u8.push(\"&&\"",
         "嗅探词": "m3u8\"&&.m3u8#mp4\"&&.mp4#flv\"&&.flv#video/tos/#.flv#video/tos/#.mp4",
         "分类url": "https://javmenu.cc/zh/{cateId}/online?page={catePg}",
         "分类": "有码$censored#无码$uncensored#欧美$western#fc2$fc2#成人动画$hanime#国产$chinese"
@@ -73,7 +68,7 @@
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
-        "ext": "./json/小嫂子av.json",
+        "ext": "./json/小嫂子.json",
         "style": {"type": "rect","ratio": 1.6}},
 
 
