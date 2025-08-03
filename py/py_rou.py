@@ -127,7 +127,7 @@ class Spider(Spider):
                     'vod_year': '',
                     'vod_area': '',
                     'vod_actor': '',
-                    'vod_director': '天天就知道看片！',
+                    'vod_director': '一天不看會死！',
                     'vod_content': '',
                     'vod_play_from': 'Rou',
                     'vod_play_url': f'1${play_url}',
