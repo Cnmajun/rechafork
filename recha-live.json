@@ -1,22 +1,13 @@
 {
-  "spider":"https://tang.hz.cz/api/custom_spider.jar;md5;3204d02551dea10e8786110b232a59c2",
+  "spider": "./jar/pg.jar",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.03 Ver.A",
   "lives": [
 
 
 
 
-    {
-      "name": "星河直播",
-      "type": 0,
-      "url": "./live/666-live.txt",
-      "ua": "xinghe/5.2.0",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "pass": true
-    },      
+
     {
       "jar" : "./jar/mqitv.jar",
       "name": "59酒店源",
@@ -242,7 +233,15 @@
       "url": "./live/change-av.txt",
       "epg": "https://epg.pw/xmltv/epg.xml"
     },
-    {"name":"故障","type":0,"url":"proxy://do=hema&token=0ede0398"},
+    {
+      "name": "星河直播",
+      "type": 0,
+      "url": "./live/666-live.txt",
+      "ua": "xinghe/5.2.0",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
+      "pass": true
+    },      
     {
       "name": "台灣景點直播",
       "playerType": 2,
@@ -637,6 +636,7 @@
       ]
     }
   ],
+  "notice": "版本：114.07.28 Ver.A",
   "ads": [
     "ae01.alicdn.com",
     "c.cnzz.com",
