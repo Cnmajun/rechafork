@@ -176,7 +176,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+            "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
             "ext": {
                 "url": "http://154.37.220.65",
                 "dataKey": "uI1TkPJC8B46AyN3",
@@ -1208,7 +1208,7 @@
       "name": "🥇｜高端｜高清◎秒播(無廣告)",
       "type": 3,
       "api": "csp_Ddys",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1353,7 +1353,7 @@
       "name": "🥇｜餃子｜高清◎順播(無廣告)",
       "type": 3,
       "api": "csp_Jiaozi",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "playerType": 2
     },
     {
@@ -1380,7 +1380,7 @@
             "name": "🥇｜追星｜高清◎卡頓(無廣告+PY)",
             "type": 3,
             "api": "./py/追星影视.py",
-            "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+            "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -2051,7 +2051,7 @@
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./jar/巧记.jar;md5;9d8407a76b2abeeaabdd147b1b93799f",
+      "jar": "./jar/巧記.jar;md5;9d8407a76b2abeeaabdd147b1b93799f",
       "ext": "maHR0cHM6Ly93d3cuc3ViYWliYWkuY29tLw=="
     },
     {
