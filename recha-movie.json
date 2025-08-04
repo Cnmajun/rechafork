@@ -6,9 +6,41 @@
   "sites": [
 
 
-
-
-
+    {
+      "key": "csp_瓜皮",
+      "name": "？｜瓜皮｜",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "style": {"type": "rect", "ratio": 1.3},
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+    "主页url":"https://www.gpvod.cc",
+    "副标题": "public-list-prb hide ft2\">&&</span>",
+    "数组": "class=\"public-list-div public-list-bj\">&&</div>",
+    "图片": "data-src=\"&&\"",
+    "标题": "title=\"&&\"",
+    "链接": "href=\"&&\"",
+    "搜索url": "https://www.gpvod.cc/vodsearch.html?wd={wd}",
+    "搜索数组": "class=\"left public-list-bj\">&&</div>",
+    "搜索图片": "data-src=\"&&\"",
+    "搜索标题": "alt=\"&&封面图\"referrerpolicy",
+    "搜索链接": "href=\"&&\"",
+    "搜索副标题": "public-list-prb hide ft2\">&&</span>",
+    "简介": "class=\"text cor3\">&&</div>",
+    "线路数组": "<a class=\"swiper-slide&&</a>",
+    "线路标题": "</i>&&<span",
+    "播放数组": "<ul class=\"anthology-list-play size\">&&</ul>",
+    "播放标题": "\">&&</a>",
+    "分类url": "https://www.gpvod.cc/vodshow/id/{cateId}/page/{catePg}.html",
+    "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#短剧$shuangju"
+}
+    },
 
 
     
@@ -872,7 +904,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_XYQHiker",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": "./json/农民影视.json"
     },
     {
@@ -1003,7 +1035,7 @@
       "name": "🥇｜白白｜高清◎秒播(無廣告)",
       "type": 3,
       "api": "csp_SuBaiBai",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": "https://www.subaibai.com"
     },
     {
@@ -1392,7 +1424,7 @@
             "name": "🥇｜云速｜高清◎秒播(無廣告+PY)",
             "type": 3,
             "api": "./py/云速影视APP.py",
-            "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+            "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -3130,7 +3162,7 @@
       "name": "🥉｜海纳｜高清◎秒播(滿版廣告)",
       "type": 3,
       "api": "csp_HBPQ",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": "./json/海纳影视.json"
     },
     {
@@ -3169,7 +3201,7 @@
       "name": "🧲｜爱看｜全線路",
       "type": 3,
       "api": "csp_Ikanbot",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -3328,7 +3360,7 @@
       "name": "🧲｜新6V",
       "type": 3,
       "api": "csp_New6v",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -3655,7 +3687,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "https://pzoap.moedot.net",
         "dataKey" : "1yZ2Spn9krnzVKoC",
@@ -3691,7 +3723,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "https://dm.xxdm123.top:9991",
         "dataKey" : "0fe3b5781782c621",
@@ -3727,7 +3759,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "https://app.omofun1.top",
         "dataKey" : "66dc309cbeeca454",
@@ -3744,7 +3776,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "https://www.gugu3.com",
         "dataKey" : "nKfZ8KX6JTNWRzTD",
@@ -3761,7 +3793,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "http://45.43.29.111:9527",
         "dataKey" : "GETMIFUNGEIMIFUN",
@@ -3799,7 +3831,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "https://qjappcms.acg.party",
         "dataKey" : "AmtMYFCJDPoTlK7z",
@@ -3814,7 +3846,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "http://tv.yy-fun.cc",
         "dataKey" : "qkxnwkfjwpcnwycl",
