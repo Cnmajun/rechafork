@@ -1404,7 +1404,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+            "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
             "ext": {
                 "url": "",
                 "site": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/03.txt",
@@ -1420,7 +1420,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet2",
-            "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+            "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
             "ext": {
                 "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
                 "url": "https://test.cms.bidiys.com/",
@@ -1436,7 +1436,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+            "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
             "ext": {
                 "url": "http://110.40.59.188:9527",
                 "dataKey": "ebad3f1a58b13933",
@@ -1460,7 +1460,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "https://app.xifanys.com",
         "dataKey" : "HM6Ly9yeS4ya3dvL",
@@ -1475,7 +1475,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": 
            {
            "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",  
@@ -1492,7 +1492,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "http://124.223.27.166:130",
         "site"    : "",
