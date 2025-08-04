@@ -161,7 +161,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
               "url": "https://newappcms.cs4k.top",
               "dataKey": "Z98KXaLtO2wC1Pte",
@@ -202,7 +202,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": 
            {
            "url": "https://appcms.rx4k.top",
@@ -219,7 +219,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": 
            {
            "url": "https://qjappcms.htsp4k.top",
@@ -236,7 +236,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "site": "https://omofun.lol/1.txt",
         "url"     : "http://111.170.175.120:5699",
@@ -361,7 +361,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext":
            {
            "url": "https://appcms.xy4k.com",
@@ -378,7 +378,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": 
            {
            "site": "https://www.snysw.xyz/mfys.txt",
@@ -405,7 +405,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "https://qjappcms.ll4k.xyz",
         "dataKey" : "1yGA85sJ5STtE7uj",
@@ -445,7 +445,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "http://v.tkbot.fun",
         "dataKey" : "d032c12876bc6848",
@@ -499,7 +499,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "ext": {
         "url"     : "https://appcms.ll4k.xyz",
         "dataKey" : "NiDGaKiVnkO3QX1Q",
@@ -531,7 +531,7 @@
       "key": "三六零",
       "name": "🎖︎｜360｜官源",
       "type": 3,
-      "jar": "./jar/xiaosa-0803;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0803.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
       "api": "csp_SP360"
     },
     {
