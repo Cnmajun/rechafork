@@ -16,32 +16,63 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
+      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
       "timeout": 60,
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-    "主页url":"https://www.gpvod.cc",
-    "副标题": "public-list-prb hide ft2\">&&</span>",
-    "数组": "class=\"public-list-div public-list-bj\">&&</div>",
-    "图片": "data-src=\"&&\"",
-    "标题": "title=\"&&\"",
-    "链接": "href=\"&&\"",
-    "搜索url": "https://www.gpvod.cc/vodsearch.html?wd={wd}",
-    "搜索数组": "class=\"left public-list-bj\">&&</div>",
-    "搜索图片": "data-src=\"&&\"",
-    "搜索标题": "alt=\"&&封面图\"referrerpolicy",
-    "搜索链接": "href=\"&&\"",
-    "搜索副标题": "public-list-prb hide ft2\">&&</span>",
-    "简介": "class=\"text cor3\">&&</div>",
-    "线路数组": "<a class=\"swiper-slide&&</a>",
-    "线路标题": "</i>&&<span",
-    "播放数组": "<ul class=\"anthology-list-play size\">&&</ul>",
-    "播放标题": "\">&&</a>",
-    "分类url": "https://www.gpvod.cc/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",    
-    "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#短剧$shuangju"
-      }
+      "ext": 
+           {
+           "主页url":"https://www.gpvod.cc",
+           "副标题": "public-list-prb hide ft2\">&&</span>",
+           "数组": "class=\"public-list-div public-list-bj\">&&</div>",
+           "图片": "data-src=\"&&\"",
+           "标题": "title=\"&&\"",
+           "链接": "href=\"&&\"",
+           "搜索url": "https://www.gpvod.cc/vodsearch.html?wd={wd}",
+           "搜索数组": "class=\"left public-list-bj\">&&</div>",
+           "搜索图片": "data-src=\"&&\"",
+           "搜索标题": "alt=\"&&封面图\"referrerpolicy",
+           "搜索链接": "href=\"&&\"",
+           "搜索副标题": "public-list-prb hide ft2\">&&</span>",
+           "简介": "class=\"text cor3\">&&</div>",
+           "线路数组": "<a class=\"swiper-slide&&</a>",
+           "线路标题": "</i>&&<span",
+           "播放数组": "<ul class=\"anthology-list-play size\">&&</ul>",
+           "播放标题": "\">&&</a>",
+           "分类url": "https://www.gpvod.cc/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",    
+           "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#短剧$shuangju"
+           }
     },
-
-
+    {
+      "key": "csp_廠長",
+      "name": "？｜廠長｜",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+      "timeout": 60,
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": 
+           {
+           "主页url":"https://www.czvod.cc/",
+           "分类url":"https://www.czvod.cc/type/{cateId}-{catePg}.html",
+           "分类": "电影$dianying#剧集$juji",
+           "数组":"class=\"stui-vodlist__box&&</h4>",
+           "标题":"title=\"&&\"",
+           "副标题":"class=\"pic-text text-right\"&&</span>",
+           "图片":"data-original=\"&&\"",
+           "链接":"href=\"&&\"",
+           "跳转播放链接":"src=\"&&\"",
+           "播放数组":"class=\"stui-content__playlist&&</ul>",
+           "播放列表":"<a&&</a>",
+           "播放标题":">&&</a>",
+           "线路数组":"class=\"stui-vodlist__head&&</div>",
+           "线路标题":">&&</h3>"
+           }
+    },
     
     {
       "key": "豆瓣",
