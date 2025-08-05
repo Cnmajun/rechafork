@@ -10,7 +10,7 @@
 
         {
             "key": "云云",
-            "name": "云云｜APP",
+            "name": "📱｜云云｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet2",
@@ -26,7 +26,7 @@
         },
         {
             "key": "光影",
-            "name": "光影｜APP",
+            "name": "📱｜光影｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
