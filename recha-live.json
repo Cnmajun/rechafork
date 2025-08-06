@@ -10,7 +10,7 @@
 
     {
       "jar" : "./jar/mqitv.jar",
-      "name": "59酒店源",
+      "name": "59酒店源(停用)",
       "api" : "csp_MQiTV",
       "ext" : "https://59.125.210.231:4433",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
@@ -18,7 +18,7 @@
     },
     {
       "jar" : "./jar/mqitv.jar",
-      "name": "60酒店源",
+      "name": "60酒店源(停用)",
       "api" : "csp_MQiTV",
       "ext" : "https://60.248.127.232:4433",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
@@ -114,11 +114,6 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
-    },
-    {
-      "name": "4GTV(Migu)",
-      "url" : "./live/migu.m3u",
-      "ua"  : "xieanqishiwoerzi/0.0.1"
     },
     {
       "name": "香蕉-MYTV",
