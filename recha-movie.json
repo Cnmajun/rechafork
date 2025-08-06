@@ -8,7 +8,7 @@
 
         {
         "key": "py_jieyingshi",
-        "name": "界影视",
+        "name": "愛電影",
         "type": 3,
         "api": "./py/vod_jieyingshi.py",
         "searchable": 1,
