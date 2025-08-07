@@ -14,50 +14,7 @@
 
 
 
-    {
-      "key": "py_BadNews",
-      "name": "🔞BadNews",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=BadNews",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.5
-      }
-    },
-    {
-      "key": "py_Miss",
-      "name": "🔞MissAV",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=Miss",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "py_AiDou",
-      "name": "🔞AiDou",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=AiDou",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.5
-      }
-    },
-    {
-      "name": "(翻墙)(18+)FreesHot(python)",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/14756/python/live_freeshot.py",
-      "ext": {}
-    },
+
 
     {
       "key": "麻豆",
@@ -186,6 +143,50 @@
       "filterable": 0,
       "changeable": 0
     }, 
+    {
+      "key": "py_BadNews",
+      "name": "⏭｜BadNews｜PYTHON",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=BadNews",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "py_Miss",
+      "name": "⏭｜MissAV｜PYTHON",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=Miss",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_AiDou",
+      "name": "⏭｜AiDou｜PYTHON",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=AiDou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "name": "⏭｜FreesHot｜PYTHON",
+      "type": 3,
+      "api": "./py/live_freeshot.py",
+      "ext": {}
+    },    
     {
       "key": "py_xvd.py",
       "name": "⏭｜xvideos｜PYTHON",
