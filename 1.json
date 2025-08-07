@@ -6,7 +6,7 @@
   "sites": [
         {
         "key": "py_播剧网",
-        "name": "播剧网",
+        "name": "🏆｜播剧网｜高清◎秒播(無廣告+PY)",
         "type": 3,
         "api": "./py/播剧网.py",
         "searchable": 1,
@@ -16,37 +16,17 @@
         },
         {
         "key": "py_统一影视",
-        "name": "统一影视",
+        "name": "🏆｜统一｜高清◎秒播(無廣告+PY)",
         "type": 3,
         "api": "./py/统一影视.py",
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
         "changeable": 0
-        },
-        {
-        "key": "py_厂长资源 (2)",
-        "name": "厂长资源 (2)",
-        "type": 3,
-        "api": "./py/厂长资源 (2).py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },                
-        {
-        "key": "py_bttwoo",
-        "name": "bttwoo",
-        "type": 3,
-        "api": "./py/bttwoo.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },        
+        },               
         {
         "key": "py_天天APP",
-        "name": "天天APP",
+        "name": "🏆｜天天｜特清◎秒播(無廣告+PY)",
         "type": 3,
         "api": "./py/天天APP.py",
         "searchable": 1,
@@ -56,49 +36,9 @@
         },        
         {
         "key": "py_浪酷APP",
-        "name": "浪酷APP",
+        "name": "🏆｜浪酷｜特清◎秒播(無廣告+PY)",
         "type": 3,
         "api": "./py/浪酷APP.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },        
-        {
-        "key": "py_农民影视",
-        "name": "农民影视",
-        "type": 3,
-        "api": "./py/农民影视.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },        
-        {
-        "key": "py_naif",
-        "name": "naif",
-        "type": 3,
-        "api": "./py/naif (1).py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },          
-        {
-        "key": "py_盘友圈",
-        "name": "盘友圈",
-        "type": 3,
-        "api": "./py/盘友圈.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },          
-        {
-        "key": "py_rou视频",
-        "name": "rou视频",
-        "type": 3,
-        "api": "./py/rou视频.py",
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
@@ -106,7 +46,7 @@
         },          
         {
         "key": "py_cnotv",
-        "name": "cnotv",
+        "name": "🏆｜cnotv｜特清◎秒播(無廣告+PY)",
         "type": 3,
         "api": "./py/cnotv.py",
         "searchable": 1,
@@ -116,7 +56,7 @@
         },          
         {
         "key": "py_泥视频",
-        "name": "泥视频",
+        "name": "🏆｜泥视｜特清◎秒播(廣告？+PY)",
         "type": 3,
         "api": "./py/泥视频.py",
         "searchable": 1,
@@ -126,7 +66,7 @@
         },      
         {
         "key": "py_爱壹帆",
-        "name": "爱壹帆",
+        "name": "🏆｜爱帆｜高清◎秒播(浮水印廣告+PY)",
         "type": 3,
         "api": "./py/爱壹帆.py",
         "searchable": 1,
@@ -136,7 +76,7 @@
         },             
         {
         "key": "py_厂长资源",
-        "name": "厂长资源",
+        "name": "🏆｜厂长｜高清◎秒播(無廣告+PY)",
         "type": 3,
         "api": "./py/厂长资源.py",
         "searchable": 1,
@@ -144,20 +84,12 @@
         "filterable": 0,
         "changeable": 0
         },         
-        {
-        "key": "py_吸瓜",
-        "name": "吸瓜",
-        "type": 3,
-        "api": "./py/吸瓜.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },         
+        
     {
             "key": "瓜子影视",
-            "name": "👖瓜子影视✈️TG频道@stymei1",
-            "type": 3,"jar": "https://mpimg.cn/down.php/2fb2ccf2b4e59d8714abbbf151f8ce46.jar",
+            "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
+            "type": 3,
+            "jar": "https://mpimg.cn/down.php/2fb2ccf2b4e59d8714abbbf151f8ce46.jar",
             "api": "csp_Gz360",
             "searchable": 1,
             "quickSearch": 1,
@@ -165,7 +97,7 @@
     },
 {  
        "key": "csp_Jiaozi",
-       "name":"饺子┃4K",
+       "name":"🏆｜饺子｜高清◎秒播(無廣告)",
        "type":3,
        "api":"csp_Jiaozi", 
        "jar": "https://jihulab.com/yoursmile66/TVBox/-/raw/main/Yoursmile.jar",
@@ -173,23 +105,9 @@
        "quickSearch":1,
        "filterable":1
       },    
-{
-      "key": "双星",
-      "name": "双子星┃4K",
-      "type": 3,
-      "api": "csp_Star2Guard",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-    "jar":"./jar/614QA8vJ.png;md5;0feab5a9c7fb7b34b734adcda25e98a6",
-      "style": {
-        "type": "list"
-      },
-    "timeout": 25
-    },
         {
         "key": "py_jieyingshi",
-        "name": "愛電影",
+        "name": "🏆｜愛影｜特清◎秒播(無廣告+PY)",
         "type": 3,
         "api": "./py/vod_jieyingshi.py",
         "searchable": 1,
@@ -200,7 +118,7 @@
 
         {
             "key": "云云",
-            "name": "📱｜云云｜APP",
+            "name": "📱｜云云｜藍光◎秒播(無廣告+APP)",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet2",

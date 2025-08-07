@@ -177,14 +177,15 @@
       "changeable": 1
     },    
     {
-      "key": "py_51吸瓜.py",
-      "name": "⏭｜51吸瓜｜PYTHON",
+      "key": "py_吸瓜",
+      "name": "⏭｜吸瓜｜PYTHON",
       "type": 3,
-      "api": "./py/51吸瓜.py",
+      "api": "./py/吸瓜.py",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    }, 
     {
       "key": "py_xvd.py",
       "name": "⏭｜xvideos｜PYTHON",
