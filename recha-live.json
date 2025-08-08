@@ -222,6 +222,12 @@
       "epg": "https://epg.pw/xmltv/epg.xml"
     },
     {
+      "name": "黑軟(18+)",
+      "playerType": 1,
+      "url": "./live/999.txt",
+      "epg": "https://epg.pw/xmltv/epg.xml"
+    },    
+    {
       "name": "星河直播",
       "type": 0,
       "url": "./live/666-live.txt",
