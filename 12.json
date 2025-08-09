@@ -17,7 +17,10 @@
                 "site": "https://missav.ai",
                 "cfgo":"./lib/cf-proxy-linux-arm64",
                 "plp": "",
-                "proxy": {}
+                "proxy": {
+                    "http": "http://127.0.0.1:12525",
+                    "https": "http://127.0.0.1:12525"
+                }
             }
         },
 
@@ -148,7 +151,8 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-      "changeable": 0
+      "changeable": 0,
+      "ext": "{}"
     }, 
     {
       "key": "py_BadNews",
