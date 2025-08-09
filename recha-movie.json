@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.09 Ver.B(onn在日本爽)",
+  "notice": "版本：114.08.09 Ver.C(onn在日本爽)",
   "sites": [
         {
             "key": "星河",
@@ -10,7 +10,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppSy",
-            "jar": "./xiaosa-0805.jar",
+            "jar": "./jar/xiaosa-0805.jar",
             "ext": {
                 "url": "http://192.140.161.171:2563",
                 "key1": "aassddwwxxllsx1x",
@@ -24,7 +24,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppSy",
-            "jar":"./xiaosa-0805.jar",
+            "jar":"./jar/xiaosa-0805.jar",
             "ext": {
                 "url": "http://110.42.7.130:1866",
                 "key1": "aassddwwxxllsx1x",
@@ -38,7 +38,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar":"./xiaosa-0805.jar",
+            "jar":"./jar/xiaosa-0805.jar",
             "ext": {
                 "url": "https://ledayy.com",
                 "site": "",
@@ -54,7 +54,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar":"./xiaosa-0805.jar",
+            "jar":"./jar/xiaosa-0805.jar",
             "ext": {
                 "url": "",
                 "site": "https://bind.315999.xyz/89.txt",
@@ -70,7 +70,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar":"./xiaosa-0805.jar",
+            "jar":"./jar/xiaosa-0805.jar",
             "ext": {
                 "url": "http://ys.qist.top",
                 "site": "",
