@@ -2444,7 +2444,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0803.jar.jar;md5;b06dd36ebecba3b0a3e2ed8d8802938e",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
       "ext": {
         "url"     : "http://121.62.22.204:9876",
         "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
