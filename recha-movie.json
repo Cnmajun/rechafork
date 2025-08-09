@@ -4,6 +4,83 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "notice": "版本：114.08.08 Ver.B(星星點燈，照亮誰的家門)",
   "sites": [
+           },
+        {
+            "key": "星河",
+            "name": "星河｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppSy",
+            "jar": "./xiaosa-0805.jar",
+            "ext": {
+                "url": "http://192.140.161.171:2563",
+                "key1": "aassddwwxxllsx1x",
+                "key2": "aassddwwxxllsx1x",
+                "key3": "aassddwwxxllsx1x"
+            }
+        },
+        {
+            "key": "追忆",
+            "name": "追忆｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppSy",
+            "jar":"./xiaosa-0805.jar",
+            "ext": {
+                "url": "http://110.42.7.130:1866",
+                "key1": "aassddwwxxllsx1x",
+                "key2": "1e765e9b09b4dbba",
+                "key3": "1e765e9b09b4dbba"
+            }
+        },
+        {
+            "key": "乐达",
+            "name": "乐达｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar":"./xiaosa-0805.jar",
+            "ext": {
+                "url": "https://ledayy.com",
+                "site": "",
+                "dataKey": "hjjp68c2okw12345",
+                "dataIv": "hjjp68c2okw12345",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "灵虎",
+            "name": "灵虎｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar":"./xiaosa-0805.jar",
+            "ext": {
+                "url": "",
+                "site": "https://bind.315999.xyz/89.txt",
+                "dataKey": "#getapp@TMD@2025",
+                "dataIv": "#getapp@TMD@2025",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "旗星",
+            "name": "旗星｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar":"./xiaosa-0805.jar",
+            "ext": {
+                "url": "http://ys.qist.top",
+                "site": "",
+                "dataKey": "2SWSPFxugBLPPOKo",
+                "dataIv": "2SWSPFxugBLPPOKo",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
         {
         "key": "py_播剧网",
         "name": "🏆｜播剧网｜高清◎秒播(無廣告+PY)",
