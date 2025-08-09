@@ -17,7 +17,7 @@
                 "site": "https://missav.ai",
                 "cfgo":"./lib/cf-proxy-linux-arm64",
                 "plp": "",
-                "proxy": ""
+                "proxy": "{}"
             }
         },
 
