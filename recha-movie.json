@@ -501,7 +501,7 @@
       "name": "🏆｜黑木耳｜藍光◎秒播(無廣告)",
       "type": 1,
       "api": "https://heimuer.ggff.net/api.php/tvbox",
-      "playUrl": "json:https://heimuer.ggff.net/noads.php?url=",
+      //"playUrl": "json:https://heimuer.ggff.net/noads.php?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
