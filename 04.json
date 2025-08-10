@@ -22,7 +22,7 @@
     },
     {
       "name": "藍星tv",
-      "url" : "./live/藍星tv.txt",
+      "url" : "./live/蓝星TV.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
