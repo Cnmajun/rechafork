@@ -103,7 +103,8 @@
       "url": "./live/smart-pendy.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
+      "pass": true,
+      "ua": "xieanqishiwoerzi/0.0.1"
     },
     {
       "name": "SMT直播(python)",
