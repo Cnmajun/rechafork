@@ -14,7 +14,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "http://149.88.64.161:8627",
         "dataKey" : "123456789ABCDEFG",
@@ -31,7 +31,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "http://121.62.22.204:9876",
         "dataKey" : "f5e2tx53ykp6s2c9",
@@ -48,7 +48,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "http://111.180.198.40:1110",
         "dataKey" : "asgcxhjkts124573",
@@ -63,7 +63,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "https://www.xiaohys.com",
         "dataKey" : "ENonBHeVBoYZhVUV",
@@ -78,7 +78,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "https://www.noad.top",
         "dataKey" : "708FA298F0855840",
@@ -105,7 +105,7 @@
       "name": "📱｜行动｜高清◎秒播(無廣告+APP)",
       "type": 3,
       "api": "csp_AppSy",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url" : "http://160.202.246.9:2356",
         "key1": "aassddwwxxllsx1x",
@@ -119,7 +119,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppMuou",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"    : "https://xjuzi.top",
         "dataKey": "6a482a70b80eefc9",
@@ -133,7 +133,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppMuou",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"    : "http://sp.dxgsp.cc",
         "dataKey": "25f9e794323b4538",
@@ -142,28 +142,12 @@
       }
     },    
     {
-      "key": "云速",
-      "name": "📱｜云速｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
-      "ext": {
-        "site"    : "http://59.153.167.137:7788/1.json",
-        "url"     : "http://59.153.167.137:7788",
-        "dataKey" : "4d83b87c4c5ea111",
-        "dataIv"  : "4d83b87c4c5ea111",
-        "deviceId": "",
-        "version" : "105"
-      }
-    },        
-    {
       "key": "APP4K",
       "name": "📱｜藍光｜高清◎秒播(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "http://59.153.167.186",
         "dataKey" : "SDSFET23215FDSF2",
@@ -178,7 +162,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "https://zzos.cc",
         "dataKey" : "zzoccc2025555555",
@@ -187,22 +171,6 @@
         "version" : "119"
       }
     },          
-    {
-      "key": "鲸鱼",
-      "name": "📱｜鯨鱼｜高清◎順播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
-      "ext": {
-        "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-        "url": "http://111.180.190.158:1122",
-        "dataKey": "AAdgrdghjfgswerA",
-        "dataIv": "AAdgrdghjfgswerA",
-        "deviceId": "",
-        "version": ""
-      }
-    },      
     {
       "key": "追忆2",
       "name": "📱｜追忆｜高清◎秒播(無廣告+APP)",
@@ -247,7 +215,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "http://124.223.27.166:130",
         "site"    : "",
@@ -263,7 +231,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet2",
-            "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+            "jar": "./jar/xiaosa-0810.jar",
             "ext": {
                 "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
                 "url": "https://test.cms.bidiys.com/",
@@ -279,7 +247,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "https://app.xifanys.com",
         "dataKey" : "HM6Ly9yeS4ya3dvL",
@@ -294,7 +262,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "https://appcms.ll4k.xyz",
         "dataKey" : "NiDGaKiVnkO3QX1Q",
@@ -303,21 +271,6 @@
         "version" : "200"
       }
     },    
-    {
-      "key": "米兔",
-      "name": "🏆｜米兔｜藍光◎秒播(無廣告+APP)網站掛了",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
-      "ext": {
-        "url"     : "http://v.tkbot.fun",
-        "dataKey" : "d032c12876bc6848",
-        "dataIv"  : "d032c12876bc6848",
-        "deviceId": "",
-        "version" : "200"
-      }
-    },
     {
       "key": "py_貓眼",
       "name": "🏆｜貓眼｜藍光◎秒播(網站掛了)",
@@ -334,7 +287,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": 
            {
            "site": "https://www.snysw.xyz/mfys.txt",
@@ -361,7 +314,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "jar": "./jar/xiaosa-0810.jar",
       "ext": {
         "url"     : "https://qjappcms.ll4k.xyz",
         "dataKey" : "1yGA85sJ5STtE7uj",
@@ -375,7 +328,7 @@
             "name": "📱｜斗量｜高清◎秒播(無廣告+APP)",
             "type": 3,
             "api": "csp_AppSy",
-            "jar": "./jar/xxiaosa-0805.jar",
+            "jar": "./jar/xxiaosa-0810.jar",
             "ext": {
                 "url": "https://app.ystva.com",
                 "key1": "hsZwQK5yrnefW7OJ",
@@ -391,7 +344,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "https://appcms.tzys.xyz",
         "dataKey" : "KL6vlZkw6WL5x90U",
@@ -406,7 +359,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "site": "https://omofun.lol/1.txt",
         "url"     : "http://111.170.175.120:5699",
@@ -423,7 +376,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "http://47.122.22.78",
         "dataKey" : "2234567890123456",
@@ -447,7 +400,7 @@
       "name": "🏆｜橘猫｜藍光◎秒播(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "api": "csp_AppGet2",
       "ext": {
         "url"     : "https://qjappcms.jm4k.top",
@@ -474,7 +427,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jar/xxiaosa-0805.jar",
+            "jar": "./jar/xxiaosa-0810.jar",
             "ext": {
                 "url": "https://api.hiapp.com.cn",
                 "dataKey": "2268331221bobobo",
@@ -489,7 +442,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "https://ys.ewo.asia",
         "dataKey" : "Z0qTnwyLAJCtuIkI",
@@ -505,7 +458,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "https://get.le163.top",
         "dataKey" : "4f870065c9c193fc",
@@ -622,7 +575,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "http://150.138.84.88:44444",
         "dataKey" : "fdnwxwnkyylwdyqh",
@@ -639,7 +592,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "https://www.zjc.app",
         "dataKey" : "ab4e9a421675f14b",
@@ -672,7 +625,7 @@
       "name": "📱｜好看｜高清◎秒播(無廣告+APP)",
       "type": 3,
       "api": "csp_WebNK",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -684,7 +637,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "https://www.70yy.fun",
         "dataKey" : "sfsdgsgcccss55xa",
@@ -699,7 +652,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "http://46.203.125.54:7070",
         "dataKey" : "RuN9LRvwTRgpQnpK",
@@ -714,7 +667,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "http://1.94.105.93",
         "dataKey" : "gKdQKLbwhhLp4Ytv",
@@ -729,7 +682,7 @@
     "type": 3,
     "quickSearch": 1,
     "api": "csp_AppGet",
-    "jar": "./jar/xxiaosa-0805.jar",
+    "jar": "./jar/xxiaosa-0810.jar",
     "ext": {
       "url": "http://111.180.202.216:999",
       "dataKey": "fjhndgbjidfhgjsd",
@@ -746,7 +699,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "https://cms.wlbbq.xyz",
         "dataKey" : "sdev15rwsa96fsde",
@@ -761,7 +714,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"     : "https://appcms.rx4k.top",
         "dataKey" : "LiGFzV6csf21zsu6",
@@ -833,7 +786,7 @@
       "name": "🥇｜糯米｜高清◎秒播(無廣告)",
       "type": 3,
       "api": "csp_Nmys",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -917,7 +870,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppMuou",
-      "jar": "./jar/xxiaosa-0805.jar",
+      "jar": "./jar/xxiaosa-0810.jar",
       "ext": {
         "url"    : "http://cms.neyym.cn",
         "dataKey": "66247d82fcfaeda9"   ,
@@ -1197,7 +1150,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "jar": "./jar/xxiaosa-0805.jar",
+            "jar": "./jar/xxiaosa-0810.jar",
             "ext": {
                 "url": "https://app.weis.vip",
                 "dataKey": "e65144389e9361b5",
