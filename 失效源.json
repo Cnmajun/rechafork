@@ -6,8 +6,328 @@
     "wallpaper": "https://picsum.photos/1080/",
     "notice": "114.08.03 Ver.A",
     "sites": [ 
-
-
+    {
+      "key": "在看",
+      "name": "📱｜再看｜高清◎秒播(無廣告+APP源+常常死)",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "http://149.88.64.161:8627",
+        "dataKey" : "123456789ABCDEFG",
+        "dataIv"  : "123456789ABCDEFG",
+        "deviceId": "2bb4c10f3e043307dbfc579bd0db23f4e",
+        "version" : "110"
+      }
+    },      
+    {
+      "key": "星河2",
+      "name": "📱｜星河｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "http://121.62.22.204:9876",
+        "dataKey" : "f5e2tx53ykp6s2c9",
+        "dataIv"  : "f5e2tx53ykp6s2c9",
+        "deviceId": "",
+        "version" : "361"
+      }
+    },
+    {
+      "key": "电影",
+      "name": "📱｜电影｜高清◎順播(無廣告+APP)",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "http://111.180.198.40:1110",
+        "dataKey" : "asgcxhjkts124573",
+        "dataIv"  : "asgcxhjkts124573",
+        "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+        "version" : "701"
+      }
+    },      
+    {
+      "key": "小红",
+      "name": "📱｜小紅｜高清◎秒播(無廣告+沒4K)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "https://www.xiaohys.com",
+        "dataKey" : "ENonBHeVBoYZhVUV",
+        "dataIv"  : "ENonBHeVBoYZhVUV",
+        "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+        "version" : "166"
+      }
+    },
+    {
+      "key": "诺映",
+      "name": "📱｜諾映｜高清◎順播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "https://www.noad.top",
+        "dataKey" : "708FA298F0855840",
+        "dataIv"  : "708FA298F0855840",
+        "deviceId": "2129ec9e6e5703cb0aeeddd79554e38f8",
+        "version" : "103"
+      }
+    },
+    {
+      "key": "梦回",
+      "name": "📱｜梦回｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "jar": "./jar/feimao-0611.jar;md5;d4723dd9544a35b67c09ae2c096cb24e",
+      "api": "csp_AppRJ",
+      "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
+    },        
+    {
+      "key": "行动",
+      "name": "📱｜行动｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_AppSy",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url" : "http://160.202.246.9:2356",
+        "key1": "aassddwwxxllsx1x",
+        "key2": "aassddwwxxllsx1x",
+        "key3": "aassddwwxxllsx1x"
+      }
+    },
+    {
+      "key": "趣看",
+      "name": "📱｜趣看｜高清◎秒播(主線無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppMuou",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"    : "https://xjuzi.top",
+        "dataKey": "6a482a70b80eefc9",
+        "dataIv" : "c995826a3e86fedd",
+        "jxurl"  : "https://www.ququkan.cc"
+      }
+    },
+    {
+      "key": "樱桃",
+      "name": "📱｜櫻桃｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppMuou",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"    : "http://sp.dxgsp.cc",
+        "dataKey": "25f9e794323b4538",
+        "dataIv" : "25f9e794323b4538",
+        "jxurl"  : "https://ap.dxgsp.cc"
+      }
+    },    
+    {
+      "key": "云速",
+      "name": "📱｜云速｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "site"    : "http://59.153.167.137:7788/1.json",
+        "url"     : "http://59.153.167.137:7788",
+        "dataKey" : "4d83b87c4c5ea111",
+        "dataIv"  : "4d83b87c4c5ea111",
+        "deviceId": "",
+        "version" : "105"
+      }
+    },        
+    {
+      "key": "APP4K",
+      "name": "📱｜藍光｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "http://59.153.167.186",
+        "dataKey" : "SDSFET23215FDSF2",
+        "dataIv"  : "SDSFET23215FDSF2",
+        "deviceId": "",
+        "version" : "119"
+      }
+    },    
+    {
+      "key": "知了",
+      "name": "📱｜知了｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "https://zzos.cc",
+        "dataKey" : "zzoccc2025555555",
+        "dataIv"  : "zzoccc2025555555",
+        "deviceId": "",
+        "version" : "119"
+      }
+    },          
+    {
+      "key": "鲸鱼",
+      "name": "📱｜鯨鱼｜高清◎順播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+        "url": "http://111.180.190.158:1122",
+        "dataKey": "AAdgrdghjfgswerA",
+        "dataIv": "AAdgrdghjfgswerA",
+        "deviceId": "",
+        "version": ""
+      }
+    },      
+    {
+      "key": "追忆2",
+      "name": "📱｜追忆｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_Shark",
+      "playerType": 2,
+      "jar": "./jar/巧技.jar;md5;410ad21caad9e6f6d40c1ae5ca2be662",
+      "ext": "7lj763gg402i794247239g9jk10kjl82l3g6845ki2i66j7906194lg6g8460h5k548i51l8824hjj902309g182l7kl0hk3l4776346lihki7kl3kj425kl3jk31j0kggkhj0g7l5632376984k395496k449626gh0k66l26k7j6h49j9331h9701k106i"
+    },      
+    {
+      "key": "南瓜",
+      "name": "📱｜南瓜｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_NanGua",
+      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
+      "playerType": 2,
+      "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+    },    
+    {
+      "key": "lanyingys",
+      "name": "📱｜橘子｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_Qiji",
+      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
+      "playerType": 2,
+      "ext": "7lj763gg0939795i0678i481k40hi2i3ghlg840i9lj166700g1449g3k5244k2017h35698h4739ih31117kigil3k02hl2jk6i5155ih9kkgl311gl37g240g85111ggg2"
+    },
+    {
+      "key": "星辉弹幕",
+      "name": "📱｜星辉｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "jar": "./jar/feimao-0611.jar;md5;d4723dd9544a35b67c09ae2c096cb24e",
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
+    },    
+    {
+      "key": "麻花",
+      "name": "📱｜麻花｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "http://124.223.27.166:130",
+        "site"    : "",
+        "dataKey" : "q7gj4f9br3fls6nh",
+        "dataIv"  : "q7gj4f9br3fls6nh",
+        "deviceId": "",
+        "version" : ""
+      }
+    },      
+        {
+            "key": "哔滴",
+            "name": "📱｜哔滴丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+            "ext": {
+                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
+                "url": "https://test.cms.bidiys.com/",
+                "dataKey": "5ae8ee4bb95ea0ce",
+                "dataIv": "5ae8ee4bb95ea0ce",
+                "deviceId": "",
+                "version": "120"
+            }
+        },        
+    {
+      "key": "稀饭",
+      "name": "📱｜稀飯｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "https://app.xifanys.com",
+        "dataKey" : "HM6Ly9yeS4ya3dvL",
+        "dataIv"  : "HM6Ly9yeS4ya3dvL",
+        "deviceId": "",
+        "version" : "119"
+      }
+    },        
+    {
+      "key": "溜溜",
+      "name": "🏆｜溜溜｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "https://appcms.ll4k.xyz",
+        "dataKey" : "NiDGaKiVnkO3QX1Q",
+        "dataIv"  : "NiDGaKiVnkO3QX1Q",
+        "deviceId": "2fbaf48ee97783260bc907e3ab0bd40c3",
+        "version" : "200"
+      }
+    },    
+    {
+      "key": "米兔",
+      "name": "🏆｜米兔｜藍光◎秒播(無廣告+APP)網站掛了",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
+      "ext": {
+        "url"     : "http://v.tkbot.fun",
+        "dataKey" : "d032c12876bc6848",
+        "dataIv"  : "d032c12876bc6848",
+        "deviceId": "",
+        "version" : "200"
+      }
+    },
+    {
+      "key": "py_貓眼",
+      "name": "🏆｜貓眼｜藍光◎秒播(網站掛了)",
+      "type": 3,
+      "api": "./py/mioaying.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },    
     {
       "key": "魔方app",
       "name": "🏆｜魔方｜藍光◎秒播(無廣告+APP)",
