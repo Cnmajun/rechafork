@@ -20,14 +20,12 @@
             "quickSearch": 0,
             "filterable": 0,
             "api": "./py/Miss.py",
+            "jar":"./jar/pg.jar",
             "ext": {
                 "site": "https://missav.ai",
                 "cfgo":"./lib/cf-proxy-linux-arm64",
                 "plp": "",
-                "proxy": {
-                    "http": "http://127.0.0.1:1072",
-                    "https": "http://127.0.0.1:1072"
-                }
+                "proxy": {}
             }
         },
 
