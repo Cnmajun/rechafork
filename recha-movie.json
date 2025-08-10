@@ -4,313 +4,7 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "notice": "版本：114.08.11 Ver.B(CC要去日本爽)",
   "sites": [
-    {
-      "key": "米兔",
-      "name": "🏆｜米兔｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-      "ext": {
-        "url": "https://new.tkbot.fun",
-        "dataKey" : "d032c12876bc6848",
-        "dataIv"  : "d032c12876bc6848",
-        "deviceId": "",
-        "version" : "200"
-      }
-    },
-    {
-      "key": "云速",
-      "name": "📱｜云速｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-      "ext": {
-        "site"    : "http://59.153.167.137:7788/1.json",
-        "url"     : "http://59.153.167.137:7788",
-        "dataKey" : "4d83b87c4c5ea111",
-        "dataIv"  : "4d83b87c4c5ea111",
-        "deviceId": "",
-        "version" : "105"
-      }
-    },
-        {
-          "key": "鲸鱼",
-          "name": "📱｜鯨魚｜高清◎順播(無廣告+APP)",
-          "type": 3,
-          "quickSearch": 1,
-          "api": "csp_AppGet2",
-          "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-          "ext": 
-               {
-               "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-               "url": "http://111.180.190.158:1122",
-               "dataKey": "AAdgrdghjfgswerA",
-               "dataIv": "AAdgrdghjfgswerA",
-               "deviceId": "",
-               "version": ""
-               }
-        },      
-        {
-            "key": "乐达",
-            "name": "乐达｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar":"./jar/xiaosa-0805.jar",
-            "ext": {
-                "url": "https://ledayy.com",
-                "site": "",
-                "dataKey": "hjjp68c2okw12345",
-                "dataIv": "hjjp68c2okw12345",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "灵虎",
-            "name": "灵虎｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar":"./jar/xiaosa-0805.jar",
-            "ext": {
-                "url": "",
-                "site": "https://bind.315999.xyz/89.txt",
-                "dataKey": "#getapp@TMD@2025",
-                "dataIv": "#getapp@TMD@2025",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
-            "key": "旗星",
-            "name": "旗星｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar":"./jar/xiaosa-0805.jar",
-            "ext": {
-                "url": "http://ys.qist.top",
-                "site": "",
-                "dataKey": "2SWSPFxugBLPPOKo",
-                "dataIv": "2SWSPFxugBLPPOKo",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
-        "key": "py_播剧网",
-        "name": "🏆｜播剧网｜高清◎秒播(無廣告+PY)",
-        "type": 3,
-        "api": "./py/播剧网.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },
-        {
-        "key": "py_统一影视",
-        "name": "🏆｜统一｜高清◎秒播(無廣告+PY)",
-        "type": 3,
-        "api": "./py/统一影视.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },               
-        {
-        "key": "py_天天APP",
-        "name": "🏆｜天天｜特清◎秒播(無廣告+PY)",
-        "type": 3,
-        "api": "./py/天天APP.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },        
-        {
-        "key": "py_浪酷APP",
-        "name": "🏆｜浪酷｜特清◎秒播(無廣告+PY)",
-        "type": 3,
-        "api": "./py/浪酷APP.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },          
-        {
-        "key": "py_cnotv",
-        "name": "🏆｜恐龍｜特清◎秒播(無廣告+PY)",
-        "type": 3,
-        "api": "./py/cnotv.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },          
-        {
-        "key": "py_泥视频",
-        "name": "🏆｜泥視｜特清◎秒播(廣告？+PY)",
-        "type": 3,
-        "api": "./py/泥视频.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },      
-        {
-        "key": "py_爱壹帆",
-        "name": "🏆｜愛帆｜高清◎秒播(浮水印廣告+PY)",
-        "type": 3,
-        "api": "./py/爱壹帆.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },             
-        {
-        "key": "py_厂长资源",
-        "name": "🏆｜大廠｜高清◎秒播(無廣告+PY)",
-        "type": 3,
-        "api": "./py/厂长资源.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },         
-        
-    {
-            "key": "瓜子影视",
-            "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
-            "type": 3,
-            "jar": "https://mpimg.cn/down.php/2fb2ccf2b4e59d8714abbbf151f8ce46.jar",
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-    },
-{  
-       "key": "csp_Jiaozi",
-       "name":"🏆｜餃子｜高清◎秒播(無廣告)",
-       "type":3,
-       "api":"csp_Jiaozi", 
-       "jar": "https://jihulab.com/yoursmile66/TVBox/-/raw/main/Yoursmile.jar",
-       "searchable":1,
-       "quickSearch":1,
-       "filterable":1
-      },    
-        {
-        "key": "py_jieyingshi",
-        "name": "🏆｜愛影｜特清◎秒播(無廣告+PY)",
-        "type": 3,
-        "api": "./py/vod_jieyingshi.py",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-        },
 
-        {
-            "key": "云云",
-            "name": "📱｜雲雲｜藍光◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-            "ext": {
-                "url": "",
-                "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt",
-                "dataKey": "staraugust123456",
-                "dataIv": "staraugust123456",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
-            "key": "光影",
-            "name": "📱｜光影｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-            "ext": {
-                "url": "https://www.guangyingmi.com",
-                "dataKey": "230fnsodfsdhfon2",
-                "dataIv": "230fnsodfsdhfon2",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-    {
-      "key": "csp_瓜皮",
-      "name": "🐙｜瓜皮｜只能搜索用",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-      "timeout": 60,
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": 
-           {
-           "主页url":"https://www.gpvod.cc",
-           "副标题": "public-list-prb hide ft2\">&&</span>",
-           "数组": "class=\"public-list-div public-list-bj\">&&</div>",
-           "图片": "data-src=\"&&\"",
-           "标题": "title=\"&&\"",
-           "链接": "href=\"&&\"",
-           "搜索url": "https://www.gpvod.cc/vodsearch.html?wd={wd}",
-           "搜索数组": "class=\"left public-list-bj\">&&</div>",
-           "搜索图片": "data-src=\"&&\"",
-           "搜索标题": "alt=\"&&封面图\"referrerpolicy",
-           "搜索链接": "href=\"&&\"",
-           "搜索副标题": "public-list-prb hide ft2\">&&</span>",
-           "简介": "class=\"text cor3\">&&</div>",
-           "线路数组": "<a class=\"swiper-slide&&</a>",
-           "线路标题": "</i>&&<span",
-           "播放数组": "<ul class=\"anthology-list-play size\">&&</ul>",
-           "播放标题": "\">&&</a>",
-           "分类url": "https://www.gpvod.cc/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",    
-           "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#短剧$shuangju"
-           }
-    },
-    {
-      "key": "csp_廠長",
-      "name": "🐙｜廠長｜只能搜索用",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-      "timeout": 60,
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": 
-           {
-           "主页url":"https://www.czvod.cc/",
-           "分类url":"https://www.czvod.cc/type/{cateId}-{catePg}.html",
-           "分类": "电影$dianying#剧集$juji",
-           "数组":"class=\"stui-vodlist__box&&</h4>",
-           "标题":"title=\"&&\"",
-           "副标题":"class=\"pic-text text-right\"&&</span>",
-           "图片":"data-original=\"&&\"",
-           "链接":"href=\"&&\"",
-           "跳转播放链接":"src=\"&&\"",
-           "播放数组":"class=\"stui-content__playlist&&</ul>",
-           "播放列表":"<a&&</a>",
-           "播放标题":">&&</a>",
-           "线路数组":"class=\"stui-vodlist__head&&</div>",
-           "线路标题":">&&</h3>"
-           }
-    },
-    
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -366,7 +60,7 @@
     },
     {
       "key": "巧技",
-      "name": "🇹🇼｜搜索專用(只能用於搜索，含所有優等線路)",
+      "name": "🐙｜巧技｜只能用於搜索",
       "type": 3,
       "api": "csp_qiao2",
       "jar": "./jar/Qiaoji.jar;md5;5dd760d88db059e93c31f77a7e785d3e",
@@ -381,13 +75,78 @@
     },
     {
       "key": "苹果",
-      "name": "🇹🇼｜搜索專用2(只能用於搜索，4K畫質)",
+      "name": "🐙｜蘋果｜只能搜索用",
       "type": 3,
       "api": "./py/py_pingguo.py",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1
     },
+    {
+      "key": "csp_瓜皮",
+      "name": "🐙｜瓜皮｜只能搜索用",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+      "timeout": 60,
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+        "主页url": "https://www.gpvod.cc",
+        "副标题": "public-list-prb hide ft2\">&&</span>",
+        "数组": "class=\"public-list-div public-list-bj\">&&</div>",
+        "图片": "data-src=\"&&\"",
+        "标题": "title=\"&&\"",
+        "链接": "href=\"&&\"",
+        "搜索url": "https://www.gpvod.cc/vodsearch.html?wd={wd}",
+        "搜索数组": "class=\"left public-list-bj\">&&</div>",
+        "搜索图片": "data-src=\"&&\"",
+        "搜索标题": "alt=\"&&封面图\"referrerpolicy",
+        "搜索链接": "href=\"&&\"",
+        "搜索副标题": "public-list-prb hide ft2\">&&</span>",
+        "简介": "class=\"text cor3\">&&</div>",
+        "线路数组": "<a class=\"swiper-slide&&</a>",
+        "线路标题": "</i>&&<span",
+        "播放数组": "<ul class=\"anthology-list-play size\">&&</ul>",
+        "播放标题": "\">&&</a>",
+        "分类url": "https://www.gpvod.cc/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#短剧$shuangju"
+      }
+    },
+    {
+      "key": "csp_廠長",
+      "name": "🐙｜廠長｜只能搜索用",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+      "timeout": 60,
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+        "主页url" : "https://www.czvod.cc/",
+        "分类url" : "https://www.czvod.cc/type/{cateId}-{catePg}.html",
+        "分类"    : "电影$dianying#剧集$juji",
+        "数组"    : "class=\"stui-vodlist__box&&</h4>",
+        "标题"    : "title=\"&&\"",
+        "副标题"   : "class=\"pic-text text-right\"&&</span>",
+        "图片"    : "data-original=\"&&\"",
+        "链接"    : "href=\"&&\"",
+        "跳转播放链接": "src=\"&&\"",
+        "播放数组"  : "class=\"stui-content__playlist&&</ul>",
+        "播放列表"  : "<a&&</a>",
+        "播放标题"  : ">&&</a>",
+        "线路数组"  : "class=\"stui-vodlist__head&&</div>",
+        "线路标题"  : ">&&</h3>"
+      }
+    },    
     {
       "key": "py_又是一個金牌",
       "name": "🏆｜王牌｜藍光◎秒播(無廣告)",
@@ -462,29 +221,29 @@
       "api": "csp_AppGet2",
       "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
       "ext": {
-             "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
-             "url": "https://newappcms.cs4k.top",
-             "dataKey": "Z98KXaLtO2wC1Pte",
-             "dataIv": "Z98KXaLtO2wC1Pte",
-             "deviceId": "",
-             "version": "120"
-             }
+        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
+        "url": "https://newappcms.cs4k.top",
+        "dataKey": "Z98KXaLtO2wC1Pte",
+        "dataIv": "Z98KXaLtO2wC1Pte",
+        "deviceId": "",
+        "version": "120"
+      }
     },
-        {
-            "key": "爱看",
-            "name": "🏆｜爱看丨藍光◎卡頓(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-            "ext": {
-                "url": "http://154.37.220.65",
-                "dataKey": "uI1TkPJC8B46AyN3",
-                "dataIv": "uI1TkPJC8B46AyN3",
-                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-                "version": "120"
-            }
-        },    
+    {
+      "key": "爱看",
+      "name": "🏆｜爱看丨藍光◎卡頓(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "ext": {
+        "url"     : "http://154.37.220.65",
+        "dataKey" : "uI1TkPJC8B46AyN3",
+        "dataIv"  : "uI1TkPJC8B46AyN3",
+        "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
+        "version" : "120"
+      }
+    },
     {
       "key": "金牌app",
       "name": "🏆｜爆炸｜藍光◎順播(無廣告+APP)",
@@ -503,16 +262,15 @@
       "quickSearch": 1,
       "api": "csp_AppGet2",
       "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-      "ext": 
-           {
-           "url": "https://appcms.rx4k.top",
-           "site": "",
-           "dataKey": "ZX10ysTYZWtIJCTU",
-           "dataIv": "ZX10ysTYZWtIJCTU",
-           "deviceId": "",
-           "version": "120"
-           }
-    },  
+      "ext": {
+        "url"     : "https://appcms.rx4k.top",
+        "site"    : "",
+        "dataKey" : "ZX10ysTYZWtIJCTU",
+        "dataIv"  : "ZX10ysTYZWtIJCTU",
+        "deviceId": "",
+        "version" : "120"
+      }
+    },
     {
       "key": "海豚",
       "name": "🏆｜海豚｜藍光◎秒播(無廣告+APP)",
@@ -520,17 +278,15 @@
       "quickSearch": 1,
       "api": "csp_AppGet2",
       "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-      "ext": 
-           {
-           "url": "https://qjappcms.htsp4k.top",
-           "site": "",
-           "dataKey": "R69yVluzg6yLpjp0",
-           "dataIv": "R69yVluzg6yLpjp0",
-           "deviceId": "",
-           "version": ""
-           }
-    },        
-
+      "ext": {
+        "url"     : "https://qjappcms.htsp4k.top",
+        "site"    : "",
+        "dataKey" : "R69yVluzg6yLpjp0",
+        "dataIv"  : "R69yVluzg6yLpjp0",
+        "deviceId": "",
+        "version" : ""
+      }
+    },
     {
       "key": "萌新XBPQ_独播库",
       "name": "🏆｜獨播｜藍光◎秒播(網站關站中)",
@@ -594,10 +350,9 @@
     },
     {
       "key": "黑木影视",
-      "name": "🏆｜黑木耳｜藍光◎秒播(無廣告)",
+      "name": "🏆｜黑木耳｜藍光◎秒播(倒閉)",
       "type": 1,
       "api": "https://heimuer.ggff.net/api.php/tvbox",
-      //"playUrl": "json:https://heimuer.ggff.net/noads.php?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -646,16 +401,15 @@
       "quickSearch": 1,
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-      "ext":
-           {
-           "url": "https://appcms.xy4k.com",
-           "site": "",
-           "dataKey": "7SDWjknU34zqFbVr",
-           "dataIv": "7SDWjknU34zqFbVr",
-           "deviceId": "",
-           "version": ""
-           }
-    },    
+      "ext": {
+        "url"     : "https://appcms.xy4k.com",
+        "site"    : "",
+        "dataKey" : "7SDWjknU34zqFbVr",
+        "dataIv"  : "7SDWjknU34zqFbVr",
+        "deviceId": "",
+        "version" : ""
+      }
+    },
     {
       "key": "晴天",
       "name": "🏆｜晴天｜藍光◎秒播(無廣告+APP)",
@@ -701,6 +455,131 @@
         "分类url": "https://tv3.woxian.de/vodshow/{cateId}--------{catePg}---/",
         "简介"   : "水印广告勿信，谨防诈骗"
       }
+    },
+    {
+      "key": "米兔",
+      "name": "🏆｜米兔｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "ext": {
+        "url"     : "https://new.tkbot.fun",
+        "dataKey" : "d032c12876bc6848",
+        "dataIv"  : "d032c12876bc6848",
+        "deviceId": "",
+        "version" : "200"
+      }
+    },
+    {
+      "key": "py_播剧网",
+      "name": "🏆｜播剧网｜高清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/播剧网.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_统一影视",
+      "name": "🏆｜统一｜高清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/统一影视.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_天天APP",
+      "name": "🏆｜天天｜特清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/天天APP.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_浪酷APP",
+      "name": "🏆｜浪酷｜特清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/浪酷APP.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_cnotv",
+      "name": "🏆｜恐龍｜特清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/cnotv.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_泥视频",
+      "name": "🏆｜泥視｜特清◎秒播(廣告？+PY)",
+      "type": 3,
+      "api": "./py/泥视频.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_爱壹帆",
+      "name": "🏆｜愛帆｜高清◎秒播(浮水印廣告+PY)",
+      "type": 3,
+      "api": "./py/爱壹帆.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_厂长资源",
+      "name": "🏆｜大廠｜高清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/厂长资源.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "瓜子影视",
+      "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
+      "type": 3,
+      "jar": "https://mpimg.cn/down.php/2fb2ccf2b4e59d8714abbbf151f8ce46.jar",
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Jiaozi",
+      "name": "🏆｜餃子｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_Jiaozi",
+      "jar": "https://jihulab.com/yoursmile66/TVBox/-/raw/main/Yoursmile.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "py_jieyingshi",
+      "name": "🏆｜愛影｜特清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/vod_jieyingshi.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
     },
     {
       "key": "QD4K",
@@ -1578,59 +1457,154 @@
         "地区": "中国&大陆&内地&香港&台湾&日本&韩国&泰国&新加坡&马来西亚&越南&印度&美国&英国&德国&法国&意大利"
       }
     },
-        {
-            "key": "追星影视",
-            "name": "🥇｜追星｜高清◎卡頓(無廣告+PY)",
-            "type": 3,
-            "api": "./py/追星影视.py",
-            "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "py_云速影视",
-            "name": "🥇｜云速｜高清◎秒播(無廣告+PY)",
-            "type": 3,
-            "api": "./py/云速影视APP.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 1
-        },     
-        {
-            "key": "火猫",
-            "name": "📱｜火猫丨2K◎順播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-            "ext": {
-                "url": "",
-                "site": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/03.txt",
-                "dataKey": "J6AIORKJ3PQOJKM9",
-                "dataIv": "J6AIORKJ3PQOJKM9",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "若惜",
-            "name": "📱｜若惜｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-            "ext": {
-                "url": "http://110.40.59.188:9527",
-                "dataKey": "ebad3f1a58b13933",
-                "dataIv": "ebad3f1a58b13933",
-                "deviceId": "",
-                "version": ""
-            }
-        },        
+    {
+      "key": "追星影视",
+      "name": "🥇｜追星｜高清◎卡頓(無廣告+PY)",
+      "type": 3,
+      "api": "./py/追星影视.py",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "py_云速影视",
+      "name": "🥇｜云速｜高清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/云速影视APP.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "火猫",
+      "name": "📱｜火猫丨2K◎順播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "ext": {
+        "url"     : "",
+        "site"    : "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/03.txt",
+        "dataKey" : "J6AIORKJ3PQOJKM9",
+        "dataIv"  : "J6AIORKJ3PQOJKM9",
+        "deviceId": "",
+        "version" : ""
+      }
+    },
+    {
+      "key": "云速",
+      "name": "📱｜云速｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "ext": {
+        "site"    : "http://59.153.167.137:7788/1.json",
+        "url"     : "http://59.153.167.137:7788",
+        "dataKey" : "4d83b87c4c5ea111",
+        "dataIv"  : "4d83b87c4c5ea111",
+        "deviceId": "",
+        "version" : "105"
+      }
+    },
+    {
+      "key": "鲸鱼",
+      "name": "📱｜鯨魚｜高清◎順播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "ext": {
+        "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+        "url": "http://111.180.190.158:1122",
+        "dataKey": "AAdgrdghjfgswerA",
+        "dataIv": "AAdgrdghjfgswerA",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "乐达",
+      "name": "📱｜樂達｜高清◎順播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar",
+      "ext": {
+        "url"     : "https://ledayy.com",
+        "site"    : "",
+        "dataKey" : "hjjp68c2okw12345",
+        "dataIv"  : "hjjp68c2okw12345",
+        "deviceId": "",
+        "version" : ""
+      }
+    },
+    {
+      "key": "旗星",
+      "name": "📱｜旗星｜高清◎順播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0805.jar",
+      "ext": {
+        "url"     : "http://ys.qist.top",
+        "site"    : "",
+        "dataKey" : "2SWSPFxugBLPPOKo",
+        "dataIv"  : "2SWSPFxugBLPPOKo",
+        "deviceId": "",
+        "version" : "120"
+      }
+    },
+    {
+      "key": "云云",
+      "name": "📱｜雲雲｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "ext": {
+        "url": "",
+        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt",
+        "dataKey": "staraugust123456",
+        "dataIv": "staraugust123456",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "光影",
+      "name": "📱｜光影｜APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "ext": {
+        "url"     : "https://www.guangyingmi.com",
+        "dataKey" : "230fnsodfsdhfon2",
+        "dataIv"  : "230fnsodfsdhfon2",
+        "deviceId": "",
+        "version" : ""
+      }
+    },
+    {
+      "key": "若惜",
+      "name": "📱｜若惜｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "ext": {
+        "url"     : "http://110.40.59.188:9527",
+        "dataKey" : "ebad3f1a58b13933",
+        "dataIv"  : "ebad3f1a58b13933",
+        "deviceId": "",
+        "version" : ""
+      }
+    },
     {
       "key": "huomaoys",
       "name": "📱｜貓貓｜高清◎秒播(無廣告+APP)",
@@ -1647,16 +1621,15 @@
       "quickSearch": 1,
       "api": "csp_AppGet2",
       "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-      "ext": 
-           {
-           "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",  
-           "url"     : "http://122.228.193.2:9988",
-           "dataKey" : "ca94b06ca359d80e",
-           "dataIv"  : "ca94b06ca359d80e",
-           "deviceId": "",
-           "version" : "120"
-           }
-    },    
+      "ext": {
+        "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
+        "url": "http://122.228.193.2:9988",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
     {
       "key": "huomaoys",
       "name": "📱｜火猫｜高清◎順播(無廣告+APP)",
@@ -1731,14 +1704,14 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
       "ext": {
-        "site": "https://www.guahd.com/1.txt",
-        "url": "https://guahd.com/",
-        "dataKey": "f2A7D4B9E8C16531",
-        "dataIv": "f2A7D4B9E8C16531",
+        "site"    : "https://www.guahd.com/1.txt",
+        "url"     : "https://guahd.com/",
+        "dataKey" : "f2A7D4B9E8C16531",
+        "dataIv"  : "f2A7D4B9E8C16531",
         "deviceId": "",
-        "version": ""
+        "version" : ""
       }
-    },    
+    },
     {
       "key": "沐沐",
       "name": "📱｜沐沐｜高清◎秒播(無廣告+APP)",
@@ -1777,7 +1750,7 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
       "ext": {
-        "site": "https://bind.315999.xyz/89.txt",
+        "site"    : "https://bind.315999.xyz/89.txt",
         "url"     : "http://app.555618.xyz:1766",
         "dataKey" : "#getapp@TMD@2025",
         "dataIv"  : "#getapp@TMD@2025",
@@ -1818,7 +1791,7 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
       "ext": {
-        "site": "http://t.bffree.cn/1.txt",
+        "site"    : "http://t.bffree.cn/1.txt",
         "url"     : "https://api1.bffree.cn",
         "dataKey" : "2015692015692015",
         "dataIv"  : "2015692015692015",
@@ -1900,7 +1873,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 1
-    },    
+    },
     {
       "key": "雨滴",
       "name": "📱｜雨滴｜高清◎秒播(無廣告+APP)",
@@ -2088,12 +2061,12 @@
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
       "ext": {
-        "url"     : "http://121.62.22.204:9876",
+        "url": "http://121.62.22.204:9876",
         "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
-        "dataKey" : "n3l2tx5jdkp9s2c8",
-        "dataIv"  : "n3l2tx5jdkp9s2c8",
+        "dataKey": "n3l2tx5jdkp9s2c8",
+        "dataIv": "n3l2tx5jdkp9s2c8",
         "deviceId": "",
-        "version" : "361"
+        "version": "361"
       }
     },
     {
@@ -2107,7 +2080,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "7lj763gg402i7942463j9j9jg3498k93lhggih54828g332i1j"
-    },    
+    },
     {
       "key": "nk",
       "name": "📱｜耐摸｜藍光◎秒播(無廣告+APP)",
@@ -2855,7 +2828,7 @@
         "分类": "电影$1#剧集$2#综艺$3#动漫$4",
         "类型": "动作片$zilei1#喜剧片$zilei2#爱情片$zilei3#科幻片$zilei4#恐怖片$zilei5#剧情片$zilei6#战争片$zilei7#纪录片$jilupian#其他$qita||国产剧$8#港台剧$9#日韩剧$10#欧美剧$11#海外剧$haiwaiju||空||空"
       }
-    },          
+    },
     {
       "key": "csp_琥珀影院",
       "name": "🥉｜琥珀｜高清◎秒播(滿版廣告)",
@@ -3018,20 +2991,19 @@
       }
     },
     {
-      "key":"csp_XBPQ_工厂",
-      "name":"🥉｜奈飛｜高清◎秒播(滿版廣告)",
-      "type":3,
-      "api":"csp_XBPQ",
+      "key": "csp_XBPQ_工厂",
+      "name": "🥉｜奈飛｜高清◎秒播(滿版廣告)",
+      "type": 3,
+      "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":
-           {
-           "分类url":"https://www.netflixgc.com/vodtype/{cateId}.html",
-           "分类":"电影$1#电视剧$2#动漫$3"
-           }
-    },    
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://www.netflixgc.com/vodtype/{cateId}.html",
+        "分类"   : "电影$1#电视剧$2#动漫$3"
+      }
+    },
     {
       "key": "海纳影视",
       "name": "🥉｜海纳｜高清◎秒播(滿版廣告)",
@@ -3138,11 +3110,8 @@
         "json": "./json/bili歌曲.json",
         "cookie": "SESSDATA=819d93e8%2C1764426658%2C4ec10%2A61CjA74Z7n0isRlTABldomYIMAwyRBPDvLaJl9ERae-vTzTalKiYoDX6Qu9J0E5fof-h0SVlJfUUE0T1RLaExUQWloSUNBNG9ROEZQazBJX3FDX0VkWUFZQ0t2LXFtbnJmdUI1eEkwUnVJVl96Nk1sZTBDeFYtTkxVUjc5MjZsVjFWSENjR0hnZUVBIIEC;bili_jct=b655010f87e4dcb20ea46a191d23a443;DedeUserID=3546382984022310;DedeUserID__ckMd5=9728526c8c2ad2a5;sid=51az4mji"
       },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },    
+      "style": {"type": "rect", "ratio": 1.333}
+    },
     {
       "key": "csp_Kugou_FM",
       "name": "🎧｜酷狗聽歌",
@@ -3203,7 +3172,7 @@
       "changeable": 0,
       "style": {"type": "rect", "ratio": 1},
       "ext": "https://10526.kstore.vip/星河影视/KTV.js"
-    },    
+    },
     {
       "key": "vod_优质",
       "name": "🧲｜優質｜高清◎秒播(無廣告)",
@@ -3943,7 +3912,7 @@
       "filterable": 1,
       "order_num": 0,
       "ext": "./drpy_js/NT动漫[漫].js"
-    },    
+    },
     {
       "key": "drpy_js_去看吧",
       "name": "🎡｜去看动漫",
