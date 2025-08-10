@@ -5,9 +5,9 @@
   "lives": [
 
     {
-      "name": "(翻墙)SMT直播(python)",
+      "name": "SMT直播(python)",
       "type": 3,
-      "api": "https://d.kstore.dev/download/14756/python/live_smt.py",
+      "api": "./py/live_smt.py",
       "ext": {},
       "header": {
         "CLIENT-IP": "127.0.0.1",
@@ -16,48 +16,56 @@
     },
     {
       "name": "福利源",
+      "type": 0,
       "ext" : "./live/福利.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "藍星tv",
+      "type": 0,
       "ext" : "./live/藍星tv.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "晴天",
+      "type": 0,
       "ext" : "./live/晴天.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "tv543",
+      "type": 0,
       "ext" : "./live/tv543.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "fainiao",
+      "type": 0,
       "ext" : "./live/fainiao.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "210",
+      "type": 0,
       "ext" : "./live/210.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "169",
+      "type": 0,
       "ext" : "./live/169.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "142",
+      "type": 0,
       "ext" : "./live/142.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
