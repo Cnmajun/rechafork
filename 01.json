@@ -26,6 +26,47 @@
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+    {
+      "name": "晴天",
+      "ext" : "./live/晴天.txt",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "tv543",
+      "ext" : "./live/tv543.txt",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "fainiao",
+      "ext" : "./live/fainiao.txt",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "210",
+      "ext" : "./live/210.txt",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "169",
+      "ext" : "./live/169.txt",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "142",
+      "ext" : "./live/142.txt",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+
+
+
+
 
     {
       "jar" : "./jar/mqitv.jar",
