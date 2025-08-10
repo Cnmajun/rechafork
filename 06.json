@@ -4,46 +4,13 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "lives": [
 
+
     {
-      "name": "SMT直播(python)",
-      "type": 3,
-      "api": "./py/live_smt.py",
-      "ext": {},
-      "header": {
-        "CLIENT-IP": "127.0.0.1",
-        "X-FORWARDED-FOR": "127.0.0.1"
-      }
-    },
-    {
-      "name": "福利源",
-      "url" : "./live/福利.txt",
-      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "藍星tv",
-      "url" : "./live/蓝星TV.txt",
-      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "210(只有18+能看)",
-      "url" : "./live/210.txt",
-      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "黑軟(18+)",
-      "playerType": 1,
-      "url": "./live/999.txt",
-      "epg": "https://epg.pw/xmltv/epg.xml"
+      "name": "貓抓",
+      "url": "https://live.catvod.com/tv.m3u",
+      "ua": "catvod.com"
     },    
-    {
-      "name": "⏭｜FreesHot(18+)",
-      "type": 3,
-      "api": "./py/live_freeshot.py",
-      "ext": {}
-    },    
+
 
 
 
@@ -149,6 +116,16 @@
       "pass": true
     },
     {
+      "name": "SMT直播(python)",
+      "type": 3,
+      "api": "./py/live_smt.py",
+      "ext": {},
+      "header": {
+        "CLIENT-IP": "127.0.0.1",
+        "X-FORWARDED-FOR": "127.0.0.1"
+      }
+    },    
+    {
       "name": "香蕉-Gather",
       "url": "https://tv.iill.top/m3u/Gather",
       "ua": "okhttp/3.15",
@@ -156,6 +133,12 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
     },
+    {
+      "name": "藍星tv",
+      "url" : "./live/蓝星TV.txt",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },    
     {
       "name": "香蕉-MYTV",
       "url": "https://tv.iill.top/m3u/MyTV",
