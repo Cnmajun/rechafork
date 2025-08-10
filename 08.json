@@ -104,7 +104,9 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true,
-      "ua": "xieanqishiwoerzi/0.0.1"
+      //"ua": "xieanqishiwoerzi/0.0.1"
+      "ua": "xieanqishisb/0.0.1"
+      // "ua": "xieanqishiwosi/0.0.1"
     },
     {
       "name": "SMT直播(python)",
