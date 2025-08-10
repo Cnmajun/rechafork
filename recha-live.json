@@ -4,28 +4,9 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "lives": [
 
-    {
-      "name": "(翻墙)SMT直播(python)",
-      "type": 3,
-      "api": "https://d.kstore.dev/download/14756/python/live_smt.py",
-      "ext": {},
-      "header": {
-        "CLIENT-IP": "127.0.0.1",
-        "X-FORWARDED-FOR": "127.0.0.1"
-      }
-    },
-    {
-      "name": "福利源",
-      "ext" : "./live/福利.txt",
-      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "藍星tv",
-      "ext" : "./live/藍星tv.txt",
-      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
+
+
+
 
     {
       "jar" : "./jar/mqitv.jar",
@@ -73,19 +54,17 @@
       "ua": "xieanqishiwoerzi/0.0.1"
     },
     {
-      "name": "4GTV(ROB)",
-      "url": "./live/4gtv.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
       "name": "沐辰直播(Litv)",
       "type": 3,
       "api": "./py/live_litv.py",
       "ext": {},
       "pass": true
     },
+    {
+      "name": "貓抓",
+      "url": "https://live.catvod.com/tv.m3u",
+      "ua": "catvod.com"
+    },        
     {
       "name": "立方直播",
       "url": "http://breezy-audrie-zspace-7524863c.koyeb.app/sub?type=m3u&token=leifeng",
@@ -127,6 +106,23 @@
       "pass": true
     },
     {
+      "name": "SMT直播(python)",
+      "type": 3,
+      "api": "./py/live_smt.py",
+      "ext": {},
+      "header": {
+        "CLIENT-IP": "127.0.0.1",
+        "X-FORWARDED-FOR": "127.0.0.1"
+      }
+    },    
+    {
+      "name": "4GTV(ROB)",
+      "url": "./live/4gtv.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "pass": true
+    },    
+    {
       "name": "香蕉-Gather",
       "url": "https://tv.iill.top/m3u/Gather",
       "ua": "okhttp/3.15",
@@ -134,6 +130,12 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
     },
+    {
+      "name": "藍星tv",
+      "url" : "./live/蓝星TV.txt",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },    
     {
       "name": "香蕉-MYTV",
       "url": "https://tv.iill.top/m3u/MyTV",
