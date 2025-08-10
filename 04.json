@@ -16,49 +16,49 @@
     },
     {
       "name": "福利源",
-      "api" : "./live/福利.txt",
+      "url" : "./live/福利.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "藍星tv",
-      "api" : "./live/藍星tv.txt",
+      "url" : "./live/藍星tv.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "晴天",
-      "api" : "./live/晴天.txt",
+      "url" : "./live/晴天.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "tv543",
-      "api" : "./live/tv543.txt",
+      "url" : "./live/tv543.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "fainiao",
-      "api" : "./live/fainiao.txt",
+      "url" : "./live/fainiao.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "210",
-      "api" : "./live/210.txt",
+      "url" : "./live/210.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "169",
-      "api" : "./live/169.txt",
+      "url" : "./live/169.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "142",
-      "api" : "./live/142.txt",
+      "url" : "./live/142.txt",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
