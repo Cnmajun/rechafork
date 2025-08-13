@@ -192,6 +192,16 @@
       }
     }, 
     {
+      "key": "py_stripchat",
+      "name": "⏭｜py_stripchat",
+      "type": 3,
+      "api": "./py/py_stripchat.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1
+    },      
+    {
       "key": "py_xvd.py",
       "name": "⏭｜xvideos｜PYTHON",
       "type": 3,
