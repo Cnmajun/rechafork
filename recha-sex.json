@@ -192,6 +192,20 @@
       }
     }, 
     {
+      "key": "py_MrJav",
+      "name": "🔞MRJav(沐辰)｜PYTHON",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=MrJav",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    }    
+    {
       "key": "py_stripchat",
       "name": "⏭｜py_stripchat",
       "type": 3,
@@ -555,7 +569,7 @@
     },
     {
       "key": "php_madou",
-      "name": "🔞麻豆(T4)",
+      "name": "🔞麻豆(沐辰)",
       "type": 4,
       "api": "https://doubebly.doube.eu.org/madou.php",
       "searchable": 1,
@@ -566,7 +580,7 @@
     },
     {
       "key": "php_madou",
-      "name": "🔞麻豆-T4",
+      "name": "🔞麻豆(沐辰)",
       "type": 4,
       "api": "https://json.doube.eu.org/app/index.php?site=dbmadou",
       "jar": "./jar/xyqxbpq.jar",
