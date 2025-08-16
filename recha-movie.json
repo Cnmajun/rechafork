@@ -2,13 +2,13 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.16 Ver.C(8/17要測源)",
+  "notice": "版本：114.08.16 Ver.D(8/17要測源)",
   "sites": [
 
 
         {
             "key": "多多动漫",
-            "name": "多多｜动漫",
+            "name": "🎡｜多多动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -58,7 +58,7 @@
         },         
         {
             "key": "加菲",
-            "name": "加菲丨APP",
+            "name": "📱｜加菲丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -74,22 +74,8 @@
             }
         },    
         {
-            "key": "爱影",
-            "name": "爱影｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
-            "ext": {
-                "url": "http://110.42.7.59:11822",
-                "key1": "aassddwwxxllsx1x",
-                "key2": "1e765e9b09b4dbba",
-                "key3": "1e765e9b09b4dbba"
-            }
-        },
-        {
             "key": "狂人",
-            "name": "狂人 I APP",
+            "name": "📱｜狂人丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -104,7 +90,7 @@
         },
         {
             "key": "莱米",
-            "name": "莱米｜APP",
+            "name": "📱｜莱米｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
