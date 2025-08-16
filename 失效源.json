@@ -293,19 +293,7 @@
         "version" : "50000"
       }
     },    
-        {
-            "key": "斗量",
-            "name": "📱｜斗量｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "api": "csp_AppSy",
-            "jar": "./jar/xiaosa-0816.jar",
-            "ext": {
-                "url": "https://app.ystva.com",
-                "key1": "hsZwQK5yrnefW7OJ",
-                "key2": "hsZwQK5yrnefW7OJ",
-                "key3": "hsZwQK5yrnefW7OJ"
-            }
-        },
+
 
 
     {

@@ -19,26 +19,7 @@
             "filterable": 1,
             "playerType": 2
         },      
-      {
-        "key": "csp_HK_91短剧",
-        "name": "📺｜91短剧",
-        "type": 3,
-        "api": "csp_AppXY",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "jar":"./jar/PandaQ250227c.jar;md5;ceda5421cdce5fad2a2f6d8c71ae4311"
-      },
-    {
-      "key": "剧王短剧",
-      "name": "📺｜短剧王",
-      "type": 3,
-      "api": "./py/剧王短剧.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },      
+ 
     {
       "key": "csp_短劇網",
       "name": "📺｜短劇網",
