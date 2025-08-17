@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.16 Ver.D(8/17要測源)",
+  "notice": "版本：114.08.17 Ver.D(今天要測新增的源)",
   "sites": [
 
 
@@ -117,10 +117,42 @@
                 "key3": "hsZwQK5yrnefW7OJ"
             }
         },
-
-
-
-
+		{
+			"key": "csp_FreeOk",
+			"name": "🏆｜Frek",
+			"type": 3,
+			"quickSearch": 0,
+			"api": "csp_FreeOk",
+	    "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416"
+		},
+		{
+			"key": "追忆",
+			"name": "📱｜追忆",
+			"type": 3,
+			"api": "csp_AppSy",
+	    "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
+			"quickSearch": 0,
+			"ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeWtPAwa8PAzOjbdregJfgecQjmbgYlvm+1rK87EwCqgaovlgh315Qrh90D+nl+f08o="
+		},
+		{
+			"key": "金牌APP",
+			"name": "🏆｜爆炸",
+			"quickSearch": 0,
+			"type": 3,
+			"api": "csp_AppMuou",
+	    "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
+			"ext": "ewogICJTaXRlVXJsIjogImh0dHBzOi8vbXVvdS53bGJicS54eXoiLAogICJFeHQiOiAiaXA5K1dadnQ5ODNzUzAwOGtyTktobno4Q2Fzb2d3QjlLYkp2U0FmNGJRZEg5aUlGVHE4Y0tGM3Y4RFBicnphUiIsCiAgIkluZm8iOiAiaHR0cHM6Ly9tdW91aHQuZ2d0dmIuY2MiCn0="
+		},
+    {
+      "key": "py_貓眼",
+      "name": "🏆｜貓眼｜藍光◎秒播",
+      "type": 3,
+      "api": "./py/mioaying.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },    
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -335,17 +367,6 @@
         "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
         "version" : "120"
       }
-    },
-    {
-      "key": "金牌app",
-      "name": "🏆｜爆炸｜藍光◎順播(無廣告+APP)",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "csp_Muou",
-      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
-      "playerType": 2,
-      "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
     },
     {
       "key": "若雪",

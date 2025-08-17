@@ -241,16 +241,7 @@
         "version" : "200"
       }
     },    
-    {
-      "key": "py_貓眼",
-      "name": "🏆｜貓眼｜藍光◎秒播(網站掛了)",
-      "type": 3,
-      "api": "./py/mioaying.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },    
+
     {
       "key": "魔方app",
       "name": "🏆｜魔方｜藍光◎秒播(無廣告+APP)",
