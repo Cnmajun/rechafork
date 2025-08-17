@@ -16,7 +16,7 @@
       "ext": {
         "线路数组": "class=\"playlist-mobile playlist layout-box clearfix&&</ul>",
         "线路标题": ">&&</a>",
-        "数组": "class=\"col-md-2 col-sm-3 col-xs-4\"&&</ul>",
+        "数组": "class=\"col-md-2 col-sm-3 col-xs-4\"&&</li>",
         "简介": "details-content-all\">&&</span>",
         "搜索url": "https://www.nivod.app/vod-search/page/{pg}/wd/{wd}.html",
         "分类url": "https://www.nivod.app/vod-show-{cateId}/area/{area}/by/{by}/page/{catePg}/year/{year}.html",
