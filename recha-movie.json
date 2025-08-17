@@ -8,17 +8,10 @@
 
 
  
-		{
-			"key": "csp_FreeOk",
-			"name": "🏆｜Frek",
-			"type": 3,
-			"quickSearch": 0,
-			"api": "csp_FreeOk",
-	    "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416"
-		},
+
 		{
 			"key": "追忆",
-			"name": "📱｜追忆",
+			"name": "📱｜追忆｜高清◎順播(連續劇含短劇)",
 			"type": 3,
 			"api": "csp_AppSy",
 	    "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
@@ -143,7 +136,15 @@
         "线路数组"  : "class=\"stui-vodlist__head&&</div>",
         "线路标题"  : ">&&</h3>"
       }
-    },    
+    },
+		{
+			"key": "csp_FreeOk",
+			"name": "🐙｜Frek｜只能搜索用",
+			"type": 3,
+			"quickSearch": 0,
+			"api": "csp_FreeOk",
+	    "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416"
+		},    
     {
       "key": "py_又是一個金牌",
       "name": "🏆｜王牌｜藍光◎秒播(無廣告)",
