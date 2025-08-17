@@ -4,21 +4,6 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "notice": "版本：114.08.17 Ver.A(今天要測新增的源)",
   "sites": [
-
-
-
- 
-
-		{
-			"key": "追忆",
-			"name": "📱｜追忆｜高清◎順播(連續劇含短劇)",
-			"type": 3,
-			"api": "csp_AppSy",
-	    "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
-			"quickSearch": 0,
-			"ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeWtPAwa8PAzOjbdregJfgecQjmbgYlvm+1rK87EwCqgaovlgh315Qrh90D+nl+f08o="
-		},
- 
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -137,14 +122,14 @@
         "线路标题"  : ">&&</h3>"
       }
     },
-		{
-			"key": "csp_FreeOk",
-			"name": "🐙｜Frek｜只能搜索用",
-			"type": 3,
-			"quickSearch": 0,
-			"api": "csp_FreeOk",
-	    "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416"
-		},    
+    {
+      "key": "csp_FreeOk",
+      "name": "🐙｜Frek｜只能搜索用",
+      "type": 3,
+      "quickSearch": 0,
+      "api": "csp_FreeOk",
+      "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416"
+    },
     {
       "key": "py_又是一個金牌",
       "name": "🏆｜王牌｜藍光◎秒播(無廣告)",
@@ -274,60 +259,60 @@
         "version" : ""
       }
     },
-        {
-            "key": "加菲",
-            "name": "🏆｜加菲｜藍光◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
-            "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",              
-                "url": "http://app.mgtv.co",
-                "dataKey": "dksvndkaAjekakcE",
-                "dataIv": "dksvndkaAjekakcE",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },    
-        {
-            "key": "狂人",
-            "name": "🏆｜狂人｜藍光◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
-            "ext": {
-                "url": "https://www.zjkrmv.vip",
-                "dataKey": "vXeyuJFqTKqWUtWU",
-                "dataIv": "vXeyuJFqTKqWUtWU",
-                "deviceId": "",
-                "version": ""
-            }
-        },        
-        {
-            "key": "斗量",
-            "name": "🏆｜斗量｜藍光◎秒播(無廣告+APP)",
-            "type": 3,
-            "api": "csp_AppSy",
-            "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
-            "ext": {
-                "url": "https://app.ystva.com",
-                "key1": "hsZwQK5yrnefW7OJ",
-                "key2": "hsZwQK5yrnefW7OJ",
-                "key3": "hsZwQK5yrnefW7OJ"
-            }
-        },    
-		{
-			"key": "金牌APP",
-			"name": "🏆｜爆炸｜藍光◎秒播(無廣告+APP)",
-			"quickSearch": 0,
-			"type": 3,
-			"api": "csp_AppMuou",
-	    "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
-			"ext": "ewogICJTaXRlVXJsIjogImh0dHBzOi8vbXVvdS53bGJicS54eXoiLAogICJFeHQiOiAiaXA5K1dadnQ5ODNzUzAwOGtyTktobno4Q2Fzb2d3QjlLYkp2U0FmNGJRZEg5aUlGVHE4Y0tGM3Y4RFBicnphUiIsCiAgIkluZm8iOiAiaHR0cHM6Ly9tdW91aHQuZ2d0dmIuY2MiCn0="
-		},
+    {
+      "key": "加菲",
+      "name": "🏆｜加菲｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
+      "ext": {
+        "site"    : "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
+        "url"     : "http://app.mgtv.co",
+        "dataKey" : "dksvndkaAjekakcE",
+        "dataIv"  : "dksvndkaAjekakcE",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "狂人",
+      "name": "🏆｜狂人｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
+      "ext": {
+        "url"     : "https://www.zjkrmv.vip",
+        "dataKey" : "vXeyuJFqTKqWUtWU",
+        "dataIv"  : "vXeyuJFqTKqWUtWU",
+        "deviceId": "",
+        "version" : ""
+      }
+    },
+    {
+      "key": "斗量",
+      "name": "🏆｜斗量｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_AppSy",
+      "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
+      "ext": {
+        "url" : "https://app.ystva.com",
+        "key1": "hsZwQK5yrnefW7OJ",
+        "key2": "hsZwQK5yrnefW7OJ",
+        "key3": "hsZwQK5yrnefW7OJ"
+      }
+    },
+    {
+      "key": "金牌APP",
+      "name": "🏆｜爆炸｜藍光◎秒播(無廣告+APP)",
+      "quickSearch": 0,
+      "type": 3,
+      "api": "csp_AppMuou",
+      "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
+      "ext": "ewogICJTaXRlVXJsIjogImh0dHBzOi8vbXVvdS53bGJicS54eXoiLAogICJFeHQiOiAiaXA5K1dadnQ5ODNzUzAwOGtyTktobno4Q2Fzb2d3QjlLYkp2U0FmNGJRZEg5aUlGVHE4Y0tGM3Y4RFBicnphUiIsCiAgIkluZm8iOiAiaHR0cHM6Ly9tdW91aHQuZ2d0dmIuY2MiCn0="
+    },
     {
       "key": "py_貓眼",
       "name": "🏆｜貓眼｜藍光◎秒播(無廣告+PY)",
@@ -337,7 +322,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1
-    },   
+    },
     {
       "key": "公共",
       "name": "🏆｜公共｜藍光◎秒播(無廣告)",
@@ -1493,7 +1478,7 @@
         "version" : ""
       }
     },
-   {
+    {
       "key": "咖啡",
       "name": "📱｜咖啡｜高清◎秒播(無廣告+APP)",
       "type": 3,
@@ -1501,49 +1486,48 @@
       "api": "csp_AppQi",
       "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
       "ext": {
-             "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
-             "url": "http://160.202.246.9:1996",             
-             "dataKey": "37kj83zs1q16jk6t",
-             "dataIv": "37kj83zs1q16jk6t",
-             "deviceId": "",
-             "version": "101",
-             "ua": ""
-            }
-    },   
-        {
-            "key": "哔滴",
-            "name": "📱｜嗶滴丨高清◎順播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
-            "ext": {
-                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
-                "url": "https://test.cms.bidiys.com/",
-                "dataKey": "5ae8ee4bb95ea0ce",
-                "dataIv": "5ae8ee4bb95ea0ce",
-                "deviceId": "",
-                "version": "120",
-                "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
-            }
-        },         
-
-        {
-            "key": "莱米",
-            "name": "📱｜莱米｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
-            "ext": {
-                "site": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
-                "url": "http://laimi.lmapp.org",
-                "dataKey": "ce032244d093b3e2",
-                "dataIv": "ce032244d093b3e2",
-                "deviceId": "",
-                "version": ""
-            }
-        },    
+        "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
+        "url": "http://160.202.246.9:1996",
+        "dataKey": "37kj83zs1q16jk6t",
+        "dataIv": "37kj83zs1q16jk6t",
+        "deviceId": "",
+        "version": "101",
+        "ua": ""
+      }
+    },
+    {
+      "key": "哔滴",
+      "name": "📱｜嗶滴丨高清◎順播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
+      "ext": {
+        "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
+        "url": "https://test.cms.bidiys.com/",
+        "dataKey": "5ae8ee4bb95ea0ce",
+        "dataIv": "5ae8ee4bb95ea0ce",
+        "deviceId": "",
+        "version": "120",
+        "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
+      }
+    },
+    {
+      "key": "莱米",
+      "name": "📱｜莱米｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
+      "ext": {
+        "site": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
+        "url": "http://laimi.lmapp.org",
+        "dataKey": "ce032244d093b3e2",
+        "dataIv": "ce032244d093b3e2",
+        "deviceId": "",
+        "version": ""
+      }
+    },
     {
       "key": "云速",
       "name": "📱｜云速｜高清◎秒播(無廣告+APP)",
@@ -2028,7 +2012,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 1
-    },    
+    },
     {
       "key": "csp_sbb",
       "name": "📱｜布布｜高清◎秒播(無廣告+APP)",
@@ -2163,6 +2147,15 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKewpvDncOpw57Cp8OnwphXXFDCoMOnw6PDqcKhbVBXwovlh77phZvmkJ/lkZzCpuWGn+S9h+WQp2rlv6roqLnotr7mvInnrZPCkFdcUMKgw5fDn8Ocw6zCrMKgwqR7w57DrMKhwrPCmlrCp8KlwqnDosKpwrDCr8KhwrA="
+    },
+    {
+      "key": "追忆",
+      "name": "📱｜追忆｜高清◎順播(連續劇含短劇)",
+      "type": 3,
+      "api": "csp_AppSy",
+      "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
+      "quickSearch": 0,
+      "ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeWtPAwa8PAzOjbdregJfgecQjmbgYlvm+1rK87EwCqgaovlgh315Qrh90D+nl+f08o="
     },
     {
       "key": "csp_Uvod",
@@ -3607,29 +3600,29 @@
       "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
       "ext": {
         "site": "https://xfapp-1305390065.cos.ap-guangzhou.myqcloud.com/getapp.txt",
-        "url"     : "https://pzoap.moedot.net",
-        "dataKey" : "1yZ2Spn9krnzVKoC",
-        "dataIv"  : "1yZ2Spn9krnzVKoC",
+        "url": "https://pzoap.moedot.net",
+        "dataKey": "1yZ2Spn9krnzVKoC",
+        "dataIv": "1yZ2Spn9krnzVKoC",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "多多动漫",
+      "name": "🎡｜多多动漫",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
+      "ext": {
+        "url"     : "",
+        "site"    : "https://app.cf4k.xyz/1.txt",
+        "dataKey" : "qqqqqqqqqqqqqqqq",
+        "dataIv"  : "qqqqqqqqqqqqqqqq",
         "deviceId": "",
         "version" : ""
       }
     },
-        {
-            "key": "多多动漫",
-            "name": "🎡｜多多动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0816.jar;md5;d771954ac1b0ec81ffc00ef8763ec51b",
-            "ext": {
-                "url": "",
-                "site": "https://app.cf4k.xyz/1.txt",
-                "dataKey": "qqqqqqqqqqqqqqqq",
-                "dataIv": "qqqqqqqqqqqqqqqq",
-                "deviceId": "",
-                "version": ""
-            }
-        },
     {
       "key": "py_MiFun",
       "name": "🎡｜MiFun｜PYTHON",
