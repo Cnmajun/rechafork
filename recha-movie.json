@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.17 Ver.A(今天要測新增的源)",
+  "notice": "版本：114.08.19 Ver.A(追個劇，一堆源跑不起來，氣氣氣氣氣！__！)",
   "sites": [
     {
       "key": "豆瓣",
@@ -177,23 +177,23 @@
       "filterable": 1
     },
     {
-      "key": "剧粑",
-      "name": "🏆｜銅牌｜藍光◎秒播(無廣告)",
+      "key": "py_统一影视",
+      "name": "🏆｜銅牌｜高清◎秒播(無廣告+PY)",
       "type": 3,
-      "api": "./py/py_jubaba.py",
+      "api": "./py/统一影视.py",
       "searchable": 1,
+      "quickSearch": 0,
       "filterable": 0,
-      "changeable": 1
+      "changeable": 0
     },
     {
-      "key": "Qile优视频",
-      "name": "🏆｜鐵牌｜藍光◎秒播(無廣告)",
+      "key": "瓜子影视",
+      "name": "🏆｜鐵牌｜特清◎秒播(無廣告)",
       "type": 3,
+      "jar": "https://mpimg.cn/down.php/2fb2ccf2b4e59d8714abbbf151f8ce46.jar",
+      "api": "csp_Gz360",
       "searchable": 1,
-      "changeable": 1,
-      "api": "csp_Uvod",
-      "jar": "./jar/custom_spider.jar;md5;5e53c8f9ddd4ede5359c16bee091db93",
-      "playerType": 2,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -344,6 +344,16 @@
       "changeable": 0
     },
     {
+      "key": "py_天天APP",
+      "name": "🏆｜天天｜特清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/天天APP.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },    
+    {
       "key": "厂长",
       "name": "🏆｜廠長｜高清◎秒播(無廣告)",
       "type": 3,
@@ -420,6 +430,26 @@
       "changeable": 1
     },
     {
+      "key": "剧粑",
+      "name": "🏆｜剧粑｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "api": "./py/py_jubaba.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "Qile优视频",
+      "name": "🏆｜優視｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_Uvod",
+      "jar": "./jar/custom_spider.jar;md5;5e53c8f9ddd4ede5359c16bee091db93",
+      "playerType": 2,
+      "filterable": 1
+    },    
+    {
       "key": "csp_我闲影院",
       "name": "🏆｜我闲｜高清◎秒播(無廣告)",
       "type": 3,
@@ -465,26 +495,6 @@
       "changeable": 0
     },
     {
-      "key": "py_统一影视",
-      "name": "🏆｜统一｜高清◎秒播(無廣告+PY)",
-      "type": 3,
-      "api": "./py/统一影视.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "py_天天APP",
-      "name": "🏆｜天天｜特清◎秒播(無廣告+PY)",
-      "type": 3,
-      "api": "./py/天天APP.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
       "key": "py_浪酷APP",
       "name": "🏆｜浪酷｜特清◎秒播(無廣告+PY)",
       "type": 3,
@@ -523,16 +533,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "changeable": 0
-    },
-    {
-      "key": "瓜子影视",
-      "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
-      "type": 3,
-      "jar": "https://mpimg.cn/down.php/2fb2ccf2b4e59d8714abbbf151f8ce46.jar",
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "csp_Jiaozi",
