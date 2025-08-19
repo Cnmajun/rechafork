@@ -64,23 +64,7 @@
         "version" : "110"
       }
     },      
-    {
-      "key": "星河2",
-      "name": "📱｜星河｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0816.jar",
-      "ext": {
-        "url"     : "http://121.62.22.204:9876",
-        "dataKey" : "f5e2tx53ykp6s2c9",
-        "dataIv"  : "f5e2tx53ykp6s2c9",
-        "deviceId": "",
-        "version" : "361"
-      }
-    },
+
     {
       "key": "电影",
       "name": "📱｜电影｜高清◎順播(無廣告+APP)",
