@@ -5,6 +5,17 @@
   "notice": "版本：114.08.19 Ver.A(追個劇，一堆源跑不起來，氣氣氣氣氣！__！)",
   "sites": [
 
+
+    {
+      "key": "虎牙",
+      "name": "虎牙",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
+      "searchable": 1,
+      "changeable": 1
+      //"categories": 
+    }
+
     {
       "key": "星河",
       "name": "📱｜星河｜高清◎秒播(無廣告+APP)",
