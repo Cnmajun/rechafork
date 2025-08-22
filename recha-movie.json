@@ -32,31 +32,31 @@
              "key3": "aassddwwxxllsx1x"
              }
     },
-		{
-			"key": "爱影视",
-			"name": "🏆｜爱盈┃测试",
-			"quickSearch": 0,
-			"searchable": 1,
-			"type": 3,
-			"api": "./py/getapp3.4.2.py",
+	{
+	  "key": "爱影视",
+	  "name": "🏆｜爱盈┃測試+4K",
+	  "quickSearch": 0,
+	  "searchable": 1,
+	  "type": 3,
+	  "api": "./py/getapp3.4.2.py",
       "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
       "ext": {
-             "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
+             "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
              "url": "http://app.mgtv.co",
              "datakey": "dksvndkaAjekakcE",
              "api": 2
              }
-		},
-		{
-			"key": "鲸鱼",
-			"name": "🏆｜鲸鱼｜测试",
-			"quickSearch": 0,
-			"searchable": 1,
-			"type": 3,
-			"api": "./py/getapp3.4.2.py",
+	},
+	{
+      "key": "鲸鱼",
+	  "name": "🏆｜鲸鱼｜測試+4K",
+	  "quickSearch": 0,
+	  "searchable": 1,
+	  "type": 3,
+	  "api": "./py/getapp3.4.2.py",
       "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",		
       "ext": {
-             "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+             "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
              "url": "http://103.217.207.75:1122",
              "datakey": "AAdgrdghjfgswerA",
              "api": 2
