@@ -2,13 +2,13 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.19 Ver.B(追個劇，一堆源跑不起來，氣氣氣氣氣！__！)",
+  "notice": "版本：114.08.22 Ver.A(好想睡覺，但睡不著)",
   "sites": [
 
 
     {
       "key": "虎牙",
-      "name": "虎牙",
+      "name": "🧲｜虎牙",
       "type": 1,
       "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
       "searchable": 1,
@@ -34,7 +34,7 @@
     },
 		{
 			"key": "爱影视",
-			"name": "🎴爱盈┃测试",
+			"name": "🏆｜爱盈┃测试",
 			"quickSearch": 0,
 			"searchable": 1,
 			"type": 3,
@@ -49,7 +49,7 @@
 		},
 		{
 			"key": "鲸鱼",
-			"name": "🐋鲸鱼┃测试",
+			"name": "🏆｜鲸鱼｜测试",
 			"quickSearch": 0,
 			"searchable": 1,
 			"type": 3,
