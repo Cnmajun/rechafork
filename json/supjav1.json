@@ -1,5 +1,5 @@
 {
-  "规则名": "supjav-XYQHiker",
+"规则名": "supjav-XYQHiker",
   "规则作者": "飞鱼",
   "请求头参数": "手机",
   "网页编码格式": "UTF-8",
@@ -40,7 +40,7 @@
   "搜索片单副标题": ".meta&&Text",
   "搜索片单链接加前缀": "",
   "搜索片单链接加后缀": "",
-  "链接是否直接播放": "0",
+  "链接是否直接播放": "1",
   "直接播放链接加前缀": "",
   "直接播放链接加后缀": "",
   "直接播放直链视频请求头": "",
@@ -63,7 +63,7 @@
   "分析MacPlayer": "0",
   "是否開啟手動嗅探": "1",
   "手動嗅探視頻連結關鍵詞": ".m3u8#.mp4",
-  "手動嗅探視頻連結過濾詞": "baidu.com#edge-hls.sacdnssedge.com#480p.m3u8#doppiocdn.net#edge-hls#hotzcam.com",
+  "手動嗅探視頻連結過濾詞": "baidu.com#edge-hls.sacdnssedge.com#480p.m3u8#doppiocdn.net#edge-hls#hotzcam.com#trackwilltrk.com",
 "篩選數據": {
 "popular":[
 {"key":"by",
