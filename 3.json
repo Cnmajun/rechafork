@@ -13,18 +13,6 @@
   "notice": "版本：114.08.23",
 
   "sites": [
-
-{
-   "key": "🈲🔞javxx",
-   "name": "🈲🔞JAVXX",
-   "type": 3,
-   "api": "./drpy_libs/drpy2.min.js",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "order_num": 0,
-   "ext": "./js/JAVXX（优）.js"
-  },
     {
       "key": "csp_XYQHiker_supjav",
       "name": "🔞SupJAV",
@@ -36,6 +24,18 @@
       "ext": "./json/supjav1.json",
       "style": {"type": "rect", "ratio": 1.6}
     },
+{
+   "key": "🈲🔞javxx",
+   "name": "🈲🔞JAVXX",
+   "type": 3,
+   "api": "./drpy_libs/drpy2.min.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 0,
+   "ext": "./js/JAVXX（优）.js"
+  },
+
 
     {
       "key": "麻豆",
