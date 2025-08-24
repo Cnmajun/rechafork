@@ -15,24 +15,6 @@
       "jar": "./jar/xinghe.txt",
       "ext": "http://dyxz4.com/"
     },
-    {
-      "key": "星河",
-      "name": "📱｜星河｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "csp_AppSy",
-      "jar": "./jar/xiaosa-0819.jar;md5;4d0b9799b44bf036c9b86a8a00aa031d",
-      "ext": {
-             "url": "http://192.140.161.171:2563",
-             "key1": "aassddwwxxllsx1x",
-             "key2": "aassddwwxxllsx1x",
-             "key3": "aassddwwxxllsx1x"
-             }
-    },
-
-
 
     {
       "key": "豆瓣",
@@ -1579,6 +1561,22 @@
         "version": ""
       }
     },
+    {
+      "key": "星河",
+      "name": "📱｜星河｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_AppSy",
+      "jar": "./jar/xiaosa-0819.jar;md5;4d0b9799b44bf036c9b86a8a00aa031d",
+      "ext": {
+             "url": "http://192.140.161.171:2563",
+             "key1": "aassddwwxxllsx1x",
+             "key2": "aassddwwxxllsx1x",
+             "key3": "aassddwwxxllsx1x"
+             }
+    },    
     {
       "key": "云速",
       "name": "📱｜云速｜高清◎秒播(無廣告+APP)",
