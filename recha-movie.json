@@ -10,6 +10,7 @@
       "name":"奇優(3代)｜待測",
       "type": 3,
       "api": "csp_XBPQ",
+      "timeout": 120,
       "jar":"./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "searchable": 1,
       "quickSearch": 1,
@@ -20,6 +21,7 @@
       "key": "csp_Qiyou",
       "name": "奇優(2代)｜待測",
       "type": 3,
+      "timeout": 120,
       "api": "csp_Qiyou",
       "jar": "./jar/xinghe.txt",
       "ext": "http://dyxz4.com/"
