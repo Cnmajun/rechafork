@@ -22,17 +22,20 @@
              }
     },
     {
-      "key": "csp_FourK",
-      "name": "🌋绝对",
+      "key": "csp_4K影院",
+      "name": "4K影院｜待測",
       "type": 3,
-      "api": "csp_FourK",
-      "jar": "./jar/Yoursmile.jar",
-      "playerType": "2",
+      "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.4kvm.me/"
-    },
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+             "分类url": "https://www.4kvm.me/{cateId}/page/{catePg}",
+             "分类": "电影$movies#电视剧$tvshows"
+             }
+    },    
+
 
 
 
