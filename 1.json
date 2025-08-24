@@ -2,44 +2,68 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.24 Ver.A(好想睡覺，但睡不著)",
+  "notice": "版本：114.08.24 Ver.B(天亮了，天黑了)",
   "sites": [
+
+    {
+      "key": "csp_奇優影院",
+      "name": "奇庫｜test",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+        "分类url": "https://qkys4.cc/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#紀錄片$5#短劇$7",
+        "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他"
+      }
+    },
+
+
+
+
+
+
 
 
     {
-      "key": "虎牙",
-      "name": "🧲｜虎牙",
-      "type": 1,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
+      "key": "奇优",
+      "name":"奇優(3代)｜待測",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "timeout": 120,
+      "jar":"./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "searchable": 1,
-      "changeable": 1
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":"./json/奇優.json"
     },
     {
       "key": "csp_Qiyou",
-      "name": "七友｜待測",
+      "name": "奇優(2代)｜待測",
       "type": 3,
+      "timeout": 120,
       "api": "csp_Qiyou",
       "jar": "./jar/xinghe.txt",
       "ext": "http://dyxz4.com/"
     },
     {
-      "key": "星河",
-      "name": "📱｜星河｜高清◎秒播(無廣告+APP)",
+      "key": "csp_奇優影院",
+      "name": "🥈｜奇優(原始版)｜高清◎秒播(浮水印廣告)",
       "type": 3,
+      "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "csp_AppSy",
-      "jar": "./jar/xiaosa-0819.jar;md5;4d0b9799b44bf036c9b86a8a00aa031d",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
-             "url": "http://192.140.161.171:2563",
-             "key1": "aassddwwxxllsx1x",
-             "key2": "aassddwwxxllsx1x",
-             "key3": "aassddwwxxllsx1x"
-             }
+        "分类url": "https://www.qyvod.com/qyshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+        "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他"
+      }
     },
-
-
 
     {
       "key": "豆瓣",
@@ -239,6 +263,7 @@
       "type": 3,
       "api": "csp_Muou",
       "jar": "./jar/0615qj.jpg;md5;410ad21caad9e6f6d40c1ae5ca2be662",
+      "timeout": 240,
       "playerType": 2,
       "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
     },      
@@ -1586,6 +1611,22 @@
       }
     },
     {
+      "key": "星河",
+      "name": "📱｜星河｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_AppSy",
+      "jar": "./jar/xiaosa-0819.jar;md5;4d0b9799b44bf036c9b86a8a00aa031d",
+      "ext": {
+             "url": "http://192.140.161.171:2563",
+             "key1": "aassddwwxxllsx1x",
+             "key2": "aassddwwxxllsx1x",
+             "key3": "aassddwwxxllsx1x"
+             }
+    },    
+    {
       "key": "云速",
       "name": "📱｜云速｜高清◎秒播(無廣告+APP)",
       "type": 3,
@@ -2761,21 +2802,6 @@
       }
     },
     {
-      "key": "csp_奇優影院",
-      "name": "🥈｜奇優｜高清◎秒播(浮水印廣告)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "分类url": "https://www.qyvod.com/qyshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-        "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他"
-      }
-    },
-    {
       "key": "csp_六八",
       "name": "🥈｜六八｜高清◎秒播(浮水印廣告)",
       "type": 3,
@@ -3440,6 +3466,14 @@
       "quickSearch": 1,
       "filterable": 1
     },
+    {
+      "key": "vod_虎牙",
+      "name": "🧲｜虎牙｜高清◎秒播(浮水印廣告)",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
+      "searchable": 1,
+      "changeable": 1
+    },    
     {
       "key": "vod_魔都",
       "name": "🧲｜魔都｜高清◎秒播(浮水印廣告+成人動畫)",
