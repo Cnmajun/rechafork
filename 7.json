@@ -22,29 +22,6 @@
              }
     },
     {
-      "key": "csp_4K影院",
-      "name": "4K影院｜待測",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-             "数组": "class=\"owl-item\"&&</div>",
-             "分类url": "https://www.4kvm.me/{cateId}/page/{catePg}",
-             "分类": "电影$movies#电视剧$tvshows"
-             }
-    },    
-
-
-
-
-
-
-
-
-    {
       "key": "奇优",
       "name":"奇優(3代)｜待測",
       "type": 3,
