@@ -2,14 +2,39 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.24 Ver.A(好想睡覺，但睡不著)",
+  "notice": "版本：114.08.24 Ver.B(天亮了，天黑了)",
   "sites": [
+
+    {
+      "key": "csp_奇優影院",
+      "name": "奇庫｜待測",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+             "分类url": "https://qkys4.cc/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+             "分类": "电影$1#电视剧$2#综艺$3#动漫$4#紀錄片$5#短劇$7",
+             "地区": "大陆&香港&台湾&美国&日本&韩国&英国&法国&德国&印度&泰国&丹麦&瑞典&巴西&加拿大&俄罗斯&意大利&比利时&爱尔兰&西班牙&澳大利亚",
+             "剧情": "Netflix&仙侠&剧情&科幻&动作&喜剧&爱情&冒险&儿童&歌舞&音乐&奇幻&动画&恐怖&惊悚&丧尸&战争&传记&纪录&犯罪&悬疑&西部&灾难&古装&武侠&家庭&短片&校园&文艺&运动&青春&同性&励志&人性&美食&女性&治愈&历史&真人秀&脱口秀"
+             }
+    },
+
+
+
+
+
+
+
 
     {
       "key": "奇优",
       "name":"奇優(3代)｜待測",
       "type": 3,
       "api": "csp_XBPQ",
+      "timeout": 120,
       "jar":"./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "searchable": 1,
       "quickSearch": 1,
@@ -20,6 +45,7 @@
       "key": "csp_Qiyou",
       "name": "奇優(2代)｜待測",
       "type": 3,
+      "timeout": 120,
       "api": "csp_Qiyou",
       "jar": "./jar/xinghe.txt",
       "ext": "http://dyxz4.com/"
