@@ -31,6 +31,7 @@
       "filterable": 1,
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
+             "数组": "class=\"owl-item\"&&</div>",
              "分类url": "https://www.4kvm.me/{cateId}/page/{catePg}",
              "分类": "电影$movies#电视剧$tvshows"
              }
