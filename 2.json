@@ -5,47 +5,39 @@
   "notice": "版本：114.08.24 Ver.A(好想睡覺，但睡不著)",
   "sites": [
 
- {
-   "key": "奇优",
-   "name":"奇优影院",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "jar":"./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext":{
-         "请求头": "手机",
-         "主页url":"http://www.qiyoudy2.com/",
-         "简介":"&&</div>",
-         "数组":"<div class=\"stui-vodlist__box\">&&</a>",
-         "图片":"data-original=\"&&\"",
-         "标题":"title=\"&&\"",
-         "副标题":"text-right\">&&</span>",
-         "链接":"href=\"&&\"",
-         "搜索url":"http://www.qiyoudy2.com/search.php;post;searchword={wd}",
-         "搜索数组":"v-thumb stui-vodlist__thumb&&</a>",
-         "搜索图片":"data-original=\"&&\"",
-         "搜索标题":"title=\"&&\"",
-         "搜索副标题":"text-right\">&&</span>",
-         "搜索链接":"href=\"&&\"",
-         "线路数组":"data-toggle=\"tab\"&&</li>",
-         "线路标题":">&&</a>",
-         "播放数组":"stui-content__playlist clearfix&&</ul>",
-         "播放列表":"<li>&&</li>",
-         "播放标题":">&&</a>",
-         "分类url":"http://www.qiyoudy2.com/list/{cateId}_{catePg}.html;;ak", 
-         "分类":"电影$1#电视剧$2#动漫$3#综艺$4"
-         }
-  },
-
+    {
+      "key": "奇优",
+      "name":"奇優(3代)｜待測",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar":"./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":"./json/奇優.json"
+    },
     {
       "key": "csp_Qiyou",
-      "name": "七友｜待測",
+      "name": "奇優(2代)｜待測",
       "type": 3,
       "api": "csp_Qiyou",
       "jar": "./jar/xinghe.txt",
       "ext": "http://dyxz4.com/"
+    },
+    {
+      "key": "csp_奇優影院",
+      "name": "🥈｜奇優(原始版)｜高清◎秒播(浮水印廣告)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+        "分类url": "https://www.qyvod.com/qyshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+        "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他"
+      }
     },
 
     {
@@ -2782,21 +2774,6 @@
         "分类url": "https://94itv.app/vod-show-area-{area}-by-{by}-id-{cateId}-page-{catePg}-year-{year}.html",
         "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
         "地区": "美國&台灣&大陸&香港&日本&韓國&法國&英國&德國&泰國&印度&意大利&西班牙&俄羅斯&其他||台灣&韓國&日本&大陸&香港&美國&法國&英國&泰國&其他||大陸&香港&台灣&美國&日本&韓國||大陸&香港&台灣&美國&日本&韓國"
-      }
-    },
-    {
-      "key": "csp_奇優影院",
-      "name": "🥈｜奇優｜高清◎秒播(浮水印廣告)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "分类url": "https://www.qyvod.com/qyshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-        "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他"
       }
     },
     {
