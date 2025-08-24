@@ -6,14 +6,7 @@
   "sites": [
 
 
-    {
-      "key": "虎牙",
-      "name": "🧲｜虎牙",
-      "type": 1,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
-      "searchable": 1,
-      "changeable": 1
-    },
+
     {
       "key": "csp_Qiyou",
       "name": "七友｜待測",
@@ -3441,6 +3434,14 @@
       "quickSearch": 1,
       "filterable": 1
     },
+    {
+      "key": "vod_虎牙",
+      "name": "🧲｜虎牙｜高清◎秒播(浮水印廣告)",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
+      "searchable": 1,
+      "changeable": 1
+    },    
     {
       "key": "vod_魔都",
       "name": "🧲｜魔都｜高清◎秒播(浮水印廣告+成人動畫)",
