@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.22 Ver.A(好想睡覺，但睡不著)",
+  "notice": "版本：114.08.24 Ver.A(好想睡覺，但睡不著)",
   "sites": [
 
 
@@ -13,9 +13,15 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
       "searchable": 1,
       "changeable": 1
-      //"categories": 
     },
-
+    {
+      "key": "csp_Qiyou",
+      "name": "七友｜待測",
+      "type": 3,
+      "api": "csp_Qiyou",
+      "jar": "./jar/xinghe.txt",
+      "ext": "http://dyxz4.com/"
+    },
     {
       "key": "星河",
       "name": "📱｜星河｜高清◎秒播(無廣告+APP)",
@@ -32,36 +38,7 @@
              "key3": "aassddwwxxllsx1x"
              }
     },
-	{
-	  "key": "爱影视",
-	  "name": "🏆｜爱盈┃測試+4K",
-	  "quickSearch": 0,
-	  "searchable": 1,
-	  "type": 3,
-	  "api": "./py/getapp3.4.2.py",
-      "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
-      "ext": {
-             "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
-             "url": "http://app.mgtv.co",
-             "datakey": "dksvndkaAjekakcE",
-             "api": 2
-             }
-	},
-	{
-      "key": "鲸鱼",
-	  "name": "🏆｜鲸鱼｜測試+4K",
-	  "quickSearch": 0,
-	  "searchable": 1,
-	  "type": 3,
-	  "api": "./py/getapp3.4.2.py",
-      "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",		
-      "ext": {
-             "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-             "url": "http://103.217.207.75:1122",
-             "datakey": "AAdgrdghjfgswerA",
-             "api": 2
-             }
-    },
+
 
 
     {
@@ -394,6 +371,36 @@
       "filterable": 1,
       "ext": "7lj763gg402i7942463ji4qiaojijjh456889il6k6i35kj995h4j18li7kl2870klhg8hi647j5707k4ki7ig6953kj"
     },
+	{
+      "key": "鲸鱼",
+	  "name": "🏆｜鲸鱼｜藍光◎秒播(無廣告)",
+	  "quickSearch": 0,
+	  "searchable": 1,
+	  "type": 3,
+	  "api": "./py/getapp3.4.2.py",
+      "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",		
+      "ext": {
+             "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+             "url": "http://103.217.207.75:1122",
+             "datakey": "AAdgrdghjfgswerA",
+             "api": 2
+             }
+    },      
+  	{
+	    "key": "爱影视",
+	    "name": "🏆｜爱盈｜藍光◎●順播(無廣告)",
+	    "quickSearch": 0,
+	    "searchable": 1,
+	    "type": 3,
+	    "api": "./py/getapp3.4.2.py",
+      "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
+      "ext": {
+             "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
+             "url": "http://app.mgtv.co",
+             "datakey": "dksvndkaAjekakcE",
+             "api": 2
+             }
+	  },  
     {
       "key": "py_aidianying",
       "name": "🏆｜愛電影｜藍光◎秒播(無廣告)",
@@ -4167,6 +4174,35 @@
     }
   ],
   "parses": [
+    {
+      "name": "星河无恙",
+      "type": 0,
+      "url": "https://t2.qlplayer.cyou/player/analysis.php?v=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    }    
     {
       "name": "陆游4k1",
       "type": 1,
