@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.26 Ver.C(最近沒有新鮮事)",
+  "notice": "版本：114.08.26 Ver.D(最近沒有新鮮事)",
   "sites": [
 
 
@@ -18,7 +18,6 @@
       "type": 1,
       "api": "https://niiuma.qi-simple.top/vod/rr.php/provide/vod/",
       "searchable": 1,
-      "playUrl": "json:http://niiuma.qi-simple.top/nn.php?url=",
       "changeable": 1
     },
     {
