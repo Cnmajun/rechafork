@@ -6,6 +6,51 @@
     "wallpaper": "https://picsum.photos/1080/",
     "notice": "114.08.16 Ver.A",
     "sites": [ 
+        {
+            "key": "咕呱",
+            "name": "咕呱｜1K(JX)",
+            "api": "./py/咕呱.py",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "type": 3
+        },
+        {
+            "key": "华数",
+            "name": "华华｜1K(JX)",
+            "api": "./py/华数TV.py",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "type": 3
+        },             
+        {
+            "key": "冠军",
+            "name": "冠军｜替换(JX)",
+            "api": "./py/冠军.py",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "type": 3
+        },
+        {
+            "key": "19005",
+            "name": "1905｜流畅",
+            "api": "./py/1905.py",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "type": 3
+        },
+        {
+            "key": "薯片",
+            "name": "薯片｜1K(JX)",
+            "type": 1,
+            "api": "https://niiuma.qi-simple.top/vod/ls.php/provide/vod/",
+            "searchable": 1,
+            "playUrl": "json:http://niiuma.qi-simple.top/nn.php?url=",
+            "changeable": 1
+        },        
     {
       "key": "萌新XBPQ_独播库",
       "name": "🏆｜獨播｜藍光◎秒播(網站關站中)",
