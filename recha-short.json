@@ -19,7 +19,16 @@
             "filterable": 1,
             "playerType": 2
         },      
- 
+         {
+            "key": "剧王短剧",
+            "name": "📺｜剧王短剧",
+            "type": 3,
+            "api": "./py/剧王短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
     {
       "key": "csp_短劇網",
       "name": "📺｜短劇網",
