@@ -2,8 +2,82 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.24 Ver.B(天亮了，天黑了)",
+  "notice": "版本：114.08.26 Ver.A(最近沒有新鮮事)",
   "sites": [
+
+
+
+
+        {
+            "key": "咕呱",
+            "name": "咕呱｜1K(JX)",
+            "api": "./py/咕呱.py",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "type": 3
+        },
+        {
+            "key": "华数",
+            "name": "华华｜1K(JX)",
+            "api": "./py/华数TV.py",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "type": 3
+        },     
+        {
+            "key": "PPTV",
+            "name": "皮皮｜1K(JX)",
+            "api": "./py/pp.py",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "type": 3
+        },
+        {
+            "key": "冠军",
+            "name": "冠军｜替换(JX)",
+            "api": "./py/冠军.py",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "type": 3
+        },
+
+        {
+            "key": "19005",
+            "name": "1905｜流畅",
+            "api": "./py/1905.py",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "type": 3
+        },
+        {
+            "key": "薯片",
+            "name": "薯片｜1K(JX)",
+            "type": 1,
+            "api": "https://niiuma.qi-simple.top/vod/ls.php/provide/vod/",
+            "searchable": 1,
+            "playUrl": "json:http://niiuma.qi-simple.top/nn.php?url=",
+            "changeable": 1
+        },
+        {
+            "key": "rr",
+            "name": "人人｜4K(JX)",
+            "type": 1,
+            "api": "https://niiuma.qi-simple.top/vod/rr.php/provide/vod/",
+            "searchable": 1,
+            "playUrl": "json:http://niiuma.qi-simple.top/nn.php?url=",
+            "changeable": 1
+        },
+
+
+
+
+
+
 
     {
       "key": "csp_奇優影院",
