@@ -22,7 +22,16 @@
       "filterable": 0,
       "changeable": 1
     },
-        {
+    {
+      "key": "厂长",
+      "name": "🏆｜廠长｜高清◎秒播(無廣告+py)",
+      "type": 3,
+      "api": "./py/py_cz.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
             "key": "客星",
             "name": "📱｜客星｜高清◎秒播(無廣告+APP)",
             "type": 3,
