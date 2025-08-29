@@ -8,13 +8,21 @@
 
     {
       "key": "独播库",
-      "name": "独播库",
+      "name": "獨播庫",
       "type": 4,
       "jar": "./jar/獨播庫.jar",
       "api": "https://tvbot.ggff.net/duboku"
     },
-
-            {
+    {
+      "key": "剧爸爸",
+      "name": "劇粑",
+      "type": 3,
+      "api": "./py/py_jubaba.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+        {
             "key": "客星",
             "name": "📱｜客星｜高清◎秒播(無廣告+APP)",
             "type": 3,
