@@ -6,7 +6,13 @@
   "sites": [
 
 
-
+    {
+      "key": "独播库",
+      "name": "独播库",
+      "type": 4,
+      "jar": "./jar/獨播庫.jar",
+      "api": "https://tvbot.ggff.net/duboku"
+    },
 
             {
             "key": "客星",
