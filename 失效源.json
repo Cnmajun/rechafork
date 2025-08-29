@@ -435,21 +435,7 @@
     },      
     
 
-        {
-            "key": "客星",
-            "name": "📱｜客星｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0828.jar",
-            "ext": {
-                "url": "https://api.hiapp.com.cn",
-                "dataKey": "2268331221bobobo",
-                "dataIv": "2268331221bobobo",
-                "deviceId": "",
-                "version": "105"
-            }
-        },              
+           
     {
       "key": "晓晓",
       "name": "📱｜晓晓｜APP",
