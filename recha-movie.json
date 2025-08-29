@@ -8,14 +8,14 @@
 
     {
       "key": "独播库",
-      "name": "獨播庫",
+      "name": "🏆｜獨播庫｜藍光◎秒播(無廣告+獨家成功復活)",
       "type": 4,
       "jar": "./jar/獨播庫.jar",
       "api": "https://tvbot.ggff.net/duboku"
     },
     {
       "key": "剧爸爸",
-      "name": "劇粑",
+      "name": "🏆｜劇粑｜藍光◎秒播(無廣告)",
       "type": 3,
       "api": "./py/py_jubaba.py",
       "searchable": 1,
