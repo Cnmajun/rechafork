@@ -6,7 +6,12 @@
 
 
 
-
+    {
+      "name": "路邊撿的",
+      "url": "https://php.946985.xyz/stv.m3u",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },      
     {
       "jar" : "./jar/mqitv.jar",
       "name": "59酒店源",
