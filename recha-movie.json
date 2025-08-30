@@ -5,6 +5,17 @@
   "notice": "版本：114.08.30 Ver.A(工作還是好煩...)",
   "sites": [
 
+    {
+    "name": "嗷呜弹幕",
+    "key": "嗷呜弹幕",
+    "type": 3,
+    "api": "csp_GoConfig",
+    "jar": "https://gitee.com/amg99/tvjson/raw/master/spider/custom_spider.jar",
+    "searchable": 0,
+    "filterable": 0,
+    "quickSearch": 0,
+    "changeable": 0
+}
 
     {
       "key": "独播库",
