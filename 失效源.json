@@ -7,6 +7,22 @@
     "notice": "114.08.16 Ver.A",
     "sites": [ 
         {
+            "key": "橙飞",
+            "name": "📱｜橙飛｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0830.jar;md5;46ce3a8709f7196b18a6470062cd1876",
+            "ext": {
+                "url": "http://172.247.189.145:8989",
+                "site": "",
+                "dataKey": "6d1061a50b656564",
+                "dataIv": "6d1061a50b656564",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+    {
             "key": "咕呱",
             "name": "咕呱｜1K(JX)",
             "api": "./py/咕呱.py",

@@ -47,31 +47,7 @@
                 "version": "105"
             }
         },   
-        {
-            "key": "橙飞",
-            "name": "📱｜橙飛｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0830.jar;md5;46ce3a8709f7196b18a6470062cd1876",
-            "ext": {
-                "url": "http://172.247.189.145:8989",
-                "site": "",
-                "dataKey": "6d1061a50b656564",
-                "dataIv": "6d1061a50b656564",
-                "deviceId": "",
-                "version": ""
-            }
-        },
 
-
-        {
-            "key": "剧圈圈",
-            "name": "剧圈｜影视",
-            "type": 3,
-            "api": "./drpy_libs/drpy2.min.js",
-            "ext": "./drpy_js/剧圈圈.js"
-        },
 
     {
       "key": "豆瓣",
