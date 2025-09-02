@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.08.31 Ver.A(工作還是好煩...)",
+  "notice": "版本：114.09.03 Ver.A(軍人節我終於放假了！)",
   "sites": [
 
 
@@ -47,7 +47,37 @@
                 "version": "105"
             }
         },   
-
+        {
+            "key": "和友",
+            "name": "和友｜APP",
+            "type": 3,
+            "api": "csp_AppSy",
+            "jar": "./jar/xiaosa-0830.jar;md5;46ce3a8709f7196b18a6470062cd1876",
+            "ext": {
+                "site": "http://qcb.sxtzg.com/api.txt",
+                "url": "lDFYQlB9bihryBS7ggv8s4MYr/oEsaOkiExCPkMa3aEL/c0gjkO/3fqbyAK5tFqn",             
+                "siteKey": "rectangleadsadxa",
+                "listKey": "gHSLmx3JQRasgztO",
+                "parsesKey": "gHSLmx3JQRasgztO"
+            }
+        },
+        {
+            "key": "干饭",
+            "name": "干饭丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "jar": "./jar/xiaosa-0830.jar;md5;46ce3a8709f7196b18a6470062cd1876",
+            "ext": {
+                "url": "http://110.42.53.99:1080",
+                "site": "",
+                "dataKey": "staraugust123456",
+                "dataIv": "staraugust123456",
+                "deviceId": "",
+                "version": "301",
+                "ua": ""
+            }
+        }, 
 
     {
       "key": "豆瓣",
