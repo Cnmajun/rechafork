@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.03 Ver.A(軍人節我終於放假了！)",
+  "notice": "版本：114.09.03 Ver.B(軍人節我終於放假了！)",
   "sites": [
 
 
@@ -54,7 +54,7 @@
             "api": "csp_AppSy",
             "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
             "ext": {
-                "site": "http://qcb.sxtzg.com/api.txt",
+                //"site": "http://qcb.sxtzg.com/api.txt",
                 "url": "lDFYQlB9bihryBS7ggv8s4MYr/oEsaOkiExCPkMa3aEL/c0gjkO/3fqbyAK5tFqn",             
                 "siteKey": "rectangleadsadxa",
                 "listKey": "gHSLmx3JQRasgztO",
@@ -63,7 +63,7 @@
         },
         {
             "key": "干饭",
-            "name": "干饭丨APP",
+            "name": "幹飯丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -113,7 +113,7 @@
         },
         {
             "key": "漫国",
-            "name": "漫国丨APP",
+            "name": "漫國丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -129,8 +129,8 @@
             }
         },
         {
-            "key": "漫国",
-            "name": "漫国丨动漫",
+            "key": "漫国動漫",
+            "name": "漫國丨动漫",
             "type": 3,
             "api": "csp_AppSy",
             "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
@@ -609,7 +609,7 @@
     },
     {
       "key": "py_海马",
-      "name": "🏆｜海马｜高清◎秒播(無廣告+APP)",
+      "name": "🏆｜海馬｜高清◎秒播(無廣告+APP)",
       "type": 3,
       "api": "./py/海马影视APP.py",
       "searchable": 1,
