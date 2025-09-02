@@ -2,60 +2,24 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.03 Ver.B(軍人節我終於放假了！)",
+  "notice": "版本：114.09.03 Ver.C(軍人節我終於放假了！)",
   "sites": [
 
 
 
-    {
-      "key": "独播库",
-      "name": "🏆｜獨播庫｜藍光◎秒播(無廣告+獨家成功復活)",
-      "type": 4,
-      "jar": "./jar/獨播庫.jar",
-      "api": "https://tvbot.ggff.net/duboku"
-    },
-    {
-      "key": "剧爸爸",
-      "name": "🏆｜劇粑｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "./py/py_jubaba.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "厂长",
-      "name": "🏆｜廠长｜高清◎秒播(無廣告+py)",
-      "type": 3,
-      "api": "./py/py_cz.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-            "key": "客星",
-            "name": "📱｜客星｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-            "ext": {
-                "url": "https://api.hiapp.com.cn",
-                "dataKey": "2268331221bobobo",
-                "dataIv": "2268331221bobobo",
-                "deviceId": "",
-                "version": "105"
-            }
-        },   
+
+
+
+
         {
             "key": "和友",
-            "name": "和友｜APP",
+            "name": "📱｜和友｜APP",
             "type": 3,
             "api": "csp_AppSy",
             "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
             "ext": {
-                //"site": "http://qcb.sxtzg.com/api.txt",
-                "url": "lDFYQlB9bihryBS7ggv8s4MYr/oEsaOkiExCPkMa3aEL/c0gjkO/3fqbyAK5tFqn",             
+                "url": "",
+                "site": "http://qcb.sxtzg.com/api.txt",
                 "siteKey": "rectangleadsadxa",
                 "listKey": "gHSLmx3JQRasgztO",
                 "parsesKey": "gHSLmx3JQRasgztO"
@@ -63,7 +27,7 @@
         },
         {
             "key": "干饭",
-            "name": "幹飯丨APP",
+            "name": "📱｜幹飯丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -80,7 +44,7 @@
         }, 
         {
             "key": "一三",
-            "name": "一三丨APP",
+            "name": "📱｜一三丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -97,7 +61,7 @@
         },
         {
             "key": "柚子",
-            "name": "柚子丨APP",
+            "name": "📱｜柚子丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -113,7 +77,7 @@
         },
         {
             "key": "漫国",
-            "name": "漫國丨APP",
+            "name": "📱｜漫國丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -127,24 +91,10 @@
                 "version": "",
                 "ua": ""
             }
-        },
-        {
-            "key": "漫国動漫",
-            "name": "漫國丨动漫",
-            "type": 3,
-            "api": "csp_AppSy",
-            "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-            "ext": {
-                "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
-                "url": "InfVA173UJflJLh7WNOfDAkGKJeRcJwDzgHp3XZdRoprTImObDRz3+ZyAZITstS+",
-                "siteKey": "rectangleadsadxa",
-                "listKey": "aassddwwxxllsx1x",
-                "parsesKey": "aassddwwxxllsx1x"
-            }
-        },        
+        },  
         {
             "key": "蔬菜",
-            "name": "蔬菜丨APP",
+            "name": "📱｜蔬菜丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -159,6 +109,19 @@
                 "ua": ""
             }
         },
+        {
+            "key": "漫国動漫",
+            "name": "🎡｜漫國动漫",
+            "type": 3,
+            "api": "csp_AppSy",
+            "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+            "ext": {
+                "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
+                "siteKey": "rectangleadsadxa",
+                "listKey": "aassddwwxxllsx1x",
+                "parsesKey": "aassddwwxxllsx1x"
+            }
+        },    
 
         {
       "key": "豆瓣",
@@ -353,6 +316,13 @@
       "filterable": 1
     },
     {
+      "key": "独播库",
+      "name": "🏆｜獨播庫｜藍光◎秒播(無廣告+獨家成功復活)",
+      "type": 4,
+      "jar": "./jar/獨播庫.jar",
+      "api": "https://tvbot.ggff.net/duboku"
+    },    
+    {
       "key": "爆炸",
       "name": "🏆｜爆炸｜藍光◎秒播(無廣告+APP)",
       "type": 3,
@@ -380,13 +350,12 @@
     },
     {
       "key": "爱看",
-      "name": "🏆｜爱看丨藍光◎卡頓(無廣告+APP)",
+      "name": "🏆｜爱看1丨藍光◎卡頓(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
       "ext": {
-        //"url": "http://154.37.220.65",
         "url": "http://114.134.185.234",
         "dataKey" : "uI1TkPJC8B46AyN3",
         "dataIv"  : "uI1TkPJC8B46AyN3",
@@ -394,6 +363,30 @@
         "version" : "120"
       }
     },
+    {
+      "key": "爱看",
+      "name": "🏆｜爱看2丨藍光◎卡頓(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "url": "http://154.37.220.65",
+        "dataKey" : "uI1TkPJC8B46AyN3",
+        "dataIv"  : "uI1TkPJC8B46AyN3",
+        "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
+        "version" : "120"
+      }
+    },    
+    {
+      "key": "厂长",
+      "name": "🏆｜廠长｜高清◎秒播(無廣告+py)",
+      "type": 3,
+      "api": "./py/py_cz.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },    
     {
       "key": "若雪",
       "name": "🏆｜若雪｜藍光◎秒播(無廣告+APP)",
@@ -618,14 +611,14 @@
       "changeable": 1
     },
     {
-      "key": "剧粑",
-      "name": "🏆｜剧粑｜藍光◎秒播(無廣告)",
+      "key": "剧爸爸",
+      "name": "🏆｜劇粑｜藍光◎秒播(無廣告)",
       "type": 3,
       "api": "./py/py_jubaba.py",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1
-    },
+    },    
     {
       "key": "Qile优视频",
       "name": "🏆｜優視｜藍光◎秒播(無廣告)",
@@ -2308,8 +2301,23 @@
       }
     },
     {
+      "key": "客星",
+      "name": "📱｜客星｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+             "url": "https://api.hiapp.com.cn",
+             "dataKey": "2268331221bobobo",
+             "dataIv": "2268331221bobobo",
+             "deviceId": "",
+             "version": "105"
+             }
+    },    
+    {
       "key": "csp_sbb",
-      "name": "📱｜布布｜直連",
+      "name": "📱｜布布｜高清◎卡頓(浮水印廣告+APP)",
       "type": 3,
       "api": "csp_Czsapp",
       "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
