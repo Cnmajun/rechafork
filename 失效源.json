@@ -7,6 +7,46 @@
     "notice": "114.08.16 Ver.A",
     "sites": [ 
     {
+      "key": "py_腾",
+      "name": "🎖︎｜腾訊｜官源",
+      "type": 3,
+      "api": "./py/py_腾.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_爱",
+      "name": "🎖︎｜爱奇異｜官源",
+      "type": 3,
+      "api": "./py/py_爱.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_优",
+      "name": "🎖︎｜优酷｜官源",
+      "type": 3,
+      "api": "./py/py_优.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_bilibili",
+      "name": "🎖︎｜bilibili｜PYTHON",
+      "type": 3,
+      "api": "./py/py_bilibili.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 1
+    },        
+    {
       "key": "柚子",
       "name": "📱｜柚子丨APP",
       "type": 3,
