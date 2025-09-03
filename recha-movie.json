@@ -33,6 +33,13 @@
         "搜索标题": "class=\"thumb-txt cor4 hide\">*>&&</div>"
       }
     },
+		{
+			"key": "tt",
+			"name": "🏆｜老三｜4K",
+			"type": 3,
+			"api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
+			"ext": "https://gh.clun.top/raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/main/%E8%85%BE%E4%BA%914k.js"
+		},
     {
       "key": "和友",
       "name": "📱｜和友｜APP",
