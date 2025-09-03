@@ -6,6 +6,22 @@
     "wallpaper": "https://picsum.photos/1080/",
     "notice": "114.08.16 Ver.A",
     "sites": [ 
+    {
+      "key": "柚子",
+      "name": "📱｜柚子丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "url"     : "https://cnm.guahd.com",
+        "dataKey" : "f2A7D4B9E8C16531",
+        "dataIv"  : "f2A7D4B9E8C16531",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },      
         {
             "key": "橙飞",
             "name": "📱｜橙飛｜APP",
