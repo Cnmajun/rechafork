@@ -21,8 +21,8 @@
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
         "主页url" : "https://www.czvod.cc/",
-        "分类url" : "https://mufeng.tv/channel?page={catePg}&is_search=1&cat_id={catePg}&tag_id=&year={year}&language=&order={by}&page_size=32",
-        "分类"    : "电影$1#剧集$2"
+        "分类url" : "https://mufeng.tv/channel?page={catePg}&is_search=1&cat_id={cateId}&tag_id=&year={year}&language=&order={by}&page_size=32",
+        "分类"    : "电影$1#电视剧$2#动漫$4#综艺$3#短剧$8#纪录片$6"
       }
     },
 
