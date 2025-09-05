@@ -15,8 +15,8 @@
             "api": "csp_AppGet",
             "jar": "./jar/xiaosa-0905.jar;md5;a75f725a23232f3aa83c6f049b5addb7",
             "ext": {
-                "url": "",
                 "site": "https://xz4k.top/url.txt",
+                "url": "https://appcms.xz4k.top/",                
                 "dataKey": "1785acb6c963184b",
                 "dataIv": "1785acb6c963184b",
                 "deviceId": "",
@@ -34,7 +34,7 @@
             "ext": {
                 "url": "https://app.lkdyw.cn",
                 "site": "",
-                "dataKey": "	",
+                "dataKey": "e65144389e9361b5",
                 "dataIv": "e65144389e9361b5",
                 "deviceId": "",
                 "version": "",
