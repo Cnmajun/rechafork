@@ -6,9 +6,10 @@
   "sites": [
 
 
+
     {
       "key": "csp_沐風",
-      "name": "🐙｜沐風｜",
+      "name": "🐙｜沐風｜只能搜索用",
       "type": 3,
       "api": "csp_XBPQ",
       "playerType": 2,
@@ -20,15 +21,11 @@
       "timeout": 60,
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
-        "主页url" : "https://www.czvod.cc/",
-        "分类url" : "https://mufeng.tv/channel?page={catePg}&is_search=1&cat_id={cateId}&tag_id=&year=&language=&order=&page_size=32",
-        "分类"    : "电影$1#电视剧$2#动漫$4#综艺$3#短剧$8#纪录片$6",
-        "筛选":{
-               "分类值":[{"name":"排序","key":"by","value":[{"n":"全部","v":"time"},{"n":"今日热榜","v":"hits_day"},{"n":"本周热榜","v":"hits_week"},{"n":"本月热榜","v":"hits_month"}]}]
-               }
-            }
+             "主页url" : "https://mufeng.tv/",
+             "分类url" : "https://mufeng.tv/channel?page={catePg}&is_search=1&cat_id={cateId}&tag_id=&year=&language=&order=&page_size=32",
+             "分类"    : "电影$1#电视剧$2#动漫$4#综艺$3#短剧$8#纪录片$6"
+             }
     },
-
 
 
 
