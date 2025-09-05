@@ -47,6 +47,40 @@
       "changeable": 1
     },        
     {
+      "key": "干饭",
+      "name": "📱｜幹飯丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "url"     : "http://110.42.53.99:1080",
+        "site"    : "",
+        "dataKey" : "staraugust123456",
+        "dataIv"  : "staraugust123456",
+        "deviceId": "",
+        "version" : "301",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "漫国",
+      "name": "📱｜漫國丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "site"    : "",
+        "url"     : "https://app.lkdyw.cn",
+        "dataKey" : "e65144389e9361b5",
+        "dataIv"  : "e65144389e9361b5",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },    
+    {
       "key": "柚子",
       "name": "📱｜柚子丨APP",
       "type": 3,

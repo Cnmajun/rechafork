@@ -27,10 +27,6 @@
              }
     },
 
-
-
-
-
 		{
 			"key": "tt",
 			"name": "🏆｜老三｜4K",
@@ -38,88 +34,7 @@
 			"api": "./drpy_libs/drpy2.min.js",
 			"ext": "./drpy_js/腾云4k.js"
 		},
-    {
-      "key": "和友",
-      "name": "📱｜和友｜APP",
-      "type": 3,
-      "api": "csp_AppSy",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "url"      : "",
-        "site"     : "http://qcb.sxtzg.com/api.txt",
-        "siteKey"  : "rectangleadsadxa",
-        "listKey"  : "gHSLmx3JQRasgztO",
-        "parsesKey": "gHSLmx3JQRasgztO"
-      }
-    },
-    {
-      "key": "干饭",
-      "name": "📱｜幹飯丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "url"     : "http://110.42.53.99:1080",
-        "site"    : "",
-        "dataKey" : "staraugust123456",
-        "dataIv"  : "staraugust123456",
-        "deviceId": "",
-        "version" : "301",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "一三",
-      "name": "📱｜一三丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "url"     : "",
-        "site"    : "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
-        "dataKey" : "qwertyuiopqwerty",
-        "dataIv"  : "qwertyuiopqwerty",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "漫国",
-      "name": "📱｜漫國丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "site"    : "",
-        "url"     : "https://app.lkdyw.cn",
-        "dataKey" : "e65144389e9361b5",
-        "dataIv"  : "e65144389e9361b5",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "蔬菜",
-      "name": "📱｜蔬菜丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "site"    : "",
-        "url"     : "http://huohu.yihn.cc",
-        "dataKey" : "huohushipingetap",
-        "dataIv"  : "huohushipingetap",
-        "deviceId": "",
-        "version" : "140",
-        "ua"      : ""
-      }
-    },
+
 
     {
       "key": "豆瓣",
@@ -449,6 +364,23 @@
         "version" : ""
       }
     },
+    {
+      "key": "一三",
+      "name": "🏆｜一三｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "url"     : "",
+        "site"    : "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
+        "dataKey" : "qwertyuiopqwerty",
+        "dataIv"  : "qwertyuiopqwerty",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },    
     {
       "key": "斗量",
       "name": "🏆｜斗量｜藍光◎秒播(無廣告+APP)",
@@ -1753,6 +1685,37 @@
         "version" : "120"
       }
     },
+    {
+      "key": "和友",
+      "name": "📱｜和友｜APP",
+      "type": 3,
+      "api": "csp_AppSy",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "url"      : "",
+        "site"     : "http://qcb.sxtzg.com/api.txt",
+        "siteKey"  : "rectangleadsadxa",
+        "listKey"  : "gHSLmx3JQRasgztO",
+        "parsesKey": "gHSLmx3JQRasgztO"
+      }
+    },
+    {
+      "key": "蔬菜",
+      "name": "📱｜蔬菜丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "site"    : "",
+        "url"     : "http://huohu.yihn.cc",
+        "dataKey" : "huohushipingetap",
+        "dataIv"  : "huohushipingetap",
+        "deviceId": "",
+        "version" : "140",
+        "ua"      : ""
+      }
+    },    
     {
       "key": "云云",
       "name": "📱｜雲雲｜藍光◎秒播(無廣告+APP)",
