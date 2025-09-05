@@ -6,36 +6,6 @@
   "sites": [
 
 
-
-    {
-      "key": "csp_沐風",
-      "name": "🐙｜沐風｜只能搜索用",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-      "timeout": 60,
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-             "主页url" : "https://mufeng.tv/",
-             "分类url" : "https://mufeng.tv/channel?page={catePg}&is_search=1&cat_id={cateId}&tag_id=&year=&language=&order=&page_size=32",
-             "分类"    : "电影$1#电视剧$2#动漫$4#综艺$3#短剧$8#纪录片$6"
-             }
-    },
-
-		{
-			"key": "tt",
-			"name": "🏆｜老三｜4K",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"ext": "./drpy_js/腾云4k.js"
-		},
-
-
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -746,6 +716,13 @@
       "api": "./drpy_libs/drpy2.min.js",
       "ext": "./drpy_js/腾云驾雾[官].js"
     },
+		{
+			"key": "tt",
+			"name": "🎖︎｜腾讯2｜官源(道長)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"ext": "./drpy_js/腾云4k.js"
+		},    
     {
       "key": "drpy_js_菜狗",
       "name": "🎖︎｜搜狗｜官源(道長)",

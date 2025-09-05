@@ -2,139 +2,10 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.03 Ver.C(軍人節我終於放假了！)",
+  "notice": "版本：114.09.05 Ver.A(今天是星期五晚上！)",
   "sites": [
-    {
-      "key": "大白鯊",
-      "name": "🏆｜白鯊｜高清◎秒播(我看是沒廣告)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "主页url": "https://dabaisha.tv/",
-        "分类url": "https://dabaisha.tv/{cateId}/explore/page-{catePg}-area-{area}-by-{by}-year-{year}.html",
-        "分类": "电影$movie#剧集$tv#综艺$variety#动漫$cartoon$#纪录片$doco$#短片$mini-drama",
-        "地区": "中国大陆&中国香港&中国台湾&华语&韩国&日本&美国&欧美&英国&法国&德国&意大利&西班牙&印度",
-        "数组": "class=\"public-list-box public-pic-b&&class=\"public-list-subtitle cor5 hide ft2\"",
-        "图片": "https+://dabaisha.tv/upload/+data-src=\"/upload/&&\"",
-        "倒序": "0",
-        "标题": "title=\"&&\"",
-        "副标题": "public-list-prb hide ft2\">&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "class=\"anthology-list-play&&</ul>",
-        "播放列表": "<li&&</li>",
-        "播放标题": "\">&&</a",
-        "播放链接": "href=\"&&\"",
-        "线路数组": "<h2&&</h2>",
-        "线路标题": ">&&<[只包含:播放记录][替换:播放记录>>大白鲨]",
-        "搜索模式": "1",
-        "搜索url": "https://dabaisha.tv/search?page={pg}&wd={wd}",
-        "搜索数组": "class=\"left public-list-bj&&class=\"thumb-else cor5 hide\"",
-        "搜索标题": "class=\"thumb-txt cor4 hide\">*>&&</div>"
-      }
-    },
-		{
-			"key": "tt",
-			"name": "🏆｜老三｜4K",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"ext": "./drpy_js/腾云4k.js"
-		},
-    {
-      "key": "和友",
-      "name": "📱｜和友｜APP",
-      "type": 3,
-      "api": "csp_AppSy",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "url"      : "",
-        "site"     : "http://qcb.sxtzg.com/api.txt",
-        "siteKey"  : "rectangleadsadxa",
-        "listKey"  : "gHSLmx3JQRasgztO",
-        "parsesKey": "gHSLmx3JQRasgztO"
-      }
-    },
-    {
-      "key": "干饭",
-      "name": "📱｜幹飯丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "url"     : "http://110.42.53.99:1080",
-        "site"    : "",
-        "dataKey" : "staraugust123456",
-        "dataIv"  : "staraugust123456",
-        "deviceId": "",
-        "version" : "301",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "一三",
-      "name": "📱｜一三丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "url"     : "",
-        "site"    : "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
-        "dataKey" : "qwertyuiopqwerty",
-        "dataIv"  : "qwertyuiopqwerty",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "漫国",
-      "name": "📱｜漫國丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "site"    : "",
-        "url"     : "https://app.lkdyw.cn",
-        "dataKey" : "e65144389e9361b5",
-        "dataIv"  : "e65144389e9361b5",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "蔬菜",
-      "name": "📱｜蔬菜丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "site"    : "",
-        "url"     : "http://huohu.yihn.cc",
-        "dataKey" : "huohushipingetap",
-        "dataIv"  : "huohushipingetap",
-        "deviceId": "",
-        "version" : "140",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "漫国動漫",
-      "name": "🎡｜漫國动漫",
-      "type": 3,
-      "api": "csp_AppSy",
-      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
-      "ext": {
-        "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
-        "siteKey": "rectangleadsadxa",
-        "listKey": "aassddwwxxllsx1x",
-        "parsesKey": "aassddwwxxllsx1x"
-      }
-    },
+
+
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -463,6 +334,23 @@
         "version" : ""
       }
     },
+    {
+      "key": "一三",
+      "name": "🏆｜一三｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "url"     : "",
+        "site"    : "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
+        "dataKey" : "qwertyuiopqwerty",
+        "dataIv"  : "qwertyuiopqwerty",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },    
     {
       "key": "斗量",
       "name": "🏆｜斗量｜藍光◎秒播(無廣告+APP)",
@@ -828,6 +716,13 @@
       "api": "./drpy_libs/drpy2.min.js",
       "ext": "./drpy_js/腾云驾雾[官].js"
     },
+		{
+			"key": "tt",
+			"name": "🎖︎｜腾讯2｜官源(道長)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"ext": "./drpy_js/腾云4k.js"
+		},    
     {
       "key": "drpy_js_菜狗",
       "name": "🎖︎｜搜狗｜官源(道長)",
@@ -948,6 +843,35 @@
       "quickSearch": 1,
       "filterable": 1
     },
+    {
+      "key": "大白鯊",
+      "name": "🥇｜白鯊｜高清◎秒播(沒廣告)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+        "主页url": "https://dabaisha.tv/",
+        "分类url": "https://dabaisha.tv/{cateId}/explore/page-{catePg}-area-{area}-by-{by}-year-{year}.html",
+        "分类": "电影$movie#剧集$tv#综艺$variety#动漫$cartoon$#纪录片$doco$#短片$mini-drama",
+        "地区": "中国大陆&中国香港&中国台湾&华语&韩国&日本&美国&欧美&英国&法国&德国&意大利&西班牙&印度",
+        "数组": "class=\"public-list-box public-pic-b&&class=\"public-list-subtitle cor5 hide ft2\"",
+        "图片": "https+://dabaisha.tv/upload/+data-src=\"/upload/&&\"",
+        "倒序": "0",
+        "标题": "title=\"&&\"",
+        "副标题": "public-list-prb hide ft2\">&&</span>",
+        "链接": "href=\"&&\"",
+        "播放数组": "class=\"anthology-list-play&&</ul>",
+        "播放列表": "<li&&</li>",
+        "播放标题": "\">&&</a",
+        "播放链接": "href=\"&&\"",
+        "线路数组": "<h2&&</h2>",
+        "线路标题": ">&&<[只包含:播放记录][替换:播放记录>>大白鲨]",
+        "搜索模式": "1",
+        "搜索url": "https://dabaisha.tv/search?page={pg}&wd={wd}",
+        "搜索数组": "class=\"left public-list-bj&&class=\"thumb-else cor5 hide\"",
+        "搜索标题": "class=\"thumb-txt cor4 hide\">*>&&</div>"
+      }
+    },    
     {
       "key": "饺子",
       "name": "🥇｜餃子｜藍光◎秒播(無廣告)",
@@ -1738,6 +1662,37 @@
         "version" : "120"
       }
     },
+    {
+      "key": "和友",
+      "name": "📱｜和友｜APP",
+      "type": 3,
+      "api": "csp_AppSy",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "url"      : "",
+        "site"     : "http://qcb.sxtzg.com/api.txt",
+        "siteKey"  : "rectangleadsadxa",
+        "listKey"  : "gHSLmx3JQRasgztO",
+        "parsesKey": "gHSLmx3JQRasgztO"
+      }
+    },
+    {
+      "key": "蔬菜",
+      "name": "📱｜蔬菜丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "site"    : "",
+        "url"     : "http://huohu.yihn.cc",
+        "dataKey" : "huohushipingetap",
+        "dataIv"  : "huohushipingetap",
+        "deviceId": "",
+        "version" : "140",
+        "ua"      : ""
+      }
+    },    
     {
       "key": "云云",
       "name": "📱｜雲雲｜藍光◎秒播(無廣告+APP)",
@@ -3791,6 +3746,19 @@
       "changeable": 1,
       "filterable": 0
     },
+    {
+      "key": "漫国動漫",
+      "name": "🎡｜漫國动漫",
+      "type": 3,
+      "api": "csp_AppSy",
+      "jar": "./jar/xiaosa-0902.jar;md5;8eef8f8df25d24e542f1c646d885c513",
+      "ext": {
+        "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
+        "siteKey": "rectangleadsadxa",
+        "listKey": "aassddwwxxllsx1x",
+        "parsesKey": "aassddwwxxllsx1x"
+      }
+    },    
     {
       "key": "稀饭动漫",
       "name": "🎡｜稀饭动漫｜APP",
