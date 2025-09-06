@@ -2,10 +2,39 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.05 Ver.A(今天是星期五晚上！)",
+  "notice": "版本：114.09.06 Ver.A(遙控器是淫魔)",
   "sites": [
 
-
+		   {
+          "key": "影视天堂",
+          "name": "🍑影视天堂(自)",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "jar": "./jar/xiaosa-0905.jar;md5;a75f725a23232f3aa83c6f049b5addb7",
+          "ext": {        
+		             "数组": "<a class=\"video-card\"&&</a>[不包含:伦理#情色]",
+  				       "标题": "title=\"&&\"",
+				          "图片": "data-src=\"&&\"",
+				          "副标题": "text-white\">&&</span>",
+				          "链接": "href=\"&&\"",
+				          "导演": "导演：&&</div>",
+				          "主演": "主演：&&</div>",
+				          "状态": "更新：&&</div>",
+				          "集数": "集数：&&</div>",
+				          "TAG": "TAG：&&</div>",
+				          "简介": "剧情：&&</div>",
+				          "线路数组": "<h4&&h4>",
+				          "线路标题": ">&&</",
+	                "播放数组":" <ul class=\"flex items-center md:&&</ul>",
+	                "播放标题":">&&</",
+		              "播放列表":"<a&&a>",
+			            "播放链接": "href=\"&&\"",
+			            "搜索模式": "1", 
+	                "搜索url": "https://ysttv.com/search/index/type/1/keyword/{wd}",
+				          "分类url": "https://ysttv.com/library/index/c/{cateId}/t/all/y/all/s/{by}/page/{catePg}",
+				          "排序":"时间排序$1#人气排序$2#评分排序$3",
+            	    "分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+        }}, 
 
         {
             "key": "小猪",
