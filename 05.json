@@ -11,7 +11,7 @@
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
-        "数组": "class=\"mb-5 grid grid-cols-3 grid-rows-2 lg:grid-rows-1 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-2 md:gap-4\"&&</ul>",
+        "数组": "class=\"video-card\"&&</a>",
         "标题": "title=\"&&\"",
         "图片": "data-src=\"&&\"",
         "副标题": "text-white\">&&</span>",
