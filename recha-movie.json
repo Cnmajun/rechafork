@@ -30,9 +30,8 @@
         "播放链接": "href=\"&&\"",
         "搜索模式": "1",
         "搜索url": "https://ysttv.com/search/index/type/1/keyword/{wd}",
-        "分类url": "https://ysttv.com/library/index/c/{cateId}/t/all/y/{year}/all/s/{by}/page/{catePg}",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5",
-        "排序": "时间$1#人气$2#评分$3"
+        "分类url": "https://ysttv.com/library/index/c/{cateId}/t/all/y/{year}/all/s/1/page/{catePg}",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
       }
     },
     {
