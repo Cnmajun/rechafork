@@ -48,7 +48,7 @@
         "编码": "UTF-8",
         "数组": " <a class=\"aplus-exp\"&&</a>",
         "图片": "data-original=\"&&\"",
-        "标题": "title=\">&&</a>",
+        "标题": "title=\">&&<",
         "链接": "href=\"&&\"",
         "简介": "description\"*content=\"&&",
         "导演": "导演:&&</p>",
