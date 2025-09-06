@@ -35,35 +35,6 @@
       }
     },
     {
-      "key": "小鸭看看",
-      "name": "小鴨看看",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "数组": " <div class=\"item\">&&</div></div>",
-        "标题": "alt=\"&&\"",
-        "图片": "data-src=\"&&\"",
-        "副标题": "tag2\">&&</div>",
-        "链接": "href=\"&&\"",
-        "播放数组": " <div class=\"list\">&&</div>",
-        "播放列表": "<a&&a>",
-        "播放跳转链接": "var post =\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "<div class=\"title\">&&</div>",
-        "线路标题": ">&&</",
-        "分类url": "https://xiaoyakankan.com/cat/{cateId}-{catePg}.html[https://xiaoyakankan.com/cat/{cateId}.html]",
-        "分类数组": "<a&&/a>",
-        "分类标题": ">&&<",
-        "分类ID": "/cat/&&.html"
-      }
-    },
-    {
       "key": "影趣影視網",
       "name": "影趣影視網",
       "type": 3,
