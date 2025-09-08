@@ -379,31 +379,6 @@
       "timeout": 60
     },
     {
-      "key": "Supjav",
-      "name": "🔞Supjav(直連)",
-      "type": 3,
-      "api": "csp_Supjav",
-      "jar": "./jar/xc.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-          "type": "rect",
-          "ratio": 1.597
-            }
-    },
-    {
-      "key": "csp_XYQHiker_supjav",
-      "name": "🔞SupJAV",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./json/supjav.json",
-      "style": {"type": "rect", "ratio": 1.6}
-    },
-    {
       "key": "JAVDAYTV",
       "name": "🔞JAVDAYTV",
       "type": 3,
