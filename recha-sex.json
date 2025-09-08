@@ -14,27 +14,8 @@
 
   "sites": [
 
-{
-   "key": "🔞javxx",
-   "name": "🔞JAVXX",
-   "type": 3,
-   "api": "./drpy_libs/drpy2.min.js",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "order_num": 0,
-   "ext": "./js/JAVXX（优）.js"
-  },
-    {
-      "key": "py_好色",
-      "name": "⏭｜好色(恰逢)｜PYTHON",
-      "type": 3,
-      "api": "./py/好色tv.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
+
+
 
     {
       "key": "麻豆",
@@ -132,6 +113,16 @@
       "filterable": 0,
       "changeable": 0
     },
+    {
+      "key": "py_好色",
+      "name": "⏭｜好色(恰逢)｜PYTHON",
+      "type": 3,
+      "api": "./py/好色tv.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },    
     {
       "key": "小红书",
       "name": "⏭｜小淫书(嗷嗚)｜PYTHON",
@@ -783,6 +774,17 @@
       "order_num": 0,
       "ext": "./drpy_js/avtoday-改.js"
     },
+    {
+      "key": "🔞javxx",
+      "name": "🔞JAVXX",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./js/JAVXX（优）.js"
+    },    
     {
       "key": "csp_XYQHiker_missav",
       "name": "🔞MissAV",
