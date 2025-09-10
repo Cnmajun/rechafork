@@ -98,6 +98,23 @@
       }
     },
     {
+      "key": "柠檬",
+      "name": "柠檬丨APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "http://45.207.212.137",
+        "site"    : "",
+        "dataKey" : "a006661b01bdebbd",
+        "dataIv"  : "a006661b01bdebbd",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },    
+    {
       "key": "漫国",
       "name": "📱｜漫國丨APP",
       "type": 3,
