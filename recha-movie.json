@@ -2,214 +2,96 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.10 Ver.B(天氣是不是變涼了？)",
+  "notice": "版本：114.09.10 Ver.C(天氣是不是變涼了？)",
   "sites": [
-        {
-            "key": "布雷",
-            "name": "布雷丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-            "ext": {
-                "url": "https://cms.bl4k.cc",
-                "site": "",
-                "dataKey": "B7uaxcwdpX2dww82",
-                "dataIv": "B7uaxcwdpX2dww82",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "五八",
-            "name": "五八丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-            "ext": {
-                "url": "https://dy.58ys.vip",
-                "site": "",
-                "dataKey": "JEWibY1AgWF0V1xx",
-                "dataIv": "JEWibY1AgWF0V1xx",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },    
-        {
-            "key": "追番",
-            "name": "追番丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-            "ext": {
-                "url": "",
-                "site": "https://ysappapi.oss-cn-shenzhen.aliyuncs.com/getapi.txt",
-                "dataKey": "A1akVPQmnnE4Fz9Z",
-                "dataIv": "A1akVPQmnnE4Fz9Z",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "万能",
-            "name": "万能丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-            "ext": {
-                "url": "https://wnvod.cc",
-                "site": "",
-                "dataKey": "5uBvur6znNUmE3zb",
-                "dataIv": "5uBvur6znNUmE3zb",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "驿站",
-            "name": "驿站丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-            "ext": {
-                "url": "",
-                "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
-                "dataKey": "dyyztvapiappyyds",
-                "dataIv": "dyyztvapiappyyds",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },        
-        {
-            "key": "元咲",
-            "name": "元咲丨动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-            "ext": {
-                "url": "http://cic.aicg.fun",
-                "site": "",
-                "dataKey": "2c4h36abd96se10u",
-                "dataIv": "2c4h36abd96se10u",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "番薯",
-            "name": "番薯丨动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-            "ext": {
-                "url": "https://new.app.bytegooty.com",
-                "site": "",
-                "dataKey": "N4yj7l7xKxHF4*gz",
-                "dataIv": "N4yj7l7xKxHF4*gz",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "凛冬",
-            "name": "凛冬丨动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-            "ext": {
-                "url": "http://cydd.xyz",
-                "site": "",
-                "dataKey": "cyddkeyf774b3b39",
-                "dataIv": "cyddkeyf774b3b39",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-
-        {
-      "key": "影视天堂",
-      "name": "影視天堂",
+    {
+      "key": "布雷",
+      "name": "📱｜布雷丨待測",
       "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
       "ext": {
-        "数组": "<a class=\"video-card\"&&</a>[不包含:伦理#情色]",
-        "标题": "title=\"&&\"",
-        "图片": "data-src=\"&&\"",
-        "副标题": "text-white\">&&</span>",
-        "链接": "href=\"&&\"",
-        "导演": "导演：&&</div>",
-        "主演": "主演：&&</div>",
-        "状态": "更新：&&</div>",
-        "集数": "集数：&&</div>",
-        "TAG": "TAG：&&</div>",
-        "简介": "剧情：&&</div>",
-        "线路数组": "<h4&&h4>",
-        "线路标题": ">&&</",
-        "播放数组": " <ul class=\"flex items-center md:&&</ul>",
-        "播放标题": ">&&</",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "搜索模式": "1",
-        "搜索url": "https://ysttv.com/search/index/type/1/keyword/{wd}",
-        "分类url": "https://ysttv.com/library/index/c/{cateId}/t/all/y/{year}/all/s/1/page/{catePg}",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+        "url"     : "https://cms.bl4k.cc",
+        "site"    : "",
+        "dataKey" : "B7uaxcwdpX2dww82",
+        "dataIv"  : "B7uaxcwdpX2dww82",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
       }
     },
     {
-      "key": "影趣影視網",
-      "name": "影趣影視網",
+      "key": "五八",
+      "name": "📱｜五八丨待測",
       "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
       "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "数组": " <a class=\"aplus-exp\"&&</a>",
-        "图片": "data-original=\"&&\"",
-        "标题": "title=\">&&\"",
-        "链接": "href=\"&&\"",
-        "简介": "description\"*content=\"&&",
-        "导演": "导演:&&</p>",
-        "主演": "演员：&&</p>",
-        "播放数组": "<ul class=\"content_playlist&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "div class=\"play_source_tab&&</div>",
-        "线路标题": "alt=\"&&\"",
-        "搜索模式": "1",
-        "搜索数组": "<li class=\"padd cf\">&&</li>",
-        "搜索图片": "data-original=\"&&\"",
-        "搜索标题": "title=\"&&\"",
-        "搜索链接": "href=\"&&\"",
-        "搜索url": "https://www.yingqu1.com/vodsearch/-------------.html?wd={wd}",
-        "搜索后缀": "/voddetail/",
-        "分类url": "https://www.yingqu1.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#动漫$3#综艺$4#番剧$66"
+        "url"     : "https://dy.58ys.vip",
+        "site"    : "",
+        "dataKey" : "JEWibY1AgWF0V1xx",
+        "dataIv"  : "JEWibY1AgWF0V1xx",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "追番",
+      "name": "📱｜追番丨待測",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "",
+        "site"    : "https://ysappapi.oss-cn-shenzhen.aliyuncs.com/getapi.txt",
+        "dataKey" : "A1akVPQmnnE4Fz9Z",
+        "dataIv"  : "A1akVPQmnnE4Fz9Z",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "万能",
+      "name": "📱｜萬能丨待測",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "https://wnvod.cc",
+        "site"    : "",
+        "dataKey" : "5uBvur6znNUmE3zb",
+        "dataIv"  : "5uBvur6znNUmE3zb",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "驿站",
+      "name": "📱｜驛站丨待測",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url": "",
+        "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
+        "dataKey": "dyyztvapiappyyds",
+        "dataIv": "dyyztvapiappyyds",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
       }
     },
     {
       "key": "小猪",
-      "name": "小猪丨APP",
+      "name": "📱｜小猪丨待測",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -224,35 +106,69 @@
         "ua"      : ""
       }
     },
-        {
-            "key": "爱影",
-            "name": "爱影丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-            "ext": {
-                "url": "https://app.lkdyw.cn",
-                "site": "",
-                "dataKey": "e65144389e9361b5",
-                "dataIv": "e65144389e9361b5",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
     {
-      "key": "柠檬",
-      "name": "柠檬丨APP",
+      "key": "爱影",
+      "name": "📱｜爱影丨待測",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
       "ext": {
-        "url"     : "http://45.207.212.137",
+        "url"     : "https://app.lkdyw.cn",
         "site"    : "",
-        "dataKey" : "a006661b01bdebbd",
-        "dataIv"  : "a006661b01bdebbd",
+        "dataKey" : "e65144389e9361b5",
+        "dataIv"  : "e65144389e9361b5",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },    
+    {
+      "key": "元咲",
+      "name": "🎡｜元纓动漫",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "http://cic.aicg.fun",
+        "site"    : "",
+        "dataKey" : "2c4h36abd96se10u",
+        "dataIv"  : "2c4h36abd96se10u",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "番薯",
+      "name": "🎡｜番薯动漫",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "https://new.app.bytegooty.com",
+        "site"    : "",
+        "dataKey" : "N4yj7l7xKxHF4*gz",
+        "dataIv"  : "N4yj7l7xKxHF4*gz",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "凛冬",
+      "name": "🎡｜凛冬动漫",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "http://cydd.xyz",
+        "site"    : "",
+        "dataKey" : "cyddkeyf774b3b39",
+        "dataIv"  : "cyddkeyf774b3b39",
         "deviceId": "",
         "version" : "",
         "ua"      : ""
@@ -1713,6 +1629,59 @@
         "分类url": "https://www.qqutv.com/qqys/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
         "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongmna",
         "地区": "中国&大陆&内地&香港&台湾&日本&韩国&泰国&新加坡&马来西亚&越南&印度&美国&英国&德国&法国&意大利"
+      }
+    },
+    {
+      "key": "影视天堂",
+      "name": "🥇｜影天｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+        "数组": "<a class=\"video-card\"&&</a>[不包含:伦理#情色]",
+        "标题": "title=\"&&\"",
+        "图片": "data-src=\"&&\"",
+        "副标题": "text-white\">&&</span>",
+        "链接": "href=\"&&\"",
+        "导演": "导演：&&</div>",
+        "主演": "主演：&&</div>",
+        "状态": "更新：&&</div>",
+        "集数": "集数：&&</div>",
+        "TAG": "TAG：&&</div>",
+        "简介": "剧情：&&</div>",
+        "线路数组": "<h4&&h4>",
+        "线路标题": ">&&</",
+        "播放数组": " <ul class=\"flex items-center md:&&</ul>",
+        "播放标题": ">&&</",
+        "播放列表": "<a&&a>",
+        "播放链接": "href=\"&&\"",
+        "搜索模式": "1",
+        "搜索url": "https://ysttv.com/search/index/type/1/keyword/{wd}",
+        "分类url": "https://ysttv.com/library/index/c/{cateId}/t/all/y/{year}/all/s/1/page/{catePg}",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+      }
+    },
+    {
+      "key": "影趣影視網",
+      "name": "🥇｜影趣｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "搜索模式": "1",
+        "搜索数组": "<li class=\"padd cf\">&&</li>",
+        "搜索图片": "data-original=\"&&\"",
+        "搜索标题": "title=\"&&\"",
+        "搜索链接": "href=\"&&\"",
+        "搜索url": "https://www.yingqu1.com/vodsearch/-------------.html?wd={wd}",
+        "搜索后缀": "/voddetail/",
+        "分类url": "https://www.yingqu1.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#动漫$3#综艺$4#番剧$66"
       }
     },
     {
