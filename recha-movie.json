@@ -16,187 +16,8 @@
       "filterable": 0,
       "changeable": 0
     },
+ 
 
-
-
-
-
-
-
-
-
-
-
-    {
-      "key": "布雷",
-      "name": "📱｜布雷丨待測",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "https://cms.bl4k.cc",
-        "site"    : "",
-        "dataKey" : "B7uaxcwdpX2dww82",
-        "dataIv"  : "B7uaxcwdpX2dww82",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "五八",
-      "name": "📱｜五八丨待測",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "https://dy.58ys.vip",
-        "site"    : "",
-        "dataKey" : "JEWibY1AgWF0V1xx",
-        "dataIv"  : "JEWibY1AgWF0V1xx",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "追番",
-      "name": "📱｜追番丨待測",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "",
-        "site"    : "https://ysappapi.oss-cn-shenzhen.aliyuncs.com/getapi.txt",
-        "dataKey" : "A1akVPQmnnE4Fz9Z",
-        "dataIv"  : "A1akVPQmnnE4Fz9Z",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "万能",
-      "name": "📱｜萬能丨待測",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "https://wnvod.cc",
-        "site"    : "",
-        "dataKey" : "5uBvur6znNUmE3zb",
-        "dataIv"  : "5uBvur6znNUmE3zb",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "驿站",
-      "name": "📱｜驛站丨待測",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url": "",
-        "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
-        "dataKey": "dyyztvapiappyyds",
-        "dataIv": "dyyztvapiappyyds",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
-      "key": "小猪",
-      "name": "📱｜小猪丨待測",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "",
-        "site"    : "https://xz4k.top/url.txt",
-        "dataKey" : "1785acb6c963184b",
-        "dataIv"  : "1785acb6c963184b",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "爱影",
-      "name": "📱｜爱影丨待測",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "https://app.lkdyw.cn",
-        "site"    : "",
-        "dataKey" : "e65144389e9361b5",
-        "dataIv"  : "e65144389e9361b5",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },    
-    {
-      "key": "元咲",
-      "name": "🎡｜元纓动漫",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "http://cic.aicg.fun",
-        "site"    : "",
-        "dataKey" : "2c4h36abd96se10u",
-        "dataIv"  : "2c4h36abd96se10u",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "番薯",
-      "name": "🎡｜番薯动漫",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "https://new.app.bytegooty.com",
-        "site"    : "",
-        "dataKey" : "N4yj7l7xKxHF4*gz",
-        "dataIv"  : "N4yj7l7xKxHF4*gz",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "凛冬",
-      "name": "🎡｜凛冬动漫",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "http://cydd.xyz",
-        "site"    : "",
-        "dataKey" : "cyddkeyf774b3b39",
-        "dataIv"  : "cyddkeyf774b3b39",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -542,6 +363,40 @@
         "ua"      : ""
       }
     },
+    {
+      "key": "追番",
+      "name": "🏆｜追番丨藍光◎秒播(無廣告+app)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "",
+        "site"    : "https://ysappapi.oss-cn-shenzhen.aliyuncs.com/getapi.txt",
+        "dataKey" : "A1akVPQmnnE4Fz9Z",
+        "dataIv"  : "A1akVPQmnnE4Fz9Z",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "小猪",
+      "name": "🏆｜小猪丨藍光◎秒播(無廣告+app)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "",
+        "site"    : "https://xz4k.top/url.txt",
+        "dataKey" : "1785acb6c963184b",
+        "dataIv"  : "1785acb6c963184b",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },    
     {
       "key": "斗量",
       "name": "🏆｜斗量｜藍光◎秒播(無廣告+APP)",
@@ -2178,6 +2033,74 @@
         "version" : "300"
       }
     },
+    {
+      "key": "布雷",
+      "name": "📱｜布雷丨藍光◎秒播(線路不穩+app)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "https://cms.bl4k.cc",
+        "site"    : "",
+        "dataKey" : "B7uaxcwdpX2dww82",
+        "dataIv"  : "B7uaxcwdpX2dww82",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "五八",
+      "name": "📱｜五八丨高清◎秒播(無廣告+app)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "https://dy.58ys.vip",
+        "site"    : "",
+        "dataKey" : "JEWibY1AgWF0V1xx",
+        "dataIv"  : "JEWibY1AgWF0V1xx",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "万能",
+      "name": "📱｜萬能丨高清◎秒播(無廣告+app)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "https://wnvod.cc",
+        "site"    : "",
+        "dataKey" : "5uBvur6znNUmE3zb",
+        "dataIv"  : "5uBvur6znNUmE3zb",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "驿站",
+      "name": "📱｜驛站丨高清◎秒播(無廣告+app)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url": "",
+        "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
+        "dataKey": "dyyztvapiappyyds",
+        "dataIv": "dyyztvapiappyyds",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
     {
       "key": "浪酷影视2",
       "name": "📱｜瀟酷｜高清◎秒播(無廣告+APP)",
@@ -4097,6 +4020,57 @@
         "version" : ""
       }
     },
+    {
+      "key": "元咲",
+      "name": "🎡｜元纓动漫",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "http://cic.aicg.fun",
+        "site"    : "",
+        "dataKey" : "2c4h36abd96se10u",
+        "dataIv"  : "2c4h36abd96se10u",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "番薯",
+      "name": "🎡｜番薯动漫",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "https://new.app.bytegooty.com",
+        "site"    : "",
+        "dataKey" : "N4yj7l7xKxHF4*gz",
+        "dataIv"  : "N4yj7l7xKxHF4*gz",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "凛冬",
+      "name": "🎡｜凛冬动漫",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "http://cydd.xyz",
+        "site"    : "",
+        "dataKey" : "cyddkeyf774b3b39",
+        "dataIv"  : "cyddkeyf774b3b39",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },    
     {
       "key": "咕咕动漫",
       "name": "🎡｜咕咕动漫",
