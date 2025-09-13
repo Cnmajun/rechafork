@@ -2,8 +2,31 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.10 Ver.C(天氣是不是變涼了？)",
+  "notice": "版本：114.09.13 Ver.A(天氣超熱)",
   "sites": [
+
+
+    {
+      "key": "py_永樂",
+      "name": "🏆｜永樂｜高清◎秒播(無廣告+PY)",
+      "type": 3,
+      "api": "./py/永乐视频.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+
+
+
+
+
+
+
+
+
+
+
     {
       "key": "布雷",
       "name": "📱｜布雷丨待測",
