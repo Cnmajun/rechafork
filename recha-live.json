@@ -13,20 +13,12 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },      
     {
-      "jar" : "./jar/mqitv.jar",
-      "name": "59酒店源",
-      "api" : "csp_MQiTV",
-      "ext" : "https://59.125.210.231:4433",
-      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "jar" : "./jar/mqitv.jar",
-      "name": "60酒店源",
-      "api" : "csp_MQiTV",
-      "ext" : "https://60.248.127.232:4433",
-      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "name": "快播",
+      "type": 0,
+      "url": "./live/快播TV.txt",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
+      "pass": true
     },
     {
       "name": "93酒店源",
@@ -73,14 +65,6 @@
       "name": "立方直播",
       "url": "http://breezy-audrie-zspace-7524863c.koyeb.app/sub?type=m3u&token=leifeng",
       "timeout": 5,
-      "pass": true
-    },
-    {
-      "name": "歐飛",
-      "type": 0,
-      "url": "./live/ofiii.m3u",
-      "ua": "okhttp/3.15",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
     },
     {
@@ -269,6 +253,22 @@
       "type": 3,
       "api": "./py/live_freeshot.py",
       "ext": {}
+    },    
+    {
+      "jar" : "./jar/mqitv.jar",
+      "name": "59酒店源",
+      "api" : "csp_MQiTV",
+      "ext" : "https://59.125.210.231:4433",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "jar" : "./jar/mqitv.jar",
+      "name": "60酒店源",
+      "api" : "csp_MQiTV",
+      "ext" : "https://60.248.127.232:4433",
+      "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },          
     {
       "name": "台灣景點直播",
