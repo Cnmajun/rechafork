@@ -5,7 +5,15 @@
   "lives": [
 
 
-
+    {
+      "name": "星河",
+      "type": 0,
+      "url": "http://星河.xyz/云霄仙子.json",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
+      "UA": "changshou/521",
+      "pass": true
+    },
     {
       "name": "路邊撿的",
       "url": "https://php.946985.xyz/stv.m3u",
