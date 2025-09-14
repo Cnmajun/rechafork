@@ -40,6 +40,45 @@
              }
     }, 
     {
+      "key": "南瓜",
+      "name": "📱｜南瓜｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_NanGua",
+      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
+      "playerType": 2,
+      "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+    },    
+    {
+      "key": "稀饭",
+      "name": "📱｜稀飯｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar",
+      "ext": {
+        "url"     : "https://app.xifanys.com",
+        "dataKey" : "HM6Ly9yeS4ya3dvL",
+        "dataIv"  : "HM6Ly9yeS4ya3dvL",
+        "deviceId": "",
+        "version" : "119"
+      }
+    },  
+    {
+      "key": "鲶鱼",
+      "name": "📱｜鯰鱼｜高清◎秒播(無廣告)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar",
+      "ext": {
+        "url"     : "http://47.122.22.78",
+        "dataKey" : "2234567890123456",
+        "dataIv"  : "2234567890123456",
+        "deviceId": "",
+        "version" : ""
+      }
+    },        
+    {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
       "type": 3,
