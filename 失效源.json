@@ -27,18 +27,6 @@
       "changeable": 0
     },
     {
-      "key": "csp_pornhub",
-      "name": "🔞91Pornhub",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./json/pornhub.json",
-      "style": {"type": "rect", "ratio": 1.6, "proxy": "proxy"}
-    },
-    {
       "key": "csp_XYQHiker_91porn永久官方",
       "name": "🔞91porn永久官方",
       "type": 3,

@@ -237,6 +237,18 @@
       "style": {"type": "rect", "ratio": 1.6}
     },
     {
+      "key": "csp_pornhub",
+      "name": "🔞91Pornhub",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "jar": "./jar/xyqxbpq.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./json/pornhub.json",
+      "style": {"type": "rect", "ratio": 1.6, "proxy": "proxy"}
+    },    
+    {
       "key": "pornhub",
       "name": "⏭｜91Pornhub｜PYTHON",
       "type": 3,
