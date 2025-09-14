@@ -4,80 +4,8 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "notice": "版本：114.09.13 Ver.C(天氣超熱)",
   "sites": [
-    {
-      "key": "麦田影视",
-      "name": "麥田｜直連",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": "./json/麦田影视.json"
-    },
-    {
-      "key": "py_永樂",
-      "name": "🏆｜永樂｜高清◎秒播(浮水印廣告+PY)",
-      "type": 3,
-      "api": "./py/永乐视频.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "爱看",
-      "name": "📱｜愛看丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-             "url": "https://aikan.my",
-             "site": "",
-             "dataKey": "hzxjRSmyTmSE4ENE",
-             "dataIv": "hzxjRSmyTmSE4ENE",
-             "deviceId": "",
-             "version": "",
-             "ua": ""
-             }
-    }, 
-    {
-      "key": "南瓜",
-      "name": "📱｜南瓜｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "api": "csp_NanGua",
-      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
-      "playerType": 2,
-      "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
-    },    
-    {
-      "key": "稀饭",
-      "name": "📱｜稀飯｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar",
-      "ext": {
-        "url"     : "https://app.xifanys.com",
-        "dataKey" : "HM6Ly9yeS4ya3dvL",
-        "dataIv"  : "HM6Ly9yeS4ya3dvL",
-        "deviceId": "",
-        "version" : "119"
-      }
-    },  
-    {
-      "key": "鲶鱼",
-      "name": "📱｜鯰鱼｜高清◎秒播(無廣告)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar",
-      "ext": {
-        "url"     : "http://47.122.22.78",
-        "dataKey" : "2234567890123456",
-        "dataIv"  : "2234567890123456",
-        "deviceId": "",
-        "version" : ""
-      }
-    },        
+
+      
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -750,7 +678,7 @@
       "jar": "./jar/mi-0619.jar;md5;9b8e295927dccaf6f96cd9008174fe11",
       "playerType": 2,
       "ext": "./json/cs.txt"
-    },
+    },    
     {
       "key": "步步",
       "name": "🏆｜步步｜藍光◎秒播(道長源)",
@@ -1184,6 +1112,14 @@
       "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
       "ext": "https://www.subaibai.com"
     },
+    {
+      "key": "麦田影视",
+      "name": "🥇｜麥田｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": "./json/麦田影视.json"
+    },    
     {
       "key": "ling",
       "name": "🥇｜飞快｜高清◎秒播(無廣告)",
@@ -2471,6 +2407,47 @@
       }
     },
     {
+      "key": "爱看",
+      "name": "📱｜愛看丨高清◎順播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+             "url": "https://aikan.my",
+             "site": "",
+             "dataKey": "hzxjRSmyTmSE4ENE",
+             "dataIv": "hzxjRSmyTmSE4ENE",
+             "deviceId": "",
+             "version": "",
+             "ua": ""
+             }
+    }, 
+    {
+      "key": "南瓜",
+      "name": "📱｜南瓜｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_NanGua",
+      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
+      "playerType": 2,
+      "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+    },    
+    {
+      "key": "鲶鱼",
+      "name": "📱｜鯰鱼｜高清◎秒播(無廣告)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar",
+      "ext": {
+        "url"     : "http://47.122.22.78",
+        "dataKey" : "2234567890123456",
+        "dataIv"  : "2234567890123456",
+        "deviceId": "",
+        "version" : ""
+      }
+    },      
+    {
       "key": "csp_sbb",
       "name": "📱｜布布｜高清◎卡頓(浮水印廣告+APP)",
       "type": 3,
@@ -2501,6 +2478,21 @@
       "quickSearch": 0,
       "ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeWtPAwa8PAzOjbdregJfgecQjmbgYlvm+1rK87EwCqgaovlgh315Qrh90D+nl+f08o="
     },
+    {
+      "key": "稀饭",
+      "name": "📱｜稀飯｜高清◎秒播(賭場廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar",
+      "ext": {
+        "url"     : "https://app.xifanys.com",
+        "dataKey" : "HM6Ly9yeS4ya3dvL",
+        "dataIv"  : "HM6Ly9yeS4ya3dvL",
+        "deviceId": "",
+        "version" : "119"
+      }
+    },      
     {
       "key": "csp_Uvod",
       "name": "🥈｜優視｜低清◎秒播(無廣告)",
@@ -3244,8 +3236,18 @@
       }
     },
     {
+      "key": "py_永樂",
+      "name": "🥈｜永樂｜高清◎秒播(浮水印廣告+PY)",
+      "type": 3,
+      "api": "./py/永乐视频.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },    
+    {
       "key": "CSP_雪糕影视",
-      "name": "🥈｜雪糕｜高清◎秒播(全頻廣告)",
+      "name": "🥈｜雪糕｜高清◎秒播(滿版廣告)",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
