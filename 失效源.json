@@ -27,16 +27,6 @@
       "changeable": 0
     },
     {
-      "key": "py_好色",
-      "name": "⏭｜好色(恰逢)｜PYTHON",
-      "type": 3,
-      "api": "./py/好色tv.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },     
-    {
       "key": "csp_pornhub",
       "name": "🔞91Pornhub",
       "type": 3,
