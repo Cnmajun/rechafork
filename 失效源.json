@@ -29,7 +29,22 @@
         "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
         "version" : "120"
       }
-    },      
+    },
+    {
+      "key": "爱看",
+      "name": "🏆｜爱看2丨藍光◎卡頓(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "ext": {
+        "url"     : "http://154.37.220.65",
+        "dataKey" : "uI1TkPJC8B46AyN3",
+        "dataIv"  : "uI1TkPJC8B46AyN3",
+        "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
+        "version" : "120"
+      }
+    },    
     {
       "key": "py_花都",
       "name": "⏭｜花都(嗷嗚)｜PYTHON",

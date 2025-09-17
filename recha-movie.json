@@ -2,13 +2,13 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.18 Ver.B(今晚34度)",
+  "notice": "版本：114.09.18 Ver.C(今晚34度)",
   "sites": [
 
 
         {
             "key": "方舟",
-            "name": "方舟丨动漫",
+            "name": "🎡｜方舟动漫｜待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -25,7 +25,7 @@
         },
         {
             "key": "热剧",
-            "name": "热剧丨APP",
+            "name": "📱｜熱播｜待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -42,7 +42,7 @@
         },
         {
             "key": "星星",
-            "name": "星星丨APP",
+            "name": "📱｜星星｜待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -59,7 +59,7 @@
         },
         {
             "key": "斗量",
-            "name": "斗量丨APP",
+            "name": "📱｜斗量｜修復+待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -76,7 +76,7 @@
         },
         {
             "key": "魔方",
-            "name": "魔方丨APP",
+            "name": "📱｜魔方｜新站址+待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -93,7 +93,7 @@
         },
         {
             "key": "爱看",
-            "name": "爱看丨APP",
+            "name": "📱｜愛看｜修復+待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -110,7 +110,7 @@
         },
         {
             "key": "布雷",
-            "name": "布雷丨APP",
+            "name": "📱｜布雷丨修復+待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -353,21 +353,6 @@
              "deviceId": "",
              "version": "120"
              }
-    },
-    {
-      "key": "爱看",
-      "name": "🏆｜爱看2丨藍光◎卡頓(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "http://154.37.220.65",
-        "dataKey" : "uI1TkPJC8B46AyN3",
-        "dataIv"  : "uI1TkPJC8B46AyN3",
-        "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-        "version" : "120"
-      }
     },
     {
       "key": "厂长",
@@ -1858,7 +1843,7 @@
     },
     {
       "key": "和友",
-      "name": "📱｜和友｜APP",
+      "name": "📱｜和友｜高清◎順播(無廣告+APP)",
       "type": 3,
       "api": "csp_AppSy",
       "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
@@ -1872,7 +1857,7 @@
     },
     {
       "key": "蔬菜",
-      "name": "📱｜蔬菜丨APP",
+      "name": "📱｜蔬菜｜高清◎順播(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -1905,7 +1890,7 @@
     },
     {
       "key": "光影",
-      "name": "📱｜光影｜APP",
+      "name": "📱｜光影｜高清◎順播(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -2505,7 +2490,7 @@
       }
     },
     {
-      "key": "爱看",
+      "key": "爱看2",
       "name": "📱｜愛看丨高清◎順播(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
