@@ -233,21 +233,6 @@
     },
     {
       "key": "爱看",
-      "name": "🏆｜爱看1丨藍光◎卡頓(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
-      "ext": {
-        "url"     : "http://114.134.185.234",
-        "dataKey" : "uI1TkPJC8B46AyN3",
-        "dataIv"  : "uI1TkPJC8B46AyN3",
-        "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-        "version" : "120"
-      }
-    },
-    {
-      "key": "爱看",
       "name": "🏆｜爱看2丨藍光◎卡頓(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
@@ -397,16 +382,6 @@
         "key2": "hsZwQK5yrnefW7OJ",
         "key3": "hsZwQK5yrnefW7OJ"
       }
-    },
-    {
-      "key": "py_貓眼",
-      "name": "🏆｜貓眼｜藍光◎秒播(無廣告+PY)",
-      "type": 3,
-      "api": "./py/mioaying.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
     },
     {
       "key": "公共",
