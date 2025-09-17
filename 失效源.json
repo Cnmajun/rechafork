@@ -21,7 +21,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "jar": "./jar/xiaosa-0918.jar",
       "ext": {
         "url"     : "http://114.134.185.234",
         "dataKey" : "uI1TkPJC8B46AyN3",
@@ -36,7 +36,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar;md5;0330e7d13db7eeafe21d11734016a21c",
+      "jar": "./jar/xiaosa-0918.jar",
       "ext": {
         "url"     : "http://154.37.220.65",
         "dataKey" : "uI1TkPJC8B46AyN3",
