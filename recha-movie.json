@@ -3246,14 +3246,6 @@
       }
     },
     {
-      "key": "海纳影视",
-      "name": "🥉｜海纳｜高清◎秒播(滿版廣告)",
-      "type": 3,
-      "api": "csp_HBPQ",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
-      "ext": "./json/海纳影视.json"
-    },
-    {
       "key": "Boba影视",
       "name": "🥉｜Boba｜高清◎秒播(滿版廣告)",
       "type": 0,
@@ -3816,7 +3808,7 @@
     },
     {
       "key": "稀饭动漫",
-      "name": "🎡｜稀饭动漫｜APP",
+      "name": "🎡｜稀饭动漫",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
