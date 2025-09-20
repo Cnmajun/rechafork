@@ -6,6 +6,22 @@
     "notice": "114.09.14 Ver.A",
     "sites": [ 
     {
+      "key": "晴天",
+      "name": "🏆｜晴天｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/moyuer.php;md5;2d5e6b5456c7cae497af11938df2662d",
+      "timeout": 240,
+      "ext": {
+        "url"     : "https://qjappcms.sun4k.top",
+        "dataKey" : "sBxqXVF5pAHbGzrH",
+        "dataIv"  : "sBxqXVF5pAHbGzrH",
+        "deviceId": "",
+        "version" : "119"
+      }
+    },
+    {
       "key": "py_貓眼",
       "name": "🏆｜貓眼｜藍光◎秒播(無廣告+PY)",
       "type": 3,
