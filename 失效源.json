@@ -6,6 +6,22 @@
     "notice": "114.09.14 Ver.A",
     "sites": [ 
     {
+      "key": "橘子",
+      "name": "📱｜橘子｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "ext": {
+        "site"    : "http://t.bffree.cn/1.txt",
+        "url"     : "https://api1.bffree.cn",
+        "dataKey" : "2015692015692015",
+        "dataIv"  : "2015692015692015",
+        "deviceId": "",
+        "version" : "300"
+      }
+    },      
+    {
       "key": "py_jinpai",
       "name": "🥇｜金光｜高清◎秒播(無廣告)",
       "type": 3,

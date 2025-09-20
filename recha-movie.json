@@ -1933,22 +1933,6 @@
       "ext": {"url": "http://v.lkuys.cn"}
     },
     {
-      "key": "橘子",
-      "name": "📱｜橘子｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
-      "ext": {
-        "site"    : "http://t.bffree.cn/1.txt",
-        "url"     : "https://api1.bffree.cn",
-        "dataKey" : "2015692015692015",
-        "dataIv"  : "2015692015692015",
-        "deviceId": "",
-        "version" : "300"
-      }
-    },
-    {
       "key": "布雷",
       "name": "📱｜布雷丨藍光◎秒播(線路不穩+app)",
       "type": 3,
@@ -2403,7 +2387,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0910.jar",
+      "jar": "./jar/xiaosa-0918.jar",
       "ext": {
         "url"     : "https://app.xifanys.com",
         "dataKey" : "HM6Ly9yeS4ya3dvL",
@@ -2411,7 +2395,7 @@
         "deviceId": "",
         "version" : "119"
       }
-    },      
+    },
     {
       "key": "csp_Uvod",
       "name": "🥈｜優視｜低清◎秒播(無廣告)",
