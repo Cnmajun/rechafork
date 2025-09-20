@@ -6,6 +6,101 @@
     "notice": "114.09.14 Ver.A",
     "sites": [ 
     {
+      "key": "金星影视",
+      "name": "📱｜金星｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_WebJP",
+      "jar": "./jar/tvkj.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "KhY021WelCEl+6MsvwnzaPusskysEhxc/i3d/FHwReBTtZTeDEVZJbQKKez3K+OxlrjAIMdUpAUxP8fGystYn0Hss098UFVR69Qm2ARgmeZN86q8Ww=="
+    },      
+    {
+      "key": "py_若惜追剧APP",
+      "name": "📱｜若惜｜高清◎秒播(無廣告+py)",
+      "type": 3,
+      "api": "./py/若惜追剧APP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },      
+    {
+      "key": "csp_sbb",
+      "name": "📱｜布布｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "./jar/巧記.jar;md5;9d8407a76b2abeeaabdd147b1b93799f",
+      "ext": "maHR0cHM6Ly93d3cuc3ViYWliYWkuY29tLw=="
+    },      
+    {
+      "key": "天天弹幕",
+      "name": "📱｜昨天｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_TianTian",
+      "jar": "./jar/pizza.jar;md5;6bcb3de5f0d7c9b3d4f19cfe9a314ab2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1,
+      "ext": {"danmu": true, "site": "aHR0cDovL3R0LnlzZHFqcy5jbg=="}
+    },      
+    {
+      "key": "天天影视",
+      "name": "📱｜今天｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {"url": "http://tt.ysdqjs.cn"}
+    },      
+    {
+      "key": "蓝光",
+      "name": "📱｜藍光｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "ext": {
+        "url"     : "http://122.228.193.2:9654",
+        "dataKey" : "ca94b06ca3c7d80e",
+        "dataIv"  : "ca94b06ca3c7d80e",
+        "deviceId": "",
+        "version" : "119"
+      }
+    },      
+    {
+      "key": "追忆",
+      "name": "📱｜追忆｜高清◎順播(連續劇含短劇)",
+      "type": 3,
+      "api": "csp_AppSy",
+      "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
+      "quickSearch": 0,
+      "ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeWtPAwa8PAzOjbdregJfgecQjmbgYlvm+1rK87EwCqgaovlgh315Qrh90D+nl+f08o="
+    },      
+    {
+      "key": "稀饭",
+      "name": "📱｜稀飯｜高清◎秒播(賭場廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0918.jar",
+      "ext": {
+        "url"     : "https://app.xifanys.com",
+        "dataKey" : "HM6Ly9yeS4ya3dvL",
+        "dataIv"  : "HM6Ly9yeS4ya3dvL",
+        "deviceId": "",
+        "version" : "119"
+      }
+    },
+    {
       "key": "橘子",
       "name": "📱｜橘子｜高清◎秒播(無廣告+APP)",
       "type": 3,
