@@ -23,7 +23,7 @@
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
         "主页url" : "https://www.seedhub.cc/",
-        "分类url" : "https://www.seedhub.cc/categories/{cateId}/tags/{year}/movies/?page={catePg}",
+        "分类url" : "https://www.seedhub.cc/categories/{cateId}/tags/{year}/movies/?page={catePg}[https://www.seedhub.cc/categories/{cateId}/movies/]",
         "分类": "電影$1#劇集$3#動漫$2",
         "年份": "2025$64343#2024$64419#2023$2022$64257#2021$46828#2020$7176#2019$3289#2018$3059#2017$3364#2016$2891#2015$1676#2014$1673#2013$1670#2012$1687#2011$3128#2010$3185#2009$3136#2008$1694#2007$6085#2006$4630#2005$3483#2004$2930#2003$3611#2002$1680#2001$4377#2000$4337"
       }
