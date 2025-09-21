@@ -640,6 +640,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/步步.js"
     },
     {
@@ -647,6 +648,7 @@
       "name": "🏆｜小紅｜(道長源)",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -665,6 +667,7 @@
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
+      "jar": "./jar/fm.jar",
       "api": "./drpy_libs/drpy2.min.js",
       "ext": "./drpy_js/360影视[官].js"
     },
@@ -674,6 +677,7 @@
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
+      "jar": "./jar/fm.jar",
       "api": "./drpy_libs/drpy2.min.js",
       "ext": "./drpy_js/奇珍异兽[官].js"
     },
@@ -694,6 +698,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/百忙无果[官].js"
     },
     {
@@ -703,6 +708,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/腾云驾雾[官].js"
     },
     {
@@ -710,6 +716,7 @@
       "name": "🎖︎｜腾讯2｜官源(道長)",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/腾云4k.js"
     },
     {
@@ -719,6 +726,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/菜狗[官].js"
     },
     {
@@ -728,6 +736,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/优酷[官].js"
     },
     {
@@ -1263,6 +1272,7 @@
       "name": "🥇｜低端｜高清◎秒播(無廣告)",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4245,6 +4255,7 @@
       "name": "🎡｜牛顿动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4259,6 +4270,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/去看吧.js"
     },
     {
@@ -4269,6 +4281,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/奇米动漫.js"
     },
     {
@@ -4279,6 +4292,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/DHPDQ.js"
     },
     {
@@ -4289,6 +4303,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/DMD.js"
     },
     {
@@ -4299,6 +4314,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/HKDM.js"
     },
     {
@@ -4309,6 +4325,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/爱弹幕.js"
     },
     {
@@ -4319,6 +4336,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/七色番[漫].js"
     },
     {
@@ -4329,6 +4347,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "ext": "./drpy_js/奇米动漫.js"
     },
     {
@@ -4336,6 +4355,7 @@
       "name": "🎡｜爱动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4346,6 +4366,7 @@
       "name": "🎡｜异世界动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "searchable": 1,
       "quickSearch": 1,
       "ext": "./drpy_js/异世界.js"
@@ -4355,6 +4376,7 @@
       "name": "🎡｜奇米动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4366,6 +4388,7 @@
       "name": "🎡｜嗷呜动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
+      "jar": "./jar/fm.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
