@@ -144,7 +144,7 @@
     },
     {
       "key": "py_又是一個金牌",
-      "name": "🏆｜王牌｜藍光◎秒播(無廣告)",
+      "name": "🏆｜第一｜藍光◎秒播(無廣告)",
       "type": 3,
       "api": "./py/又是一個金牌.py",
       "searchable": 1,
@@ -154,9 +154,21 @@
         "site": "https://jpyy.com,https://www.jiabaide.cn,https://cqzuoer.com,https://www.tjrongze.com,https://www.jpyy2.com,https://www.cfkj86.com"
       }
     },
-        {
+    {
+      "key": "py_文才",
+      "name": "🏆｜第二｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "api": "./py/文才影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+      }
+    },    
+    {
       "key": "dyttzyw.tv",
-      "name": "🏆｜天牌｜藍光◎秒播(無廣告)",
+      "name": "🏆｜第三｜藍光◎秒播(無廣告)",
       "type": 1,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -167,18 +179,7 @@
         "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "短剧"
       ]
     },
-    {
-      "key": "py_文才",
-      "name": "🏆｜地牌｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "./py/文才影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-      }
-    },
+
     {
       "key": "py_金牌.py",
       "name": "🏆｜金牌｜高清◎秒播(無廣告)",
