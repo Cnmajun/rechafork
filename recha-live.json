@@ -9,9 +9,7 @@
       "name": "星河",
       "type": 2,
       "url": "http://mytv6688.xyz/云霄仙子.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "UA": "changshou/521",
+      "ua": "changshou/521",
       "pass": true
     },
     {
