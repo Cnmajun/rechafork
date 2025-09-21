@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.21 Ver.A(稍微重新檢查了一遍，壞了很多站源)",
+  "notice": "版本：114.09.21 Ver.B(稍微重新檢查了一遍，壞了很多站源)",
   "sites": [
 
   
@@ -58,6 +58,16 @@
         "proxy": ""
       },
       "style": {"type": "rect", "ratio": 1.77}
+    },
+    {
+      "key": "爱看机器人",
+      "name": "🐙｜愛看｜全線路",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "csp_瓜皮",
@@ -3275,16 +3285,6 @@
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
         "简介": "<p>&&<p>"
       }
-    },
-    {
-      "key": "爱看机器人",
-      "name": "🧲｜爱看｜全線路",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "tufun采集",
