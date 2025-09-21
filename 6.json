@@ -10,12 +10,10 @@
       "name": "🐙｜555｜",
       "type": 3,
       "api": "csp_XBPQ",
-      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "timeout": 60,
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
         "主页url": "https://www.p5q8wua2.com/",
