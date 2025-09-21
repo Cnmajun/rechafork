@@ -17,9 +17,8 @@
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
         "主页url": "https://www.p5q8wua2.com/",
-        "分类url": "https://www.p5q8wua2.com/vodtype/{catePg}.html",
-        "分类": "电影$1#电视剧$2#综艺$4#动漫$3#成人$124",
-        "数组": "class=\"module-items module-poster-items-base\"&&</a>"
+        "分类url": "https://www.p5q8wua2.com/vodtype/{cateId}.html",
+        "分类": "电影$1#电视剧$2#综艺$4#动漫$3#成人$124"
       }
     },
 
