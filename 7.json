@@ -18,7 +18,8 @@
       "ext": {
         "主页url": "https://www.p5q8wua2.com/",
         "分类url": "https://www.p5q8wua2.com/vodshow/{catePg}-{area}-{by}------{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$4#动漫$3#成人$124"
+        "分类": "电影$1#电视剧$2#综艺$4#动漫$3#成人$124",
+        "数组": "class=\"module-items module-poster-items-base\"&&</a>"
       }
     },
 
