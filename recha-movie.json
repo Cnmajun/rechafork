@@ -471,8 +471,29 @@
       "changeable": 1
     },
     {
+      "key":"嗷呜剧爸爸",
+      "name":"🏆｜劇粑｜藍光◎秒播(無廣告)",
+      "type":4,
+      "api":"https://tvbot.ggff.net/jubaba"
+    },
+    {
+      "key":"恰逢永乐",
+      "name":"🏆｜永樂｜藍光◎秒播(無廣告)",
+      "type":4,
+      "api":"https://tvbot.ggff.net/yongle"
+    },    
+    {
+      "key": "Qile优视频",
+      "name": "🏆｜優視｜藍光◎秒播(無廣告)",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/uvod",
+      "searchable": 1,
+      "changeable": 1,
+      "filterable": 1
+    },         
+    {
       "key": "Qile优视频2",
-      "name": "🏆｜優壹｜藍光◎秒播(無廣告)",
+      "name": "🏆｜Uvod｜藍光◎秒播(無廣告)",
       "type": 3,
       "searchable": 1,
       "changeable": 1,
@@ -480,16 +501,7 @@
       "jar": "./jar/custom_spider.jar;md5;5e53c8f9ddd4ede5359c16bee091db93",
       "playerType": 2,
       "filterable": 1
-    },
-    {
-      "key": "Qile优视频",
-      "name": "🏆｜優貳｜藍光◎秒播(無廣告)",
-      "type": 4,
-      "api": "https://tvbot.ggff.net/uvod",
-      "searchable": 1,
-      "changeable": 1,
-      "filterable": 1
-    },    
+    }, 
     {
       "key": "csp_我闲影院",
       "name": "🏆｜我闲｜高清◎秒播(無廣告)",
