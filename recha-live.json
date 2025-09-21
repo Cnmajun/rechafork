@@ -228,15 +228,12 @@
       }
     },
     {
-      "name": "私密花園(18+)",
-      "playerType": 1,
-      "url": "./live/178.txt",
-      "epg": "https://epg.pw/xmltv/epg.xml",
-      "ua": "Lavf/58.12.100",
-      "header": {
-        "X-Api-key": "eef635a7806e57ab688fa46eaddb6926a728de071bc267cb5f336d7be068d880..0..1735089945..75b109b1-81c5-4caf-aea1-776e6a81"
-      }
-    },
+      "name":"秘密花園(18+)",
+      "type":0,
+      "url":"https://mmhy.zzong6599.workers.dev/",
+      "epg":"http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo":"http://diyp5.112114.xyz/{name}.png"
+    },    
     {
       "name": "臨時(18+)",
       "playerType": 1,
