@@ -74,7 +74,7 @@
     "quickSearch": 1,
     "filterable": 1,
     "api": "csp_AppMuou",
-    "jar": "./jar/xiaosa-0526.jar;md5;6c87c9a352a0d2e60fed23f28bf4f9c6",
+    "jar": "./jar/xiaosa-0923.jar;md5;6c87c9a352a0d2e60fed23f28bf4f9c6",
     "ext": {
       "url": "http://110.42.107.216:56677",
       "dataKey": "d7378557d1d9c924",

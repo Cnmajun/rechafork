@@ -11,7 +11,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "url"     : "https://appcms.xy4k.com",
         "site"    : "",
@@ -57,7 +57,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "site"    : "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/03.txt",
         "url"     : "http://154.12.22.168:14500",        
@@ -73,7 +73,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "url"     : "http://154.37.152.97:5211",
         "site"    : "",
@@ -91,7 +91,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_AppSy",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "url" : "http://192.140.161.171:2563",
         "key1": "aassddwwxxllsx1x",
@@ -105,7 +105,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "url"     : "https://ledayy.com",
         "site"    : "",
@@ -121,7 +121,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "url"     : "http://110.40.59.188:9527",
         "dataKey" : "ebad3f1a58b13933",
@@ -145,7 +145,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "site"    : "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
         "url"     : "http://160.202.247.214:1688",        
@@ -206,7 +206,7 @@
       "name": "📱｜今天｜高清◎秒播(無廣告+APP)",
       "type": 3,
       "api": "csp_AppRJ",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -218,7 +218,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "url"     : "http://122.228.193.2:9654",
         "dataKey" : "ca94b06ca3c7d80e",
@@ -242,7 +242,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "url"     : "https://app.xifanys.com",
         "dataKey" : "HM6Ly9yeS4ya3dvL",
@@ -257,7 +257,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar;md5;0075066b2d3b5c17cd4cb5e0c97e20a4",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "site"    : "http://t.bffree.cn/1.txt",
         "url"     : "https://api1.bffree.cn",
@@ -341,7 +341,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "url"     : "http://114.134.185.234",
         "dataKey" : "uI1TkPJC8B46AyN3",
@@ -356,7 +356,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0918.jar",
+      "jar": "./jar/xiaosa-0923.jar",
       "ext": {
         "url"     : "http://154.37.220.65",
         "dataKey" : "uI1TkPJC8B46AyN3",
