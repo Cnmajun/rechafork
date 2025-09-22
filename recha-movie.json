@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.21 Ver.F\n1.修復部分源失效問題\n2.新增部分源\n3.優化部分功能", 
+  "notice": "版本：114.09.22 Ver.A\n1.修復第二\n2.颱風來了\n3.沒有颱風假", 
   "sites": [
 
   
@@ -158,12 +158,12 @@
       "key": "py_文才",
       "name": "🏆｜第二｜藍光◎秒播(無廣告)",
       "type": 3,
-      "api": "./py/文才影视.py",
+      "api": "./py/又是一個金牌.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://cqzuoer.com"
       }
     },    
     {
