@@ -3,7 +3,52 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
   "sites": [
-  {
+    {
+      "key": "kkys",
+      "name": "可可影视 | 聚合",
+      "type": 3,
+      "searchable": 0,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "jar": "./jar/GM.jar;md5;7dd67a73e49dbf1cd32f56e329fce7b3",
+      "ext": {
+        "userScript": "./js/kkys.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com/*",
+            "https://*/disable-devtool/*"
+          ]
+        },
+        "playUrlMatch": [
+          "https://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.kkys01.com/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.kkys01.com/show/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-3}-${pg:-1}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.kkys01.com${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.kkys01.com${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.kkys01.com/search?k=${key}&page=${pg:-1}"
+          }
+        }
+      }
+    },
+    {
     "key": "驿站",
     "name": "📱｜驿站｜APP",
     "type": 3,
