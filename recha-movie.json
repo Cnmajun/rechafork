@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.22 Ver.C\n第四到第九是一種新的站源形式，請大家幫我測試一下並回饋給我\n我在模擬器跟手機上面是可以用的，但是盒子不行", 
+  "notice": "版本：114.09.22 Ver.D\n第四到第九是一種新的站源形式，請大家幫我測試一下並回饋給我\n我在模擬器跟手機上面是可以用的，但是盒子不行", 
   "sites": [
 
 
@@ -529,20 +529,19 @@
       "filterable": 1
     },
     {
-      "key": "py_统一影视",
-      "name": "🏆｜銅牌｜高清◎秒播(無廣告+PY)",
+      "key": "厂长",
+      "name": "🏆｜銅牌｜高清◎秒播(無廣告)",
       "type": 3,
-      "api": "./py/统一影视.py",
+      "api": "./py/py_cz.py",
       "searchable": 1,
-      "quickSearch": 0,
       "filterable": 0,
-      "changeable": 0
+      "changeable": 1
     },
     {
       "key": "瓜子影视",
       "name": "🏆｜鐵牌｜特清◎秒播(無廣告)",
       "type": 3,
-      "jar": "https://mpimg.cn/down.php/2fb2ccf2b4e59d8714abbbf151f8ce46.jar",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "api": "csp_Gz360",
       "searchable": 1,
       "quickSearch": 1,
@@ -580,15 +579,6 @@
              "deviceId": "",
              "version": "120"
              }
-    },
-    {
-      "key": "厂长",
-      "name": "🏆｜廠长｜高清◎秒播(無廣告+py)",
-      "type": 3,
-      "api": "./py/py_cz.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
     },
     {
       "key": "若雪",
