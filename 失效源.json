@@ -460,25 +460,6 @@
       "ext": "./json/咕咚電影.json"
     },  
     {
-      "key": "csp_唐人街影视",
-      "name": "🥈｜唐街｜高清◎秒播(無廣告)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "线路数组": "class=\"hl-tabs-btn hl-slide-swiper\"&&</a>[排序:备线7>备线4>备线8>备线6>线路1]",
-        "线路标题": "</i>&&</a>[不包含:全球高清]",
-        "简介": "+hl-col-xs-12 blurb\">&&</li>",
-        "分类url": "https://www.chinatownfilm.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-        "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
-        "地区": "大陆&香港&台湾&欧美&日本&韩国&新马&泰国&其它||大陆&韩国&香港&台湾&日本&欧美&新马&泰国&其它||大陆&韩国&香港&台湾&日本&欧美&泰国&其它||大陆&韩国&香港&台湾&日本&欧美&其它"
-      }
-    },
-
-    {
       "key": "圣农极光",
       "name": "🥈｜聖農｜高清◎秒播(片頭廣告)",
       "type": 3,
