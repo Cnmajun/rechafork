@@ -6,6 +6,15 @@
     "notice": "114.09.14 Ver.A",
     "sites": [ 
     {
+      "key": "py_绝对影视",
+      "name": "🥇｜絕對｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "./py/绝对影视.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },      
+    {
       "key": "zxzj",
       "name": "🥇｜在线｜高清◎順播(隨機廣告)",
       "type": 3,
