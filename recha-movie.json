@@ -69,16 +69,6 @@
       }
     },
     {
-      "key": "八天App",
-      "name": "八天",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "ext": {"host": "https://dy.8ttv.cn/", "datakey": "1111111111111111"}
-    },
-    {
       "key": "Max",
       "name": "下飯",
       "type": 3,
