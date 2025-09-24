@@ -159,21 +159,8 @@
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
     },
     {
-      "key":"云云1",
-      "name":"云云1",
-      "type":3,
-      "searchable":1,
-      "changeable":1,
-      "api": "csp_AppGet",
-      "jar": "http://rihou.cc:88/jar/vox.jar",
-      "ext": {
-             "host":"https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
-             "datakey":"staraugust123456","api":2
-             }
-    },
-    {
-      "key": "云云2",
-      "name": "云云2",
+      "key": "云云",
+      "name": "云云",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",

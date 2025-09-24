@@ -18,7 +18,6 @@
 {"key":"nmtv","name":"🤔nm┃tv","type":3,"searchable":1,"changeable":1,"api":"csp_AppGet","ext":{"host":"http://nm.xxxc137.top/nm.txt","datakey":"a006661b01bdebbd"}},
 {"key":"八天App","name":"🐷八天┃APP","type":3,"searchable":1,"changeable":1,"api":"csp_AppGet","ext":{"host":"https://dy.8ttv.cn/","datakey":"1111111111111111"}},
 {"key":"Max","name":"❤️下饭┃Max","type":3,"changeable":0,"searchable":1,"quickSearch":1,"api":"csp_AppYsV2","ext":{"api":"http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod","datasignkey":"6QQNUsP3PkD2ajJCPCY8","apisignkey":"lvdoutv-1.0.0"}},
-{"key":"海狗视频","name":"🐶海狗┃视频","type":3,"api":"csp_Hmys","changeable":0,"ext":{"host":"https://dy.stxbed.com","app_id":"shiguang","deviceid":"6b3927d7bbd112d6","versionCode":"20000","UMENG_CHANNEL":"guan"}},
 {"key":"狐狸磁力","name":"🧲狐狸┃磁力","type":3,"api":"csp_XBPQ","ext":"http://rihou.cc:88/xb/狐狸磁力.json","jar":"http://rihou.cc:88/jar/xbpq.jar"},
 {"key":"厂长资源","name":"🙀厂长┃资源","type":3,"api":"csp_XBPQ","ext":"http://rihou.cc:88/xb/厂长资源.json","jar":"http://rihou.cc:88/jar/xbpq.jar"},
 {"key":"秀儿影视","name":"🦈秀儿┃影视","type":3,"api":"csp_XBPQ","ext":"http://rihou.cc:88/xb/秀儿影视.json","jar":"http://rihou.cc:88/jar/xbpq.jar"},
@@ -29,7 +28,6 @@
 {"key":"稀饭动漫","name":"🎉稀饭┃动漫","type":3,"api":"http://rihou.cc:88/js/drpy2.min.js","ext":"http://rihou.cc:88/js/稀饭动漫.js"},
 {"key":"爱看资源网","name":"🐸爱看┃网盘","type":3,"api":"http://rihou.cc:88/js/drpy2.min.js","ext":"http://rihou.cc:88/js/爱看资源网.js"},
 {"key":"夸克影视","name":"💕夸克┃影视","type":3,"api":"http://rihou.cc:88/js/drpy2.min.js","ext":"http://rihou.cc:88/js/夸克影视.js"},
-{"key":"py_4K影院","name":"🥭4K┃影院","api":"http://rihou.cc:88/py/4K影院.py","filterable":1,"quickSearch":1,"searchable":1,"type":3},
 {"key":"py_两个BTPY","name":"🥭两个┃BT","api":"http://rihou.cc:88/py/两个BT.py","filterable":1,"quickSearch":1,"searchable":1,"type":3},
 {"key":"py_盘友圈","name":"🤒盘友┃搜索","api":"http://rihou.cc:88/py/盘友圈.py","filterable":1,"quickSearch":1,"searchable":1,"type":3}
 ],
