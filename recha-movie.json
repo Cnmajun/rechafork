@@ -7,6 +7,7 @@
 
 {"key":"金牌影院","name":"🥇金牌┃APP","type":3,"api":"csp_AppMuou","jar":"http://rihou.cc:88/jar/vox.jar","searchable":1,"changeable":1,"ext":{"host":"https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt","name":"金牌影院（请断网再安装）","version":"4.2.0"}},
 {"key":"csp_Jianpian","name":"🥰荐片┃VOX","type":3,"api":"csp_Jianpian","jar":"http://rihou.cc:88/jar/vox.jar","searchable":1,"changeable":1,"ext":{"filters":"http://rihou.cc:88/json/jianpian.json","sites":"https://api.ztcgi.com"}},
+{"key":"热剧天堂","name":"🥱天堂┃APP","type":3,"searchable":1,"changeable":1,"api":"csp_AppGet","jar":"http://rihou.cc:88/jar/vox.jar","ext":{"host":"https://www.rebovod.com","datakey":"8191A7F47B37882F","api":2}},
 
 
         {
@@ -1580,7 +1581,6 @@
         "version": ""
       }
     },
-
       {
             "key": "热剧",
             "name": "📱｜熱播｜高清◎秒播(無廣告+APP)",
