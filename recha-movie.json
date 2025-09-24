@@ -2,7 +2,7 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.24 Ver.A\n收錄VOX接口\n新增：金牌影院、荐片、天堂、囧次元動漫、mifun、八天、Max、兩個BTPY、4K影院、海狗视频、秀兒影视、80S電影、韓劇看看、韓劇TV、云云、影視\n修复：部分接口失效",
+  "notice": "版本：114.09.24 Ver.B\n收錄VOX接口\n新增：金牌影院、荐片、天堂、囧次元動漫、mifun、八天、Max、兩個BTPY、4K影院、海狗视频、秀兒影视、80S電影、韓劇看看、韓劇TV、云云、影視\n修复：部分接口失效",
   "sites": [
     {
       "key": "金牌影院",
