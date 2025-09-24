@@ -9,7 +9,7 @@
       "name": "4K金牌",
       "type": 3,
       "api": "csp_AppMuou",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -23,7 +23,7 @@
       "name": "荐片",
       "type": 3,
       "api": "csp_Jianpian",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -38,7 +38,7 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "ext": {
         "host": "https://www.rebovod.com",
         "datakey": "8191A7F47B37882F",
@@ -52,7 +52,7 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "ext": {"host": "http://ys.xiaos12.cn", "datakey": "chfgjfrhhf628vw1"}
     },
     {
@@ -62,7 +62,7 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "ext": {
         "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
         "datakey": "GETMIFUNGEIMIFUN"
@@ -76,7 +76,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "csp_AppYsV2",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "ext": {
         "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
         "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
@@ -87,6 +87,7 @@
       "key": "py_两个BTPY",
       "name": "兩個BT",
       "api": "./py/两个BT.py",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "filterable": 1,
       "quickSearch": 1,
       "searchable": 1,
@@ -97,7 +98,7 @@
       "name":"海狗",
       "type":3,
       "api":"csp_Hmys",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "changeable":1,
       "ext":{
             "host":"https://dy.stxbed.com",
@@ -112,7 +113,7 @@
       "name":"4K影院",
       "type":3,
       "api":"./py/4K影院.py",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "filterable":1,
       "quickSearch":1,
       "searchable":1
