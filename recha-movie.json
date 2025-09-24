@@ -116,6 +116,7 @@
       "name": "海狗視頻",
       "type": 3,
       "api": "csp_Hmys",
+      "jar": "http://rihou.cc:88/jar/vox.jar",
       "changeable": 0,
       "ext": {
         "host"         : "https://dy.stxbed.com",
