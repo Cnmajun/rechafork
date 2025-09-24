@@ -9,7 +9,7 @@
       "name": "4K金牌",
       "type": 3,
       "api": "csp_AppMuou",
-      "jar": "http://rihou.cc:88/jar/vox.jar",
+      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -23,12 +23,12 @@
       "name": "荐片",
       "type": 3,
       "api": "csp_Jianpian",
-      "jar": "http://rihou.cc:88/jar/vox.jar",
+      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "searchable": 1,
       "changeable": 1,
       "ext": {
         "filters": "http://rihou.cc:88/json/jianpian.json",
-        "sites"  : "https://api.ztcgi.com"
+        "sites": "https://api.ztcgi.com"
       }
     },
     {
@@ -38,7 +38,7 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_AppGet",
-      "jar": "http://rihou.cc:88/jar/vox.jar",
+      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "ext": {
         "host": "https://www.rebovod.com",
         "datakey": "8191A7F47B37882F",
@@ -52,7 +52,7 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_AppGet",
-      "jar": "http://rihou.cc:88/jar/vox.jar",
+      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "ext": {"host": "http://ys.xiaos12.cn", "datakey": "chfgjfrhhf628vw1"}
     },
     {
@@ -62,7 +62,7 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_AppGet",
-      "jar": "http://rihou.cc:88/jar/vox.jar",
+      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "ext": {
         "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
         "datakey": "GETMIFUNGEIMIFUN"
@@ -75,22 +75,22 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_AppGet",
-      "jar": "http://rihou.cc:88/jar/vox.jar",
+      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "ext": {"host": "https://dy.8ttv.cn/", "datakey": "1111111111111111"}
     },
     {
       "key": "Max",
       "name": "下飯",
       "type": 3,
-      "changeable": 0,
+      "changeable": 1,
       "searchable": 1,
       "quickSearch": 1,
       "api": "csp_AppYsV2",
-      "jar": "http://rihou.cc:88/jar/vox.jar",
+      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "ext": {
-        "api"        : "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
+        "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
         "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-        "apisignkey" : "lvdoutv-1.0.0"
+        "apisignkey": "lvdoutv-1.0.0"
       }
     },
     {
@@ -103,28 +103,29 @@
       "type": 3
     },
     {
-      "key": "py_4K影院",
-      "name": "4K影院",
-      "api": "./py/4K影院.py",
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1,
-      "type": 3
+      "key":"海狗视频",
+      "name":"海狗",
+      "type":3,
+      "api":"csp_Hmys",
+      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "changeable":1,
+      "ext":{
+            "host":"https://dy.stxbed.com",
+            "app_id":"shiguang",
+            "deviceid":"6b3927d7bbd112d6",
+            "versionCode":"20000",
+            "UMENG_CHANNEL":"guan"
+            }
     },
     {
-      "key": "海狗视频",
-      "name": "海狗視頻",
-      "type": 3,
-      "api": "csp_Hmys",
-      "jar": "http://rihou.cc:88/jar/vox.jar",
-      "changeable": 0,
-      "ext": {
-        "host"         : "https://dy.stxbed.com",
-        "app_id"       : "shiguang",
-        "deviceid"     : "6b3927d7bbd112d6",
-        "versionCode"  : "20000",
-        "UMENG_CHANNEL": "guan"
-      }
+      "key":"py_4K影院",
+      "name":"4K影院",
+      "type":3,
+      "api":"./py/4K影院.py",
+      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "filterable":1,
+      "quickSearch":1,
+      "searchable":1
     },
     {
       "key": "秀儿影视",
@@ -133,14 +134,6 @@
       "api": "csp_XBPQ",
       "ext": "./json/秀儿影视.json",
       "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
-    },
-    {
-      "key": "80S电影",
-      "name": "80電影",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": "./json/80S电影.json"
     },
     {
       "key": "韩剧看看",
@@ -176,7 +169,7 @@
     },
     {
       "key": "影视",
-      "name": "影视丨APP",
+      "name": "影視",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
@@ -193,7 +186,7 @@
     },
     {
       "key": "迪吧",
-      "name": "迪吧丨APP",
+      "name": "迪吧",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -210,7 +203,7 @@
     },
     {
       "key": "米奇",
-      "name": "米奇丨APP",
+      "name": "米奇",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
