@@ -5,6 +5,8 @@
   "notice": "版本：114.09.22 Ver.D\n第四到第九是一種新的站源形式，請大家幫我測試一下並回饋給我\n我在模擬器跟手機上面是可以用的，但是盒子不行", 
   "sites": [
 
+{"key":"金牌影院","name":"🥇金牌┃APP","type":3,"api":"csp_AppMuou","jar":"http://rihou.cc:88/jar/vox.jar","searchable":1,"changeable":1,"ext":{"host":"https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt","name":"金牌影院（请断网再安装）","version":"4.2.0"}},
+{"key":"csp_Jianpian","name":"🥰荐片┃VOX","type":3,"api":"csp_Jianpian","jar":"http://rihou.cc:88/jar/vox.jar","searchable":1,"changeable":1,"ext":{"filters":"http://rihou.cc:88/json/jianpian.json","sites":"https://api.ztcgi.com"}},
 
 
         {
@@ -537,46 +539,22 @@
       }
     },
     {
-      "key": "小猪",
-      "name": "🏆｜小猪丨藍光◎秒播(無廣告+app)",
+      "key": "斗量",
+      "name": "🏆｜斗量｜藍光◎秒播(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
       "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
       "ext": {
-        "url"     : "",
-        "site"    : "https://xz4k.top/url.txt",
-        "dataKey" : "1785acb6c963184b",
-        "dataIv"  : "1785acb6c963184b",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
+             "url": "",
+             "site": "https://app-cms-v10-1314306855.cos.ap-guangzhou.myqcloud.com/appcms.php",
+             "dataKey": "A1akVPQmnnE4Fz9Z",
+             "dataIv": "A1akVPQmnnE4Fz9Z",
+             "deviceId": "",
+             "version": "",
+             "ua": ""
+            }
     },    
-    {
-      "key": "斗量",
-      "name": "🏆｜斗量｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "api": "csp_AppSy",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "url" : "https://app.ystva.com",
-        "key1": "hsZwQK5yrnefW7OJ",
-        "key2": "hsZwQK5yrnefW7OJ",
-        "key3": "hsZwQK5yrnefW7OJ"
-      }
-    },
-    {
-      "key": "公共",
-      "name": "🏆｜公共｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "csp_Muou",
-      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "7lj763gg402i7942463ji4qiaojijjh456889il6k6i35kj995h4j18li7kl2870klhg8hi647j5707k4ki7ig6953kj"
-    },
     {
       "key": "鲸鱼",
       "name": "🏆｜鲸鱼｜藍光◎秒播(無廣告)",
