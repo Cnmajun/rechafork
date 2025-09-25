@@ -42,7 +42,7 @@
 
     {
       "key": "jarcai",
-      "name": "文才|弹幕",
+      "name": "文才｜藍光◎秒播",
       "type": 3,
       "api": "csp_Wcai",
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
@@ -50,7 +50,7 @@
     },
     {
       "key": "4Kav",
-      "name": "4Kav|弹幕",
+      "name": "4Kav｜藍光◎秒播",
       "type": 3,
       "api": "csp_HB4kav",
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
@@ -58,7 +58,7 @@
     },
     {
       "key": "追追",
-      "name": "追追|弹幕",
+      "name": "追追｜藍光◎秒播",
       "type": 3,
       "api": "csp_Wcai",
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
@@ -66,7 +66,7 @@
     },
     {
       "key": "风铃",
-      "name": "风铃|动漫",
+      "name": "風鈴｜高清◎秒播",
       "type": 3,
       "api": "csp_HBfling",
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7"
