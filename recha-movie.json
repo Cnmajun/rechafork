@@ -5,6 +5,40 @@
   "notice": "版本：114.09.24 Ver.C\n收錄VOX接口\n新增：金牌影院、荐片、天堂、囧次元動漫、mifun、八天、Max、兩個BTPY、4K影院、海狗视频、秀兒影视、80S電影、韓劇看看、韓劇TV、云云、影視\n修复：部分接口失效",
   "sites": [
 
+
+
+    {
+      "key": "jarcai",
+      "name": "文才|弹幕",
+      "type": 3,
+      "api": "csp_Wcai",
+      "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
+      "ext": "https://www.gs4x7nq4.com"
+    },
+    {
+      "key": "4Kav",
+      "name": "4Kav|弹幕",
+      "type": 3,
+      "api": "csp_HB4kav",
+      "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
+      "playerType": 2
+    },
+    {
+      "key": "追追",
+      "name": "追追|弹幕",
+      "type": 3,
+      "api": "csp_Wcai",
+      "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
+      "ext": "https://zjuys.com/"
+    },
+    {
+      "key": "风铃",
+      "name": "风铃|动漫",
+      "type": 3,
+      "api": "csp_HBfling",
+      "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7"
+    },        
+
         {
             "key": "mifun",
             "name": "mifun｜APP",
