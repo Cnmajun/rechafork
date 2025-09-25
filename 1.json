@@ -1,15 +1,14 @@
 {
-  "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
+  "spider": "./jar/vox.jar",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.25 Ver.A",
+  "notice": "版本：114.09.25 Ver.B",
   "sites": [
     {
       "key": "金牌影院",
       "name": "4K金牌",
       "type": 3,
       "api": "csp_AppMuou",
-      "jar": "http://richon.cc:88/vox.jar",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -23,7 +22,6 @@
       "name": "荐片",
       "type": 3,
       "api": "csp_Jianpian",
-      "jar": "http://richon.cc:88/vox.jar",
       "searchable": 1,
       "changeable": 1,
       "ext": {
