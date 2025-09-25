@@ -5,13 +5,6 @@
   "notice": "版本：114.09.26 Ver.B\n收錄虎斑接口\n新增：文才、4Kav、追追、風鈴、PPT、PTT\n修复：主包件改用vox，不可使用VPN",
   "sites": [
 {
-            "key": "PTT",
-            "name": "PTT",
-            "type": 3,
-            "api": "csp_PTT",
-            "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac"
-        },
-{
             "key": "PPT",
             "name": "PPT丨亂七八糟的",
             "type": 3,
@@ -41,7 +34,7 @@
                 "播放标题": ">&&</a>",
                 "播放链接": "href=\"&&\"",
                 "直接播放": "体育",
-                "分类": "电视剧$3#综艺$2#动漫$4#短剧$66#体育$53",
+                "分类": "电视剧$3#综艺$2#动漫$4#短剧$66",
                 "分类url": "https://ptt.red/p/{cateId}?page={catePg}"
             }
         },
