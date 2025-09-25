@@ -4,22 +4,10 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "notice": "版本：114.09.24 Ver.C\n收錄VOX接口\n新增：金牌影院、荐片、天堂、囧次元動漫、mifun、八天、Max、兩個BTPY、4K影院、海狗视频、秀兒影视、80S電影、韓劇看看、韓劇TV、云云、影視\n修复：部分接口失效",
   "sites": [
-        {
-            "key": "新橘子",
-            "name": "橘子APP",
-            "type": 3,
-            "api": "csp_AppMuou",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/1687532407.txt",
-                "name": "新橘子影视",
-                "version": "4.2.0"
-            }
-        },
+
         {
             "key": "mifun",
-            "name": "🐸mifun｜APP",
+            "name": "mifun｜APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -52,19 +40,6 @@
             "ext": {
                 "host": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
                 "datakey": "staraugust123456",
-                "api": 2
-            }
-        },
-        {
-            "key": "爱盈",
-            "name": "愛盈影視",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
-                "datakey": "dksvndkaAjekakcE",
                 "api": 2
             }
         },
@@ -106,18 +81,6 @@
             }
         },
         {
-            "key": "八天App",
-            "name": "八天",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://dy.8ttv.cn/",
-                "datakey": "1111111111111111"
-            }
-        },
-        {
             "key": "Max",
             "name": "下飯影視",
             "type": 3,
@@ -152,16 +115,7 @@
             "api": "csp_XBPQ",
             "ext": "./xb/厂长资源.json",
             "jar": "./jar/xbpq.jar"
-        },
-        {
-            "key": "py_两个BTPY",
-            "name": "兩個BT",
-            "api": "./py/两个BT.py",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "type": 3
-        },                                                    
+        },                                                 
     {
       "key": "金牌影院",
       "name": "4K金牌",
