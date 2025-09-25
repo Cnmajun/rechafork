@@ -108,107 +108,6 @@
             }
     },
     {
-      "key":"py_4K影院",
-      "name":"4K影院",
-      "type":3,
-      "api":"./py/4K影院.py",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "filterable":1,
-      "quickSearch":1,
-      "searchable":1
-    },
-    {
-      "key": "秀儿影视",
-      "name": "秀兒影視",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./json/秀儿影视.json",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
-    },
-    {
-      "key": "韩剧看看",
-      "name": "韓劇看看",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./json/韩剧看看.json",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
-    },
-    {
-      "key": "韩剧TV",
-      "name": "韓劇TV",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./json/韩剧TV.json",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
-    },
-    {
-      "key": "云云",
-      "name": "云云",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "url": "",
-        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
-        "dataKey": "staraugust123456",
-        "dataIv": "staraugust123456",
-        "deviceId": "",
-        "version": "120"
-      }
-    },
-    {
-      "key": "影视",
-      "name": "影視",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "url"     : "",
-        "site"    : "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
-        "dataKey" : "sada21321sdq231d",
-        "dataIv"  : "sada21321sdq231d",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "迪吧",
-      "name": "迪吧",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "url": "",
-        "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
-        "dataKey": "685bf108bc47b67d",
-        "dataIv": "685bf108bc47b67d",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
-      "key": "米奇",
-      "name": "米奇",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "url"     : "http://www.milkidc.cn",
-        "site"    : "",
-        "dataKey" : "20c79c979da8db0f",
-        "dataIv"  : "20c79c979da8db0f",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
       "type": 3,
@@ -1766,6 +1665,73 @@
         "ua"      : ""
       }
     },
+    {
+      "key": "云云",
+      "name": "📱｜云云｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
+      "ext": {
+        "url": "",
+        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+        "dataKey": "staraugust123456",
+        "dataIv": "staraugust123456",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "影视",
+      "name": "📱｜影視｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
+      "ext": {
+        "url"     : "",
+        "site"    : "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
+        "dataKey" : "sada21321sdq231d",
+        "dataIv"  : "sada21321sdq231d",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "迪吧",
+      "name": "📱｜迪吧｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
+      "ext": {
+        "url": "",
+        "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
+        "dataKey": "685bf108bc47b67d",
+        "dataIv": "685bf108bc47b67d",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
+    {
+      "key": "米奇",
+      "name": "📱｜米奇｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
+      "ext": {
+        "url"     : "http://www.milkidc.cn",
+        "site"    : "",
+        "dataKey" : "20c79c979da8db0f",
+        "dataIv"  : "20c79c979da8db0f",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },    
     {
       "key": "爱看",
       "name": "📱｜愛看｜高清◎秒播(無廣告+APP)",

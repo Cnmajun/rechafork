@@ -2,222 +2,9 @@
   "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.24 Ver.B\n收錄VOX接口\n新增：金牌影院、荐片、天堂、囧次元動漫、mifun、八天、Max、兩個BTPY、4K影院、海狗视频、秀兒影视、80S電影、韓劇看看、韓劇TV、云云、影視\n修复：部分接口失效",
+  "notice": "版本：114.09.24 Ver.C\n收錄VOX接口\n新增：金牌影院、荐片、天堂、囧次元動漫、mifun、八天、Max、兩個BTPY、4K影院、海狗视频、秀兒影视、80S電影、韓劇看看、韓劇TV、云云、影視\n修复：部分接口失效",
   "sites": [
-    {
-      "key": "金牌影院",
-      "name": "4K金牌",
-      "type": 3,
-      "api": "csp_AppMuou",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
-        "name": "金牌影院（请断网再安装）",
-        "version": "4.2.0"
-      }
-    },
-    {
-      "key": "csp_Jianpian",
-      "name": "荐片",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "filters": "http://rihou.cc:88/json/jianpian.json",
-        "sites": "https://api.ztcgi.com"
-      }
-    },
-    {
-      "key": "热剧天堂",
-      "name": "天堂",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "ext": {
-        "host": "https://www.rebovod.com",
-        "datakey": "8191A7F47B37882F",
-        "api": 2
-      }
-    },
-    {
-      "key": "囧次元动漫",
-      "name": "囧次元",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "ext": {"host": "http://ys.xiaos12.cn", "datakey": "chfgjfrhhf628vw1"}
-    },
-    {
-      "key": "mifun",
-      "name": "mifun",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "ext": {
-        "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
-        "datakey": "GETMIFUNGEIMIFUN"
-      }
-    },
-    {
-      "key": "八天App",
-      "name": "八天",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "ext": {"host": "https://dy.8ttv.cn/", "datakey": "1111111111111111"}
-    },
-    {
-      "key": "Max",
-      "name": "下飯",
-      "type": 3,
-      "changeable": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "csp_AppYsV2",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "ext": {
-        "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
-        "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-        "apisignkey": "lvdoutv-1.0.0"
-      }
-    },
-    {
-      "key": "py_两个BTPY",
-      "name": "兩個BT",
-      "api": "./py/两个BT.py",
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1,
-      "type": 3
-    },
-    {
-      "key":"海狗视频",
-      "name":"海狗",
-      "type":3,
-      "api":"csp_Hmys",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "changeable":1,
-      "ext":{
-            "host":"https://dy.stxbed.com",
-            "app_id":"shiguang",
-            "deviceid":"6b3927d7bbd112d6",
-            "versionCode":"20000",
-            "UMENG_CHANNEL":"guan"
-            }
-    },
-    {
-      "key":"py_4K影院",
-      "name":"4K影院",
-      "type":3,
-      "api":"./py/4K影院.py",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "filterable":1,
-      "quickSearch":1,
-      "searchable":1
-    },
-    {
-      "key": "秀儿影视",
-      "name": "秀兒影視",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./json/秀儿影视.json",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
-    },
-    {
-      "key": "韩剧看看",
-      "name": "韓劇看看",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./json/韩剧看看.json",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
-    },
-    {
-      "key": "韩剧TV",
-      "name": "韓劇TV",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./json/韩剧TV.json",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
-    },
-    {
-      "key": "云云",
-      "name": "云云",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "url": "",
-        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
-        "dataKey": "staraugust123456",
-        "dataIv": "staraugust123456",
-        "deviceId": "",
-        "version": "120"
-      }
-    },
-    {
-      "key": "影视",
-      "name": "影視",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "url"     : "",
-        "site"    : "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
-        "dataKey" : "sada21321sdq231d",
-        "dataIv"  : "sada21321sdq231d",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
-      "key": "迪吧",
-      "name": "迪吧",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "url": "",
-        "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
-        "dataKey": "685bf108bc47b67d",
-        "dataIv": "685bf108bc47b67d",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
-      "key": "米奇",
-      "name": "米奇",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "url"     : "http://www.milkidc.cn",
-        "site"    : "",
-        "dataKey" : "20c79c979da8db0f",
-        "dataIv"  : "20c79c979da8db0f",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
+
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -1771,6 +1558,73 @@
         "site"    : "",
         "dataKey" : "1234567887654321",
         "dataIv"  : "1234567887654321",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "云云",
+      "name": "📱｜云云｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
+      "ext": {
+        "url": "",
+        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+        "dataKey": "staraugust123456",
+        "dataIv": "staraugust123456",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "影视",
+      "name": "📱｜影視｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
+      "ext": {
+        "url"     : "",
+        "site"    : "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
+        "dataKey" : "sada21321sdq231d",
+        "dataIv"  : "sada21321sdq231d",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "迪吧",
+      "name": "📱｜迪吧｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
+      "ext": {
+        "url": "",
+        "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
+        "dataKey": "685bf108bc47b67d",
+        "dataIv": "685bf108bc47b67d",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
+    {
+      "key": "米奇",
+      "name": "📱｜米奇｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
+      "ext": {
+        "url"     : "http://www.milkidc.cn",
+        "site"    : "",
+        "dataKey" : "20c79c979da8db0f",
+        "dataIv"  : "20c79c979da8db0f",
         "deviceId": "",
         "version" : "",
         "ua"      : ""
