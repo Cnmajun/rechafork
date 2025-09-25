@@ -2,9 +2,15 @@
   "spider": "http://rihou.cc:88/jar/vox.jar;md5;e291c7986245c1abc70f66971ba192c8",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.26 Ver.B\n收錄虎斑接口\n新增：文才、4Kav、追追、風鈴\n修复：主包件改用vox，不可使用VPN",
+  "notice": "版本：114.09.26 Ver.B\n收錄虎斑接口\n新增：文才、4Kav、追追、風鈴、PPT、PTT\n修复：主包件改用vox，不可使用VPN",
   "sites": [
-
+{
+            "key": "PTT",
+            "name": "PTT",
+            "type": 3,
+            "api": "csp_PTT",
+            "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac"
+        },
 {
             "key": "PPT",
             "name": "PPT丨亂七八糟的",
@@ -923,7 +929,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/步步.js"
     },
     {
@@ -931,7 +937,7 @@
       "name": "🏆｜小紅｜(道長源)",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -950,7 +956,7 @@
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "api": "./drpy_libs/drpy2.min.js",
       "ext": "./drpy_js/360影视[官].js"
     },
@@ -960,7 +966,7 @@
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "api": "./drpy_libs/drpy2.min.js",
       "ext": "./drpy_js/奇珍异兽[官].js"
     },
@@ -981,7 +987,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/百忙无果[官].js"
     },
     {
@@ -991,7 +997,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/腾云驾雾[官].js"
     },
     {
@@ -999,7 +1005,7 @@
       "name": "🎖︎｜腾讯2｜官源(道長)",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/腾云4k.js"
     },
     {
@@ -1009,7 +1015,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/菜狗[官].js"
     },
     {
@@ -1019,7 +1025,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/优酷[官].js"
     },
     {
@@ -1511,7 +1517,7 @@
       "name": "🥇｜低端｜高清◎秒播(無廣告)",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -3763,7 +3769,7 @@
       "name": "🧲｜索隆｜高清◎秒播(浮水印廣告)",
       "type": 4,
       "api": "http://zhangqun66.com/sn.php",
-      "jar": "./jar/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac;md5;41c87635d7592069884a5dafa12acabe",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -3959,7 +3965,7 @@
       "name": "🧲｜黑隆｜高清◎秒播(各種廣告)",
       "type": 4,
       "api": "http://zhangqun66.com/225.php",
-      "jar": "./jar/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac;md5;41c87635d7592069884a5dafa12acabe",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4497,7 +4503,7 @@
       "name": "🎡｜牛顿动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4512,7 +4518,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/去看吧.js"
     },
     {
@@ -4523,7 +4529,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/奇米动漫.js"
     },
     {
@@ -4534,7 +4540,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/DHPDQ.js"
     },
     {
@@ -4545,7 +4551,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/DMD.js"
     },
     {
@@ -4556,7 +4562,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/HKDM.js"
     },
     {
@@ -4567,7 +4573,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/爱弹幕.js"
     },
     {
@@ -4578,7 +4584,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/七色番[漫].js"
     },
     {
@@ -4589,7 +4595,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "ext": "./drpy_js/奇米动漫.js"
     },
     {
@@ -4597,7 +4603,7 @@
       "name": "🎡｜爱动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4608,7 +4614,7 @@
       "name": "🎡｜异世界动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "searchable": 1,
       "quickSearch": 1,
       "ext": "./drpy_js/异世界.js"
@@ -4618,7 +4624,7 @@
       "name": "🎡｜奇米动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4630,7 +4636,7 @@
       "name": "🎡｜嗷呜动漫",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
-      "jar": "./jar/fm.jar",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -4642,7 +4648,7 @@
       "name": "㊙︎｜直播转点播",
       "type": 4,
       "api": "http://zhangqun66.com/zh/2241-2.php",
-      "jar": "./jar/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
+      "jar": "./jar/fm.jar;md5;bd8c878db83953d74efc2cb0723f68ac;md5;41c87635d7592069884a5dafa12acabe",
       "searchable": 1,
       "changeable": 0
     }
