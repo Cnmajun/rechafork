@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/pg.jar;md5;48c5e2fcc475ff3f8d4ac8c80081c0e4",
+  "spider": "http://rihou.cc:88/jar/vox.jar;md5;e291c7986245c1abc70f66971ba192c8",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
   "notice": "版本：114.09.24 Ver.C\n收錄VOX接口\n新增：金牌影院、荐片、天堂、囧次元動漫、mifun、八天、Max、兩個BTPY、4K影院、海狗视频、秀兒影视、80S電影、韓劇看看、韓劇TV、云云、影視\n修复：部分接口失效",
@@ -9,7 +9,6 @@
       "name": "4K金牌",
       "type": 3,
       "api": "csp_AppMuou",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -23,7 +22,6 @@
       "name": "荐片",
       "type": 3,
       "api": "csp_Jianpian",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "searchable": 1,
       "changeable": 1,
       "ext": {
@@ -38,74 +36,11 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
       "ext": {
         "host": "https://www.rebovod.com",
         "datakey": "8191A7F47B37882F",
         "api": 2
       }
-    },
-    {
-      "key": "囧次元动漫",
-      "name": "囧次元",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "ext": {"host": "http://ys.xiaos12.cn", "datakey": "chfgjfrhhf628vw1"}
-    },
-    {
-      "key": "mifun",
-      "name": "mifun",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "ext": {
-        "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
-        "datakey": "GETMIFUNGEIMIFUN"
-      }
-    },
-    {
-      "key": "Max",
-      "name": "下飯",
-      "type": 3,
-      "changeable": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "csp_AppYsV2",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "ext": {
-        "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
-        "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-        "apisignkey": "lvdoutv-1.0.0"
-      }
-    },
-    {
-      "key": "py_两个BTPY",
-      "name": "兩個BT",
-      "api": "./py/两个BT.py",
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1,
-      "type": 3
-    },
-    {
-      "key":"海狗视频",
-      "name":"海狗",
-      "type":3,
-      "api":"csp_Hmys",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
-      "changeable":1,
-      "ext":{
-            "host":"https://dy.stxbed.com",
-            "app_id":"shiguang",
-            "deviceid":"6b3927d7bbd112d6",
-            "versionCode":"20000",
-            "UMENG_CHANNEL":"guan"
-            }
     },
     {
       "key": "豆瓣",
@@ -1731,7 +1666,7 @@
         "version" : "",
         "ua"      : ""
       }
-    },    
+    },
     {
       "key": "爱看",
       "name": "📱｜愛看｜高清◎秒播(無廣告+APP)",
