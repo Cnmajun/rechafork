@@ -9,7 +9,7 @@
       "name": "4K金牌",
       "type": 3,
       "api": "csp_AppMuou",
-      "jar": "./jar/vox.jar;md5;d5c649ae064d284f3d9df63500303434",
+      "jar": "http://richon.cc:88/vox.jar",
       "searchable": 1,
       "changeable": 1,
       "ext": {
