@@ -499,6 +499,22 @@
       "api": "./py/py_羅波.py"
     },
     {
+      "key": "仓鼠",
+      "name": "🏆｜倉鼠｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
+      "ext": {
+        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+        "url": "https://hk421appcms.cs4k.top/",
+        "dataKey": "da61247f5b662597",
+        "dataIv": "da61247f5b662597",
+        "deviceId": "",
+        "version": "120"
+      }
+    },    
+    {
       "key": "独播库",
       "name": "🏆｜獨播｜藍光◎秒播(無廣告)",
       "type": 4,
@@ -524,22 +540,6 @@
       "timeout": 240,
       "playerType": 2,
       "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
-    },
-    {
-      "key": "仓鼠",
-      "name": "🏆｜倉鼠｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "jar": "./jar/xiaosa-0923.jar;md5;b85fed9659a7a8420bd6ca07322f66f6",
-      "ext": {
-        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-        "url": "https://hk421appcms.cs4k.top/",
-        "dataKey": "da61247f5b662597",
-        "dataIv": "da61247f5b662597",
-        "deviceId": "",
-        "version": "120"
-      }
     },
     {
       "key": "若雪",
