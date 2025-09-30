@@ -563,17 +563,6 @@
     }
   },
   {
-    "key": "csp_全民影院",
-    "name": "🎥｜全民｜浮水印廣告(線路都不能用)",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "./json/全民影院.json"
-  },
-  {
     "key": "csp_全视",
     "name": "🎥｜全视｜高清◎秒播(浮水印廣告+網站鎖)",
     "type": 3,
