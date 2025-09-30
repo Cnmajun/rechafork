@@ -2,12 +2,12 @@
   "spider": "./jar/vox.jar;md5;e291c7986245c1abc70f66971ba192c8",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.30 Ver.B\n新增：小豬、八天、紫金、刷劇、九零、狂歡、奈飛",
+  "notice": "版本：114.09.30 Ver.B\n新增：小豬、紫金、刷劇、九零、狂歡、奈飛",
   "sites": [
 
    {
             "key": "小猪",
-            "name": "小豬",
+            "name": "小豬｜待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
@@ -23,25 +23,8 @@
             }
         },
         {
-            "key": "八天",
-            "name": "八天",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-            "ext": {
-                "url": "https://dy.8ttv.cn",
-                "site": "",
-                "dataKey": "1111111111111111",
-                "dataIv": "1111111111111111",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "紫金",
-            "name": "紫金",
+            "name": "紫金｜待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -58,7 +41,7 @@
         },
         {
             "key": "刷剧",
-            "name": "刷劇",
+            "name": "刷劇｜待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -75,7 +58,7 @@
         },
         {
             "key": "九零",
-            "name": "九零",
+            "name": "九零｜待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -92,7 +75,7 @@
         },
         {
             "key": "狂欢",
-            "name": "狂歡",
+            "name": "狂歡｜待測",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -109,7 +92,7 @@
         },
         {
             "key": "奈飞",
-            "name": "奈飞",
+            "name": "奈飞｜待修",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -124,132 +107,8 @@
                 "ua": ""
             }
         },
-        {
-            "key": "mifun",
-            "name": "mifun｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
-                "datakey": "GETMIFUNGEIMIFUN"
-            }
-        },
-        {
-            "key": "热剧天堂",
-            "name": "天堂APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://www.rebovod.com",
-                "datakey": "8191A7F47B37882F",
-                "api": 2
-            }
-        },
-        {
-            "key": "云云",
-            "name": "云云",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
-                "datakey": "staraugust123456",
-                "api": 2
-            }
-        },
-        {
-            "key": "影视",
-            "name": "影視",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-                "datakey": "AAdgrdghjfgswerA",
-                "api": 2
-            }
-        },
+                                                
 
-        {
-            "key": "Max",
-            "name": "下飯",
-            "type": 3,
-            "changeable": 0,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_AppYsV2",
-            "ext": {
-                "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
-                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-                "apisignkey": "lvdoutv-1.0.0"
-            }
-        },
-        {
-            "key": "海狗视频",
-            "name": "海狗",
-            "type": 3,
-            "api": "csp_Hmys",
-            "changeable": 0,
-            "ext": {
-                "host": "https://dy.stxbed.com",
-                "app_id": "shiguang",
-                "deviceid": "6b3927d7bbd112d6",
-                "versionCode": "20000",
-                "UMENG_CHANNEL": "guan"
-            }
-        },
-        {
-            "key": "厂长资源",
-            "name": "廠長",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./xb/厂长资源.json",
-            "jar": "./jar/xbpq.jar"
-        },                                                 
-    {
-      "key": "金牌影院",
-      "name": "K金",
-      "type": 3,
-      "api": "csp_AppMuou",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
-        "name": "金牌影院（请断网再安装）",
-        "version": "4.2.0"
-      }
-    },
-    {
-      "key": "csp_Jianpian",
-      "name": "荐片",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "filters": "http://rihou.cc:88/json/jianpian.json",
-        "sites": "https://api.ztcgi.com"
-      }
-    },
-    {
-      "key": "热剧天堂",
-      "name": "天堂",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "host": "https://www.rebovod.com",
-        "datakey": "8191A7F47B37882F",
-        "api": 2
-      }
-    },
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -719,7 +578,7 @@
     },
     {
       "key": "鲸鱼",
-      "name": "📱｜影視｜藍光◎順播(無廣告+APP)",
+      "name": "🏆｜影視｜藍光◎順播(無廣告+APP)",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
@@ -755,7 +614,45 @@
       "type": 3,
       "api": "csp_HBfling",
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7"
-    },    
+    },
+    {
+      "key": "金牌影院",
+      "name": "🏆｜K金｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_AppMuou",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
+        "name": "金牌影院（请断网再安装）",
+        "version": "4.2.0"
+      }
+    },
+    {
+      "key": "csp_Jianpian",
+      "name": "🏆｜荐片｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "filters": "http://rihou.cc:88/json/jianpian.json",
+        "sites": "https://api.ztcgi.com"
+      }
+    },
+    {
+      "key": "热剧天堂",
+      "name": "🏆｜天堂｜高清◎秒播(無廣告)",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "host": "https://www.rebovod.com",
+        "datakey": "8191A7F47B37882F",
+        "api": 2
+      }
+    },         
     {
       "key": "爱影视",
       "name": "🏆｜爱盈｜藍光◎順播(無廣告)",
@@ -790,9 +687,17 @@
       "filterable": 0,
       "changeable": 0
     },
+        {
+            "key": "厂长资源",
+            "name": "🏆｜廠長｜高清◎秒播｜直連",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./xb/厂长资源.json",
+            "jar": "./jar/xbpq.jar"
+        },     
     {
       "key": "厂长",
-      "name": "🏆｜廠長｜高清◎秒播(無廣告)",
+      "name": "🏆｜廠長｜高清◎秒播｜新光",
       "type": 3,
       "api": "csp_NewCzGuard",
       "jar": "./jar/f0717.jpg;md5;e875d5382573fcd72aea4c5da44637fe",
@@ -804,7 +709,7 @@
     },
     {
       "key": "csp_CZSPP",
-      "name": "🏆｜場長｜高清◎秒播(無廣告)",
+      "name": "🏆｜場長｜高清◎秒播｜巧技",
       "type": 3,
       "api": "csp_Czsapp",
       "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
@@ -1757,6 +1662,20 @@
         "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
       }
     },
+        {
+            "key": "海狗视频",
+            "name": "📱｜海狗｜普清◎秒播(無廣告)",
+            "type": 3,
+            "api": "csp_Hmys",
+            "changeable": 0,
+            "ext": {
+                "host": "https://dy.stxbed.com",
+                "app_id": "shiguang",
+                "deviceid": "6b3927d7bbd112d6",
+                "versionCode": "20000",
+                "UMENG_CHANNEL": "guan"
+            }
+        },    
     {
       "key": "莱米",
       "name": "📱｜莱米｜高清◎秒播(無廣告+APP)",
@@ -1891,6 +1810,46 @@
         "ua": ""
       }
     },
+        {
+            "key": "Max",
+            "name": "📱｜下飯｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "changeable": 0,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_AppYsV2",
+            "ext": {
+                "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
+                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+                "apisignkey": "lvdoutv-1.0.0"
+            }
+        },
+        {
+            "key": "云云",
+            "name": "📱｜云云｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+                "datakey": "staraugust123456",
+                "api": 2
+            }
+        },
+        {
+            "key": "影视",
+            "name": "📱｜影視｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+                "datakey": "AAdgrdghjfgswerA",
+                "api": 2
+            }
+        },        
     {
       "key": "米奇",
       "name": "📱｜米奇｜高清◎秒播(無廣告+APP)",
@@ -4104,7 +4063,7 @@
     },
     {
       "key": "漫屋",
-      "name": "动漫屋",
+      "name": "🎡｜动漫屋",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -4174,6 +4133,18 @@
       "filterable": 0,
       "changeable": 1
     },
+        {
+            "key": "mifun",
+            "name": "🎡｜mifun｜VOX",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
+                "datakey": "GETMIFUNGEIMIFUN"
+            }
+        },        
     {
       "key": "黑猫动漫",
       "name": "🎡｜黑猫动漫",
