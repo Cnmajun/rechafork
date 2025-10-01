@@ -5,6 +5,100 @@
     "wallpaper": "https://picsum.photos/1080/",
     "notice": "114.09.14 Ver.A",
     "sites": [ 
+  {
+    "key": "zj",
+    "name": "🎥｜8K影院｜高清◎秒播(滿版廣告)",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./jar/xyqxbpq.jar",
+    "ext": {
+      "分类url": "https://www.8q8k.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+      "分类": "电影$dy#电视剧$dsj#综艺$zy#动漫$dm",
+      "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
+    }
+  },
+  {
+    "key": "csp_555电影",
+    "name": "🎥｜555｜高清◎秒播(滿版廣告)",
+    "type": 3,
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "api": "csp_XBPQ",
+    "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "ext": "./json/555電影.json"
+  },
+  {
+    "key": "csp_五六",
+    "name": "🎥｜567｜高清◎秒播(滿版廣告)",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "./json/567影院.json"
+  },
+  {
+    "key": "csp_hao45廠長影院",
+    "name": "🎥｜廠長｜各種廣告",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "搜索url": "https://www.hao45.cc/vodsearch/{wd}----------{pg}---/",
+      "分类url": "https://www.hao45.cc/vodshow/{cateId}-{area}-{by}------{catePg}---{year}/",
+      "分类": "電影$1#電視劇$2#動漫$3#綜藝$4#短劇$23",
+      "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||內地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||内地&港台&日韩&欧美||国产&日本&欧美&其他||空"
+    }
+  },
+  {
+    "key": "csp_乐万家影院",
+    "name": "🎥｜万家｜高清◎龜速(浮水印廣告)",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "./json/乐万家影院.json"
+  },
+  {
+    "key": "csp_XBiu人人影視FUN",
+    "name": "🎥｜二人｜高清◎秒播(滿版廣告)",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "嗅探词": ".mp4?#m3u8?#.m3u8#.mp4#.flv#.mp3#.m4a",
+      "搜索url": "https://svip1.fun/index.php/vod/search/page/{pg}/wd/{wd}.html",
+      "分类url": "https://svip1.fun/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+      "分类": "電視劇$21#電影$20#動漫$22#綜藝$23#動畫電影$25#短劇$24",
+      "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他||大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他||大陆&日本&韩国&欧美||大陆&日本&韩国&欧美||空||空"
+    }
+  },                
+    {
+    "key": "驿站",
+    "name": "📱｜驿站｜APP",
+    "type": 3,
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "api": "csp_AppMuou",
+    "jar": "./jar/xiaosa-0923.jar;md5;6c87c9a352a0d2e60fed23f28bf4f9c6",
+    "ext": {
+      "url": "http://110.42.107.216:56677",
+      "dataKey": "d7378557d1d9c924",
+      "dataIv": "fb4594f622f34fea",
+      "jxurl": "https://qqiqiyiyoukumgtvapiappdyyztvjsoni8n2o0z1ws2n7b6v3x8.68.gy:56789"
+    }
+  },        
         {
             "key": "刷剧",
             "name": "刷劇｜待測",
