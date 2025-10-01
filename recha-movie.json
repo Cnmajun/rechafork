@@ -47,7 +47,7 @@
             "api": "csp_AppGet",
             "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
             "ext": {
-                "url": "",
+                "url": "https://myapp.3586.net",
                 "site": "https://dingchaowangzhan.oss-cn-beijing.aliyuncs.com/1.txt",
                 "dataKey": "1387006363333333",
                 "dataIv": "1387006363333333",
@@ -68,23 +68,6 @@
                 "site": "",
                 "dataKey": "5a9w6x58dsq6z3a6",
                 "dataIv": "5a9w6x58dsq6z3a6",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "狂欢",
-            "name": "狂歡｜待測",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-            "ext": {
-                "url": "http://m.m.m.kahzw.com",
-                "site": "",
-                "dataKey": "xnybssspqtwotuwj",
-                "dataIv": "xnybssspqtwotuwj",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
@@ -3526,26 +3509,6 @@
       }
     },
     {
-      "key": "tufun采集",
-      "name": "🧲｜菠菜｜高清◎秒播(無廣告)",
-      "type": 1,
-      "api": "https://tyyszyapi.com/api.php/provide/vod/?ac=list",
-      "playerType": 2,
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "vod_360",
-      "name": "🧲｜360｜高清◎秒播(無廣告)",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "categories": [
-        "国产剧",  "短片",   "动画片",  "香港剧",  "韩国剧",  "欧美剧",  "动作片",  "喜剧片",  "爱情片",
-        "科幻片",  "恐怖片",  "剧情片",  "战争片",  "NBA",  "惊悚片",  "家庭篇",  "古装片",  "历史片",
-        "悬疑片",  "犯罪片",  "纪录片",  "台湾剧",  "大陆综艺", "国产动漫", "日韩动漫", "西部片"
-      ]
-    },
-    {
       "key": "bilitingshu",
       "name": "🎖︎｜bili聽書趣",
       "type": 3,
@@ -3645,6 +3608,26 @@
       "style": {"type": "rect", "ratio": 1},
       "ext": "https://10526.kstore.vip/星河影视/KTV.js"
     },
+    {
+      "key": "tufun采集",
+      "name": "🧲｜菠菜｜高清◎秒播(無廣告)",
+      "type": 1,
+      "api": "https://tyyszyapi.com/api.php/provide/vod/?ac=list",
+      "playerType": 2,
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "vod_360",
+      "name": "🧲｜360｜高清◎秒播(無廣告)",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "categories": [
+        "国产剧",  "短片",   "动画片",  "香港剧",  "韩国剧",  "欧美剧",  "动作片",  "喜剧片",  "爱情片",
+        "科幻片",  "恐怖片",  "剧情片",  "战争片",  "NBA",  "惊悚片",  "家庭篇",  "古装片",  "历史片",
+        "悬疑片",  "犯罪片",  "纪录片",  "台湾剧",  "大陆综艺", "国产动漫", "日韩动漫", "西部片"
+      ]
+    },    
     {
       "key": "vod_优质",
       "name": "🧲｜優質｜高清◎秒播(無廣告)",
@@ -4046,7 +4029,7 @@
     },
     {
       "key": "冬日",
-      "name": "冬日动漫",
+      "name": "🎡｜冬日动漫",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
