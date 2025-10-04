@@ -94,11 +94,37 @@
       "style": {"type": "rect", "ratio": 1.5}
     },
     {
-      "key": "⏭｜javxx",
-      "name": "javxx",
+      "key": "javxx",
+      "name": "⏭｜javxx",
       "type": 4,
       "api": "https://learnpython.ggff.net/javxx"
     },
+    {
+
+      "key": "py_Xhm",
+      "name": "⏭｜py_Xhm",
+      "type": 4,
+      "api": "https://learnpython.ggff.net/py_Xhm"    
+    },
+    {
+      "api": "https://learnpython.ggff.net/py_stripchat",
+      "key": "py_stripchat",
+      "name": "⏭｜py_stripchat",
+      "type": 4,
+      "api": "https://learnpython.ggff.net/py_Xhm"
+    },    
+    {
+      "key": "好色TV",
+      "name": "⏭｜好色(恰逢)",
+      "type": 4,
+      "api": "https://learnpython.ggff.net/hstv"
+    },
+    {
+      "key": "恰逢好色",
+      "name": "⏭｜好色(恰逢)",
+      "type": 4,
+      "api": "https://learnpython.ggff.net/hsTV"
+    },    
     {
       "key": "py_好色",
       "name": "⏭｜好色(恰逢)｜PYTHON",
@@ -108,12 +134,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "changeable": 0
-    },
-    {
-      "key": "恰逢好色",
-      "name": "⏭｜恰逢好色",
-      "type": 4,
-      "api": "https://learnpython.ggff.net/hsTV"
     },
     {
       "key": "py_rou",
