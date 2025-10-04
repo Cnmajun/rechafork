@@ -5,7 +5,134 @@
   "notice": "版本：114.09.30 Ver.C\n新增：小豬、紫金、刷劇、九零、狂歡",
   "sites": [
 
-   {
+{
+  "api": "https://learnpython.ggff.net/HMDJ",
+  "key": "HMDJ",
+  "name": "HMDJ",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/DSYS",
+  "key": "DSYS",
+  "name": "DSYS",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/HMDJ",
+  "key": "HMDJ",
+  "name": "HMDJ",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/haosetv",
+  "key": "haosetv",
+  "name": "haosetv",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/hsTV",
+  "key": "hsTV",
+  "name": "hsTV",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/hsst",
+  "key": "hsst",
+  "name": "hsst",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/hstv",
+  "key": "hstv",
+  "name": "hstv",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/huoche",
+  "key": "huoche",
+  "name": "huoche",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/jinpai",
+  "key": "jinpai",
+  "name": "jinpai",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/lk",
+  "key": "lk",
+  "name": "lk",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/m1905",
+  "key": "m1905",
+  "name": "m1905",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/py_Xhm",
+  "key": "py_Xhm",
+  "name": "py_Xhm",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/py_stripchat",
+  "key": "py_stripchat",
+  "name": "py_stripchat",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/rbzj",
+  "key": "rbzj",
+  "name": "rbzj",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/shdy",
+  "key": "shdy",
+  "name": "shdy",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/tt",
+  "key": "tt",
+  "name": "tt",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/tx",
+  "key": "tx",
+  "name": "tx",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/xyz",
+  "key": "xyz",
+  "name": "xyz",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/yongle",
+  "key": "yongle",
+  "name": "yongle",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/yt4k",
+  "key": "yt4k",
+  "name": "yt4k",
+  "type": 4
+},
+{
+  "api": "https://learnpython.ggff.net/py_jubaba",
+  "key": "py_jubaba",
+  "name": "py_jubaba",
+  "type": 4
+},
+
+    {
             "key": "小猪",
             "name": "小豬｜待測",
             "type": 3,
