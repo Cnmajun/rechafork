@@ -5,7 +5,24 @@
     "wallpaper": "https://picsum.photos/1080/",
     "notice": "114.09.14 Ver.A",
     "sites": [ 
-  {
+    {
+      "key": "追番",
+      "name": "🏆｜追番丨藍光◎秒播(無廣告+app)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+      "ext": {
+        "site"    : "https://ysappapi.oss-cn-shenzhen.aliyuncs.com/getapi.txt",
+        "url"     : "https://app1.ystva.com",
+        "dataKey" : "A1akVPQmnnE4Fz9Z",
+        "dataIv"  : "A1akVPQmnnE4Fz9Z",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
     "key": "zj",
     "name": "🎥｜8K影院｜高清◎秒播(滿版廣告)",
     "type": 3,

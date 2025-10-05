@@ -429,23 +429,6 @@
       }
     },
     {
-      "key": "追番",
-      "name": "🏆｜追番丨藍光◎秒播(無廣告+app)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-      "ext": {
-        "site"    : "https://ysappapi.oss-cn-shenzhen.aliyuncs.com/getapi.txt",
-        "url"     : "https://app1.ystva.com",
-        "dataKey" : "A1akVPQmnnE4Fz9Z",
-        "dataIv"  : "A1akVPQmnnE4Fz9Z",
-        "deviceId": "",
-        "version" : "",
-        "ua"      : ""
-      }
-    },
-    {
       "key": "斗量",
       "name": "🏆｜斗量｜藍光◎秒播(無廣告+APP)",
       "type": 3,
