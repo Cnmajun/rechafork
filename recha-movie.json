@@ -2,91 +2,13 @@
   "spider": "./jar/vox.jar;md5;e291c7986245c1abc70f66971ba192c8",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.09.30 Ver.C\n新增：小豬、紫金、刷劇、九零、狂歡",
+  "notice": "版本：114.10.05 Ver.B",
   "sites": [
 
 
-{
-  "api": "https://learnpython.ggff.net/shdy",
-  "key": "shdy",
-  "name": "shdy",
-  "type": 4
-},
-{
-  "api": "https://learnpython.ggff.net/xyz",
-  "key": "xyz",
-  "name": "xyz",
-  "type": 4
-},
 
-    {
-            "key": "小猪",
-            "name": "小豬｜待測",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-            "ext": {
-                "url": "",
-                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
-                "dataKey": "seb5tq9mykp2w9ry",
-                "dataIv": "seb5tq9mykp2w9ry",
-                "deviceId": "",
-                "version": "",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "紫金",
-            "name": "紫金｜待測",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-            "ext": {
-                "url": "http://www.zjcvod.com",
-                "site": "",
-                "dataKey": "ab4e9a421675f14b",
-                "dataIv": "ab4e9a421675f14b",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "九零",
-            "name": "九零｜待測",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-            "ext": {
-                "url": "https://65fs2d9awaa1d2a7ea8.019990.xyz",
-                "site": "",
-                "dataKey": "5a9w6x58dsq6z3a6",
-                "dataIv": "5a9w6x58dsq6z3a6",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "奈飞",
-            "name": "奈飞｜待修",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-            "ext": {
-                "url": "https://movier.ink",
-                "site": "",
-                "dataKey": "moviermovierink9",
-                "dataIv": "moviermovierink9",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
+
+
                                                 
 
     {
@@ -710,6 +632,18 @@
       "changeable": 1
     },
     {
+      "api": "https://learnpython.ggff.net/shdy",
+      "key": "🏆｜小桃｜高清◎秒播(無廣告)",
+      "name": "shdy",
+      "type": 4
+    },
+    {
+      "api": "https://learnpython.ggff.net/xyz",
+      "key": "🏆｜墨白｜高清◎秒播(無廣告)",
+      "name": "xyz",
+      "type": 4
+    },    
+    {
       "key": "嗷呜剧爸爸",
       "name": "🏆｜劇粑｜藍光◎秒播(無廣告)",
       "type": 4,
@@ -846,6 +780,23 @@
       "filterable": 0,
       "changeable": 0
     },
+    {
+            "key": "小猪",
+            "name": "🏆｜小豬｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+            "ext": {
+                "url": "",
+                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
+                "dataKey": "seb5tq9mykp2w9ry",
+                "dataIv": "seb5tq9mykp2w9ry",
+                "deviceId": "",
+                "version": "",
+                "ua": "okhttp/3.10.0"
+            }
+        },    
     {
       "key": "QD4K",
       "name": "🏆｜豬豬｜藍光◎秒播(無廣告+BX藍光線)",
@@ -1607,7 +1558,41 @@
       "api": "csp_HB4kav",
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
       "playerType": 2
-    },    
+    },
+        {
+            "key": "紫金",
+            "name": "📱｜紫金｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+            "ext": {
+                "url": "http://www.zjcvod.com",
+                "site": "",
+                "dataKey": "ab4e9a421675f14b",
+                "dataIv": "ab4e9a421675f14b",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "九零",
+            "name": "📱｜九零｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+            "ext": {
+                "url": "https://65fs2d9awaa1d2a7ea8.019990.xyz",
+                "site": "",
+                "dataKey": "5a9w6x58dsq6z3a6",
+                "dataIv": "5a9w6x58dsq6z3a6",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },     
     {
       "key": "咖啡",
       "name": "📱｜咖啡｜高清◎秒播(無廣告+APP)",
