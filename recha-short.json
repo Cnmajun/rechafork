@@ -108,17 +108,23 @@
                 "分类": "短剧$duanju"
             }
       },
+      {
+        "key": "河马短剧",
+        "name": "📺｜河马短剧",
+        "type": 3,
+        "api": "./py/河马短剧.py",
+        "searchable": 1,
+        "changeable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "playerType": 2
+    },
     {
-      "key": "河马短剧",
-      "name": "📺｜河马短剧",
-      "type": 3,
-      "api": "./py/河马短剧.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },       
+        "api": "https://learnpython.ggff.net/HMDJ",
+        "key": "HMDJ",
+        "name": "📺｜河馬劇場",
+        "type": 4
+      },
       {
         "key":"csp_XBPQ_短剧4",
         "name":"📺｜短剧CC",

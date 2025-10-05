@@ -5,12 +5,7 @@
   "notice": "版本：114.09.30 Ver.C\n新增：小豬、紫金、刷劇、九零、狂歡",
   "sites": [
 
-{
-  "api": "https://learnpython.ggff.net/HMDJ",
-  "key": "HMDJ",
-  "name": "河馬劇場",
-  "type": 4
-},
+
 {
   "api": "https://learnpython.ggff.net/shdy",
   "key": "shdy",

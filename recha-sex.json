@@ -93,12 +93,6 @@
       "style": {"type": "rect", "ratio": 1.5}
     },
     {
-      "key": "javxx",
-      "name": "⏭｜javxx",
-      "type": 4,
-      "api": "https://learnpython.ggff.net/javxx"
-    },
-    {
       "key": "py_Xhm",
       "name": "⏭｜py_Xhm",
       "type": 4,
@@ -115,13 +109,7 @@
       "name": "⏭｜好色(恰逢)",
       "type": 4,
       "api": "https://learnpython.ggff.net/hstv"
-    },
-    {
-      "key": "恰逢好色",
-      "name": "⏭｜好色(恰逢)",
-      "type": 4,
-      "api": "https://learnpython.ggff.net/hsTV"
-    },    
+    },  
     {
       "key": "py_好色",
       "name": "⏭｜好色(恰逢)｜PYTHON",
