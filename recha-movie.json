@@ -4,13 +4,6 @@
   "wallpaper": "https://tv.nxog.top/m/t/",
   "notice": "版本：114.10.05 Ver.B",
   "sites": [
-
-
-
-
-
-                                                
-
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -29,7 +22,7 @@
       "type": 3,
       "api": "csp_Douban",
       "spider": "./jar/pg.jar;md5;7840d0b61f9641a47728e3a92020f35a",
-      "jar": "./jar/pg.jar;md5;7840d0b61f9641a47728e3a92020f35a",      
+      "jar": "./jar/pg.jar;md5;7840d0b61f9641a47728e3a92020f35a",
       "searchable": 0,
       "changeable": 0,
       "indexs": 1,
@@ -336,7 +329,7 @@
         "deviceId": "",
         "version": "120"
       }
-    },    
+    },
     {
       "key": "独播库",
       "name": "🏆｜獨播｜藍光◎秒播(無廣告)",
@@ -479,7 +472,7 @@
     },
     {
       "key": "jarcai",
-      "name": "🏆｜文才｜藍光◎秒播",
+      "name": "🏆｜文才｜藍光◎秒播(無廣告)",
       "type": 3,
       "api": "csp_Wcai",
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
@@ -487,7 +480,7 @@
     },
     {
       "key": "追追",
-      "name": "🏆｜追追｜藍光◎秒播",
+      "name": "🏆｜追追｜藍光◎秒播(無廣告)",
       "type": 3,
       "api": "csp_Wcai",
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
@@ -495,7 +488,7 @@
     },
     {
       "key": "风铃",
-      "name": "🏆｜風鈴｜高清◎秒播",
+      "name": "🏆｜風鈴｜高清◎秒播(無廣告)",
       "type": 3,
       "api": "csp_HBfling",
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7"
@@ -522,7 +515,7 @@
       "changeable": 1,
       "ext": {
         "filters": "http://rihou.cc:88/json/jianpian.json",
-        "sites": "https://api.ztcgi.com"
+        "sites"  : "https://api.ztcgi.com"
       }
     },
     {
@@ -537,7 +530,7 @@
         "datakey": "8191A7F47B37882F",
         "api": 2
       }
-    },         
+    },
     {
       "key": "爱影视",
       "name": "🏆｜爱盈｜藍光◎順播(無廣告)",
@@ -572,14 +565,14 @@
       "filterable": 0,
       "changeable": 0
     },
-        {
-            "key": "厂长资源",
-            "name": "🏆｜廠長｜高清◎秒播｜直連",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./xb/厂长资源.json",
-            "jar": "./jar/xbpq.jar"
-        },     
+    {
+      "key": "厂长资源",
+      "name": "🏆｜廠長｜高清◎秒播｜直連",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./xb/厂长资源.json",
+      "jar": "./jar/xbpq.jar"
+    },
     {
       "key": "厂长",
       "name": "🏆｜廠長｜高清◎秒播｜新光",
@@ -625,7 +618,7 @@
       "key": "🏆｜墨白｜高清◎秒播(無廣告)",
       "name": "xyz",
       "type": 4
-    },    
+    },
     {
       "key": "嗷呜剧爸爸",
       "name": "🏆｜劇粑｜藍光◎秒播(無廣告)",
@@ -764,22 +757,22 @@
       "changeable": 0
     },
     {
-            "key": "小猪",
-            "name": "🏆｜小豬｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-            "ext": {
-                "url": "",
-                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
-                "dataKey": "seb5tq9mykp2w9ry",
-                "dataIv": "seb5tq9mykp2w9ry",
-                "deviceId": "",
-                "version": "",
-                "ua": "okhttp/3.10.0"
-            }
-        },    
+      "key": "小猪",
+      "name": "🏆｜小豬｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+      "ext": {
+        "url": "",
+        "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
+        "dataKey": "seb5tq9mykp2w9ry",
+        "dataIv": "seb5tq9mykp2w9ry",
+        "deviceId": "",
+        "version": "",
+        "ua": "okhttp/3.10.0"
+      }
+    },
     {
       "key": "QD4K",
       "name": "🏆｜豬豬｜藍光◎秒播(無廣告+BX藍光線)",
@@ -1542,40 +1535,40 @@
       "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
       "playerType": 2
     },
-        {
-            "key": "紫金",
-            "name": "📱｜紫金｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-            "ext": {
-                "url": "http://www.zjcvod.com",
-                "site": "",
-                "dataKey": "ab4e9a421675f14b",
-                "dataIv": "ab4e9a421675f14b",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "九零",
-            "name": "📱｜九零｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
-            "ext": {
-                "url": "https://65fs2d9awaa1d2a7ea8.019990.xyz",
-                "site": "",
-                "dataKey": "5a9w6x58dsq6z3a6",
-                "dataIv": "5a9w6x58dsq6z3a6",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },     
+    {
+      "key": "紫金",
+      "name": "📱｜紫金｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+      "ext": {
+        "url"     : "http://www.zjcvod.com",
+        "site"    : "",
+        "dataKey" : "ab4e9a421675f14b",
+        "dataIv"  : "ab4e9a421675f14b",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
+    {
+      "key": "九零",
+      "name": "📱｜九零｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+      "ext": {
+        "url"     : "https://65fs2d9awaa1d2a7ea8.019990.xyz",
+        "site"    : "",
+        "dataKey" : "5a9w6x58dsq6z3a6",
+        "dataIv"  : "5a9w6x58dsq6z3a6",
+        "deviceId": "",
+        "version" : "",
+        "ua"      : ""
+      }
+    },
     {
       "key": "咖啡",
       "name": "📱｜咖啡｜高清◎秒播(無廣告+APP)",
@@ -1610,20 +1603,20 @@
         "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
       }
     },
-        {
-            "key": "海狗视频",
-            "name": "📱｜海狗｜普清◎秒播(無廣告)",
-            "type": 3,
-            "api": "csp_Hmys",
-            "changeable": 0,
-            "ext": {
-                "host": "https://dy.stxbed.com",
-                "app_id": "shiguang",
-                "deviceid": "6b3927d7bbd112d6",
-                "versionCode": "20000",
-                "UMENG_CHANNEL": "guan"
-            }
-        },    
+    {
+      "key": "海狗视频",
+      "name": "📱｜海狗｜普清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_Hmys",
+      "changeable": 0,
+      "ext": {
+        "host"         : "https://dy.stxbed.com",
+        "app_id"       : "shiguang",
+        "deviceid"     : "6b3927d7bbd112d6",
+        "versionCode"  : "20000",
+        "UMENG_CHANNEL": "guan"
+      }
+    },
     {
       "key": "莱米",
       "name": "📱｜莱米｜高清◎秒播(無廣告+APP)",
@@ -1758,46 +1751,46 @@
         "ua": ""
       }
     },
-        {
-            "key": "Max",
-            "name": "📱｜下飯｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "changeable": 0,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_AppYsV2",
-            "ext": {
-                "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
-                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-                "apisignkey": "lvdoutv-1.0.0"
-            }
-        },
-        {
-            "key": "云云",
-            "name": "📱｜云云｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
-                "datakey": "staraugust123456",
-                "api": 2
-            }
-        },
-        {
-            "key": "影视",
-            "name": "📱｜影視｜高清◎秒播(無廣告+APP)",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-                "datakey": "AAdgrdghjfgswerA",
-                "api": 2
-            }
-        },        
+    {
+      "key": "Max",
+      "name": "📱｜下飯｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "csp_AppYsV2",
+      "ext": {
+        "api"        : "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
+        "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+        "apisignkey" : "lvdoutv-1.0.0"
+      }
+    },
+    {
+      "key": "云云",
+      "name": "📱｜云云｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "host": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+        "datakey": "staraugust123456",
+        "api": 2
+      }
+    },
+    {
+      "key": "影视",
+      "name": "📱｜影視｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "host": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+        "datakey": "AAdgrdghjfgswerA",
+        "api": 2
+      }
+    },
     {
       "key": "米奇",
       "name": "📱｜米奇｜高清◎秒播(無廣告+APP)",
@@ -2617,7 +2610,7 @@
         "科幻片",  "恐怖片",  "剧情片",  "战争片",  "NBA",  "惊悚片",  "家庭篇",  "古装片",  "历史片",
         "悬疑片",  "犯罪片",  "纪录片",  "台湾剧",  "大陆综艺", "国产动漫", "日韩动漫", "西部片"
       ]
-    },    
+    },
     {
       "key": "vod_优质",
       "name": "🧲｜優質｜高清◎秒播(無廣告)",
@@ -2988,18 +2981,15 @@
       "changeable": 1,
       "filterable": 0
     },
-        {
-            "key": "囧次元动漫",
-            "name": "🎡｜囧次元動漫",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "http://ys.xiaos12.cn",
-                "datakey": "chfgjfrhhf628vw1"
-            }
-        },    
+    {
+      "key": "囧次元动漫",
+      "name": "🎡｜囧次元動漫",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet",
+      "ext": {"host": "http://ys.xiaos12.cn", "datakey": "chfgjfrhhf628vw1"}
+    },
     {
       "key": "方舟",
       "name": "🎡｜方舟动漫",
@@ -3106,18 +3096,18 @@
       "filterable": 0,
       "changeable": 1
     },
-        {
-            "key": "mifun",
-            "name": "🎡｜mifun｜VOX",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
-                "datakey": "GETMIFUNGEIMIFUN"
-            }
-        },        
+    {
+      "key": "mifun",
+      "name": "🎡｜mifun｜VOX",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
+        "datakey": "GETMIFUNGEIMIFUN"
+      }
+    },
     {
       "key": "黑猫动漫",
       "name": "🎡｜黑猫动漫",
