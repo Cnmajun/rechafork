@@ -2,8 +2,10 @@
   "spider": "./jar/vox.jar;md5;e291c7986245c1abc70f66971ba192c8",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.10.08 Ver.A",
+  "notice": "版本：114.10.08 Ver.B",
   "sites": [
+
+
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -143,45 +145,8 @@
       "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416"
     },
     {
-      "key": "py_又是一個金牌",
-      "name": "🏆｜第一｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "./py/又是一個金牌.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site": "https://jpyy.com,https://www.jiabaide.cn,https://cqzuoer.com,https://www.jpyy2.com"
-      }
-    },
-    {
-      "key": "py_文才",
-      "name": "🏆｜第二｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "./py/又是一個金牌.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/"
-      }
-    },
-    {
-      "key": "dyttzyw.tv",
-      "name": "🏆｜第三｜藍光◎秒播(無廣告)",
-      "type": 1,
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "国产剧",  "韩国剧",  "日本剧",  "欧美剧",  "香港剧",  "台湾剧",  "泰国剧",  "海外剧",  "动作片",
-        "喜剧片",  "爱情片",  "科幻片",  "恐怖片",  "剧情片",  "战争片",  "记录片",  "动画片",  "伦理片",
-        "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "短剧"
-      ]
-    },
-    {
       "key": "mqtv",
-      "name": "🏆｜第四｜高清◎秒播(無廣告)",
+      "name": "🏆｜一號｜高清◎秒播(無廣告)",
       "type": 3,
       "timeout": 120,
       "searchable": 1,
@@ -211,7 +176,7 @@
     },
     {
       "key": "huochetaidu",
-      "name": "🏆｜第五｜高清◎秒播(無廣告)",
+      "name": "🏆｜二號｜高清◎秒播(無廣告)",
       "type": 3,
       "timeout": 120,
       "searchable": 1,
@@ -243,7 +208,7 @@
     },
     {
       "key": "yirenmeng",
-      "name": "🏆｜第六｜高清◎秒播(無廣告)",
+      "name": "🏆｜三號｜高清◎秒播(無廣告)",
       "type": 3,
       "timeout": 120,
       "searchable": 1,
@@ -274,20 +239,8 @@
       }
     },
     {
-      "key": "py_金牌.py",
-      "name": "🏆｜金牌｜高清◎秒播(無廣告)",
-      "type": 3,
-      "api": "./py/金牌.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site": "https://www.vv3nwjk.com,https://www.jpyy2.com,https://www.cfkj86.com"
-      }
-    },
-    {
       "key": "py_愛電影.py",
-      "name": "🏆｜祖宗牌｜高清◎秒播(無廣告)",
+      "name": "🏆｜金牌系列-愛電影",
       "type": 3,
       "api": "./py/金牌.py",
       "searchable": 1,
@@ -298,8 +251,20 @@
       }
     },
     {
-      "key": "py_金牌2.py",
-      "name": "🏆｜祖先牌｜高清◎秒播(無廣告)",
+      "key": "py_文才",
+      "name": "🏆｜金牌系列-文才",
+      "type": 3,
+      "api": "./py/又是一個金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/"
+      }
+    },    
+    {
+      "key": "py_zjuys.py",
+      "name": "🏆｜金牌系列-zjuys",
       "type": 3,
       "api": "./py/金牌.py",
       "searchable": 1,
@@ -307,6 +272,30 @@
       "filterable": 1,
       "ext": {
         "site": "https://zjuys.com/"
+      }
+    },
+    {
+      "key": "py_又是一個金牌",
+      "name": "🏆｜金牌系列-jpyy",
+      "type": 3,
+      "api": "./py/又是一個金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://jpyy.com,https://www.jiabaide.cn,https://cqzuoer.com,https://www.jpyy2.com"
+      }
+    },
+    {
+      "key": "py_金牌.py",
+      "name": "🏆｜金牌｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "./py/金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://www.vv3nwjk.com,https://www.jpyy2.com,https://www.cfkj86.com"
       }
     },
     {
@@ -381,6 +370,19 @@
       "playerType": 2,
       "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
     },
+    {
+      "key": "dyttzyw.tv",
+      "name": "🏆｜天堂｜藍光◎秒播(無廣告)",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "国产剧",  "韩国剧",  "日本剧",  "欧美剧",  "香港剧",  "台湾剧",  "泰国剧",  "海外剧",  "动作片",
+        "喜剧片",  "爱情片",  "科幻片",  "恐怖片",  "剧情片",  "战争片",  "记录片",  "动画片",  "伦理片",
+        "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "短剧"
+      ]
+    },    
     {
       "key": "若雪",
       "name": "🏆｜若雪｜藍光◎秒播(無廣告+APP)",
