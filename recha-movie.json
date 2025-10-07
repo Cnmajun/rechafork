@@ -2,7 +2,7 @@
   "spider": "./jar/vox.jar;md5;e291c7986245c1abc70f66971ba192c8",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.10.05 Ver.B",
+  "notice": "版本：114.10.08 Ver.A",
   "sites": [
     {
       "key": "豆瓣",
@@ -286,6 +286,30 @@
       }
     },
     {
+      "key": "py_愛電影.py",
+      "name": "🏆｜祖宗牌｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "./py/金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://www.gs4x7nq4.com"
+      }
+    },
+    {
+      "key": "py_金牌2.py",
+      "name": "🏆｜祖先牌｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "./py/金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://zjuys.com/"
+      }
+    },
+    {
       "key": "csp_LiteApple",
       "name": "🏆｜銀牌｜高清◎秒播(無廣告)",
       "type": 3,
@@ -469,29 +493,6 @@
         "deviceId": "",
         "version": ""
       }
-    },
-    {
-      "key": "jarcai",
-      "name": "🏆｜文才｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "csp_Wcai",
-      "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
-      "ext": "https://www.gs4x7nq4.com"
-    },
-    {
-      "key": "追追",
-      "name": "🏆｜追追｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "csp_Wcai",
-      "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7",
-      "ext": "https://zjuys.com/"
-    },
-    {
-      "key": "风铃",
-      "name": "🏆｜風鈴｜高清◎秒播(無廣告)",
-      "type": 3,
-      "api": "csp_HBfling",
-      "jar": "./jar/虎斑.jar;md5;84fa0f2398ba2acd7c54f08eb40c45f7"
     },
     {
       "key": "金牌影院",
