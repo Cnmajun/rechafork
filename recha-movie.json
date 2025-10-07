@@ -2,7 +2,7 @@
   "spider": "./jar/vox.jar;md5;e291c7986245c1abc70f66971ba192c8",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m/t/",
-  "notice": "版本：114.10.08 Ver.B",
+  "notice": "版本：114.10.08 Ver.C\n移除虎斑源\n重新整理金牌系列\n新增墨白、小桃源",
   "sites": [
 
 
@@ -611,16 +611,16 @@
       "changeable": 1
     },
     {
-      "api": "https://learnpython.ggff.net/shdy",
-      "key": "🏆｜小桃｜高清◎秒播(無廣告)",
-      "name": "shdy",
-      "type": 4
+      "key": "shdy",
+      "name": "🏆｜小桃｜高清◎秒播(無廣告)",
+      "type": 4,
+      "api": "https://learnpython.ggff.net/shdy"
     },
     {
-      "api": "https://learnpython.ggff.net/xyz",
-      "key": "🏆｜墨白｜高清◎秒播(無廣告)",
-      "name": "xyz",
-      "type": 4
+      "key": "xyz",
+      "name": "🏆｜墨白｜高清◎秒播(無廣告)",
+      "type": 4,
+      "api": "https://learnpython.ggff.net/xyz"
     },
     {
       "key": "嗷呜剧爸爸",
