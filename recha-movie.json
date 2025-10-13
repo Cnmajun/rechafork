@@ -2,11 +2,64 @@
   "spider": "./jar/vox.jar;md5;e291c7986245c1abc70f66971ba192c8",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://gitlab.com/tenrecha/recha/-/raw/main/background.jpg",
-  "notice": "版本：114.10.08 Ver.C\n移除：虎斑源\n重整：金牌系列\n新增：墨白、小桃源",
+  "notice": "版本：114.10.14 Ver.C\n測試：火花、堅果、刷劇源",
   "sites": [
 
+        {
+            "key": "火花",
+            "name": "火花丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+            "ext": {
+                "url": "",
+                "site": "http://v.itcxo.cn/txt/1.txt",
+                "dataKey": "PoiUytRedFghjklm",
+                "dataIv": "PoiUytRedFghjklm",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "坚果",
+            "name": "坚果丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+            "ext": {
+                "url": "http://a.ngdy1.cn",
+                "site": "",
+                "dataKey": "2015692015692015",
+                "dataIv": "2015692015692015",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },        
+        {
+            "key": "刷剧",
+            "name": "刷剧丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+            "ext": {
+                "url": "",
+                "site": "https://dingchaowangzhan.oss-cn-beijing.aliyuncs.com/1.txt",
+                "dataKey": "1387006363333333",
+                "dataIv": "1387006363333333",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
 
-    {
+
+
+        {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
       "type": 3,
@@ -2143,7 +2196,7 @@
       }
     },
     {
-      "key": "万能",
+      "key": "万能2",
       "name": "📱｜萬能丨高清◎秒播(無廣告+app)",
       "type": 3,
       "quickSearch": 1,
@@ -2156,7 +2209,7 @@
         "dataIv"  : "5uBvur6znNUmE3zb",
         "deviceId": "",
         "version" : "",
-        "ua"      : ""
+        "ua"      : "myapp/1.0.3"
       }
     },
     {
