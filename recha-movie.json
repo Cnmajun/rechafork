@@ -2,45 +2,10 @@
   "spider": "./jar/vox.jar;md5;e291c7986245c1abc70f66971ba192c8",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://gitlab.com/tenrecha/recha/-/raw/main/background.jpg",
-  "notice": "版本：114.10.14 Ver.C\n測試：火花、堅果、刷劇源",
+  "notice": "版本：114.10.15 Ver.A\n秋天甚麼時候才來，好熱啊！",
   "sites": [
         
-        {
-            "key": "于浅",
-            "name": "于浅｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-1015.jar;md5;5191f10715e38c221754c22ecbd44579",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "http://202.140.143.116:88",
-                "site": "",
-                "dataKey": "leroulerop.lerom",
-                "dataIv": "leroulerop.lerom",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "火锅",
-            "name": "火锅｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "jar": "./jar/xiaosa-1015.jar;md5;5191f10715e38c221754c22ecbd44579",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://ios.hgyx.vip",
-                "site": "",
-                "dataKey": "062dec75d039980e",
-                "dataIv": "062dec75d039980e",
-                "deviceId": "",
-                "version": ""
-            }
-        },
+
 
 
 
@@ -2515,7 +2480,24 @@
         "ua"      : ""
       }
     },
-
+        {
+            "key": "火锅",
+            "name": "📱｜火鍋｜高清◎秒播(無廣告+APP)",
+            "type": 3,
+            "api": "csp_AppGet",
+            "jar": "./jar/xiaosa-1015.jar;md5;5191f10715e38c221754c22ecbd44579",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://ios.hgyx.vip",
+                "site": "",
+                "dataKey": "062dec75d039980e",
+                "dataIv": "062dec75d039980e",
+                "deviceId": "",
+                "version": ""
+            }
+        },
         {
             "key": "火花",
             "name": "📱｜火花｜高清◎順播(部分線路有廣告+APP)",
