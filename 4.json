@@ -16,7 +16,19 @@
                 "name": "火猫影视"
             }
         },
-
+        {
+            "key": "K金",
+            "name": "金牌｜APP",
+            "type": 3,
+            "api": "csp_AppMuou",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "",
+                "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
+                "name": "金牌影院（请断网再安装）"
+            }
+        },
 
 
         {
