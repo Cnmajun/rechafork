@@ -14,20 +14,6 @@
                 "name": "火猫影视"
             }
         },
-        {
-            "key": "K金",
-            "name": "金牌｜APP",
-            "type": 3,
-            "api": "csp_AppMuou",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "",
-                "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
-                "name": "金牌影院（请断网再安装）"
-            }
-        },
-
 
         {
       "key": "豆瓣",
@@ -496,31 +482,6 @@
         "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
         "name": "金牌影院（请断网再安装）",
         "version": "4.2.0"
-      }
-    },
-    {
-      "key": "csp_Jianpian",
-      "name": "🏆｜荐片｜高清◎秒播(無廣告)",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "filters": "http://rihou.cc:88/json/jianpian.json",
-        "sites"  : "https://api.ztcgi.com"
-      }
-    },
-    {
-      "key": "热剧天堂",
-      "name": "🏆｜天堂｜高清◎秒播(無廣告)",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "site": "https://www.rebovod.com",
-        "datakey": "8191A7F47B37882F",
-        "api": 2
       }
     },
     {
@@ -1613,7 +1574,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-"ext": {
+      "ext": {
         "site": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
         "url": "http://laimi.lmapp.org",
         "dataKey": "ce032244d093b3e2",
@@ -1628,7 +1589,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
-"ext": {
+      "ext": {
         "url"     : "https://www.rebovod.com",
         "site"    : "",
         "dataKey" : "8191A7F47B37882F",
@@ -1644,7 +1605,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-"ext": {
+      "ext": {
         "url"     : "http://starani.qcanime.xyz",
         "site"    : "",
         "dataKey" : "123456789StarAni",
@@ -1660,7 +1621,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-"ext": {
+      "ext": {
         "site": "https://app-cms-v10-1314306855.cos.ap-guangzhou.myqcloud.com/appcms.php",
         "url": "https://app1.ystva.com",
         "dataKey": "A1akVPQmnnE4Fz9Z",
@@ -1676,7 +1637,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-"ext": {
+      "ext": {
         "url"     : "https://www.pjb523.sbs",
         "site"    : "",
         "dataKey" : "1234567887654321",
@@ -1692,7 +1653,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
-"ext": {
+      "ext": {
         "url": "",
         "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
         "dataKey": "staraugust123456",
@@ -1707,7 +1668,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
-"ext": {
+      "ext": {
         "site"    : "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
         "url"     : "http://app1.mgtv.co",
         "dataKey" : "sada21321sdq231d",
@@ -1723,7 +1684,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-"ext": {
+      "ext": {
         "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
         "url": "http://211.154.24.56:7416/",
         "dataKey": "685bf108bc47b67d",
