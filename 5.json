@@ -493,7 +493,7 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
+        "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
         "name": "金牌影院（请断网再安装）",
         "version": "4.2.0"
       }
@@ -518,7 +518,7 @@
       "changeable": 1,
       "api": "csp_AppGet",
       "ext": {
-        "host": "https://www.rebovod.com",
+        "site": "https://www.rebovod.com",
         "datakey": "8191A7F47B37882F",
         "api": 2
       }
