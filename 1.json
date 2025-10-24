@@ -864,11 +864,23 @@ function getFavorabilityStatus(value) {
     if (value < 0) return "仇人";
     if (value >= 0 && value <= 20) return "陌生人";
     if (value > 20 && value <= 40) return "疏离淡漠";
-	if (value > 40 && value <= 50) return "平淡如水";
-	if (value > 50 && value <= 60) return "亲近信赖";
-	if (value > 60 && value <= 70) return "依赖眷恋";
+  	if (value > 40 && value <= 50) return "平淡如水";
+	  if (value > 50 && value <= 60) return "亲近信赖";
+	  if (value > 60 && value <= 70) return "依赖眷恋";
     if (value > 70 && value <= 99) return "热恋痴迷";
     if (value >= 100) return "挚爱不渝";
+    return "";
+}
+
+// 在這裡定義一個信賴度的狀態函數
+function getTrustStatus(value) {
+    if (value < 0) return "背叛者";
+    if (value >= 0 && value <= 20) return "不信任";
+    if (value > 20 && value <= 40) return "初步信任";
+    if (value > 40 && value <= 60) return "可靠夥伴";
+    if (value > 60 && value <= 80) return "重要盟友";
+    if (value > 80 && value <= 100) return "生死與共";
+    if (value > 100) return "靈魂羈絆";
     return "";
 }
 
@@ -1829,3 +1841,444 @@ function renderNutritionDetails(target, statData) {
   wrapper.append(t('脂肪', fat, s['脂肪'], 'fat-progress'));
 
   const nitrogenValue = Math.max(-100, Math.
+
+ min(100, nitrogen));
+  const nitrogenWrapper = $('<div>').addClass('progress-wrapper');
+  $('<div>').text(`氮平衡: ${nitrogen}`).appendTo(nitrogenWrapper);
+  const gradient = $('<div>').addClass('nitrogen-gradient');
+  $('<div>').addClass('nitrogen-marker').css('left', `${((nitrogenValue + 100) / 200) * 100}%`).appendTo(gradient);
+  nitrogenWrapper.append(gradient);
+  wrapper.append(nitrogenWrapper);
+
+  wrapper.append(t('蛋白质', protein, s['蛋白质'], 'protein-progress'));
+  wrapper.append(t('维生素', vitamin, s['维生素'], 'vitamin-progress'));
+
+  target.append(wrapper);
+}
+
+function renderPhysMental(target, physData, mentalData, fullData) {
+  const wrapper = $('<div>').addClass('phys-mental-wrapper');
+  const physCol = $('<div>').addClass('phys-col');
+  const mentalCol = $('<div>').addClass('mental-col');
+
+  $('<div>').addClass('section__title').text('生理').appendTo(physCol);
+  const temperature = Number(e(physData['体温'] ?? 37));
+  const tempWrapper = $('<div>').addClass('progress-wrapper');
+  $('<div>').text(`體溫: ${temperature}°C (正常: 36.5~37.5°C)`).appendTo(tempWrapper);
+  const tempGradient = $('<div>').addClass('temp-gradient');
+  const marker = $('<div>').addClass('temp-marker');
+  const percent = Math.min(Math.max(((temperature - 35) / 5) * 100, 0), 100);
+  marker.css('left', `${percent}%`);
+  $('<div>').addClass('temp-normal-zone').css({ left: '30%', width: '20%' }).appendTo(tempGradient);
+  tempGradient.append(marker);
+  tempWrapper.append(tempGradient);
+  physCol.append(tempWrapper);
+
+  const fatigue = Number(e(fullData['状态']?.['疲劳'] ?? 0));
+  const endurance = Number(e(fullData['属性']?.['耐力']?.['等级'] ?? 25));
+  physCol.append(t('疲劳', fatigue, endurance * 4, 'fatigue-progress'));
+
+  const immuneLoad = Number(e(physData['免疫负荷'] ?? 0));
+  const immunePower = Number(e(fullData['次生属性']?.['免疫力'] ?? 0));
+  const immuneWrapper = $('<div>').addClass('progress-wrapper');
+  $('<div>').text(`免疫负荷: ${immuneLoad} 免疫力: ${immunePower}`).appendTo(immuneWrapper);
+  const immuneBar = $('<div>').addClass('immune-bar');
+  $('<div>').addClass('immune-fill').css('width', `${Math.min((immuneLoad / (s['免疫负荷'] ?? 100)) * 100, 100)}%`).appendTo(immuneBar);
+  $('<div>').addClass('immune-marker').css('left', `${Math.min((immunePower / (s['免疫负荷'] ?? 100)) * 100, 100)}%`).appendTo(immuneBar);
+  immuneWrapper.append(immuneBar);
+  physCol.append(immuneWrapper);
+
+  const merged = { ...physData };
+  if (fullData['状态']?.['表皮湿度'] !== undefined) {
+    merged['表皮湿度'] = fullData['状态']['表皮湿度'];
+  }
+
+  const skip = new Set(['碳水', '脂肪', '氮平衡', '蛋白质', '维生素', '水分', '饱腹感', '免疫负荷', '免疫力', '免疫上限', '体温', '疲劳']);
+  Object.entries(merged).forEach(([key, value]) => {
+    if (skip.has(key)) {
+      return;
+    }
+    const numeric = Number(e(value));
+    const max = Math.max(s[key] ?? 100, numeric);
+    physCol.append(t(key, numeric, max));
+  });
+
+  $('<div>').addClass('section__title').text('精神').appendTo(mentalCol);
+  Object.entries(mentalData).forEach(([key, value]) => {
+    const numeric = Number(e(value));
+    const max = Math.max(s[key] ?? 100, numeric);
+    mentalCol.append(t(key, numeric, max));
+  });
+
+  wrapper.append(physCol, mentalCol);
+  target.append(wrapper);
+}
+
+function renderAttributesAndSkills(target, attributesSource, skillsSource, talentsSource) {
+  const wrapper = $('<div>').addClass('attr-skill-wrapper');
+  const leftCol = $('<div>').addClass('attr-col');
+
+  $('<div>').addClass('section__title').text('属性').appendTo(leftCol);
+  const attributes = firstMeaningfulObject(attributesSource);
+  Object.entries(attributes).forEach(([name, detail]) => {
+    if (detail && typeof detail === 'object') {
+      const level = Number(e(detail['等级'] ?? 0));
+      const exp = Number(e(detail['当前经验'] ?? 0));
+      const required = Number(e(detail['升级所需经验'] ?? 0)) || 1;
+      leftCol.append($('<div>').text(`${name} Lv.${level}`));
+      leftCol.append(t('', exp, required));
+    }
+  });
+
+  const talents = firstMeaningfulObject(talentsSource);
+  const talentEntries = Object.entries(talents).filter(([key]) => key !== '$meta');
+  if (talentEntries.length > 0) {
+    const talentsHeader = $('<div>').addClass('section__title').css('margin-top', '20px').text('天赋');
+    leftCol.append(talentsHeader);
+
+    talentEntries.forEach(([name, value]) => {
+      const item = $('<div>').addClass('skill-item');
+      $('<div>').addClass('skill-name').text(name).appendTo(item);
+      const desc = typeof value === 'string' ? value : textify(value?.['描述'] ?? value?.desc ?? '', '');
+      if (desc) {
+          $('<div>').addClass('skill-desc').text(desc).appendTo(item);
+      }
+      leftCol.append(item);
+    });
+  }
+  wrapper.append(leftCol);
+
+  const rightCol = $('<div>').addClass('skill-col');
+  $('<div>').addClass('section__title').text('技能').appendTo(rightCol);
+  const skills = firstMeaningfulObject(skillsSource);
+  const entries = Object.entries(skills).filter(([key]) => key !== '$meta');
+  if (entries.length === 0) {
+    rightCol.append($('<p>').text('暂无技能'));
+  } else {
+    entries.forEach(([name, value]) => {
+      if (value && typeof value === 'object') {
+        const level = Number(e(value['等级'] ?? value.level ?? 0));
+        const exp = Number(e(value['当前经验'] ?? value.exp ?? 0));
+        const required = Number(e(value['升级所需经验'] ?? value.reqExp ?? 100)) || 1;
+        const item = $('<div>').addClass('skill-item');
+        $('<div>').addClass('skill-name').text(`${name} Lv.${level}`).appendTo(item);
+        const progress = $('<div>').addClass('progress');
+        $('<div>').addClass('progress__bar').css('width', `${Math.min((exp / required) * 100, 100)}%`).appendTo(progress);
+        item.append(progress);
+        rightCol.append(item);
+      }
+    });
+  }
+  wrapper.append(rightCol);
+  target.append(wrapper);
+}
+
+function renderKeyValueTree(target, data) {
+  const entries = toEntries(data);
+  if (!entries || entries.length === 0) {
+    return;
+  }
+  const list = $('<ul>').addClass('section__list');
+  entries.forEach(([key, value]) => {
+    const li = $('<li>');
+    if (value && typeof value === 'object') {
+      const row = $('<div>').addClass('item');
+      $('<span>').addClass('item__key').text(String(key)).appendTo(row);
+      li.append(row);
+      renderKeyValueTree(li, value);
+    } else {
+      const row = $('<div>').addClass('item');
+      $('<span>').addClass('item__key').text(String(key)).appendTo(row);
+      $('<span>').addClass('item__value').text(textify(value, '')).appendTo(row);
+      li.append(row);
+    }
+    list.append(li);
+  });
+  target.append(list);
+}
+
+function renderCollapsibleSection(container, title, source, expanded = false) {
+    if (source == null) {
+        return;
+    }
+    const { $section, $body } = d(title, expanded);
+    const entries = toEntries(source);
+
+    if (!entries || entries.length === 0) {
+        $body.append($('<div>').addClass('empty-text').text(`暂无${title}信息`));
+    } else {
+        const isObjectOfObjects = entries.some(([, v]) => v && typeof v === 'object' && !Array.isArray(v));
+        if (isObjectOfObjects) {
+            entries.forEach(([name, detail]) => {
+                const card = $('<div>').addClass('other-card');
+                $('<div>').addClass('other-card__title').text(String(name)).appendTo(card);
+                renderKeyValueTree(card, detail);
+                $body.append(card);
+            });
+        } else {
+            renderKeyValueTree($body, source);
+        }
+    }
+    container.append($section);
+}
+
+function renderCompanions(container, companionsSource) {
+    if (companionsSource == null) return;
+    const { $section, $body } = d('同伴', false); // 預設關閉同伴欄位
+
+    const companions = firstMeaningfulObject(companionsSource);
+    const companionEntries = Object.entries(companions).filter(([key]) => key !== '$meta');
+
+    if (companionEntries.length === 0) {
+        $body.append($('<p>').addClass('empty-text').text('暂无同伴'));
+    } else {
+        companionEntries.forEach(([name, details]) => {
+            if (details && typeof details === 'object') {
+                // 為每個同伴創建一個可折疊的卡片
+                const card = $('<div>').addClass('collapsible active').css('margin-bottom', '10px');
+                const cardHeader = $('<div>').addClass('collapsible__header').text(name);
+                const cardBody = $('<div>').addClass('collapsible__body').css('display', 'block'); // 預設顯示
+
+                const wrapper = $('<div>').addClass('attr-skill-wrapper');
+                const leftCol = $('<div>').addClass('attr-col');
+                const rightCol = $('<div>').addClass('skill-col');
+
+                // ----- 左欄：屬性 & 天賦 (完全按照你的要求) -----
+
+                // 1. 屬性
+                $('<div>').addClass('section__title').text('属性').appendTo(leftCol);
+                const attributes = firstMeaningfulObject(details['属性']);
+                Object.entries(attributes).forEach(([attrName, attrDetail]) => {
+                    if (attrDetail && typeof attrDetail === 'object') {
+                      const level = Number(e(attrDetail['等级'] ?? 0));
+                      const exp = Number(e(attrDetail['当前经验'] ?? 0));
+                      const required = Number(e(attrDetail['升级所需经验'] ?? 100)) || 1;
+                      leftCol.append($('<div>').text(`${attrName} Lv.${level}`));
+                      leftCol.append(t('', exp, required));
+                    }
+                });
+
+                // 2. 天賦
+                const talents = firstMeaningfulObject(details['天賦']);
+                const talentEntries = Object.entries(talents).filter(([key]) => key !== '$meta');
+                if (talentEntries.length > 0) {
+                  const talentsHeader = $('<div>').addClass('section__title').css('margin-top', '20px').text('天赋');
+                  leftCol.append(talentsHeader);
+                  talentEntries.forEach(([tName, tValue]) => {
+                    const tItem = $('<div>').addClass('skill-item');
+                    $('<div>').addClass('skill-name').text(tName).appendTo(tItem);
+                    const tDesc = typeof tValue === 'string' ? tValue : textify(tValue?.['描述'] ?? '', '');
+                    if (tDesc) {
+                        $('<div>').addClass('skill-desc').text(tDesc).appendTo(tItem);
+                    }
+                    leftCol.append(tItem);
+                  });
+                }
+
+                // ----- 右欄：狀態 & 技能 (完全按照你的要求) -----
+
+                // 0. 關係 (身份)
+                const identity = textify(details['身份'], '');
+                if (identity) {
+                     // 為了美觀，我給它加了點樣式
+                     $('<div>').css({'font-size': '14px','font-weight': 'bold','color': 'var(--survival-warning)','margin-bottom': '10px'}).text(`關係: ${identity}`).appendTo(rightCol);
+                }
+
+                // 1. 狀態條
+                $('<div>').addClass('section__title').text('状态').appendTo(rightCol);
+                const loveMax = 120, devMax = 100, healthMax = 100, satietyMax = 100, fatigueMax = 100, trustMax=120;
+                const love = Math.min(Number(e(details['好感度'] ?? 0)), loveMax);
+                const trust = Math.min(Number(e(details['信赖度'] ?? 0)), trustMax);
+                const dev = Math.min(Number(e(details['开发度'] ?? 0)), devMax);
+                const health = Math.min(Number(e(details['健康度'] ?? 0)), healthMax);
+                const satiety = Math.min(Number(e(details['饱腹感'] ?? 0)), satietyMax);
+                const fatigue = Math.min(Number(e(details['疲劳度'] ?? 0)), fatigueMax);
+
+                // 呼叫 t() 時，把文字狀態加上去
+                rightCol.append(t(`好感度: ${love}/${loveMax} (${getFavorabilityStatus(love)})`, love, loveMax, 'love-progress'));
+                rightCol.append(t(`信賴度: ${trust}/${trustMax} (${getTrustStatus(trust)}) `, trust, trustMax, 'love-progress'));
+                rightCol.append(t(`开发度: ${dev}/${devMax}`, dev, devMax, 'dev-progress'));
+                rightCol.append(t(`健康度: ${health}/${healthMax} (${getHealthStatus(health)})`, health, healthMax, 'health-progress'));
+                rightCol.append(t(`饱腹感: ${satiety}/${satietyMax}`, satiety, satietyMax, 'satiety-progress'));
+                rightCol.append(t(`疲劳度: ${fatigue}/${fatigueMax}`, fatigue, fatigueMax, 'fatigue-progress'));
+
+                // 2. 技能
+                $('<div>').addClass('section__title').css('margin-top', '20px').text('技能').appendTo(rightCol);
+                const skills = firstMeaningfulObject(details['技能']);
+                const skillEntries = Object.entries(skills).filter(([key]) => key !== '$meta');
+                if (skillEntries.length === 0) {
+                    rightCol.append($('<p>').addClass('empty-text').text('暂无技能'));
+                } else {
+                    skillEntries.forEach(([skillName, skillValue]) => {
+                        if (skillValue && typeof skillValue === 'object') {
+                            const level = Number(e(skillValue['等级'] ?? 0));
+                            const exp = Number(e(skillValue['当前经验'] ?? 0));
+                            const required = Number(e(skillValue['升级所需经验'] ?? 100)) || 1;
+                            const item = $('<div>').addClass('skill-item');
+                            $('<div>').addClass('skill-name').text(`${skillName} Lv.${level}`).appendTo(item);
+                            const progress = $('<div>').addClass('progress');
+                            $('<div>').addClass('progress__bar').css('width', `${Math.min((exp / required) * 100, 100)}%`).appendTo(progress);
+                            item.append(progress);
+                            rightCol.append(item);
+                        }
+                    });
+                }
+
+                // 組合左右欄
+                wrapper.append(leftCol, rightCol);
+                cardBody.append(wrapper);
+                card.append(cardHeader, cardBody);
+
+                // 綁定折疊事件
+                cardHeader.on('click', () => {
+                    card.toggleClass('active');
+                    cardBody.slideToggle(200);
+                });
+
+                $body.append(card);
+            }
+        });
+    }
+    container.append($section);
+}
+
+async function p() {
+  try {
+    let messageId;
+    try {
+      if (typeof getCurrentMessageId === 'function') {
+        messageId = getCurrentMessageId();
+      } else {
+        const messages = getChatMessages('last');
+        if (!messages || messages.length === 0) {
+          throw new Error('无法获取当前消息ID');
+        }
+        messageId = messages[0].message_id;
+      }
+    } catch (error) {
+      console.error('获取当前消息ID失败:', error);
+      try {
+        const messages = getChatMessages('last');
+        if (!messages || messages.length === 0) {
+          throw new Error('无法获取消息数据');
+        }
+        messageId = messages[0].message_id;
+      } catch (fallbackError) {
+        console.error('备用方法获取消息失败:', fallbackError);
+        return;
+      }
+    }
+
+    const message = getChatMessages(messageId)[0];
+    if (!message) {
+      console.error('无法获取当前消息数据');
+      return;
+    }
+
+    const data = message?.data ?? {};
+    const statData = data.stat_data ?? {};
+    const displayData = data.display_data ?? {};
+
+    if (Object.keys(statData).length === 0 && Object.keys(displayData).length === 0) {
+      console.error('未找到生存游戏数据');
+      return;
+    }
+
+    const $root = $('#survival-ui');
+    $root.empty();
+
+    r($root, statData);
+    createStatusEffects($root, statData);
+
+    const hungerSource = statData['次生属性']?.['饱腹感'] ?? statData['生理']?.['饱腹感'] ?? 0;
+    const hydrationSource = statData['生理']?.['水分'] ?? statData['次生属性']?.['水分'] ?? 0;
+    const hunger = Number(e(hungerSource)) || 0;
+    const hydration = Number(e(hydrationSource)) || 0;
+
+    const { $section: nutritionSection, $body: nutritionBody } = n('營養與水分', [
+      { label: '饱腹感', current: hunger, max: 100, className: 'hunger-progress' },
+      { label: '水分', current: hydration, max: 100, className: 'water-progress' },
+    ], false);
+
+    renderNutritionDetails(nutritionBody, statData);
+    $root.append(nutritionSection);
+
+    const { $section: statusSection, $body: statusBody } = d('角色狀態', false);
+    renderPhysMental(statusBody, statData['生理'] ?? {}, statData['精神'] ?? {}, statData);
+    $root.append(statusSection);
+
+    const { $section: skillSection, $body: skillBody } = d('屬性 & 技能', false); // Default to expanded
+    renderAttributesAndSkills(
+      skillBody,
+      statData['属性'] ?? displayData['属性'] ?? {},
+      statData['技能'] ?? displayData['技能'] ?? {},
+      statData['天赋/特性'] ?? displayData['天赋/特性'] ?? {}
+    );
+    $root.append(skillSection);
+
+    const get = (key) => (statData?.[key] ?? displayData?.[key]);
+    renderCompanions($root, get('同伴'));
+    renderCollapsibleSection($root, '营地', get('营地'));
+    renderCollapsibleSection($root, '作物', get('作物'));
+    renderCollapsibleSection($root, '捷径/装置', get('捷径/装置'));
+
+    o($root, statData);
+
+    const buttonBar = $('<div>').addClass('button-container');
+    const drawPoints = Number(e(statData['系统']?.['抽卡点数'])) || 0;
+    buttonBar.append(createDrawPointsButton(drawPoints));
+
+    buttonBar.append(
+      $('<button>')
+        .addClass('inventory-btn')
+        .text('查看地图')
+        .on('click', () => openImageViewerModal(statData, displayData))
+    );
+
+    const currentWeight = Number(e(statData['状态']?.['当前负重'] ?? 0)) || 0;
+    const weightLimit = Number(e(statData['次生属性']?.['负重上限'] ?? 50)) || 50;
+    buttonBar.append(
+      $('<button>')
+        .addClass('inventory-btn')
+        .text('打开物品栏')
+        .on('click', () => i(statData['装备'], statData['携带物品'], currentWeight, weightLimit))
+    );
+
+    $root.append(buttonBar);
+  } catch (error) {
+    console.error('渲染生存游戏 UI 时发生错误:', error);
+  }
+}
+
+$(() => {
+  try {
+    p().catch((error) => {
+      console.error('初始渲染失败:', error);
+    });
+    const rerender = () => {
+      p().catch((error) => {
+        console.error('变量更新后渲染失败:', error);
+      });
+    };
+    try {
+      if (typeof eventOn === 'function') {
+        eventOn('mag_variable_update_ended', rerender);
+      }
+    } catch (error) {
+      console.error('注册事件监听器失败:', error);
+    }
+    $(window).on('unload', () => {
+      try {
+        if (typeof eventRemoveListener === 'function') {
+          eventRemoveListener('mag_variable_update_ended', rerender);
+        }
+      } catch (error) {
+        console.error('移除事件监听器失败:', error);
+      }
+    });
+  } catch (error) {
+    console.error('初始化生存游戏UI时发生错误:', error);
+  }
+});
+</script></body></html>
+```
