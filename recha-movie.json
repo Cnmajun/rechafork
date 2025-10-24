@@ -4,13 +4,7 @@
   "wallpaper": "https://gitlab.com/tenrecha/recha/-/raw/main/background.jpg",
   "notice": "版本：114.10.16 Ver.B\n試用瀟灑的包件當主jar，就不會出現錯誤訊息",
   "sites": [
-    {
-      "key": "冷心",
-      "name": "冷心｜APP",
-      "type": 3,
-      "api": "csp_AppMuou",
-      "ext": {"url": "http://app.789dd.cn", "name": "火猫影视"}
-    },
+
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -359,6 +353,13 @@
       "playerType": 2,
       "ext": "7lj763gg402i79425i3l85i6h848i295l5hiji5l828g3l3jjhg6kg7410lhjkqiaojij3ig1lg475178k7h0il4ig3h753h7hi516758699jh2g5h433li30gk11g73l90312h4g7"
     },
+    {
+      "key": "冷心",
+      "name": "🏆｜冷心｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_AppMuou",
+      "ext": {"url": "http://app.789dd.cn", "name": "火猫影视"}
+    },    
     {
       "key": "dyttzyw.tv",
       "name": "🏆｜天堂｜藍光◎秒播(無廣告)",
