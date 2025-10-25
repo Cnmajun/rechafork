@@ -5,6 +5,23 @@
   "notice": "版本：114.10.16 Ver.B\n試用瀟灑的包件當主jar，就不會出現錯誤訊息",
   "sites": [
 
+
+
+
+        {
+            "key": "开心",
+            "name": "开心｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/gw.txt",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
