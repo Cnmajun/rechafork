@@ -178,7 +178,7 @@ body {
   border-left:4px solid var(--survival-accent);
 }
 .collapsible__header:hover{background:rgba(52,73,94,.9)}
-.collapsible__header:after{content:"▼";margin-left:auto;transform:rotate(-90deg);transition:transform .3s}
+/*.collapsible__header:after{content:"▼";margin-left:auto;transform:rotate(-90deg);transition:transform .3s}*/
 
 .collapsible__header--with-progress{flex-wrap:nowrap}
 .collapsible__header--with-progress:after{content:none}
@@ -206,7 +206,7 @@ body {
 .phys-mental-wrapper .mental-col { flex:1 1 300px; min-width:260px; background:rgba(0,0,0,.15); padding:10px; border-radius:4px; }
 .attr-skill-wrapper .attr-col,
 .attr-skill-wrapper .skill-col { flex:1 1 300px; min-width:260px; background:rgba(0,0,0,.15); padding:10px; border-radius:4px; }
-.task-bar { margin-bottom:12px; background:var(--survival-bg-light); border:1px solid var(--survival-border); border-radius:6px; padding:12px; }
+.task-bar { margin-bottom:12px; background:var(--survival-surface-strong); border:1px solid var(--survival-glass-border); border-radius:20px; padding:18px clamp(18px, 3vw, 24px); }
 .status-effects-container { margin-top: 12px; margin-bottom: 4px; padding: 10px; background: rgba(0,0,0,.15); border-radius: 6px; }
 
 .temp-range-bar,
@@ -387,35 +387,56 @@ body {
 .skill-item .skill-name{font-weight:bold;margin-bottom:5px}
 .skill-desc { font-size: .85em; color: var(--survival-muted); opacity: 0.8; margin-top: 4px; }
 
-.task-bar{display: grid; gap: 14px;}
-.task-list{display:grid;gap:12px;margin-top:8px}
-.task-item{
-  display:flex;gap:12px;align-items:flex-start;
-  border-radius: 16px;
-  padding: 16px 18px;
-  background: linear-gradient(135deg, rgba(14, 24, 39, 0.78), rgba(18, 30, 48, 0.88));
-  border: 1px solid rgba(148, 197, 255, 0.18);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+/* --- 任務系統新樣式 --- */
+.task-bar { display: grid; gap: 16px; }
+.task-card {
+    border-radius: 20px;
+    background: linear-gradient(145deg, rgba(17, 28, 45, 0.94), rgba(24, 36, 58, 0.94));
+    border: 1px solid var(--survival-glass-border);
+    box-shadow: var(--survival-shadow);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
-.task-item.main-task{border-left:4px solid var(--survival-accent)}
-.task-item.side-task{border-left:4px solid var(--survival-warning)}
+.task-card.main-task { border-left: 5px solid var(--survival-accent); }
+.task-card.side-task { border-left: 5px solid var(--survival-warning); }
 
-.task-type{
-  font-weight:bold;
-  min-width: 56px;
-  border-radius: 999px;
-  padding: 6px 12px;
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-align:center;
-  background: rgba(148, 197, 255, 0.12);
-  color: var(--survival-accent-strong);
+.task-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    background: rgba(0,0,0,0.25);
 }
 
-.main-task .task-type{color:var(--survival-accent)}
-.side-task .task-type{color:var(--survival-warning); background: rgba(255, 184, 108, 0.15);}
-.task-content{flex:1;line-height:1.4}
+.task-title { font-size: 16px; font-weight: 600; flex: 1; letter-spacing: 0.05em; }
+.main-task .task-title { color: var(--survival-accent-strong); }
+.side-task .task-title { color: var(--survival-warning); }
+.task-status { font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px; }
+
+.task-body { padding: 16px 20px; display: grid; gap: 16px; }
+.task-description { font-size: 14px; line-height: 1.6; color: var(--survival-text); }
+.task-section-title { font-weight: 600; font-size: 13px; text-transform: uppercase; color: var(--survival-muted); margin-bottom: 8px; border-bottom: 1px solid var(--survival-border); padding-bottom: 4px; }
+.task-objectives, .task-rewards { display: grid; gap: 10px; }
+
+.objective-item { display: flex; align-items: center; gap: 12px; font-size: 14px; }
+.objective-item.completed { text-decoration: line-through; color: var(--survival-muted); }
+.objective-item.completed .objective-progress,
+.objective-item.completed .objective-text { opacity: 0.7; }
+
+.objective-progress { font-family: "IBM Plex Mono", monospace; color: var(--survival-accent-strong); font-weight: 600; }
+.objective-item.side-task-obj .objective-progress { color: var(--survival-warning); } /* Side task progress color */
+
+.reward-list { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.reward-item {
+    padding: 4px 10px;
+    background: rgba(148, 197, 255, 0.08);
+    border: 1px solid rgba(148, 197, 255, 0.28);
+    border-radius: 4px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
 .draw-points-btn .draw-points-label{font-size:14px;position:relative;z-index:2}
 .draw-points-btn .draw-points-value{font-size:16px;font-weight:bold;color:var(--survival-warning);position:relative;z-index:2}
 
@@ -591,14 +612,18 @@ body {
 .other-card__title { font-weight: 700; margin-bottom: 4px; }
 .empty-text { opacity: .75; font-size: 13px; }
 
-/* --- 同伴狀態條新配色方案 --- */
+/* --- 【最終修正版】同伴狀態條配色方案 --- */
 .love-progress .progress__bar {
-    background-image: linear-gradient(90deg, #ff7b9c, #ff5279); /* 好感度 - 浪漫的桃粉色 */
-    box-shadow: 0 0 18px rgba(255, 123, 156, 0.45);
+    background-image: linear-gradient(90deg, #FF8FB1, #FFCAD4); /* 好感度: 粉紅色漸層 */
+    box-shadow: 0 0 18px rgba(255, 143, 177, 0.55);
+}
+.trust-progress .progress__bar {
+    background-image: linear-gradient(90deg, #F06595, #E74C3C); /* 信賴度: 紅色漸層 */
+    box-shadow: 0 0 18px rgba(231, 76, 60, 0.55);
 }
 .dev-progress .progress__bar {
-    background-image: linear-gradient(90deg, #ab87ff, #7c4dff); /* 開發 - 神秘的魅惑紫 */
-    box-shadow: 0 0 18px rgba(124, 77, 255, 0.45);
+    background-image: linear-gradient(90deg, #C39BD3, #8E44AD); /* 開發度: 紫色漸層 */
+    box-shadow: 0 0 18px rgba(142, 68, 173, 0.55);
 }
 .health-progress .progress__bar {
     background-image: linear-gradient(90deg, #58f0a7, #1abc9c); /* 健康 - 生命的翠綠色 */
@@ -611,6 +636,18 @@ body {
 .fatigue-progress .progress__bar {
     background-image: linear-gradient(90deg, #95a5a6, #7f8c8d); /* 疲勞 - 沉靜的石板灰 */
     box-shadow: 0 0 18px rgba(127, 140, 141, 0.45);
+}
+
+
+/* ---【最終修復補丁 v4.0】--- */
+/* 規則1: 無論如何，只要是任務卡片的內容區，就先給它隱藏起來！ */
+.task-card > .task-body.collapsible__body {
+    display: none;
+}
+
+/* 規則2: 只有當任務卡片被點擊，擁有了 'active' 狀態後才讓它的內容區顯示出來 */
+.task-card.active > .task-body.collapsible__body {
+    display: block;
 }
 
 </style></head><body><div id="survival-ui" class="survival-ui" tabindex="0"></div><script>
@@ -800,30 +837,53 @@ function d(title, expanded = false) {
 function n(title, items, expanded = false) {
   const section = $('<section>').addClass('collapsible');
   if (expanded) section.addClass('active');
+
   const header = $('<div>').addClass('collapsible__header collapsible__header--with-progress');
   $('<span>').addClass('collapsible__title').text(title).appendTo(header);
-  const bars = $('<div>').addClass('collapsible__bars-container');
+
+  const barsContainer = $('<div>').addClass('collapsible__bars-container');
+
+  // --- 唯一的循環在這裡 ---
   items.forEach((item) => {
+    // 每個 item 創建一個 row
     const row = $('<div>').addClass('progress-item');
+
+    // 1. 添加標籤 (e.g., "饱腹感:")
     $('<span>').addClass('progress-label').text(`${item.label}:`).appendTo(row);
-    const percent = Math.max(0, Math.min(100, item.max === 0 ? 0 : (item.current / item.max) * 100));
-    const miniWrapper = $('<div>').addClass('mini-progress-wrapper');
-    $('<span>').addClass('mini-progress__text').text(`${item.current}/${item.max}`).appendTo(miniWrapper);
+
+    // 2. 添加數值 (e.g., "68/100")
+    $('<span>').addClass('mini-progress__text').text(`${item.current}/${item.max}`).appendTo(row);
+
+    // 3. 創建包裹進度條的容器
+    const miniProgressWrapper = $('<div>').addClass('mini-progress-wrapper');
     const miniBar = $('<div>').addClass('mini-progress');
     if (item.className) miniBar.addClass(item.className);
+
+    // 計算百分比
+    const percent = Math.max(0, Math.min(100, item.max === 0 ? 0 : (item.current / item.max) * 100));
+
+    // 創建彩色的進度條本體
     $('<div>').addClass('mini-progress__bar').css('width', `${percent}%`).appendTo(miniBar);
-    miniWrapper.append(miniBar);
-    row.append(miniWrapper);
-    bars.append(row);
+
+    // 放入容器並添加到行中
+    miniProgressWrapper.append(miniBar);
+    row.append(miniProgressWrapper);
+
+    // 將完整的行添加到頭部
+    barsContainer.append(row);
   });
-  header.append(bars);
+
+  header.append(barsContainer);
   $('<span>').addClass('collapsible__indicator').appendTo(header);
+
   const body = $('<div>').addClass('collapsible__body');
   if (expanded) body.css('display', 'block');
+
   header.on('click', () => {
     section.toggleClass('active');
     body.slideToggle(200);
   });
+
   section.append(header, body);
   return { $section: section, $body: body };
 }
@@ -965,27 +1025,136 @@ function i(equipmentSource, itemsSource, currentWeight, weightLimit) {
   $('body').append(modal);
 }
 
-function o(container, data) {
-  const system = data['系统'] ?? {};
-  const mainTask = system['主线任务'] ? textify(system['主线任务'], '暂无主线任务') : '暂无主线任务';
-  const sideTask = system['支线任务'] ? textify(system['支线任务'], '暂无支线任务') : '暂无支线任务';
-  const taskBar = $('<div>').addClass('task-bar');
-  $('<div>').addClass('section__title').text('任务').appendTo(taskBar);
-  const list = $('<div>').addClass('task-list');
+// ====================================================================
+// =================== 新的任務渲染函數 (v4.0 終極穩定版) ================
+// ====================================================================
+function renderTasks(container, data) {
+    const system = data['系统'] ?? {};
+    const mainTaskData = system['主线任务'];
+    const sideTaskData = system['支线任务'];
 
-  const mainItem = $('<div>').addClass('task-item main-task');
-  $('<div>').addClass('task-type').text('主线').appendTo(mainItem);
-  $('<div>').addClass('task-content').html(mainTask.replace(/\n/g, '<br>')).appendTo(mainItem);
-  list.append(mainItem);
+    // 這個容器現在只是一個普通的div，不再有摺疊功能
+    const taskBar = $('<div>').addClass('task-bar');
+     $('<div>').addClass('section__title').text('任务').appendTo(taskBar);
 
-  const sideItem = $('<div>').addClass('task-item side-task');
-  $('<div>').addClass('task-type').text('支线').appendTo(sideItem);
-  $('<div>').addClass('task-content').html(sideTask.replace(/\n/g, '<br>')).appendTo(sideItem);
-  list.append(sideItem);
+    // --- 內部輔助函數，核心邏輯修改處 ---
+    const createTaskCard = (taskData, isMainTask) => {
+        if (!taskData || typeof taskData !== 'object') return null;
 
-  taskBar.append(list);
-  container.append(taskBar);
+        // 卡片本身不再需要 'collapsible' class，摺疊的邏輯完全由JS控制
+        const card = $('<div>').addClass('task-card');
+        if (isMainTask) {
+            card.addClass('main-task');
+        } else {
+            card.addClass('side-task');
+        }
+
+        // 標題欄依然作為點擊的目標，但我們不再依賴CSS的:after偽元素來生成箭頭
+        const header = $('<div>').addClass('task-header collapsible__header');
+
+        // --- 舊的CSS箭頭修復 ---
+        // 為了避免雙箭頭，我們讓JS生成的 header 不再觸發CSS的偽元素箭頭
+        // 最簡單的方法是移除 collapsible__header 上的 :after 樣式
+        // 但更穩妥的方式是讓JS自己控制箭頭，這樣最可控
+        header.css('position', 'relative'); // 確保箭頭定位正確
+
+        const fullDesc = textify(taskData['描述'], '');
+        const titleMatch = fullDesc.match(/【(.*?)】/);
+        const title = titleMatch ? titleMatch[1] : (isMainTask ? '主线任务' : '支线任务');
+        const description = titleMatch ? fullDesc.replace(`【${title}】：`, '').trim() : fullDesc;
+
+        $('<div>').addClass('task-title').text(title).appendTo(header);
+        $('<div>').addClass('task-status').text(textify(taskData['狀態'], '进行中')).appendTo(header);
+
+        // --- 箭頭修正：我們手動創建一個箭頭，並完全由JS控制它的旋轉 ---
+        const indicator = $('<span>').html('▼').css({
+            'margin-left': 'auto',
+            'transform': 'rotate(-90deg)',
+            'transition': 'transform 0.3s ease'
+        });
+        header.append(indicator);
+
+        // 內容區預設隱藏
+        const body = $('<div>').addClass('task-body collapsible__body').hide(); // 直接使用.hide()確保初始隱藏
+
+        // --- 後續的內容填充代碼保持不變 ---
+        $('<p>').addClass('task-description').html(description.replace(/\n/g, '<br>')).appendTo(body);
+
+        const objectives = $('<div>').addClass('task-objectives');
+        $('<div>').addClass('task-section-title').text('目標').appendTo(objectives);
+        const targets = taskData['目標'] ?? {};
+        const progresses = taskData['進度'] ?? {};
+        Object.entries(targets).forEach(([key, targetValue]) => {
+            const current = progresses[key] ?? 0;
+            const item = $('<div>').addClass('objective-item');
+            if (current >= targetValue) item.addClass('completed');
+            $('<span>').addClass('objective-text').text(key).appendTo(item);
+            $('<span>').addClass('objective-progress').text(`(${current} / ${targetValue})`).appendTo(item);
+            objectives.append(item);
+        });
+        body.append(objectives);
+
+        const rewards = $('<div>').addClass('task-rewards');
+        $('<div>').addClass('task-section-title').text('獎勵').appendTo(rewards);
+        const rewardList = $('<div>').addClass('reward-list');
+        if(taskData['獎勵'] && taskData['獎勵']['抽卡點數']) {
+             $('<div>').addClass('reward-item').text(`抽卡点数 +${taskData['獎勵']['抽卡點數']}`).appendTo(rewardList);
+        }
+        rewards.append(rewardList);
+        body.append(rewards);
+
+        if (taskData['獎勵'] && taskData['獎勵']['超額獎勵']) {
+            const bonus = taskData['獎勵']['超額獎勵'];
+            const bonusObjectives = $('<div>').addClass('task-objectives').css('margin-top', '10px');
+            $('<div>').addClass('task-section-title').text('超額目標').appendTo(bonusObjectives);
+             $('<div>').addClass('objective-item side-task-obj').html(`${textify(bonus['描述'])} <span class="objective-progress">(${bonus['進度'] ?? 0}/${bonus['目標'] ?? 1})</span>`).appendTo(bonusObjectives);
+            body.append(bonusObjectives);
+
+            const bonusRewards = $('<div>').addClass('task-rewards');
+            const bonusRewardList = $('<div>').addClass('reward-list');
+            if(bonus['抽卡點數']) {
+                $('<div>').addClass('reward-item').text(`抽卡点数 +${bonus['抽卡點數']}`).appendTo(bonusRewardList);
+            }
+            bonusRewards.append(bonusRewardList);
+            body.append(bonusRewards);
+        }
+
+        card.append(header, body);
+
+        // ======================= 核心修正點 =======================
+        // 拋棄toggle，改用手動判斷，確保動畫和狀態的絕對同步
+        header.on('click', function() {
+            // 檢查內容區當前是否可見
+            if (body.is(':visible')) {
+                // 如果是可見就收起來
+                body.slideUp(200);
+                card.removeClass('active');
+                indicator.css('transform', 'rotate(-90deg)');
+            } else {
+                // 如果是隱藏就展開
+                body.slideDown(200);
+                card.addClass('active');
+                indicator.css('transform', 'rotate(0deg)');
+            }
+        });
+        // =========================================================
+
+        return card;
+    };
+
+    const mainTaskCard = createTaskCard(mainTaskData, true);
+    if (mainTaskCard) taskBar.append(mainTaskCard);
+
+    const sideTaskCard = createTaskCard(sideTaskData, false);
+    if (sideTaskCard) taskBar.append(sideTaskCard);
+
+    // 最後把這個不再具備摺疊功能純粹的任務容器添加到主界面
+    container.append(taskBar);
 }
+// ==================================================================
+// =================== 新的任務渲染函數 (END) =====================
+// ==================================================================
+
 
 function createStatusEffects(container, data) {
   const source = data?.['状态']?.['当前状态'];
@@ -1019,7 +1188,7 @@ function createStatusEffects(container, data) {
 
 // --- IMAGE VIEWER MODAL START ---
 const IMAGE_VIEWER_STORAGE_KEY = 'survivalImageViewerState';
-const IMAGE_VIEWER_FALLBACK_URL = '/img/zsm9xz.png'; // Update this to hardcode a default map image when no variables provide one. IMAGE
+const IMAGE_VIEWER_FALLBACK_URL = '/img/map.png'; // Update this to hardcode a default map image when no variables provide one. IMAGE
 
 function loadSavedImageViewerState() {
   try {
@@ -1387,7 +1556,15 @@ function createDrawPointsButton(points) {
 
 function renderNutritionDetails(target, statData) {
   const wrapper = $('<div>').addClass('nutrition-hydration-wrapper');
+  const secondary = statData['次生属性'] ?? {};
   const phys = statData['生理'] ?? {};
+
+  // --- 新增的代碼 START ---
+  const hunger = Number(e(secondary['饱腹感'] ?? 0));
+  const hydration = Number(e(phys['水分'] ?? 0));
+  wrapper.append(t('饱腹感', hunger, s['饱腹感'], 'satiety-progress'));
+  wrapper.append(t('水分', hydration, s['水分'], 'water-progress'));
+  // --- 新增的代碼 END ---
   const carb = Number(e(phys['碳水'] ?? 0));
   const fat = Number(e(phys['脂肪'] ?? 0));
   const protein = Number(e(phys['蛋白质'] ?? 0));
@@ -1494,85 +1671,114 @@ function renderPhysMental(target, physData, mentalData, fullData) {
 }
 
 function renderAttributesAndSkills(target, attributesSource, skillsSource, talentsSource, companionDetails = null) {
-  const wrapper = $('<div>').addClass('attr-skill-wrapper');
-  const leftCol = $('<div>').addClass('attr-col');
+    const wrapper = $('<div>').addClass('attr-skill-wrapper');
+    const leftCol = $('<div>').addClass('attr-col');
 
-  $('<div>').addClass('section__title').text('属性').appendTo(leftCol);
-  Object.entries(firstMeaningfulObject(attributesSource)).forEach(([name, detail]) => {
-    if (detail && typeof detail === 'object') {
-      const level = Number(e(detail['等级'] ?? 0));
-      const exp = Number(e(detail['当前经验'] ?? 0));
-      const required = Number(e(detail['升级所需经验'] ?? 1)) || 1;
-      leftCol.append($('<div>').text(`${name} Lv.${level}`));
-      leftCol.append(t('', exp, required));
+    // 渲染屬性
+    $('<div>').addClass('section__title').text('属性').appendTo(leftCol);
+    const attrEntries = toEntries(attributesSource);
+    if (attrEntries.length > 0) {
+        attrEntries.forEach(([name, detail]) => {
+            if (detail && typeof detail === 'object') {
+                const level = Number(e(detail['等级'] ?? 0));
+                const exp = Number(e(detail['当前经验'] ?? 0));
+                const required = Number(e(detail['升级所需经验'] ?? 1)) || 1;
+                leftCol.append($('<div>').text(`${name} Lv.${level}`));
+                leftCol.append(t('', exp, required));
+            }
+        });
     }
-  });
 
-  const talentEntries = toEntries(talentsSource);
-  if (talentEntries.length > 0) {
-    leftCol.append($('<div>').addClass('section__title').css('margin-top', '20px').text('天赋'));
-    talentEntries.forEach(([name, value]) => {
-      const item = $('<div>').addClass('skill-item');
-      $('<div>').addClass('skill-name').text(name).appendTo(item);
-      const desc = typeof value === 'string' ? value : textify(value?.['描述'] ?? '', '');
-      if (desc) $('<div>').addClass('skill-desc').text(desc).appendTo(item);
-      leftCol.append(item);
-    });
-  }
-  wrapper.append(leftCol);
+    // 只有當傳入的 companionDetails 不是 null 時才執行
+    if (companionDetails) {
+        const statusContainer = $('<div>').css('margin-top', '20px');
+        $('<div>').addClass('section__title').text('状态').appendTo(statusContainer);
 
-  const rightCol = $('<div>').addClass('skill-col');
-  $('<div>').addClass('section__title').text('技能').appendTo(rightCol);
-  const skillEntries = toEntries(skillsSource);
-  if (skillEntries.length === 0) {
-    rightCol.append($('<p>').addClass('empty-text').text('暂无技能'));
-  } else {
-    skillEntries.forEach(([name, value]) => {
-      if (value && typeof value === 'object') {
-        const level = Number(e(value['等级'] ?? 0));
-        const exp = Number(e(value['当前经验'] ?? 0));
-        const required = Number(e(value['升级所需经验'] ?? 1)) || 1;
-        const item = $('<div>').addClass('skill-item');
-        $('<div>').addClass('skill-name').text(`${name} Lv.${level}`).appendTo(item);
-        item.append(t('', exp, required));
-        rightCol.append(item);
-      }
-    });
-  }
+        const love = Math.min(Number(e(companionDetails['好感度'] ?? 0)), 120);
+        const trust = Math.min(Number(e(companionDetails['信赖度'] ?? 0)), 120);
+        const dev = Math.min(Number(e(companionDetails['开发度'] ?? 0)), 100);
+        const health = Math.min(Number(e(companionDetails['健康度'] ?? 0)), 100);
+        const satiety = Math.min(Number(e(companionDetails['饱腹感'] ?? 0)), 100);
+        const fatigue = Math.min(Number(e(companionDetails['疲劳度'] ?? 0)), 100);
 
-  // --- 持有物品 section, only for companions ---
-  if (companionDetails) {
-      $('<div>').addClass('section__title').css('margin-top', '20px').text('持有物品').appendTo(rightCol);
-      const items = firstMeaningfulObject(companionDetails['持有物品']);
-      const itemEntries = Object.entries(items);
+        statusContainer.append(t(`好感度: ${love}/120 (${getFavorabilityStatus(love)})`, love, 120, 'love-progress'));
+        statusContainer.append(t(`信赖度: ${trust}/120 (${getTrustStatus(trust)})`, trust, 120, 'trust-progress'));
+        statusContainer.append(t(`开发度: ${dev}/100`, dev, 100, 'dev-progress'));
+        statusContainer.append(t(`健康度: ${health}/100 (${getHealthStatus(health)})`, health, 100, 'health-progress'));
+        statusContainer.append(t(`饱腹感: ${satiety}/100`, satiety, 100, 'satiety-progress'));
+        statusContainer.append(t(`疲劳度: ${fatigue}/100`, fatigue, 100, 'fatigue-progress'));
+        leftCol.append(statusContainer);
+    }
 
-      if (itemEntries.length === 0) {
-          rightCol.append($('<p>').addClass('empty-text').text('無持有物品'));
-      } else {
-          const itemList = $('<div>').addClass('inventory-list');
-          itemEntries.forEach(([itemName, itemDetails]) => {
-              const itemCard = $('<div>').addClass('inventory-list-item');
-              $('<div>').addClass('item-name').text(itemName).appendTo(itemCard);
-              if (itemDetails && typeof itemDetails === 'object') {
-                  const props = $('<div>').addClass('item-props');
-                  Object.entries(itemDetails).forEach(([key, value]) => {
-                      const line = $('<div>').addClass('item-prop');
-                      $('<span>').addClass('prop-key').text(String(key)).appendTo(line);
-                      $('<span>').addClass('prop-sep').text(': ').appendTo(line);
-                      $('<span>').addClass('prop-val').text(textify(value, '')).appendTo(line);
-                      props.append(line);
-                  });
-                  itemCard.append(props);
-              }
-              itemList.append(itemCard);
-          });
-          rightCol.append(itemList);
-      }
-  }
+    // 渲染天賦
+    const talentEntries = toEntries(talentsSource);
+    if (talentEntries.length > 0) {
+        leftCol.append($('<div>').addClass('section__title').css('margin-top', '20px').text('天赋'));
+        talentEntries.forEach(([name, value]) => {
+            const item = $('<div>').addClass('skill-item');
+            $('<div>').addClass('skill-name').text(name).appendTo(item);
+            const desc = typeof value === 'string' ? value : textify(value?.['描述'] ?? '', '');
+            if (desc) $('<div>').addClass('skill-desc').text(desc).appendTo(item);
+            leftCol.append(item);
+        });
+    }
 
-  wrapper.append(rightCol);
-  target.append(wrapper);
+    wrapper.append(leftCol);
+
+    const rightCol = $('<div>').addClass('skill-col');
+
+    // 渲染技能
+    $('<div>').addClass('section__title').text('技能').appendTo(rightCol);
+    const skillEntries = toEntries(skillsSource);
+    if (skillEntries.length === 0) {
+        rightCol.append($('<p>').addClass('empty-text').text('暂无技能'));
+    } else {
+        skillEntries.forEach(([name, value]) => {
+            if (value && typeof value === 'object') {
+                const level = Number(e(value['等级'] ?? 0));
+                const exp = Number(e(value['当前经验'] ?? 0));
+                const required = Number(e(value['升级所需经验'] ?? 1)) || 1;
+                const item = $('<div>').addClass('skill-item');
+                $('<div>').addClass('skill-name').text(`${name} Lv.${level}`).appendTo(item);
+                item.append(t('', exp, required));
+                rightCol.append(item);
+            }
+        });
+    }
+
+    // 如果是同伴，渲染持有物品
+    if (companionDetails) {
+        $('<div>').addClass('section__title').css('margin-top', '20px').text('持有物品').appendTo(rightCol);
+        const items = firstMeaningfulObject(companionDetails['持有物品']);
+        const itemEntries = Object.entries(items);
+        if (itemEntries.length === 0) {
+            rightCol.append($('<p>').addClass('empty-text').text('無持有物品'));
+        } else {
+            const itemList = $('<div>').addClass('inventory-list');
+            itemEntries.forEach(([itemName, itemDetails]) => {
+                const itemCard = $('<div>').addClass('inventory-list-item');
+                $('<div>').addClass('item-name').text(itemName).appendTo(itemCard);
+                if (itemDetails && typeof itemDetails === 'object') {
+                    const props = $('<div>').addClass('item-props');
+                    Object.entries(itemDetails).forEach(([key, value]) => {
+                        const line = $('<div>').addClass('item-prop');
+                        $('<span>').addClass('prop-key').text(String(key)).appendTo(line);
+                        $('<span>').addClass('prop-sep').text(': ').appendTo(line);
+                        $('<span>').addClass('prop-val').text(textify(value, '')).appendTo(line);
+                        props.append(line);
+                    });
+                    itemCard.append(props);
+                }
+                itemList.append(itemCard);
+            });
+            rightCol.append(itemList);
+        }
+    }
+
+    wrapper.append(rightCol);
+    target.append(wrapper);
 }
+
 
 function renderKeyValueTree(target, data) {
     const list = $('<ul>').addClass('section__list');
@@ -1611,39 +1817,20 @@ function renderCollapsibleSection(container, title, source, expanded = false) {
 
 function renderCompanions(container, companionsSource) {
     if (!companionsSource || toEntries(companionsSource).length === 0) return;
-    const { $section, $body } = d('同伴', false); // Default open
+    const { $section, $body } = d('同伴', false); // 默認關閉
 
     toEntries(companionsSource).forEach(([name, details]) => {
         if (details && typeof details === 'object') {
-            const card = $('<div>').addClass('collapsible active').css('margin-bottom', '10px');
+            const card = $('<div>').addClass('collapsible').css('margin-bottom', '10px'); // 默認關閉
             const cardHeader = $('<div>').addClass('collapsible__header').text(name);
-            const cardBody = $('<div>').addClass('collapsible__body').css('display', 'block');
+            const cardBody = $('<div>').addClass('collapsible__body'); // 默認隱藏
 
-            // Add identity text
             const identity = textify(details['身份'], '');
             if (identity) {
                 $('<div>').css({'font-size': '14px', 'font-weight': 'bold', 'color': 'var(--survival-warning)', 'margin-bottom': '15px'}).text(`關係: ${identity}`).appendTo(cardBody);
             }
 
-            // Status bars first
-            const statusContainer = $('<div>').css('margin-bottom', '20px');
-             $('<div>').addClass('section__title').text('状态').appendTo(statusContainer);
-            const love = Math.min(Number(e(details['好感度'] ?? 0)), 120);
-            const trust = Math.min(Number(e(details['信赖度'] ?? 0)), 120);
-            const dev = Math.min(Number(e(details['开发度'] ?? 0)), 100);
-            const health = Math.min(Number(e(details['健康度'] ?? 0)), 100);
-            const satiety = Math.min(Number(e(details['饱腹感'] ?? 0)), 100);
-            const fatigue = Math.min(Number(e(details['疲劳度'] ?? 0)), 100);
-
-            statusContainer.append(t(`好感度: ${love}/120 (${getFavorabilityStatus(love)})`, love, 120, 'love-progress'));
-            statusContainer.append(t(`信赖度: ${trust}/120 (${getTrustStatus(trust)})`, trust, 120, 'love-progress')); // Using love-progress as placeholder
-            statusContainer.append(t(`开发度: ${dev}/100`, dev, 100, 'dev-progress'));
-            statusContainer.append(t(`健康度: ${health}/100 (${getHealthStatus(health)})`, health, 100, 'health-progress'));
-            statusContainer.append(t(`饱腹感: ${satiety}/100`, satiety, 100, 'satiety-progress'));
-            statusContainer.append(t(`疲劳度: ${fatigue}/100`, fatigue, 100, 'fatigue-progress'));
-            cardBody.append(statusContainer);
-
-            // Then Attributes & Skills section
+            // 調用我們修改後的函數來渲染同伴的所有信息
             renderAttributesAndSkills(cardBody, details['属性'], details['技能'], details['天賦'], details);
 
             card.append(cardHeader, cardBody);
@@ -1656,6 +1843,7 @@ function renderCompanions(container, companionsSource) {
     });
     container.append($section);
 }
+
 
 async function p() {
   try {
@@ -1672,12 +1860,7 @@ async function p() {
     r($root, statData);
     createStatusEffects($root, statData);
 
-    const hunger = Number(e(statData?.['次生属性']?.['饱腹感'] ?? 0));
-    const hydration = Number(e(statData?.['生理']?.['水分'] ?? 0));
-    const { $section: nutritionSection, $body: nutritionBody } = n('營養與水分', [
-      { label: '饱腹感', current: hunger, max: 100, className: 'hunger-progress' },
-      { label: '水分', current: hydration, max: 100, className: 'water-progress' },
-    ], false);
+    const { $section: nutritionSection, $body: nutritionBody } = d('營養與水分', false);
     renderNutritionDetails(nutritionBody, statData);
     $root.append(nutritionSection);
 
@@ -1685,8 +1868,9 @@ async function p() {
     renderPhysMental(statusBody, statData['生理'] ?? {}, statData['精神'] ?? {}, statData);
     $root.append(statusSection);
 
+    // 【修正點】為阿彬渲染時，最後一個參數傳入 null
     const { $section: skillSection, $body: skillBody } = d('屬性 & 技能', false);
-    renderAttributesAndSkills(skillBody, statData['属性'], statData['技能'], statData['天赋/特性']);
+    renderAttributesAndSkills(skillBody, statData['属性'], statData['技能'], statData['天赋/特性'], null);
     $root.append(skillSection);
 
     const get = (key) => (statData?.[key] ?? displayData?.[key]);
@@ -1695,7 +1879,7 @@ async function p() {
     renderCollapsibleSection($root, '作物', get('作物'));
     renderCollapsibleSection($root, '捷径/装置', get('捷径/装置'));
 
-    o($root, statData);
+    renderTasks($root, statData);
 
     const buttonBar = $('<div>').addClass('button-container');
     const drawPoints = Number(e(statData['系统']?.['抽卡点数'])) || 0;
