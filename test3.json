@@ -791,20 +791,6 @@
             }
         },
         {
-            "key": "Free",
-            "name": "㊙️|Free",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "style": {
-                "ratio": 1.43
-            },
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/Free.json"
-        },
-        {
             "key": "jav",
             "name": "㊙️jav",
             "type": 3,
