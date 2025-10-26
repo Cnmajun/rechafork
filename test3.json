@@ -291,15 +291,6 @@
             }
         },
         {
-            "key": "色播",
-            "name": "🔞色播直播",
-            "type": 3,
-            "api": "./json/apiv2134色播.js",
-            "searchable": 1,
-            "changeable": 0
-        },
-
-        {
             "key": "941",
             "name": "㊙️┃941c",
             "type": 3,
