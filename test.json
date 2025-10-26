@@ -394,13 +394,6 @@
             "ext": "./json/成鸡思汉.json"
         },
         {
-            "key": "直播转点播1",
-            "name": "💃┃佳丽┃直播",
-            "type": 3,
-            "api": "./js/直播转点播.js",
-            "ext": "./tv/直播.txt"
-        },
-        {
             "key": "九个区.py",
             "name": "九个区.py",
             "type": 3,
@@ -758,18 +751,6 @@
                 "分类": "国产片商$42#麻豆传媒$43#兔子先生$44#蜜桃传媒$45#精东影业$46#天美传媒$47#星空无限$48#果冻传媒$49#葫芦影业$50#杏吧传媒$51#扣扣传媒$53#SA国际传媒$54#起点传媒$55#中文字幕$56#精品素人$57#高清无码$58#日本有码$59#怀旧AV$60#VR专区$61#AV解说$62#SWAG$63#国产精品$64#网曝门事件$77#国产探花$65#JVID$66#绿帽淫妻$67#国产乱伦$68#美女主播$69#明星淫梦$70#香港三级$71#性世界$73#欧美专区$83#TS人妖$84#日本乱伦$86#精品动漫$74",
                 "分类url": "https://you.lugiao12.top/27wt/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html"
             }
-        },
-        {
-            "key": "csp_Netflav",
-            "name": "㊙️┃Netflav(墙)",
-            "type": 3,
-            "api": "csp_Netflav",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "jar": "./jar/moyu.jar"
         },
         {
             "key": "黑炮视频",
@@ -1464,20 +1445,6 @@
             "ext": "./json/NOWAV.json"
         },
         {
-            "key": "肉视频",
-            "name": "肉视频",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "style": {
-                "ratio": 1.43
-            },
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/肉视频.json"
-        },
-        {
             "key": "insta直播",
             "name": "insta直播",
             "type": 3,
@@ -1595,46 +1562,6 @@
                 "分类ID": "/videos/series-&&.html",
                 "分类url": "https://xchina.fit/videos/series-{cateId}/{catePg}.html;;z"
             }
-        },
-        {
-            "key": "辣味视频",
-            "name": "🍁辣味视频🍁",
-            "type": 3,
-            "jar": "./jar/X_XBPQ.jar",
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://xsese.com/;;!",
-                "简介": "description\" content=\"&&\""
-            }
-        },
-        {
-            "key": "Zuise",
-            "name": "㊙️┃ZUISE (墙)",
-            "type": 3,
-            "api": "csp_Zuise",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext": "null$$$null$$$1",
-            "jar": "./jar/moyu.jar"
-        },
-        {
-            "key": "Xojav",
-            "name": "㊙️┃XOJav(墙)",
-            "type": 3,
-            "api": "csp_Xojav",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "null$$$proxy",
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            },
-            "jar": "./jar/moyu.jar"
         },
         {
             "key": "野鸡🐔TV",
