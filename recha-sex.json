@@ -478,7 +478,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./plugin/adult/九个区.py",
+            "api": "./py/九个区.py",
             "order_num": 5,
             "ext": ""
         },
@@ -489,7 +489,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./plugin/adult/香蕉.py",
+            "api": "./py/香蕉.py",
             "order_num": 5,
             "ext": ""
         },
