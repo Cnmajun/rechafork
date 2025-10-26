@@ -383,7 +383,7 @@ body {
 .immune-bar{height:12px;}
 .immune-fill{background-image:linear-gradient(90deg, #2ecc71 0%, #f39c12 50%, #e74c3c 100%);transition:width .3s ease}
 .immune-marker{position:absolute;top:-6px;bottom:-6px;width:4px;background:#fff;border-radius:2px;box-shadow:0 0 5px hsla(0,0%,100%,.8);z-index:2}
-.skill-item{margin-bottom:10px;background:rgba(0,0,0,.1);padding:8px;border-radius:4px}
+.skill-item{margin-bottom:2px;background:rgba(0,0,0,.1);padding:2px 8px;border-radius:4px}
 .skill-item .skill-name{font-weight:bold;margin-bottom:5px}
 .skill-desc { font-size: .85em; color: var(--survival-muted); opacity: 0.8; margin-top: 4px; }
 
@@ -400,6 +400,32 @@ body {
 }
 .task-card.main-task { border-left: 5px solid var(--survival-accent); }
 .task-card.side-task { border-left: 5px solid var(--survival-warning); }
+
+.task-card.emergency-task {
+    border-left: 5px solid var(--survival-danger); /* 使用你已定義好的危險色 */
+    box-shadow: 0 0 28px rgba(255, 123, 156, 0.35); /* 給它一個不祥的紅色光暈 */
+}
+
+.emergency-task .task-title {
+    color: var(--survival-danger); /* 標題文字也用紅色 */
+    text-shadow: 0 0 8px rgba(255, 123, 156, 0.5); /* 加點文字陰影，更有質感 */
+}
+
+/* 這個是為「暫無任務」的佔位符設計的樣式 */
+.task-card.no-task {
+    border-left: 5px solid rgba(127, 140, 141, 0.5); /* 用個低調的灰色 */
+    background: rgba(17, 28, 45, 0.7); /* 半透明背景，讓它不那麼顯眼 */
+    padding: 20px;
+    text-align: center;
+    color: var(--survival-muted);
+    font-style: italic;
+    cursor: default; /* 取消點擊手勢 */
+}
+
+.task-card.no-task .task-header,
+.task-card.no-task .task-body {
+    display: none; /* 如果是暫無任務的卡片，我們不需要顯示標題和內容區 */
+}
 
 .task-header {
     display: flex;
@@ -612,7 +638,7 @@ body {
 .other-card__title { font-weight: 700; margin-bottom: 4px; }
 .empty-text { opacity: .75; font-size: 13px; }
 
-/* --- 【最終修正版】同伴狀態條配色方案 --- */
+/* --- 同伴狀態條新配色方案 --- */
 .love-progress .progress__bar {
     background-image: linear-gradient(90deg, #FF8FB1, #FFCAD4); /* 好感度: 粉紅色漸層 */
     box-shadow: 0 0 18px rgba(255, 143, 177, 0.55);
@@ -637,7 +663,6 @@ body {
     background-image: linear-gradient(90deg, #95a5a6, #7f8c8d); /* 疲勞 - 沉靜的石板灰 */
     box-shadow: 0 0 18px rgba(127, 140, 141, 0.45);
 }
-
 
 /* ---【最終修復補丁 v4.0】--- */
 /* 規則1: 無論如何，只要是任務卡片的內容區，就先給它隱藏起來！ */
@@ -1032,6 +1057,8 @@ function renderTasks(container, data) {
     const system = data['系统'] ?? {};
     const mainTaskData = system['主线任务'];
     const sideTaskData = system['支线任务'];
+    const emergencyTaskData = system['紧急任务']; // 我們假定緊急任務的數據會放在'紧急任务'這個鍵裡
+
 
     // 這個容器現在只是一個普通的div，不再有摺疊功能
     const taskBar = $('<div>').addClass('task-bar');
@@ -1671,114 +1698,85 @@ function renderPhysMental(target, physData, mentalData, fullData) {
 }
 
 function renderAttributesAndSkills(target, attributesSource, skillsSource, talentsSource, companionDetails = null) {
-    const wrapper = $('<div>').addClass('attr-skill-wrapper');
-    const leftCol = $('<div>').addClass('attr-col');
+  const wrapper = $('<div>').addClass('attr-skill-wrapper');
+  const leftCol = $('<div>').addClass('attr-col');
 
-    // 渲染屬性
-    $('<div>').addClass('section__title').text('属性').appendTo(leftCol);
-    const attrEntries = toEntries(attributesSource);
-    if (attrEntries.length > 0) {
-        attrEntries.forEach(([name, detail]) => {
-            if (detail && typeof detail === 'object') {
-                const level = Number(e(detail['等级'] ?? 0));
-                const exp = Number(e(detail['当前经验'] ?? 0));
-                const required = Number(e(detail['升级所需经验'] ?? 1)) || 1;
-                leftCol.append($('<div>').text(`${name} Lv.${level}`));
-                leftCol.append(t('', exp, required));
-            }
-        });
+  $('<div>').addClass('section__title').text('属性').appendTo(leftCol);
+  Object.entries(firstMeaningfulObject(attributesSource)).forEach(([name, detail]) => {
+    if (detail && typeof detail === 'object') {
+      const level = Number(e(detail['等级'] ?? 0));
+      const exp = Number(e(detail['当前经验'] ?? 0));
+      const required = Number(e(detail['升级所需经验'] ?? 1)) || 1;
+      leftCol.append($('<div>').text(`${name} Lv.${level}`));
+      leftCol.append(t('', exp, required));
     }
+  });
 
-    // 只有當傳入的 companionDetails 不是 null 時才執行
-    if (companionDetails) {
-        const statusContainer = $('<div>').css('margin-top', '20px');
-        $('<div>').addClass('section__title').text('状态').appendTo(statusContainer);
+  const talentEntries = toEntries(talentsSource);
+  if (talentEntries.length > 0) {
+    leftCol.append($('<div>').addClass('section__title').css('margin-top', '20px').text('天赋'));
+    talentEntries.forEach(([name, value]) => {
+      const item = $('<div>').addClass('skill-item');
+      $('<div>').addClass('skill-name').text(name).appendTo(item);
+      const desc = typeof value === 'string' ? value : textify(value?.['描述'] ?? '', '');
+      if (desc) $('<div>').addClass('skill-desc').text(desc).appendTo(item);
+      leftCol.append(item);
+    });
+  }
+  wrapper.append(leftCol);
 
-        const love = Math.min(Number(e(companionDetails['好感度'] ?? 0)), 120);
-        const trust = Math.min(Number(e(companionDetails['信赖度'] ?? 0)), 120);
-        const dev = Math.min(Number(e(companionDetails['开发度'] ?? 0)), 100);
-        const health = Math.min(Number(e(companionDetails['健康度'] ?? 0)), 100);
-        const satiety = Math.min(Number(e(companionDetails['饱腹感'] ?? 0)), 100);
-        const fatigue = Math.min(Number(e(companionDetails['疲劳度'] ?? 0)), 100);
+  const rightCol = $('<div>').addClass('skill-col');
+  $('<div>').addClass('section__title').text('技能').appendTo(rightCol);
+  const skillEntries = toEntries(skillsSource);
+  if (skillEntries.length === 0) {
+    rightCol.append($('<p>').addClass('empty-text').text('暂无技能'));
+  } else {
+    skillEntries.forEach(([name, value]) => {
+      if (value && typeof value === 'object') {
+        const level = Number(e(value['等级'] ?? 0));
+        const exp = Number(e(value['当前经验'] ?? 0));
+        const required = Number(e(value['升级所需经验'] ?? 1)) || 1;
+        const item = $('<div>').addClass('skill-item');
+        $('<div>').addClass('skill-name').text(`${name} Lv.${level}`).appendTo(item);
+        item.append(t('', exp, required));
+        rightCol.append(item);
+      }
+    });
+  }
 
-        statusContainer.append(t(`好感度: ${love}/120 (${getFavorabilityStatus(love)})`, love, 120, 'love-progress'));
-        statusContainer.append(t(`信赖度: ${trust}/120 (${getTrustStatus(trust)})`, trust, 120, 'trust-progress'));
-        statusContainer.append(t(`开发度: ${dev}/100`, dev, 100, 'dev-progress'));
-        statusContainer.append(t(`健康度: ${health}/100 (${getHealthStatus(health)})`, health, 100, 'health-progress'));
-        statusContainer.append(t(`饱腹感: ${satiety}/100`, satiety, 100, 'satiety-progress'));
-        statusContainer.append(t(`疲劳度: ${fatigue}/100`, fatigue, 100, 'fatigue-progress'));
-        leftCol.append(statusContainer);
-    }
+  // --- 持有物品 section, only for companions ---
+  if (companionDetails) {
+      $('<div>').addClass('section__title').css('margin-top', '20px').text('持有物品').appendTo(rightCol);
+      const items = firstMeaningfulObject(companionDetails['持有物品']);
+      const itemEntries = Object.entries(items);
 
-    // 渲染天賦
-    const talentEntries = toEntries(talentsSource);
-    if (talentEntries.length > 0) {
-        leftCol.append($('<div>').addClass('section__title').css('margin-top', '20px').text('天赋'));
-        talentEntries.forEach(([name, value]) => {
-            const item = $('<div>').addClass('skill-item');
-            $('<div>').addClass('skill-name').text(name).appendTo(item);
-            const desc = typeof value === 'string' ? value : textify(value?.['描述'] ?? '', '');
-            if (desc) $('<div>').addClass('skill-desc').text(desc).appendTo(item);
-            leftCol.append(item);
-        });
-    }
+      if (itemEntries.length === 0) {
+          rightCol.append($('<p>').addClass('empty-text').text('無持有物品'));
+      } else {
+          const itemList = $('<div>').addClass('inventory-list');
+          itemEntries.forEach(([itemName, itemDetails]) => {
+              const itemCard = $('<div>').addClass('inventory-list-item');
+              $('<div>').addClass('item-name').text(itemName).appendTo(itemCard);
+              if (itemDetails && typeof itemDetails === 'object') {
+                  const props = $('<div>').addClass('item-props');
+                  Object.entries(itemDetails).forEach(([key, value]) => {
+                      const line = $('<div>').addClass('item-prop');
+                      $('<span>').addClass('prop-key').text(String(key)).appendTo(line);
+                      $('<span>').addClass('prop-sep').text(': ').appendTo(line);
+                      $('<span>').addClass('prop-val').text(textify(value, '')).appendTo(line);
+                      props.append(line);
+                  });
+                  itemCard.append(props);
+              }
+              itemList.append(itemCard);
+          });
+          rightCol.append(itemList);
+      }
+  }
 
-    wrapper.append(leftCol);
-
-    const rightCol = $('<div>').addClass('skill-col');
-
-    // 渲染技能
-    $('<div>').addClass('section__title').text('技能').appendTo(rightCol);
-    const skillEntries = toEntries(skillsSource);
-    if (skillEntries.length === 0) {
-        rightCol.append($('<p>').addClass('empty-text').text('暂无技能'));
-    } else {
-        skillEntries.forEach(([name, value]) => {
-            if (value && typeof value === 'object') {
-                const level = Number(e(value['等级'] ?? 0));
-                const exp = Number(e(value['当前经验'] ?? 0));
-                const required = Number(e(value['升级所需经验'] ?? 1)) || 1;
-                const item = $('<div>').addClass('skill-item');
-                $('<div>').addClass('skill-name').text(`${name} Lv.${level}`).appendTo(item);
-                item.append(t('', exp, required));
-                rightCol.append(item);
-            }
-        });
-    }
-
-    // 如果是同伴，渲染持有物品
-    if (companionDetails) {
-        $('<div>').addClass('section__title').css('margin-top', '20px').text('持有物品').appendTo(rightCol);
-        const items = firstMeaningfulObject(companionDetails['持有物品']);
-        const itemEntries = Object.entries(items);
-        if (itemEntries.length === 0) {
-            rightCol.append($('<p>').addClass('empty-text').text('無持有物品'));
-        } else {
-            const itemList = $('<div>').addClass('inventory-list');
-            itemEntries.forEach(([itemName, itemDetails]) => {
-                const itemCard = $('<div>').addClass('inventory-list-item');
-                $('<div>').addClass('item-name').text(itemName).appendTo(itemCard);
-                if (itemDetails && typeof itemDetails === 'object') {
-                    const props = $('<div>').addClass('item-props');
-                    Object.entries(itemDetails).forEach(([key, value]) => {
-                        const line = $('<div>').addClass('item-prop');
-                        $('<span>').addClass('prop-key').text(String(key)).appendTo(line);
-                        $('<span>').addClass('prop-sep').text(': ').appendTo(line);
-                        $('<span>').addClass('prop-val').text(textify(value, '')).appendTo(line);
-                        props.append(line);
-                    });
-                    itemCard.append(props);
-                }
-                itemList.append(itemCard);
-            });
-            rightCol.append(itemList);
-        }
-    }
-
-    wrapper.append(rightCol);
-    target.append(wrapper);
+  wrapper.append(rightCol);
+  target.append(wrapper);
 }
-
 
 function renderKeyValueTree(target, data) {
     const list = $('<ul>').addClass('section__list');
@@ -1817,20 +1815,39 @@ function renderCollapsibleSection(container, title, source, expanded = false) {
 
 function renderCompanions(container, companionsSource) {
     if (!companionsSource || toEntries(companionsSource).length === 0) return;
-    const { $section, $body } = d('同伴', false); // 默認關閉
+    const { $section, $body } = d('同伴', false); // Default open
 
     toEntries(companionsSource).forEach(([name, details]) => {
         if (details && typeof details === 'object') {
-            const card = $('<div>').addClass('collapsible').css('margin-bottom', '10px'); // 默認關閉
+            const card = $('<div>').addClass('collapsible active').css('margin-bottom', '10px');
             const cardHeader = $('<div>').addClass('collapsible__header').text(name);
-            const cardBody = $('<div>').addClass('collapsible__body'); // 默認隱藏
+            const cardBody = $('<div>').addClass('collapsible__body').css('display', 'block');
 
+            // Add identity text
             const identity = textify(details['身份'], '');
             if (identity) {
                 $('<div>').css({'font-size': '14px', 'font-weight': 'bold', 'color': 'var(--survival-warning)', 'margin-bottom': '15px'}).text(`關係: ${identity}`).appendTo(cardBody);
             }
 
-            // 調用我們修改後的函數來渲染同伴的所有信息
+            // Status bars first
+            const statusContainer = $('<div>').css('margin-bottom', '20px');
+             $('<div>').addClass('section__title').text('状态').appendTo(statusContainer);
+            const love = Math.min(Number(e(details['好感度'] ?? 0)), 120);
+            const trust = Math.min(Number(e(details['信赖度'] ?? 0)), 120);
+            const dev = Math.min(Number(e(details['开发度'] ?? 0)), 100);
+            const health = Math.min(Number(e(details['健康度'] ?? 0)), 100);
+            const satiety = Math.min(Number(e(details['饱腹感'] ?? 0)), 100);
+            const fatigue = Math.min(Number(e(details['疲劳度'] ?? 0)), 100);
+
+            statusContainer.append(t(`好感度: ${love}/120 (${getFavorabilityStatus(love)})`, love, 120, 'love-progress'));
+            statusContainer.append(t(`信赖度: ${trust}/120 (${getTrustStatus(trust)})`, trust, 120, 'trust-progress')); // Using love-progress as placeholder
+            statusContainer.append(t(`开发度: ${dev}/100`, dev, 100, 'dev-progress'));
+            statusContainer.append(t(`健康度: ${health}/100 (${getHealthStatus(health)})`, health, 100, 'health-progress'));
+            statusContainer.append(t(`饱腹感: ${satiety}/100`, satiety, 100, 'satiety-progress'));
+            statusContainer.append(t(`疲劳度: ${fatigue}/100`, fatigue, 100, 'fatigue-progress'));
+            cardBody.append(statusContainer);
+
+            // Then Attributes & Skills section
             renderAttributesAndSkills(cardBody, details['属性'], details['技能'], details['天賦'], details);
 
             card.append(cardHeader, cardBody);
@@ -1843,7 +1860,6 @@ function renderCompanions(container, companionsSource) {
     });
     container.append($section);
 }
-
 
 async function p() {
   try {
@@ -1860,17 +1876,25 @@ async function p() {
     r($root, statData);
     createStatusEffects($root, statData);
 
+    // ---【核心修改區域】---
+    // 我們現在直接使用 d() 函數創建一個標準的可折疊區塊
+    // 這樣標題欄就只會有文字 "營養與水分"，沒有任何進度條
     const { $section: nutritionSection, $body: nutritionBody } = d('營養與水分', false);
+
+    // 然後我們把所有的營養相關數據（包括飽腹感和水分）的渲染工作
+    // 全部交給 renderNutritionDetails() 函數，讓它在展開後的內容區顯示
     renderNutritionDetails(nutritionBody, statData);
+
+    // 最後把這個乾淨的可折疊區塊添加到主界面
     $root.append(nutritionSection);
+    // ---【修改結束】---
 
     const { $section: statusSection, $body: statusBody } = d('角色狀態', false);
     renderPhysMental(statusBody, statData['生理'] ?? {}, statData['精神'] ?? {}, statData);
     $root.append(statusSection);
 
-    // 【修正點】為阿彬渲染時，最後一個參數傳入 null
     const { $section: skillSection, $body: skillBody } = d('屬性 & 技能', false);
-    renderAttributesAndSkills(skillBody, statData['属性'], statData['技能'], statData['天赋/特性'], null);
+    renderAttributesAndSkills(skillBody, statData['属性'], statData['技能'], statData['天赋/特性']);
     $root.append(skillSection);
 
     const get = (key) => (statData?.[key] ?? displayData?.[key]);
