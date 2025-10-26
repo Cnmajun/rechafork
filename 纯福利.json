@@ -12,18 +12,6 @@
             "ext": "./json/水果派.json"
         },
         {
-            "key": "✨爱污传媒✨",
-            "name": "✨Aries|爱污传媒✨",
-            "type": 3,
-            "playerType": 2,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xbpq.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/爱污传媒.json"
-        },
-        {
             "key": "✨51短剧✨",
             "name": "✨Aries|51短剧✨",
             "type": 3,
