@@ -791,34 +791,6 @@
             }
         },
         {
-            "key": "jav",
-            "name": "㊙️jav",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "style": {
-                "ratio": 1.43
-            },
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/jav.json"
-        },
-        {
-            "key": "JAVSB",
-            "name": "JAVSB",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "style": {
-                "ratio": 1.43
-            },
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/JAVSB.json"
-        },
-        {
             "key": "比卡",
             "name": "比卡",
             "type": 3,
@@ -1341,7 +1313,7 @@
     },
     {
       "key": "JAVDAYTV",
-      "name": "🔞JAVDAYTV",
+      "name": "🔞JavDay.TV",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -1350,6 +1322,20 @@
       "ext": "./json/javday.json",
       "style": {"type": "rect", "ratio": 1.6}
     },
+        {
+            "key": "javDay.app",
+            "name": "🔞javDay.app",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "style": {
+                "ratio": 1.43
+            },
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/jav.json"
+        },    
     {
       "key": "csp_JavBus",
       "name": "🔞JavBus(點選點播才有東西)",
