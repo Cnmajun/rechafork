@@ -12,6 +12,9 @@
   --survival-warning: #ffb86c;
   --survival-success: #58f0a7;
   --survival-danger: #ff7b9c;
+  /* --- 新增任務顏色變量 --- */
+  --survival-emergency: #e74c3c; /* 緊急任務的暗紅色 */
+  --survival-daily: #58D68D;    /* 日常任務的清新綠色 */
   --survival-text: #eff6ff;
   --survival-muted: #a0aec0; /* Changed from #ffffff for better contrast */
   --survival-border: rgba(148, 197, 255, 0.25);
@@ -400,32 +403,8 @@ body {
 }
 .task-card.main-task { border-left: 5px solid var(--survival-accent); }
 .task-card.side-task { border-left: 5px solid var(--survival-warning); }
-
-.task-card.emergency-task {
-    border-left: 5px solid var(--survival-danger); /* 使用你已定義好的危險色 */
-    box-shadow: 0 0 28px rgba(255, 123, 156, 0.35); /* 給它一個不祥的紅色光暈 */
-}
-
-.emergency-task .task-title {
-    color: var(--survival-danger); /* 標題文字也用紅色 */
-    text-shadow: 0 0 8px rgba(255, 123, 156, 0.5); /* 加點文字陰影，更有質感 */
-}
-
-/* 這個是為「暫無任務」的佔位符設計的樣式 */
-.task-card.no-task {
-    border-left: 5px solid rgba(127, 140, 141, 0.5); /* 用個低調的灰色 */
-    background: rgba(17, 28, 45, 0.7); /* 半透明背景，讓它不那麼顯眼 */
-    padding: 20px;
-    text-align: center;
-    color: var(--survival-muted);
-    font-style: italic;
-    cursor: default; /* 取消點擊手勢 */
-}
-
-.task-card.no-task .task-header,
-.task-card.no-task .task-body {
-    display: none; /* 如果是暫無任務的卡片，我們不需要顯示標題和內容區 */
-}
+.task-card.emergency-task { border-left: 5px solid var(--survival-emergency); } /* 緊急任務左邊框顏色 */
+.task-card.daily-task { border-left: 5px solid var(--survival-daily); }     /* 日常任務左邊框顏色 */
 
 .task-header {
     display: flex;
@@ -433,11 +412,15 @@ body {
     gap: 12px;
     padding: 16px 20px;
     background: rgba(0,0,0,0.25);
+    cursor: pointer; /* 讓頭部看起來可以點擊 */
 }
 
 .task-title { font-size: 16px; font-weight: 600; flex: 1; letter-spacing: 0.05em; }
 .main-task .task-title { color: var(--survival-accent-strong); }
 .side-task .task-title { color: var(--survival-warning); }
+.emergency-task .task-title { color: var(--survival-emergency); } /* 緊急任務標題顏色 */
+.daily-task .task-title { color: var(--survival-daily); }         /* 日常任務標題顏色 */
+
 .task-status { font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px; }
 
 .task-body { padding: 16px 20px; display: grid; gap: 16px; }
@@ -451,7 +434,9 @@ body {
 .objective-item.completed .objective-text { opacity: 0.7; }
 
 .objective-progress { font-family: "IBM Plex Mono", monospace; color: var(--survival-accent-strong); font-weight: 600; }
-.objective-item.side-task-obj .objective-progress { color: var(--survival-warning); } /* Side task progress color */
+.objective-item.side-task-obj .objective-progress { color: var(--survival-warning); }
+.objective-item.emergency-task-obj .objective-progress { color: var(--survival-emergency); } /* 緊急任務進度顏色 */
+.objective-item.daily-task-obj .objective-progress { color: var(--survival-daily); }         /* 日常任務進度顏色 */
 
 .reward-list { display: flex; flex-wrap: wrap; gap: 8px 16px; }
 .reward-item {
@@ -462,7 +447,12 @@ body {
     font-size: 13px;
     white-space: nowrap;
 }
-
+.empty-task-message {
+    padding: 16px 20px;
+    font-style: italic;
+    color: var(--survival-muted);
+    text-align: center;
+}
 .draw-points-btn .draw-points-label{font-size:14px;position:relative;z-index:2}
 .draw-points-btn .draw-points-value{font-size:16px;font-weight:bold;color:var(--survival-warning);position:relative;z-index:2}
 
@@ -1051,49 +1041,54 @@ function i(equipmentSource, itemsSource, currentWeight, weightLimit) {
 }
 
 // ====================================================================
-// =================== 新的任務渲染函數 (v4.0 終極穩定版) ================
+// =================== 新的任務渲染函數 (v5.0 最終穩定版) ================
 // ====================================================================
 function renderTasks(container, data) {
     const system = data['系统'] ?? {};
     const mainTaskData = system['主线任务'];
     const sideTaskData = system['支线任务'];
-    const emergencyTaskData = system['紧急任务']; // 我們假定緊急任務的數據會放在'紧急任务'這個鍵裡
+    const emergencyTaskData = system['紧急任务'];
+    const dailyTaskData = system['日常任务'];
 
-
-    // 這個容器現在只是一個普通的div，不再有摺疊功能
     const taskBar = $('<div>').addClass('task-bar');
-     $('<div>').addClass('section__title').text('任务').appendTo(taskBar);
+    $('<div>').addClass('section__title').text('任务').appendTo(taskBar);
 
-    // --- 內部輔助函數，核心邏輯修改處 ---
-    const createTaskCard = (taskData, isMainTask) => {
-        if (!taskData || typeof taskData !== 'object') return null;
-
-        // 卡片本身不再需要 'collapsible' class，摺疊的邏輯完全由JS控制
-        const card = $('<div>').addClass('task-card');
-        if (isMainTask) {
-            card.addClass('main-task');
-        } else {
-            card.addClass('side-task');
+    const createTaskCard = (taskData, taskType) => {
+        // 如果任务数据不存在，则不创建卡片
+        if (!taskData || typeof taskData !== 'object' || Object.keys(taskData).length === 0) {
+             // 针对紧急任务，如果不存在，则显示一个占位符
+            if (taskType === 'emergency') {
+                const card = $('<div>').addClass('task-card emergency-task').css('opacity', '0.6');
+                const header = $('<div>').addClass('task-header').css('cursor', 'default');
+                $('<div>').addClass('task-title').text('紧急任务').appendTo(header);
+                $('<div>').addClass('task-status').text('暂无').appendTo(header);
+                card.append(header);
+                return card;
+            }
+            return null; // 其他类型的任务不存在时不显示
         }
 
-        // 標題欄依然作為點擊的目標，但我們不再依賴CSS的:after偽元素來生成箭頭
-        const header = $('<div>').addClass('task-header collapsible__header');
 
-        // --- 舊的CSS箭頭修復 ---
-        // 為了避免雙箭頭，我們讓JS生成的 header 不再觸發CSS的偽元素箭頭
-        // 最簡單的方法是移除 collapsible__header 上的 :after 樣式
-        // 但更穩妥的方式是讓JS自己控制箭頭，這樣最可控
-        header.css('position', 'relative'); // 確保箭頭定位正確
+        const card = $('<div>').addClass('task-card');
+        let titlePrefix = '';
+        switch(taskType) {
+            case 'main': card.addClass('main-task'); titlePrefix = '主线'; break;
+            case 'side': card.addClass('side-task'); titlePrefix = '支线'; break;
+            case 'emergency': card.addClass('emergency-task'); titlePrefix = '紧急'; break;
+            case 'daily': card.addClass('daily-task'); titlePrefix = '日常'; break;
+        }
+
+        const header = $('<div>').addClass('task-header');
+        header.css('position', 'relative');
 
         const fullDesc = textify(taskData['描述'], '');
         const titleMatch = fullDesc.match(/【(.*?)】/);
-        const title = titleMatch ? titleMatch[1] : (isMainTask ? '主线任务' : '支线任务');
+        const title = titleMatch ? titleMatch[1] : `${titlePrefix}任务`;
         const description = titleMatch ? fullDesc.replace(`【${title}】：`, '').trim() : fullDesc;
 
         $('<div>').addClass('task-title').text(title).appendTo(header);
         $('<div>').addClass('task-status').text(textify(taskData['狀態'], '进行中')).appendTo(header);
 
-        // --- 箭頭修正：我們手動創建一個箭頭，並完全由JS控制它的旋轉 ---
         const indicator = $('<span>').html('▼').css({
             'margin-left': 'auto',
             'transform': 'rotate(-90deg)',
@@ -1101,10 +1096,8 @@ function renderTasks(container, data) {
         });
         header.append(indicator);
 
-        // 內容區預設隱藏
-        const body = $('<div>').addClass('task-body collapsible__body').hide(); // 直接使用.hide()確保初始隱藏
+        const body = $('<div>').addClass('task-body collapsible__body').hide();
 
-        // --- 後續的內容填充代碼保持不變 ---
         $('<p>').addClass('task-description').html(description.replace(/\n/g, '<br>')).appendTo(body);
 
         const objectives = $('<div>').addClass('task-objectives');
@@ -1114,6 +1107,9 @@ function renderTasks(container, data) {
         Object.entries(targets).forEach(([key, targetValue]) => {
             const current = progresses[key] ?? 0;
             const item = $('<div>').addClass('objective-item');
+            if (taskType === 'side') item.addClass('side-task-obj');
+            if (taskType === 'emergency') item.addClass('emergency-task-obj');
+            if (taskType === 'daily') item.addClass('daily-task-obj');
             if (current >= targetValue) item.addClass('completed');
             $('<span>').addClass('objective-text').text(key).appendTo(item);
             $('<span>').addClass('objective-progress').text(`(${current} / ${targetValue})`).appendTo(item);
@@ -1124,58 +1120,103 @@ function renderTasks(container, data) {
         const rewards = $('<div>').addClass('task-rewards');
         $('<div>').addClass('task-section-title').text('獎勵').appendTo(rewards);
         const rewardList = $('<div>').addClass('reward-list');
-        if(taskData['獎勵'] && taskData['獎勵']['抽卡點數']) {
-             $('<div>').addClass('reward-item').text(`抽卡点数 +${taskData['獎勵']['抽卡點數']}`).appendTo(rewardList);
+        if (taskData['獎勵'] && taskData['獎勵']['抽卡點數']) {
+            $('<div>').addClass('reward-item').text(`抽卡点数 +${taskData['獎勵']['抽卡點數']}`).appendTo(rewardList);
         }
         rewards.append(rewardList);
         body.append(rewards);
 
         if (taskData['獎勵'] && taskData['獎勵']['超額獎勵']) {
-            const bonus = taskData['獎勵']['超額獎勵'];
-            const bonusObjectives = $('<div>').addClass('task-objectives').css('margin-top', '10px');
-            $('<div>').addClass('task-section-title').text('超額目標').appendTo(bonusObjectives);
-             $('<div>').addClass('objective-item side-task-obj').html(`${textify(bonus['描述'])} <span class="objective-progress">(${bonus['進度'] ?? 0}/${bonus['目標'] ?? 1})</span>`).appendTo(bonusObjectives);
-            body.append(bonusObjectives);
-
-            const bonusRewards = $('<div>').addClass('task-rewards');
-            const bonusRewardList = $('<div>').addClass('reward-list');
-            if(bonus['抽卡點數']) {
-                $('<div>').addClass('reward-item').text(`抽卡点数 +${bonus['抽卡點數']}`).appendTo(bonusRewardList);
-            }
-            bonusRewards.append(bonusRewardList);
-            body.append(bonusRewards);
+            // ... (超额奖励渲染代码保持不变)
         }
 
         card.append(header, body);
 
-        // ======================= 核心修正點 =======================
-        // 拋棄toggle，改用手動判斷，確保動畫和狀態的絕對同步
+        // =================== 超额奖励修正代码 ===================
+        if (taskData['獎勵'] && taskData['獎勵']['超額獎勵']) {
+            const bonus = taskData['獎勵']['超額獎勵'];
+            // 检查 bonus 是否是一个有效的对象
+            if (bonus && typeof bonus === 'object') {
+                const bonusObjectives = $('<div>').addClass('task-objectives').css('margin-top', '10px');
+                $('<div>').addClass('task-section-title').text('超額目標').appendTo(bonusObjectives);
+
+                const bonusDesc = textify(bonus['描述'], '完成超额目标');
+                const bonusProgress = bonus['進度'] ?? 0;
+                const bonusTarget = bonus['目標'] ?? 1;
+
+                // 根据任务类型为超额目标也加上对应的class
+                const bonusObjectiveItem = $('<div>').addClass('objective-item');
+                if (taskType === 'side') bonusObjectiveItem.addClass('side-task-obj');
+                if (taskType === 'emergency') bonusObjectiveItem.addClass('emergency-task-obj');
+                if (taskType === 'daily') bonusObjectiveItem.addClass('daily-task-obj');
+
+                // 组合描述和进度
+                $('<span>').addClass('objective-text').text(bonusDesc).appendTo(bonusObjectiveItem);
+                $('<span>').addClass('objective-progress').text(`(${bonusProgress}/${bonusTarget})`).appendTo(bonusObjectiveItem);
+
+                bonusObjectives.append(bonusObjectiveItem);
+                body.append(bonusObjectives);
+
+                const bonusRewards = $('<div>').addClass('task-rewards');
+                const bonusRewardList = $('<div>').addClass('reward-list');
+                if (bonus['抽卡點數']) {
+                    $('<div>').addClass('reward-item').text(`抽卡点数 +${bonus['抽卡點數']}`).appendTo(bonusRewardList);
+                }
+                // 如果还有其他类型的超额奖励，也可以在这里添加
+                bonusRewards.append(bonusRewardList);
+                body.append(bonusRewards);
+                }
+                }
+
         header.on('click', function() {
-            // 檢查內容區當前是否可見
             if (body.is(':visible')) {
-                // 如果是可見就收起來
                 body.slideUp(200);
                 card.removeClass('active');
                 indicator.css('transform', 'rotate(-90deg)');
             } else {
-                // 如果是隱藏就展開
                 body.slideDown(200);
                 card.addClass('active');
                 indicator.css('transform', 'rotate(0deg)');
             }
         });
-        // =========================================================
 
         return card;
     };
 
-    const mainTaskCard = createTaskCard(mainTaskData, true);
+    // 按照 紧急 -> 主线 -> 支线 -> 日常 的顺序渲染
+    const emergencyTaskCard = createTaskCard(emergencyTaskData, 'emergency');
+    if (emergencyTaskCard) taskBar.append(emergencyTaskCard);
+    else {
+        // 确保即使变量不存在，也显示“暂无紧急任务”的占位符
+        const placeholderCard = $('<div>').addClass('task-card emergency-task').css('opacity', '0.6');
+        const placeholderHeader = $('<div>').addClass('task-header').css('cursor', 'default');
+        $('<div>').addClass('task-title').text('紧急任务').appendTo(placeholderHeader);
+        $('<div>').addClass('task-status').text('暂无').appendTo(placeholderHeader);
+        placeholderCard.append(placeholderHeader);
+        taskBar.append(placeholderCard);
+    }
+
+
+    const mainTaskCard = createTaskCard(mainTaskData, 'main');
     if (mainTaskCard) taskBar.append(mainTaskCard);
 
-    const sideTaskCard = createTaskCard(sideTaskData, false);
+    const sideTaskCard = createTaskCard(sideTaskData, 'side');
     if (sideTaskCard) taskBar.append(sideTaskCard);
 
-    // 最後把這個不再具備摺疊功能純粹的任務容器添加到主界面
+    const dailyTaskCard = createTaskCard(dailyTaskData, 'daily');
+    if (dailyTaskCard) {
+        taskBar.append(dailyTaskCard);
+    } else {
+        // 如果日常任务数据不存在 (dailyTaskData is null or undefined)
+        // 我们就手动创建一个占位符卡片
+        const placeholderCard = $('<div>').addClass('task-card daily-task').css('opacity', '0.6');
+        const placeholderHeader = $('<div>').addClass('task-header').css('cursor', 'default');
+        $('<div>').addClass('task-title').text('日常任务').appendTo(placeholderHeader);
+        $('<div>').addClass('task-status').text('暂无').appendTo(placeholderHeader);
+        placeholderCard.append(placeholderHeader);
+        taskBar.append(placeholderCard);
+}
+
     container.append(taskBar);
 }
 // ==================================================================
