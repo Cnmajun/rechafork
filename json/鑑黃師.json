@@ -30,7 +30,6 @@
 "分类片单链接": "a&&href",
 "分类片单图片": "img&&src",
 "分类片单副标题": "'📅'+.justify-content-between&&label,1&&Text+label,1&&Text+'⭐'+.justify-content-between&&label,0&&Text",
-
 "分类片单链接加前缀": "https://www.javrate.com",
 "分类片单链接加后缀": "",
 "搜索请求头参数": "User-Agent$PC_UA",

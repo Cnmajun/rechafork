@@ -163,46 +163,6 @@
             }
         },
         {
-            "key": "XMVideo",
-            "name": "熊猫视频",
-            "type": 3,
-            "api": "csp_XMVideo",
-            "searchable": 1,
-            "filterable": 1,
-            "jar": "https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"
-        },
-        {
-            "key": "幸福加油站",
-            "name": "幸福加油站",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "api": "csp_XBPQ",
-            "jar": "https://12345.kstore.space/6.jar",
-            "ext": {
-                "发布地址": "557888.XYZ",
-                "请求头": "User-Agent$MOBILE_UA",
-                "主页url": "https://887808.xyz",
-                "数组": "thumb\"&&</span>",
-                "图片": "data-src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "简介": "display: none;\">&&<",
-                "链接": "href=\"&&\"",
-                "影片年代": "年份：&&</a",
-                "影片地区": "地区：&&</a",
-                "影片类型": "分类：</span>&&</span",
-                "状态": "更新：&&</p",
-                "导演": "导演：&&</p",
-                "主演": "主演：&&</p",
-                "搜索模式": "1",
-                "搜索url": "https://887808.xyz/page/{pg}/?s={wd}",
-                "分类url": "https://887808.xyz/{cateId}/page/{catePg}/;;z",
-                "分类": "91大神$91%e5%a4%a7%e7%a5%9e#FC2无码$fc2%e6%97%a0%e7%a0%81#国产传媒$%e5%9b%bd%e4%ba%a7%e4%bc%a0%e5%aa%92#国产自拍$%e5%9b%bd%e4%ba%a7%e8%87%aa%e6%8b%8d#成人动漫$chengrendongman#探花約炮$%e6%8e%a2%e8%8a%b1#无码中字$wumazhongzi#日本有码$ribenyouma#有码中字$youmazhongzi#有码二区$%e6%9c%89%e7%a0%81%e4%ba%8c%e5%8c%ba#欧美中字$%e6%ac%a7%e7%be%8e%e4%b8%ad%e5%ad%97#网曝吃瓜$%e7%bd%91%e6%9b%9d%e5%90%83%e7%93%9c#美女裸聊$%e7%be%8e%e5%a5%b3%e8%a3%b8%e8%81%8a#萝莉少女$%e8%90%9d%e8%8e%89%e5%b0%91%e5%a5%b3"
-            }
-        },
-        {
             "key": "影片库",
             "name": "🔞影片库🪜",
             "type": 3,
@@ -426,51 +386,6 @@
             "ext": "./json/69超级影院.json"
         },
         {
-            "key": "🈲🔞淫岛专场",
-            "name": "🈲🔞淫岛专场",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://epy.sxbd2.yachts/cn/home/web/",
-                "数组": "默认--cat\"&&thumb||首页--最新发布&&thumb",
-                "标题": "默认--title=\"&&\"||首页--title=\"&&\"",
-                "图片": "默认--data-original=\"&&\"||首页--data-src=\"&&\"",
-                "链接": "默认--href=\"&&\"||首页--href=\"&&\"",
-                "简介": "description\" content=\"&&\"",
-                "搜索模式": "1",
-                "搜索url": "https://epy.sxbd2.yachts/s/{wd}/page/{pg}.html",
-                "搜索数组": "image-container&&</header>",
-                "搜索标题": "title=\"&&\"",
-                "搜索图片": "data-src=\"&&\"",
-                "搜索链接": "href=\"&&\"",
-                "分类url": "https://epy.sxbd2.yachts/vodtype/{cateId}-{catePg}.html;;z",
-                "分类二次截取": "hulian\">&&</div>",
-                "分类数组": "<a&&/a>",
-                "分类标题": ">&&<",
-                "分类ID": "/vodtype/&&.html"
-            }
-        },
-        {
-            "key": "404",
-            "name": "㊙️404xsvc",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "style": {
-                "ratio": 1.43
-            },
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/404xav.json"
-        },
-        {
             "key": "Aress",
             "name": "㊙️Aress",
             "type": 3,
@@ -497,20 +412,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/淫妻录.json"
-        },
-        {
-            "key": "Aries",
-            "name": "㊙️Aries",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "style": {
-                "ratio": 1.43
-            },
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/Aries.json"
         },
         {
             "key": "魔法少女",
@@ -1056,16 +957,6 @@
       "ext": "18+"
     },
     {
-      "key": "91md",
-      "name": "🔞91md",
-      "type": 1,
-      "api": "https://91md.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "proxy"
-    },
-    {
       "key": "csp_XYQHiker_ggjav",
       "name": "🔞GGJAV",
       "type": 3,
@@ -1111,17 +1002,6 @@
       "jar": "./jar/netflav.jar",
       "ext": "proxy",
       "timeout": 60
-    },
-    {
-      "key": "JAVDAYTV",
-      "name": "🔞JavDay.TV",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./json/javday.json",
-      "style": {"type": "rect", "ratio": 1.6}
     },
         {
             "key": "javDay.app",
@@ -1246,9 +1126,38 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./json/鑑黃師.json",
-      "style": {"type": "rect", "ratio": 1.6}
+      "ext": 
+            {
+            "作者": "Aries",
+            "站名": "",
+            "请求头": "User-Agent$MOBILE_UA",
+            "编码": "UTF-8",
+            "图片代理": "0",
+            "主页url": "https://www.javrate.com/menu",
+            "首页": "120",
+            "起始页": "1",
+            "分类url": "https://www.javrate.com/menu/{cateId};;z",
+            "分类": "无码$uncensored#日本$censored#国产$chinese",
+            "二次截取": "",
+            "数组": "class=\"mgn-box\"&&</div>",
+            "标题": "title=\"&&\"",
+            "图片": "src=\"&&\"",
+            "副标题": "title=\"&&\"",
+            "链接": "href=\"&&\""
+            }
     },
+    {
+      "key": "csp_XYQHiker_鉴黄师",
+      "name": "🔞鉴黄师",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "spider": "./jar/pg.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./json/鉴黄师.json",
+      "style": {"type": "rect", "ratio": 1.6}
+    },    
     {
       "key": "SEAJAV",
       "name": "🔞SEAJAV(聚合)",
@@ -1967,18 +1876,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1
-    },
-    {
-      "key": "csp_XYQHiker_鉴黄师",
-      "name": "🔞鉴黄师",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "spider": "./jar/pg.jar",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./json/鉴黄师.json",
-      "style": {"type": "rect", "ratio": 1.6}
     },
     {
       "key": "csp_色花堂",
