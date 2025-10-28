@@ -740,12 +740,6 @@
       "api": "https://learnpython.ggff.net/py_stripchat"
     },    
     {
-      "key": "好色TV",
-      "name": "⏭｜好色(恰逢)",
-      "type": 4,
-      "api": "https://learnpython.ggff.net/hstv"
-    },  
-    {
       "key": "py_好色",
       "name": "⏭｜好色(恰逢)｜PYTHON",
       "type": 3,
@@ -1118,46 +1112,6 @@
       }
     },
     {
-      "key": "csp_鉴黄师",
-      "name": "🔞javrate",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": 
-            {
-            "作者": "Aries",
-            "站名": "",
-            "请求头": "User-Agent$MOBILE_UA",
-            "编码": "UTF-8",
-            "图片代理": "0",
-            "主页url": "https://www.javrate.com/menu",
-            "首页": "120",
-            "起始页": "1",
-            "分类url": "https://www.javrate.com/menu/{cateId};;z",
-            "分类": "无码$uncensored#日本$censored#国产$chinese",
-            "数组": "class=\"mgn-box\"&&</div>",
-            "标题": "title=\"&&\"",
-            "图片": "src=\"&&\"",
-            "副标题": "title=\"&&\"",
-            "链接": "href=\"&&\""
-            }
-    },
-    {
-      "key": "csp_XYQHiker_鉴黄师",
-      "name": "🔞鉴黄师",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "spider": "./jar/pg.jar",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./json/鑑黃師.json",
-      "style": {"type": "rect", "ratio": 1.6}
-    },    
-    {
       "key": "SEAJAV",
       "name": "🔞SEAJAV(聚合)",
       "type": 3,
@@ -1183,40 +1137,6 @@
         "分类url": "https://seajav.com/categories/{cateId}-{catePg}.html",
         "分类": "国产自拍$1#日本AV$2#91porn$3#国产AV$4",
         "类型": "91探花$38#自拍流出$13||高清$6#無碼$7#中文字幕$8#無碼流出$9#三上悠亞$10#FC2$11#素人$40||91視頻$20#福利姬$14#AI明星$41||麻豆$21#91$22#天美$23#蜜桃$24#星空$26#精東$27#糖心$37#性吧$39"
-      }
-    },
-        {
-      "key": "csp_XBPQ_JAV目錄大全",
-      "name": "🔞JAV大全",
-      "type": 3,
-      "jar": "./jar/xyqxbpq.jar",
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 2400,
-      "ext": {
-        "直接播放": "0",
-        "数组": "<div class=\"card my-1\">&&</a>[替换:alt=\"watermark\">>空]",
-        "图片": "data-src=\"&&\"",
-        "标题": "alt=\"&&\"",
-        "链接": "href=\"&&\"",
-        "搜索url": "https://javmenu.cc/zh/search?wd={wd}&page={pg}",
-        "搜索模式": "1",
-        "搜索数组": "<div class=\"card my-1\">&&</a>[替换:alt=\"watermark\">>空]",
-        "搜索图片": "data-src=\"&&\"",
-        "搜索标题": "alt=\"&&\"",
-        "搜索链接": "href=\"&&\"",
-        "播放数组": "<div class=\"single-video\">&&var server_count",
-        "线路数组": "class=\"nav nav-pills mb-3\"&&</ul>",
-        "线路标题": "> && </a>",
-        "状态": "更新：&&</span>",
-        "导演": "导演：&&</p>",
-        "主演": "主演：&&</p>",
-        "简介": "简介：&&</span>",
-        "嗅探词": "m3u8\"&&.m3u8#mp4\"&&.mp4#flv\"&&.flv#video/tos/#.flv#video/tos/#.mp4",
-        "分类url": "https://javmenu.cc/zh/{cateId}/online?page={catePg}",
-        "分类": "有码$censored#无码$uncensored#欧美$western#fc2$fc2#成人动画$hanime#国产$chinese"
       }
     },
     {
@@ -1576,26 +1496,6 @@
         "免嗅": "0",
         "嗅探词": ".m3u8#.mp4",
         "页面代理": "127.0.0.1:10072"
-      }
-    },
-    {
-      "key": "SOAV",
-      "name": "🔞SOAV(點選點播才有東西)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "spider": "./jar/xyqxbpq.jar",
-      "style": {"type": "rect", "ratio": 1.5},
-      "ext": {
-        "主页url": "https://www.wantav.co/"                                     ,
-        "搜索url": "https://777080.xyz/?s={wd}"                                 ,
-        "数组"   : "data-video-uid=&&</div>"                                    ,
-        "图片"   : "data-src=\"&&\""                                            ,
-        "标题"   : "alt=\"&&\""                                                 ,
-        "副标题"  : "</i>&&</span>"                                              ,
-        "链接"   : "href=\"&&\""                                                ,
-        "分类url": "https://777080.xyz/category/{cateId}/page/{catePg}/;;z"     ,
-        "分类"   : "國產精選$國產精選#探花約炮$探花約炮#日韓影片$日韓影片#無碼素人$無碼素人#歐美專區$歐美專區#中字動漫$中字動漫"
       }
     },
     {
